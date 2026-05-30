@@ -1,46 +1,46 @@
-# AGENTS.md — HealthFit Skill 多 AI 工具适配配置
+# AGENTS.md — HealthFit Skill Multi-AI Tool Adaptation Configuration
 
-> 本文件定义 HealthFit Skill 在不同 AI 工具中的配置方式，确保跨工具一致性体验。
-
----
-
-## 概览
-
-HealthFit Skill 的核心逻辑在 `SKILL.md` 中定义。不同 AI 工具在加载 Skill 的方式上存在差异，本文件提供各工具的具体配置指引。
+> This file defines how HealthFit Skill is configured in different AI tools, ensuring a consistent cross-tool experience.
 
 ---
 
-## Claude Code（推荐，功能完整）
+## Overview
 
-**安装方式：**
+HealthFit Skill's core logic is defined in `SKILL.md`. Different AI tools load Skills differently; this file provides specific configuration guidance for each tool.
+
+---
+
+## Claude Code (Recommended, Full Functionality)
+
+**Installation Method:**
 ```bash
-# 方式 1：直接克隆到 skills 目录
+# Method 1: Clone directly to the skills directory
 git clone https://github.com/ChenChen913/healthfit ~/.claude/skills/healthfit
 
-# 方式 2：使用 skills.sh（如已安装）
+# Method 2: Use skills.sh (if already installed)
 skills install healthfit
 ```
 
-**配置文件（~/.claude/CLAUDE.md 或项目 CLAUDE.md）：**
+**Configuration File (`~/.claude/CLAUDE.md` or project `CLAUDE.md`):**
 ```markdown
 ## Active Skills
-- healthfit: 个人健康管理，当用户涉及运动、饮食、中医体质话题时激活
+- healthfit: personal health management; activate when the user mentions exercise, diet, or TCM constitution topics
 ```
 
-**特性支持：**
-- ✅ 完整的文件读写（profile.json、workout_log.txt 等）
-- ✅ Python 脚本执行（backup.py、export.py 等）
-- ✅ SQLite 数据库读写（周报/月报功能）
-- ✅ 所有 13 个专家角色完整路由
+**Feature Support:**
+- ✅ Complete file read/write (`profile.json`, `workout_log.txt`, etc.)
+- ✅ Python script execution (`backup.py`, `export.py`, etc.)
+- ✅ SQLite database read/write (weekly/monthly report features)
+- ✅ Complete routing for all 13 expert roles
 
 ---
 
-## Cursor（代码编辑器中使用）
+## Cursor (Use in Code Editor)
 
-**安装方式：**
-将 `healthfit/` 文件夹放置于项目根目录或 `~/.cursor/skills/` 目录。
+**Installation Method:**
+Place the `healthfit/` folder in the project root directory or the `~/.cursor/skills/` directory.
 
-**`.cursorrules` 配置片段：**
+**`.cursorrules` Configuration Snippet:**
 ```
 You have access to the HealthFit skill located in ./healthfit/.
 When the user mentions fitness, nutrition, TCM constitution, exercise logging,
@@ -52,17 +52,17 @@ Key behaviors:
 - Data storage path: ./healthfit/data/
 ```
 
-**特性支持：**
-- ✅ 文件读写（需项目内路径）
-- ✅ 专家角色路由
-- ⚠️ Python 脚本需手动执行
-- ❌ SQLite 查询功能受限
+**Feature Support:**
+- ✅ File read/write (requires in-project paths)
+- ✅ Expert role routing
+- ⚠️ Python scripts need manual execution
+- ❌ SQLite query functionality is limited
 
 ---
 
 ## Windsurf / Trae
 
-**配置方式：** 与 Cursor 类似，将以下内容加入全局规则或项目规则：
+**Configuration Method:** Similar to Cursor, add the following content to global rules or project rules:
 
 ```
 HealthFit Skill is available at ./healthfit/SKILL.md.
@@ -74,9 +74,9 @@ Data path: ./healthfit/data/
 
 ---
 
-## OpenHands（OpenDevin）
+## OpenHands (OpenDevin)
 
-**配置文件（`.openhands/config.toml`）：**
+**Configuration File (`.openhands/config.toml`):**
 ```toml
 [agent]
 system_prompt_suffix = """
@@ -92,7 +92,7 @@ Content moderation applies to sexual health discussions.
 
 ## Gemini CLI
 
-**配置方式（`~/.gemini/config.yaml`）：**
+**Configuration Method (`~/.gemini/config.yaml`):**
 ```yaml
 system_instructions:
   - |
@@ -104,9 +104,9 @@ system_instructions:
 
 ---
 
-## OpenAI Codex / ChatGPT（自定义 GPT）
+## OpenAI Codex / ChatGPT (Custom GPT)
 
-**System Prompt 片段：**
+**System Prompt Snippet:**
 ```
 You are HealthFit, a personal health management system with a matrix of expert advisors.
 Core configuration is in [SKILL.md content pasted here].
@@ -132,49 +132,49 @@ No explicit content. Maintain civility in all interactions.
 
 ---
 
-## Claude.ai（Web / App）
+## Claude.ai (Web / App)
 
-**Skill 使用方式：**
-在对话开始时发送：
+**Skill Usage Method:**
+At the start of the conversation, send:
 ```
-请加载 HealthFit Skill。档案路径：[你的数据路径]
-```
-
-或直接触发：
-```
-帮我建立健康档案
-今天跑了 5 公里
-我的中医体质是什么
+Please load HealthFit Skill. Profile path: [your data path]
 ```
 
-**特性支持：**
-- ✅ 所有专家角色对话功能
-- ⚠️ 文件持久化依赖 claude.ai 的 Storage API 或 Projects 功能
-- ❌ Python 脚本需要 Claude Code 才能执行
+Or trigger directly:
+```
+Help me create a health profile
+Today I ran 5 kilometers
+What is my TCM constitution?
+```
+
+**Feature Support:**
+- ✅ Conversation features for all expert roles
+- ⚠️ File persistence depends on claude.ai's Storage API or Projects feature
+- ❌ Python scripts require Claude Code to execute
 
 ---
 
-## 通用配置原则
+## General Configuration Principles
 
-无论在哪个工具中使用，以下配置始终有效：
+No matter which tool is used, the following configurations always apply:
 
-1. **内容规范优先级最高** — 性健康话题限于健康优化，文明用语警告机制
-2. **专家路由必须遵守** — 不同运动项目路由到对应教练，不越界
-3. **医疗免责声明** — 所有建议不构成医疗诊断
-4. **隐私数据隔离** — 性健康数据独立存储，默认排除备份
+1. **Content rules have highest priority** — sexual health topics are limited to health optimization, with a civility warning mechanism
+2. **Expert routing must be followed** — different sports route to corresponding coaches, with no boundary crossing
+3. **Medical disclaimer** — all advice does not constitute medical diagnosis
+4. **Privacy data isolation** — sexual health data is stored separately and excluded from backups by default
 
 ---
 
-## 版本兼容性
+## Version Compatibility
 
-| 工具 | 最低版本要求 | 完整功能支持 |
+| Tool | Minimum Version Requirement | Full Feature Support |
 |------|------------|------------|
-| Claude Code | 任意版本 | ✅ 完整支持 |
-| Cursor | 0.40+ | ⚠️ 部分支持（无脚本执行）|
-| Windsurf / Trae | 最新版 | ⚠️ 部分支持 |
-| Gemini CLI | 1.0+ | ⚠️ 部分支持 |
-| OpenHands | 0.9+ | ✅ 较完整支持 |
+| Claude Code | Any version | ✅ Full support |
+| Cursor | 0.40+ | ⚠️ Partial support (no script execution) |
+| Windsurf / Trae | Latest version | ⚠️ Partial support |
+| Gemini CLI | 1.0+ | ⚠️ Partial support |
+| OpenHands | 0.9+ | ✅ Relatively complete support |
 
 ---
 
-*AGENTS.md — HealthFit v4.0 | 跨平台健康管理，随处可用*
+*AGENTS.md — HealthFit v4.0 | Cross-platform health management, available everywhere*
