@@ -1,252 +1,252 @@
 # HealthFit Skill — Project Report
 
-**版本：** v3.0.1  
-**状态：** 已发布 · 持续迭代中  
-**发布日期：** 2026 年 3 月 17 日  
-**更新日期：** 2026 年 3 月 17 日（v3.0.1）  
-**作者：** User + AI Co-creation  
-**许可证：** MIT  
-**综合评分：** 9.5/10（六轮审查通过）
+**Version:** v3.0.1  
+**Status:** Released · continuously iterating  
+**Release date:** March 17, 2026  
+**Update date:** March 17, 2026 (v3.0.1)  
+**Author:** User + AI Co-creation  
+**License:** MIT  
+**Overall score:** 9.5/10 (passed six rounds of review)
 
 ---
 
-## 项目简介
+## Project Introduction
 
-HealthFit 是一个基于 Claude 的个人全维度健康管理 Skill，采用中西医融合设计理念，内置四个独立角色顾问，支持运动训练、饮食营养、健康数据追踪、中医体质辨识等功能模块。
+HealthFit is a Claude-based personal full-dimensional health management Skill. It adopts an integrated Chinese and Western medicine design concept, has four independent role advisors built in, and supports functional modules such as exercise training, dietary nutrition, health data tracking, and TCM constitution differentiation.
 
-**v3.0.1 更新亮点：**
-- ✅ 基于三份评估报告完成 40 项问题修复
-- ✅ 通过六轮严格审查（安全 + 功能）
-- ✅ 综合评分从 3.3/10 提升到 9.5/10（+188%）
-- ✅ 触发词扩展到 22 个，快捷命令 14 个
-- ✅ 新增灾难恢复指南和会话状态管理
+**v3.0.1 Update Highlights:**
+- ✅ Completed 40 issue fixes based on three evaluation reports
+- ✅ Passed six rounds of rigorous review (safety + functionality)
+- ✅ Overall score improved from 3.3/10 to 9.5/10 (+188%)
+- ✅ Trigger words expanded to 22, with 14 quick commands
+- ✅ Added disaster recovery guide and conversation state management
 
 ---
 
-## 功能概览
+## Feature Overview
 
-| 模块 | 负责角色 | 核心能力 |
+| Module | Responsible role | Core capabilities |
 |------|---------|---------|
-| 运动训练 | Coach Alex | 个性化训练计划、性别差异化方案、PR 追踪、过度训练预警 |
-| 饮食营养 | Dr. Mei | 热量与宏营养素计算、三餐方案设计、补剂建议（证据分级）|
-| 数据分析 | Analyst Ray | 周报/月报、异常预警、成就系统、趋势识别 |
-| 中医体质 | Dr. Chen | 九体质辨识、舌象追踪、节气养生、食疗穴位方案 |
+| Exercise training | Coach Alex | Personalized training plans, gender-differentiated plans, PR tracking, overtraining warnings |
+| Dietary nutrition | Dr. Mei | Calorie and macronutrient calculation, three-meal plan design, supplement advice (evidence graded) |
+| Data analysis | Analyst Ray | Weekly/monthly reports, anomaly warnings, achievement system, trend identification |
+| TCM constitution | Dr. Chen | Nine-constitution differentiation, tongue-image tracking, solar-term health preservation, food therapy and acupoint plans |
 
-四个角色各司其职，边界清晰，支持多线联动——同一个问题可以同时收到来自四个维度的回应。
+The four roles each perform their own duties with clear boundaries, supporting multi-line coordination — the same question can receive responses from four dimensions at the same time.
 
 ---
 
-## 文件结构
+## File Structure
 
 ```
 healthfit/
-├── SKILL.md                    # 主入口，角色路由表，启动引导（v3.0.1）
-├── config.json                 # 统一配置文件（v3.0.1 新增）
-├── CHANGELOG.md                # 版本更新日志（v3.0.1 新增）
-├── agents/                     # 四个角色的独立指令文件
+├── SKILL.md                    # Main entry, role routing table, startup guidance (v3.0.1)
+├── config.json                 # Unified configuration file (new in v3.0.1)
+├── CHANGELOG.md                # Version update log (new in v3.0.1)
+├── agents/                     # Independent instruction files for four roles
 │   ├── coach_alex.md
 │   ├── dr_mei.md
 │   ├── analyst_ray.md
 │   └── dr_chen.md
-├── references/                 # 核心参考文档（17 个）
-│   ├── onboarding.md           # 西医建档流程（三级模式）
-│   ├── onboarding_tcm.md       # 中医建档流程
+├── references/                 # Core reference documents (17)
+│   ├── onboarding.md           # Western medicine profile creation flow (three-level mode)
+│   ├── onboarding_tcm.md       # TCM profile creation flow
 │   ├── onboarding_sexual_health.md
-│   ├── onboarding_options.md   # 建档方式选择（v3.0.1 新增）
-│   ├── shopping_guide.md       # 购物指南（v3.0.1 新增）
-│   ├── commands.md             # 快捷命令说明（v3.0.1 新增）
+│   ├── onboarding_options.md   # Profile creation method selection (new in v3.0.1)
+│   ├── shopping_guide.md       # Shopping guide (new in v3.0.1)
+│   ├── commands.md             # Quick command instructions (new in v3.0.1)
 │   ├── male_training.md
 │   ├── female_training.md
 │   ├── nutrition_guidelines.md
-│   ├── nutrition_male.md       # 男性专项营养
-│   ├── nutrition_female.md     # 女性专项营养
-│   ├── exercise_library.md     # 训练动作库（1300+ 行）
-│   ├── tcm_constitution.md     # 九体质完整方案
-│   ├── tcm_seasons.md          # 二十四节气养生
-│   ├── evidence_base.md        # 证据基础
-│   ├── storage_schema.md       # 数据存储规范
-│   └── response_templates.md   # 回复模板
-├── assets/                     # 资产文件
+│   ├── nutrition_male.md       # Male-specific nutrition
+│   ├── nutrition_female.md     # Female-specific nutrition
+│   ├── exercise_library.md     # Training movement library (1300+ lines)
+│   ├── tcm_constitution.md     # Complete nine-constitution plan
+│   ├── tcm_seasons.md          # 24 solar-term health preservation
+│   ├── evidence_base.md        # Evidence base
+│   ├── storage_schema.md       # Data storage specification
+│   └── response_templates.md   # Response templates
+├── assets/                     # Asset files
 │   ├── fitness_baseline_test.md
-│   ├── tongue_self_exam_guide.md  # 舌象自检指南（标准化）
+│   ├── tongue_self_exam_guide.md  # Tongue-image self-exam guide (standardized)
 │   ├── achievement_milestones.md
-│   └── exercise_images/        # 动作图解资源（8 个分类目录）
-├── data/                       # 用户数据存储目录
-│   ├── json/                   # 结构化档案数据（草稿由系统动态创建）
-│   ├── txt/                    # 日志与术语库
-│   │   ├── glossary_western.txt  # 西医术语（28 条）
-│   │   └── glossary_tcm.txt      # 中医术语（20 条）
-│   └── db/                     # SQLite 数据库
+│   └── exercise_images/        # Exercise illustration resources (8 category directories)
+├── data/                       # User data storage directory
+│   ├── json/                   # Structured profile data (drafts created dynamically by the system)
+│   ├── txt/                    # Logs and terminology libraries
+│   │   ├── glossary_western.txt  # Western medicine terms (28 entries)
+│   │   └── glossary_tcm.txt      # TCM terms (20 entries)
+│   └── db/                     # SQLite database
 ├── scripts/
-│   ├── backup.py               # 数据备份脚本（增强错误处理）
-│   ├── export.py               # 数据导出脚本（JSON/CSV/Markdown）
-│   ├── init_db.py              # 数据库初始化（v3.0.1 新增）
-│   └── draft_manager.py        # 建档草稿管理（v3.0.1 新增）
+│   ├── backup.py               # Data backup script (enhanced error handling)
+│   ├── export.py               # Data export script (JSON/CSV/Markdown)
+│   ├── init_db.py              # Database initialization (new in v3.0.1)
+│   └── draft_manager.py        # Profile draft management (new in v3.0.1)
 └── evals/
-    └── evals.json              # 测试用例（25 个场景）
+    └── evals.json              # Test cases (25 scenarios)
 ```
 
 ---
 
-## 数据存储方案
+## Data Storage Plan
 
-采用三层存储架构：
+Uses a three-layer storage architecture:
 
-- **JSON**（`data/json/`）：结构化用户档案，包括基础生理数据、健康史、体测基准、中医体质档案、每日综合日志
-- **TXT**（`data/txt/`）：运动日志、饮食日志、术语库、成就记录
-- **SQLite**（`data/db/`）：周报/月报缓存、PR 记录、趋势查询优化
+- **JSON** (`data/json/`): structured user profiles, including basic physiological data, health history, fitness baseline, TCM constitution profile, and daily integrated logs
+- **TXT** (`data/txt/`): exercise logs, diet logs, terminology libraries, achievement records
+- **SQLite** (`data/db/`): weekly/monthly report cache, PR records, trend query optimization
 
-所有数据存储在本地，用户可随时执行"导出我的数据"或"清除健康数据"。性健康数据存储于独立文件，需二次确认才可读取。
+All data is stored locally. Users can execute "export my data" or "clear health data" at any time. Sexual health data is stored in an independent file and requires secondary confirmation before it can be read.
 
 ---
 
-## 构建过程
+## Build Process
 
-**工具链：**
+**Toolchain:**
 
-- 使用 **skill-creator** Skill 进行全程构建，涵盖意图设计、角色架构、文件组织、测试用例编写
-- 使用 **skill-vetter** 进行安全审查，检查内容边界、医疗免责完整性、隐私数据处理合规性
+- Used the **skill-creator** Skill for the entire build process, covering intent design, role architecture, file organization, and test case writing
+- Used **skill-vetter** for safety review, checking content boundaries, completeness of medical disclaimers, and compliance of private data handling
 
-**迭代历史：**
+**Iteration History:**
 
-### v3.0.0 → v3.0.1（2026-03-17）
+### v3.0.0 → v3.0.1 (2026-03-17)
 
-基于**三份专业评估报告**完成全面完善，通过**六轮严格审查**：
+Completed comprehensive improvements based on **three professional evaluation reports** and passed **six rounds of rigorous review**:
 
-| 轮次 | 审查类型 | 评分 | 主要修复内容 |
+| Round | Review type | Score | Main fixes |
 |------|---------|------|-------------|
-| 第一轮 | 安全 + 功能 | 4.5/5 | 评估报告 1:16 项修复（术语库、测试用例、脚本创建等） |
-| 第二轮 | 安全 + 功能 | 4.8/5 | 评估报告 1 剩余修复 + 初步验证 |
-| 第三轮 | 安全 + 功能 | 5.0/5 | 全面验证 + 文档完善 |
-| 第四轮 | 安全 + 功能 | 5.0/5 | 最终确认 + 零 RED FLAGS |
-| 第五轮 | 安全 + 功能 | 5.0/5 | 评估报告 2:12 项修复（版本号、evals、灾难恢复等） |
-| 第六轮 | 安全 + 功能 | 4.8/5 | 评估报告 3:12 项修复（触发词、会话状态、术语编号等） |
+| First round | Safety + functionality | 4.5/5 | Evaluation report 1: 16 fixes (terminology libraries, test cases, script creation, etc.) |
+| Second round | Safety + functionality | 4.8/5 | Remaining fixes from evaluation report 1 + initial validation |
+| Third round | Safety + functionality | 5.0/5 | Comprehensive validation + documentation improvements |
+| Fourth round | Safety + functionality | 5.0/5 | Final confirmation + zero RED FLAGS |
+| Fifth round | Safety + functionality | 5.0/5 | Evaluation report 2: 12 fixes (version number, evals, disaster recovery, etc.) |
+| Sixth round | Safety + functionality | 4.8/5 | Evaluation report 3: 12 fixes (trigger words, conversation state, terminology numbering, etc.) |
 
-**v3.0.1 核心成就：**
-- ✅ 40 项问题修复（100% 完成）
-- ✅ 综合评分 3.3/10 → 9.5/10（+188%）
-- ✅ 六轮审查全部通过
-- ✅ 零 RED FLAGS
-- ✅ 新增 8 个文档文件
-- ✅ 触发词扩展到 22 个，快捷命令 14 个
+**v3.0.1 Core Achievements:**
+- ✅ 40 issue fixes (100% complete)
+- ✅ Overall score 3.3/10 → 9.5/10 (+188%)
+- ✅ All six review rounds passed
+- ✅ Zero RED FLAGS
+- ✅ Added 8 documentation files
+- ✅ Trigger words expanded to 22, with 14 quick commands
 
 ---
 
-## 测试覆盖
+## Test Coverage
 
-`evals/evals.json` 包含**25 个测试场景**，覆盖主要使用路径：
+`evals/evals.json` contains **25 test scenarios**, covering the main usage paths:
 
-### 基础功能（10 个）
-| ID | 场景 | 验证重点 |
+### Basic Functions (10)
+| ID | Scenario | Validation focus |
 |----|------|---------|
-| 1-2 | 建档流程 | 建档流程触发，角色响应正确 |
-| 3-4 | 运动记录 | Coach Alex 接收并确认数据 |
-| 5-6 | 中医体质辨识 | Dr. Chen 启动三轮问诊 |
-| 7-8 | 本周总结 | Analyst Ray 生成周报 |
-| 9-10 | 训练计划 | 基于器械约束给出方案 |
+| 1-2 | Profile creation flow | Profile creation flow triggers, role responses are correct |
+| 3-4 | Exercise logging | Coach Alex receives and confirms data |
+| 5-6 | TCM constitution differentiation | Dr. Chen starts three rounds of consultation |
+| 7-8 | Weekly summary | Analyst Ray generates weekly report |
+| 9-10 | Training plan | Provides a plan based on equipment constraints |
 
-### 安全与边界（5 个）
-| ID | 场景 | 验证重点 |
+### Safety and Boundaries (5)
+| ID | Scenario | Validation focus |
 |----|------|---------|
-| 11-12 | 安全转介 | 胸痛/持续疲劳→建议就医 |
-| 13 | 隐私保护 | 性健康数据访问→二次确认 |
-| 14-15 | 边界情况 | 异常体重/超大年龄→核实提示 |
+| 11-12 | Safety referral | Chest pain/persistent fatigue → recommend seeking medical care |
+| 13 | Privacy protection | Sexual health data access → secondary confirmation |
+| 14-15 | Boundary cases | Abnormal weight/extreme age → verification prompt |
 
-### 协作与角色（7 个）
-| ID | 场景 | 验证重点 |
+### Collaboration and Roles (7)
+| ID | Scenario | Validation focus |
 |----|------|---------|
-| 16-17 | 多角色协作 | 体质 + 饮食/体质 + 训练 |
-| 18 | 成就系统 | 连续训练 7 天→解锁成就 |
-| 19 | 数据异常检测 | 体重骤降→发出警告 |
-| 20-21 | 角色边界 | 教练不越界/营养师不越界 |
-| 22 | 节气时效性 | 春分养生→应季建议 |
+| 16-17 | Multi-role collaboration | Constitution + diet / constitution + training |
+| 18 | Achievement system | Training for 7 consecutive days → unlock achievement |
+| 19 | Data anomaly detection | Sudden weight drop → issue warning |
+| 20-21 | Role boundaries | Coach does not cross boundaries / dietitian does not cross boundaries |
+| 22 | Solar-term timeliness | Spring Equinox health preservation → seasonal advice |
 
-### 专项功能（3 个）
-| ID | 场景 | 验证重点 |
+### Specialized Functions (3)
+| ID | Scenario | Validation focus |
 |----|------|---------|
-| 23 | 体测记录 | 俯卧撑→记录数据 |
-| 24 | PR 更新 | 深蹲新纪录→庆祝 |
-| 25 | 女性周期 | 月经期训练→调整建议 |
+| 23 | Fitness test record | Push-up → record data |
+| 24 | PR update | New squat record → celebrate |
+| 25 | Female cycle | Menstrual-period training → adjustment advice |
 
-每个测试用例均包含 `assertions` 字段，支持自动化评分。
-
----
-
-## 已知局限与后续计划
-
-### v3.0.1 已完成
-- ✅ 中医参考文件独立建档（tcm_constitution.md, tcm_seasons.md）
-- ✅ 训练动作库建立（exercise_library.md，1300+ 行）
-- ✅ 性别专项营养模块独立（nutrition_male.md, nutrition_female.md）
-- ✅ 启动菜单实现动态调整（三级建档模式）
-- ✅ 快捷命令系统（14 个命令）
-- ✅ 灾难恢复指南（5 个场景）
-- ✅ 会话状态管理（多轮对话 + 跨会话持久化）
-
-### 当前局限
-- 动作图解资源目录为空（已标注"待补充"，v3.1 计划）
-- photo_upload 功能未实现（v3.1 计划）
-
-### 后续计划
-
-**v3.1（下一版本）：**
-- [ ] 动作图解资源补充（用户自拍/AI 生成/公开资源）
-- [ ] 女性周期自动计算
-- [ ] 照片上传对比功能
-- [ ] 社交分享功能
-- [ ] 性健康数据加密存储
-
-**v3.2：**
-- [ ] 数据可视化（体重曲线/训练趋势）
-- [ ] 成就系统增强（徽章/进度条）
-
-**v4.0：**
-- [ ] 周期化训练方案
-- [ ] 运动员级别训练追踪
+Each test case contains an `assertions` field, supporting automated scoring.
 
 ---
 
-## 搭配使用
+## Known Limitations and Follow-up Plans
 
-推荐搭配 **self-improving-agent-3.0.1** 使用。使用过程中若遇到回答不准确、某场景处理不佳、或需要新增功能，可直接说：
+### v3.0.1 Completed
+- ✅ Independent creation of TCM reference files (`tcm_constitution.md`, `tcm_seasons.md`)
+- ✅ Training movement library established (`exercise_library.md`, 1300+ lines)
+- ✅ Gender-specific nutrition modules independent (`nutrition_male.md`, `nutrition_female.md`)
+- ✅ Startup menu implements dynamic adjustment (three-level profile creation mode)
+- ✅ Quick command system (14 commands)
+- ✅ Disaster recovery guide (5 scenarios)
+- ✅ Conversation state management (multi-turn dialogue + cross-conversation persistence)
 
-> 调用 self-improving-agent-3.0.1，对 HealthFit 的这个问题进行优化
+### Current Limitations
+- Exercise illustration resource directory is empty (marked "to be supplemented", planned for v3.1)
+- photo_upload function not implemented (planned for v3.1)
 
-该 Skill 会分析问题并提出改进方案，帮助 HealthFit 持续适配个人使用习惯。
+### Follow-up Plans
 
----
+**v3.1 (Next Version):**
+- [ ] Supplement exercise illustration resources (user selfies / AI generation / public resources)
+- [ ] Automatic female cycle calculation
+- [ ] Photo upload comparison function
+- [ ] Social sharing function
+- [ ] Encrypted storage for sexual health data
 
-## v3.0.1 核心成就
+**v3.2:**
+- [ ] Data visualization (weight curves / training trends)
+- [ ] Achievement system enhancement (badges / progress bars)
 
-**修复统计：**
-- 评估报告 1:16 项修复 ✅
-- 评估报告 2:12 项修复 ✅
-- 评估报告 3:12 项修复 ✅
-- **总计：40 项修复（100% 完成）**
-
-**审查结果：**
-- 六轮审查全部通过 ✅
-- 零 RED FLAGS ✅
-- 综合评分：9.5/10 ✅
-
-**新增内容：**
-- 触发词：14 个 → 22 个（+57%）
-- 关键词：7 个 → 10 个（+43%）
-- 快捷命令：14 个完整支持
-- 文档文件：8 个新增
-- 测试用例：10 个 → 25 个（+150%）
-
-**质量提升：**
-- 综合评分：3.3/10 → 9.5/10（+188%）
-- 配置一致性：8/10 → 10/10（+25%）
-- 灾难恢复：7/10 → 9/10（+29%）
+**v4.0:**
+- [ ] Periodized training plans
+- [ ] Athlete-level training tracking
 
 ---
 
-## 免责声明
+## Paired Use
 
-本 Skill 的所有建议基于运动科学、营养学和中医体质理论的通用原则，**不构成医疗诊断或医疗建议**。心血管疾病、糖尿病等慢性病患者，或手术/骨折后恢复期用户，请在开始新运动计划前咨询专业医生。中医体质辨识结果仅供参考，不可替代执业中医师的面诊诊断。
+Recommended for use with **self-improving-agent-3.0.1**. If inaccurate answers, poor handling of certain scenarios, or a need for new features occurs during use, you can say directly:
+
+> Invoke self-improving-agent-3.0.1 to optimize this HealthFit issue
+
+That Skill will analyze the issue and propose improvements, helping HealthFit continuously adapt to personal usage habits.
 
 ---
 
-*HealthFit v3.0.1 · 中西医融合 · 四位一体 · 六轮审查通过 · 综合评分 9.5/10*
+## v3.0.1 Core Achievements
+
+**Fix Statistics:**
+- Evaluation report 1: 16 fixes ✅
+- Evaluation report 2: 12 fixes ✅
+- Evaluation report 3: 12 fixes ✅
+- **Total: 40 fixes (100% complete)**
+
+**Review Results:**
+- All six review rounds passed ✅
+- Zero RED FLAGS ✅
+- Overall score: 9.5/10 ✅
+
+**New Content:**
+- Trigger words: 14 → 22 (+57%)
+- Keywords: 7 → 10 (+43%)
+- Quick commands: complete support for 14 commands
+- Documentation files: 8 added
+- Test cases: 10 → 25 (+150%)
+
+**Quality Improvement:**
+- Overall score: 3.3/10 → 9.5/10 (+188%)
+- Configuration consistency: 8/10 → 10/10 (+25%)
+- Disaster recovery: 7/10 → 9/10 (+29%)
+
+---
+
+## Disclaimer
+
+All suggestions from this Skill are based on general principles of exercise science, nutrition, and TCM constitution theory, and **do not constitute medical diagnosis or medical advice**. Patients with chronic diseases such as cardiovascular disease or diabetes, or users recovering after surgery/fracture, should consult a professional doctor before starting a new exercise plan. TCM constitution differentiation results are for reference only and cannot replace an in-person diagnosis by a licensed TCM practitioner.
+
+---
+
+*HealthFit v3.0.1 · East-West Integration · Four-in-One · Passed Six Rounds of Review · Overall Score 9.5/10*
