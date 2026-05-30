@@ -1,14 +1,14 @@
-# HealthFit 饮食记录日志
+# HealthFit Nutrition Log
 
-格式：[日期] 训练日/休息日 | 目标：XXXX kcal
-       早餐：... = XXX kcal (PXXg/CXXg/FXXg)
-       午餐：... = XXX kcal (PXXg/CXXg/FXXg)
-       晚餐：... = XXX kcal (PXXg/CXXg/FXXg)
-       加餐：... = XXX kcal (PXXg/CXXg/FXXg)
+Format: [Date] Training day/Rest day | Target: XXXX kcal
+       Breakfast: ... = XXX kcal (PXXg/CXXg/FXXg)
+       Lunch: ... = XXX kcal (PXXg/CXXg/FXXg)
+       Dinner: ... = XXX kcal (PXXg/CXXg/FXXg)
+       Snack: ... = XXX kcal (PXXg/CXXg/FXXg)
        ─────────────────────────────────────
-       合计：XXXX kcal (PXg/CXg/FXg)
-       达标率：热量 X% | 蛋白质 X% | 碳水 X% | 脂肪 X%
-       备注：...
+       Total: XXXX kcal (PXg/CXg/FXg)
+       Target achievement rate: calories X% | protein X% | carbohydrates X% | fat X%
+       Notes: ...
 
 ───────────────────────────────────────────────
-（新饮食记录将追加至此）
+(New nutrition records will be appended here)
