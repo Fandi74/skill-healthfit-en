@@ -1,12 +1,12 @@
-# HealthFit 成就里程碑记录
+# HealthFit Achievement Milestone Record
 
-格式：[日期 时间] 成就解锁：{成就名称}
-       描述：{成就描述}
-       难度：🟢简单 / 🟡中等 / 🔴困难 / ⭐史诗
-       数据统计：
+Format: [Date Time] Achievement unlocked: {Achievement Name}
+       Description: {Achievement Description}
+       Difficulty: 🟢 Easy / 🟡 Medium / 🔴 Hard / ⭐ Epic
+       Data statistics:
          - ...
-       期间进步：
+       Progress during this period:
          - ...
 
 ───────────────────────────────────────────────
-（新成就将记录至此）
+(New achievements will be recorded here)
