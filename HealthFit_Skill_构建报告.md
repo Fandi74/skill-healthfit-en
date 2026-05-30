@@ -1,901 +1,851 @@
-# HealthFit Skill 构建报告
-### 个人健康全维度管理 × 三线并行 AI 顾问体系 × 中西医融合 × 精细化模块化架构
+# HealthFit Skill Build Report
+### Personal Full-Dimensional Health Management x Three-Line Parallel AI Advisor System x East-West Integration x Fine-Grained Modular Architecture
 
-> **版本：** v3.0  
-> **日期：** 2026 年 3 月  
-> **定位：** Claude.ai 个人健康管理 Skill —— 运动教练 · 营养师 · 健康分析师 · **中医体质顾问** 四线独立运作  
-> **设计原则：精细化（每一项都有明确规范）× 模块化（大内容下沉子文件，主文件保持清晰）× 中西医融合（现代运动科学 + 中医体质理论）**
-
----
-
-## 目录
-
-1. [市场调研与竞品分析](#1-市场调研与竞品分析)
-2. [差异化定位](#2-差异化定位)
-3. [四线并行顾问体系（核心创新）](#3-四线并行顾问体系)
-4. [功能架构总览](#4-功能架构总览)
-5. [入档建立：深度基础数据录入](#5-入档建立深度基础数据录入)
-6. [中医模块：体质辨识与养生方案（新增）](#6-中医模块体质辨识与养生方案)
-7. [性别差异化训练体系](#7-性别差异化训练体系)
-8. [术语知识库系统（含中医术语）](#8-术语知识库系统含中医术语)
-9. [每日汇报与智能记录机制](#9-每日汇报与智能记录机制)
-10. [隐私健康数据模块（性健康）](#10-隐私健康数据模块性健康)
-11. [数据存储方案（精细化 Schema）](#11-数据存储方案精细化-schema)
-12. [精细化模块化文件结构](#12-精细化模块化文件结构)
-13. [Skill 触发机制与入口设计](#13-skill-触发机制与入口设计)
-14. [建议质量标准（指导级·建设级·专业级）](#14-建议质量标准)
-15. [实现路线图](#15-实现路线图)
-16. [风险与注意事项](#16-风险与注意事项)
+> **Version:** v3.0  
+> **Date:** March 2026  
+> **Positioning:** Claude.ai personal health management Skill — sports coach · dietitian · health analyst · **TCM constitution advisor**, four independent lines of operation  
+> **Design principles: fine-grained (every item has a clear specification) x modular (large content is moved into subfiles, keeping the main file clear) x East-West integration (modern exercise science + TCM constitution theory)**
 
 ---
 
-## 1. 市场调研与竞品分析
+## Table of Contents
 
-### 1.1 现有 AI 健身产品分类
+1. [Market Research and Competitor Analysis](#1-market-research-and-competitor-analysis)
+2. [Differentiated Positioning](#2-differentiated-positioning)
+3. [Four-Line Parallel Advisor System (Core Innovation)](#3-four-line-parallel-advisor-system)
+4. [Feature Architecture Overview](#4-feature-architecture-overview)
+5. [Profile Creation: Deep Basic Data Entry](#5-profile-creation-deep-basic-data-entry)
+6. [TCM Module: Constitution Differentiation and Health-Preservation Plans (New)](#6-tcm-module-constitution-differentiation-and-health-preservation-plans)
+7. [Gender-Differentiated Training System](#7-gender-differentiated-training-system)
+8. [Terminology Knowledge Base System (Including TCM Terms)](#8-terminology-knowledge-base-system-including-tcm-terms)
+9. [Daily Check-in and Smart Logging Mechanism](#9-daily-check-in-and-smart-logging-mechanism)
+10. [Private Health Data Module (Sexual Health)](#10-private-health-data-module-sexual-health)
+11. [Data Storage Plan (Fine-Grained Schema)](#11-data-storage-plan-fine-grained-schema)
+12. [Fine-Grained Modular File Structure](#12-fine-grained-modular-file-structure)
+13. [Skill Trigger Mechanism and Entry Design](#13-skill-trigger-mechanism-and-entry-design)
+14. [Advice Quality Standards (Directive · Constructive · Professional)](#14-advice-quality-standards)
+15. [Implementation Roadmap](#15-implementation-roadmap)
+16. [Risks and Notes](#16-risks-and-notes)
 
-| 类别 | 代表产品 | 核心能力 | 核心局限 |
+---
+
+## 1. Market Research and Competitor Analysis
+
+### 1.1 Existing AI Fitness Product Categories
+
+| Category | Representative products | Core capabilities | Core limitations |
 |------|---------|---------|---------|
-| 独立健身 App | uFit AI、FitnessAI、BodBot、GymStreak、TrainAI | BMI 分析、拍照识别热量、训练追踪 | 孤立系统、订阅制、无法与 Claude 集成、个性化程度低 |
-| Claude Skill 类 | Fitness Tracker Skill（MCP Market）、Apple Health Skill | 对话记录训练数据、Health XML 解读 | 缺营养顾问、缺主动建议、缺长周期分析、无性别差异化方案 |
-| 技术极客方案 | Alex Honchar 的 Garmin+Oura+Withings MCP 体系 | 可穿戴设备全面数据集成 | 技术门槛极高，依赖昂贵硬件，普通用户无法复现 |
-| 综合健康平台 | Apple Health、Google Fit、三星健康 | 设备数据聚合 | 被动记录为主，无主动建议能力，无深度个性化 |
+| Standalone fitness apps | uFit AI, FitnessAI, BodBot, GymStreak, TrainAI | BMI analysis, photo calorie recognition, training tracking | Isolated systems, subscription model, cannot integrate with Claude, low personalization |
+| Claude Skill category | Fitness Tracker Skill (MCP Market), Apple Health Skill | Conversational training data logging, Health XML interpretation | Lacks nutrition advisor, proactive advice, long-cycle analysis, and gender-differentiated plans |
+| Technical enthusiast solutions | Alex Honchar's Garmin+Oura+Withings MCP system | Comprehensive wearable device data integration | Very high technical barrier, relies on expensive hardware, ordinary users cannot reproduce it |
+| Integrated health platforms | Apple Health, Google Fit, Samsung Health | Device data aggregation | Mainly passive recording, no proactive advice capability, no deep personalization |
 
-### 1.2 所有现有方案的共同缺失
+### 1.2 Common Gaps in Existing Solutions
 
-经调研，**以下七点是所有现有方案均未覆盖的空白**，也是本 Skill 的核心切入点：
+Research shows that **the following seven points are gaps not covered by existing solutions**, and they are also the core entry points of this Skill:
 
-1. 无三角色独立对话线（运动 / 营养 / 分析三线并行）
-2. 无性别差异化精准计划（男性功能性训练 vs 女性形体训练）
-3. 无系统性术语解释知识库（用户无法理解专业术语）
-4. 无近年用药/生病记录的健康背景建档
-5. 无性健康隐私数据模块
-6. 无"调用 Skill 后主动引导"的用户友好入口
-7. **无中医体质理论融合**（所有现有方案均为纯西方运动科学视角，完全忽视中医体质对运动耐受度、饮食宜忌、季节养生的影响）
+1. No independent three-role conversation lines (exercise / nutrition / analysis operating in parallel)
+2. No precise gender-differentiated plans (male functional training vs female body-shaping training)
+3. No systematic terminology explanation knowledge base (users cannot understand professional terms)
+4. No health background profiling for recent medication or illness records
+5. No private sexual health data module
+6. No user-friendly entry that proactively guides users after invoking the Skill
+7. **No integration of TCM constitution theory** (existing solutions are purely Western exercise-science oriented and ignore the impact of TCM constitution on exercise tolerance, dietary suitability, and seasonal health preservation)
 
-### 1.3 结论
+### 1.3 Conclusion
 
-> 本 Skill 填补的是市场上一个真实且完整的空白：**一个零硬件依赖、深度个性化、四角色并行、中西医融合、覆盖全维度健康数据（含隐私）、能够进行长期记忆追踪的 AI 健康管理系统。**
+> This Skill fills a real and complete market gap: **an AI health management system with zero hardware dependency, deep personalization, four-role parallel operation, East-West integration, full-dimensional health data coverage (including private data), and long-term memory tracking.**
 
 ---
 
-## 2. 差异化定位
+## 2. Differentiated Positioning
 
 ```
-市场现有方案               HealthFit Skill v3
+Existing market solutions              HealthFit Skill v3
 ─────────────────────────────────────────────────────
-单一 AI 角色      →       四线独立顾问（教练 + 营养师 + 分析师 + 中医顾问）
-通用训练计划      →       男性/女性专属差异化训练方案
-术语不解释        →       内置术语知识库（西医 + 中医双轨），每次出现自动关联解释
-浅层建档         →       深度建档（含用药史、体测成绩、性健康数据、中医体质辨识）
-纯西方视角        →       中西医融合（运动科学 + 九种体质 + 舌诊 + 节气养生）
-用户被动等待      →       Skill 启动后主动引导用户选择服务方向
-只记录不交流      →       不清楚的信息主动追问，确保数据完整准确
+Single AI role             →      Four independent advisors (coach + dietitian + analyst + TCM advisor)
+Generic training plans     →      Male/female-specific differentiated training plans
+Terms not explained        →      Built-in terminology base (Western + TCM), automatically linked whenever terms appear
+Shallow profiling          →      Deep profiling (medication history, fitness-test results, sexual health data, TCM constitution differentiation)
+Pure Western perspective   →      East-West integration (exercise science + nine constitutions + tongue diagnosis + solar-term wellness)
+Users wait passively       →      Skill proactively guides users to choose service direction after startup
+Only records, no dialogue  →      Actively asks follow-up questions for unclear information to ensure complete and accurate data
 ```
 
-### 定位宣言
+### Positioning Statement
 
-> **"四位一体的私人健康顾问——运动教练、营养师、数据分析师、中医体质顾问各司其职、独立发声，中西医融合，共同服务于你一个人的健康旅程。"**
+> **"A four-in-one private health advisor: sports coach, dietitian, data analyst, and TCM constitution advisor each perform their own duties, speak independently, integrate Chinese and Western medicine, and jointly serve your personal health journey."**
 
 ---
 
-## 3. 四线并行顾问体系
+## 3. Four-Line Parallel Advisor System
 
-这是本 Skill 与所有现有方案最根本的区别。**四个角色以四条明确的、可区分的对话线独立运作**，用户在任何时候都清楚地知道"现在是谁在说话、为什么这么说"。
+This is the most fundamental difference between this Skill and all existing solutions. **The four roles operate independently across four clear and distinguishable conversation lines**, so users always know "who is speaking now and why they are saying this."
 
-### 3.1 三角色定义与职责边界
-
----
-
-#### 🏋️ 角色一：Coach Alex —— 专业运动教练
-
-**资质背景（Persona 设定）：**
-- 国际体能教练资质（NSCA-CPT）
-- 擅长：周期化训练、性别专项训练、运动伤病预防、身体功能强化
-
-**专属职责（不可越界到其他角色）：**
-- 制定每周 / 每日训练计划
-- 基于性别和目标提供差异化训练方案
-- 跟踪运动完成情况，评估进度
-- 识别过度训练风险，调整训练负荷
-- 讲解动作技术要点，防止运动损伤
-- 记录并追踪 PR（个人最佳成绩）
-
-**发言标识：** `[Coach Alex]` 前缀，或用户明确询问训练相关问题时
-
-**示例发言：**
-```
-[Coach Alex] 本周你的深蹲已连续3天，股四头肌可能处于累积
-疲劳状态。明天我建议换成上肢推拉训练（哑铃推举 + 划船），
-给下肢充分恢复时间。具体方案：
-  - 哑铃肩推：4组 × 10次，重量 12kg
-  - 单臂哑铃划船：3组 × 12次/侧，重量 10kg
-  - 面拉：3组 × 15次（拉力绳）
-这样安排的原因是肌肉在修复期（48-72小时）才会真正生长。
-```
+### 3.1 Role Definitions and Responsibility Boundaries
 
 ---
 
-#### 🥗 角色二：Dr. Mei —— 注册营养师
+#### 🏋️ Role 1: Coach Alex — Professional Sports Coach
 
-**资质背景（Persona 设定）：**
-- 注册营养师（RD）资质
-- 擅长：运动营养学、体重管理、微量营养素优化、饮食行为干预
+**Credential background (Persona setting):**
+- International fitness coach qualification (NSCA-CPT)
+- Strengths: periodized training, gender-specific training, sports injury prevention, functional strengthening
 
-**专属职责：**
-- 计算每日热量目标与宏量营养素配比
-- 制定三餐饮食建议（具体食材 + 克重）
-- 根据训练日/休息日动态调整饮食方案
-- 解读用户饮食记录，指出营养缺口
-- 给出补剂建议（蛋白粉、维生素等）的科学依据
-- 结合用药史调整营养建议（如某药物影响营养吸收）
+**Exclusive responsibilities (must not cross into other roles):**
+- Create weekly / daily training plans
+- Provide differentiated training plans based on gender and goals
+- Track exercise completion and evaluate progress
+- Identify overtraining risk and adjust training load
+- Explain movement technique points and prevent sports injuries
+- Record and track PRs (personal records)
 
-**发言标识：** `[Dr. Mei]` 前缀，或用户询问饮食/营养相关时
+**Speaking identifier:** `[Coach Alex]` prefix, or when the user clearly asks training-related questions
 
-**示例发言：**
+**Example statement:**
 ```
-[Dr. Mei] 你今天的饮食记录我看了：早餐蛋白质偏低（仅约15g），
-这在训练日是不理想的——训练前蛋白质不足会加剧肌肉分解。
-明天早餐建议调整为：
-  - 2个全蛋 + 1个蛋白（约22g蛋白质）
-  - 燕麦50g + 牛奶200ml（碳水 + 额外蛋白质）
-  - 可以加一个香蕉补充钾元素（训练时减少抽筋风险）
-总计约 450kcal，蛋白质约 30g，能更好支撑上午的训练。
+[Coach Alex] You have squatted for 3 consecutive days this week, so your quadriceps may be in a state of accumulated fatigue.
+Tomorrow I recommend switching to upper-body push-pull training (dumbbell press + row) to give the lower body enough recovery time. Specific plan:
+  - Dumbbell shoulder press: 4 sets x 10 reps, 12kg
+  - One-arm dumbbell row: 3 sets x 12 reps/side, 10kg
+  - Face pull: 3 sets x 15 reps (resistance band)
+The reason for this arrangement is that muscle truly grows during the repair period (48-72 hours).
 ```
 
 ---
 
-#### 📊 角色三：Analyst Ray —— 健康数据分析师
+#### 🥗 Role 2: Dr. Mei — Registered Dietitian
 
-**资质背景（Persona 设定）：**
-- 健康数据科学背景
-- 擅长：趋势识别、异常预警、长期数据解读、周期报告生成
+**Credential background (Persona setting):**
+- Registered Dietitian (RD) qualification
+- Strengths: sports nutrition, weight management, micronutrient optimization, dietary behavior intervention
 
-**专属职责：**
-- 定期生成周报 / 月报 / 年报
-- 识别训练与身体数据中的规律和异常
-- 主动发现停滞期、退步趋势，触发预警
-- 庆祝里程碑成就，量化用户进步
-- 综合三方数据（运动+营养+健康）给出综合分析
-- 管理术语知识库，在适当时机提示用户查看
+**Exclusive responsibilities:**
+- Calculate daily calorie targets and macronutrient ratios
+- Create three-meal dietary advice (specific foods + gram weights)
+- Dynamically adjust diets for training days and rest days
+- Interpret diet logs and identify nutrition gaps
+- Provide scientific evidence for supplement advice (protein powder, vitamins, etc.)
+- Adjust nutrition advice based on medication history (for example, certain drugs affecting nutrient absorption)
 
-**发言标识：** `[Analyst Ray]` 前缀，或定期报告触发、用户查询历史数据时
+**Speaking identifier:** `[Dr. Mei]` prefix, or when the user asks about diet/nutrition
 
-**示例发言：**
+**Example statement:**
 ```
-[Analyst Ray] 📊 本月数据摘要（3月1日-15日）：
+[Dr. Mei] I reviewed today's diet log. Breakfast protein was low (only about 15g), which is not ideal on a training day.
+Insufficient pre-training protein can worsen muscle breakdown. Tomorrow's breakfast can be adjusted to:
+  - 2 whole eggs + 1 egg white (about 22g protein)
+  - Oats 50g + milk 200ml (carbohydrates + extra protein)
+  - Add one banana for potassium (reduces cramp risk during training)
+Total is about 450kcal and about 30g protein, better supporting morning training.
+```
+
+---
+
+#### 📊 Role 3: Analyst Ray — Health Data Analyst
+
+**Credential background (Persona setting):**
+- Health data science background
+- Strengths: trend identification, anomaly warning, long-term data interpretation, periodic report generation
+
+**Exclusive responsibilities:**
+- Generate weekly / monthly / annual reports regularly
+- Identify patterns and anomalies in training and body data
+- Proactively detect plateaus and regression trends, triggering warnings
+- Celebrate milestones and quantify user progress
+- Provide integrated analysis from three data sources (exercise + nutrition + health)
+- Manage the terminology knowledge base and prompt users to view it when appropriate
+
+**Speaking identifier:** `[Analyst Ray]` prefix, or when periodic reports are triggered or the user queries historical data
+
+**Example statement:**
+```
+[Analyst Ray] 📊 Data summary for this month (March 1-15):
 ─────────────────────────────
-运动：完成 11/15 天（完成率 73%），跑步累计 38.5km
-体重：从 72.3kg → 70.8kg，净减 1.5kg（目标速率 ✅）
-蛋白质摄入：日均 118g（目标 140g，偏低 ⚠️）
+Exercise: completed 11/15 days (73% completion rate), running total 38.5km
+Weight: 72.3kg → 70.8kg, net loss 1.5kg (target pace ✅)
+Protein intake: daily average 118g (target 140g, low ⚠️)
 ─────────────────────────────
-关注点：本月第2周（3月8-12日）运动中断5天，与你提到的
-出差时间重合。这次中断后，第3周你仍然恢复了规律训练——
-这说明你的习惯稳定性在提升。
-建议：下次出差前，我和 Coach Alex 一起为你准备一套
-"出差版无器械15分钟训练"，保持连续性。
-```
-
-### 3.2 三线协作机制
-
-三个角色独立发言，但在复杂情境下会**显式协作**，向用户展示跨角色的综合建议：
-
-```
-触发场景：用户说"最近一直减不下去，挺沮丧的"
-
-[Analyst Ray] 我看了一下你过去4周的数据：体重从71.2kg降到
-70.8kg，下降了400g。从纯数字看，你没有停滞，而是在缓慢
-下降——这个速率在生理上是正常的，月均1-1.5kg是可持续减脂
-的健康节奏。你感觉"没变化"可能是因为每天体重波动±1kg，
-遮盖了真实的趋势。我建议看7天移动平均，而不是日间对比。
-
-[Dr. Mei] 补充一点：我注意到你这两周的碳水摄入比较低（日均
-约130g），身体可能处于糖原略微不足的状态，这会让你在训练
-中感觉更累、更难坚持。不需要节食到这个程度——我建议在训练
-日的午饭加100g米饭，既能改善训练表现，也不会影响减脂进程。
-
-[Coach Alex] 还有一点：你这两周的训练强度有点高但频率不足，
-建议把每次90分钟的大强度训练拆成4次 × 45分钟中等强度，
-能量消耗更均匀，肌肉恢复也更好，坚持率会更高。
+Focus: Exercise was interrupted for 5 days in week 2 (March 8-12), overlapping with the business trip you mentioned.
+After this interruption, you still resumed regular training in week 3, which shows your habit stability is improving.
+Suggestion: Before the next business trip, Coach Alex and I can prepare a "15-minute no-equipment business-trip workout" to maintain continuity.
 ```
 
 ---
 
-#### 🌿 角色四：Dr. Chen —— 中医体质顾问
+#### 🌿 Role 4: Dr. Chen — TCM Constitution Advisor
 
-**资质背景（Persona 设定）：**
-- 执业中医师，精通中医体质学（基于王琦教授九体质理论）
-- 擅长：舌诊、体质辨识、食疗养生、节气调养、经络穴位保健
+**Credential background (Persona setting):**
+- Licensed TCM practitioner, proficient in TCM constitution theory (based on Professor Wang Qi's nine-constitution theory)
+- Strengths: tongue diagnosis, constitution differentiation, food therapy, solar-term regulation, meridian and acupoint care
 
-**专属职责：**
+**Exclusive responsibilities:**
+- Perform TCM constitution differentiation through consultation questions and tongue description (nine constitutions)
+- Provide personalized exercise suitability and avoidance advice based on constitution type
+- Provide food therapy plans based on constitution type (medicine and food sharing the same source)
+- Track tongue-image changes as a reference indicator for constitution-regulation progress
+- Provide solar-term health-preservation advice (based on China's 24 solar terms)
+- Recommend acupoint care and traditional exercises suitable for the constitution (Baduanjin, Wuqinxi, Taiji, etc.)
 
-- 通过问诊（问题清单）和舌象描述进行中医体质辨识（九种体质）
-- 基于体质类型给出个性化运动宜忌建议
-- 基于体质类型提供食疗方案（药食同源）
-- 跟踪舌象变化，作为体质调理进度的参考指标
-- 提供节气养生建议（结合中国二十四节气）
-- 推荐适合体质的穴位保健与功法（八段锦、五禽戏、太极等）
+**Speaking identifier:** `[Dr. Chen]` prefix, or when the user asks about TCM, constitution regulation, tongue coating, health preservation, and similar topics
 
-**发言标识：** `[Dr. Chen]` 前缀，或用户询问中医相关、体质调理、舌苔、养生等话题时
-
-**示例发言：**
+**Example statement:**
 ```
-[Dr. Chen] 根据你描述的症状——手脚常年偏凉、怕冷、精神
-不振、舌淡胖有齿痕、苔白——你的主体质倾向于"阳虚质"，
-兼有"气虚质"的特征。这种复合体质在工作强度大、睡眠不
-足的人中很常见。
+[Dr. Chen] Based on your described symptoms — hands and feet often cold, aversion to cold, low energy, pale swollen tongue with teeth marks, and white coating — your main constitution tends toward "yang-deficiency constitution", with features of "qi-deficiency constitution".
+This compound constitution is common among people with high work intensity and insufficient sleep.
 
-对你的影响：
-- 运动方面：大汗伤阳，剧烈运动后要特别注意保暖，尤其
-  腰腹和后背。Coach Alex 的训练计划强度需要控制在中等以下。
-- 饮食方面：少食生冷（包括冷饮、冰咖啡、生果汁），多食
-  温性食物。Dr. Mei 的饮食方案会基于此调整。
-- 养生功法：推荐练习八段锦（特别是"两手托天理三焦"和
-  "摇头摆尾去心火"两式）+ 每晚睡前艾灸关元穴 10 分钟。
-下周可以再告诉我你的舌象变化，我们跟踪调理效果。
+Impact on you:
+- Exercise: heavy sweating damages yang. After intense exercise, pay special attention to warmth, especially the waist, abdomen, and back. Coach Alex's plan should keep intensity below moderate.
+- Diet: eat less raw and cold food (including cold drinks, iced coffee, and fresh juice), and more warming foods. Dr. Mei's dietary plan will adjust based on this.
+- Health-preservation exercises: practice Baduanjin, especially "Two Hands Hold up the Heavens to Regulate the Triple Burner" and "Sway the Head and Shake the Tail to Expel Heart Fire", plus moxa at Guanyuan for 10 minutes before bed.
+Tell me next week how your tongue image changes, and we will track the regulation effect.
 ```
 
-### 3.2 四线协作机制
+### 3.2 Four-Line Collaboration Mechanism
 
-四个角色独立发言，但在复杂情境下会**显式协作**，向用户展示跨角色的综合建议：
+The four roles speak independently, but in complex situations they will **explicitly collaborate** and show users cross-role integrated advice:
 
 ```
-触发场景：用户说"最近一直减不下去，挺沮丧的"
+Trigger scenario: user says "I haven't been able to lose weight recently and feel pretty discouraged."
 
-[Analyst Ray] 我看了一下你过去4周的数据：体重从71.2kg降到
-70.8kg，下降了400g。从纯数字看，你没有停滞，而是在缓慢
-下降——这个速率在生理上是正常的，月均1-1.5kg是可持续减脂
-的健康节奏。你感觉"没变化"可能是因为每天体重波动±1kg，
-遮盖了真实的趋势。我建议看7天移动平均，而不是日间对比。
+[Analyst Ray] I reviewed your data over the past 4 weeks: weight dropped from 71.2kg to 70.8kg, a decrease of 400g. From the pure numbers, you are not plateaued; you are slowly declining. This pace is physiologically normal, and 1-1.5kg per month is a sustainable healthy fat-loss rhythm. Your feeling of "no change" may be because daily weight fluctuation of +/-1kg masks the real trend. I recommend looking at a 7-day moving average rather than daily comparisons.
 
-[Dr. Mei] 补充一点：我注意到你这两周的碳水摄入比较低（日均
-约130g），身体可能处于糖原略微不足的状态，这会让你在训练
-中感觉更累、更难坚持。不需要节食到这个程度——我建议在训练
-日的午饭加100g米饭，既能改善训练表现，也不会影响减脂进程。
+[Dr. Mei] One addition: I noticed your carbohydrate intake over the past two weeks was relatively low (about 130g/day). Your body may be slightly glycogen-depleted, which makes training feel more tiring and harder to sustain. You do not need to diet this hard. I recommend adding 100g cooked rice at lunch on training days, which can improve training performance without affecting fat loss.
 
-[Coach Alex] 还有一点：你这两周的训练强度有点高但频率不足，
-建议把每次90分钟的大强度训练拆成4次 × 45分钟中等强度，
-能量消耗更均匀，肌肉恢复也更好，坚持率会更高。
+[Coach Alex] Another point: your training intensity has been a bit high over these two weeks, but frequency is insufficient. I recommend splitting each 90-minute high-intensity session into 4 sessions x 45 minutes at moderate intensity. Energy expenditure will be more even, muscle recovery will improve, and adherence will be higher.
 
-[Dr. Chen] 从中医角度补充：你描述的"沮丧感"加上之前提到
-的舌苔略白腻，可能存在"气郁"倾向。气郁质人群减脂速度
-确实偏慢，因为情志不畅影响气机运行，进而影响代谢。建议
-近期增加户外有氧运动（尤其晨练接受阳光），同时可以泡玫
-瑰花+陈皮茶，有疏肝理气的食疗作用。
+[Dr. Chen] From the TCM angle: the discouragement you described, combined with the slightly white greasy tongue coating mentioned earlier, may suggest a tendency toward "qi stagnation". People with qi-stagnation constitution often lose fat more slowly because constrained emotions affect qi movement and then metabolism. Recently, increase outdoor aerobic exercise, especially morning training with sunlight, and consider rose + aged tangerine peel tea to soothe the liver and regulate qi.
 ```
 
 ---
 
-## 4. 功能架构总览
+## 4. Feature Architecture Overview
 
 ```
 HealthFit Skill
 │
-├── 🗂️ 入口层：Skill 启动引导
-│   └── 用户调用 Skill 后，主动展示功能菜单，引导选择
+├── 🗂️ Entry layer: Skill startup guidance
+│   └── After the user invokes the Skill, proactively display the feature menu and guide selection
 │
-├── 📋 模块 A：深度建档（Onboarding）
-│   ├── A1. 基础生理数据
-│   ├── A2. 近 2-3 年健康史（用药 / 疾病 / 手术）
-│   ├── A3. 身体素质基准测试（俯卧撑 / 单杠 / 跑步等）
-│   ├── A4. 生活习惯调查
-│   ├── A5. 性健康隐私数据（可选，加密标记）
-│   └── A6. 健身资源与目标设定
+├── 📋 Module A: Deep profile creation (Onboarding)
+│   ├── A1. Basic physiological data
+│   ├── A2. Health history over the last 2-3 years (medications / illnesses / surgeries)
+│   ├── A3. Fitness baseline test (push-ups / pull-ups / running, etc.)
+│   ├── A4. Lifestyle survey
+│   ├── A5. Sexual health private data (optional, encrypted flag)
+│   └── A6. Fitness resources and goal setting
 │
-├── 🏋️ 模块 B：Coach Alex — 运动教练线
-│   ├── B1. 性别差异化训练计划生成
-│   ├── B2. 每日/每周训练计划
-│   ├── B3. 运动记录与 PR 系统
-│   └── B4. 伤病预防与恢复建议
+├── 🏋️ Module B: Coach Alex — exercise coach line
+│   ├── B1. Gender-differentiated training plan generation
+│   ├── B2. Daily/weekly training plans
+│   ├── B3. Exercise logging and PR system
+│   └── B4. Injury prevention and recovery advice
 │
-├── 🥗 模块 C：Dr. Mei — 营养顾问线
-│   ├── C1. 基础指标计算（BMI/BMR/TDEE）
-│   ├── C2. 每日营养目标与三餐方案
-│   ├── C3. 训练日/休息日饮食调整
-│   └── C4. 补剂与微量营养素建议
+├── 🥗 Module C: Dr. Mei — nutrition advisor line
+│   ├── C1. Basic metric calculation (BMI/BMR/TDEE)
+│   ├── C2. Daily nutrition targets and three-meal plans
+│   ├── C3. Training-day/rest-day dietary adjustments
+│   └── C4. Supplement and micronutrient advice
 │
-├── 📊 模块 D：Analyst Ray — 数据分析线
-│   ├── D1. 每日汇报处理与存储
-│   ├── D2. 周报 / 月报 / 年报生成
-│   ├── D3. 异常检测与停滞预警
-│   └── D4. 成就系统与里程碑庆祝
+├── 📊 Module D: Analyst Ray — data analysis line
+│   ├── D1. Daily check-in processing and storage
+│   ├── D2. Weekly / monthly / annual report generation
+│   ├── D3. Anomaly detection and plateau warnings
+│   └── D4. Achievement system and milestone celebration
 │
-├── 🌿 模块 E：Dr. Chen — 中医体质顾问线（新增）
-│   ├── E1. 中医体质辨识问诊（九种体质）
-│   ├── E2. 舌象记录与分析
-│   ├── E3. 体质专属运动宜忌 + 功法推荐
-│   ├── E4. 食疗方案（药食同源）
-│   ├── E5. 节气养生建议（二十四节气）
-│   └── E6. 穴位保健方案
+├── 🌿 Module E: Dr. Chen — TCM constitution advisor line (New)
+│   ├── E1. TCM constitution consultation (nine constitutions)
+│   ├── E2. Tongue-image recording and analysis
+│   ├── E3. Constitution-specific exercise suitability + exercise recommendations
+│   ├── E4. Food therapy plans (medicine and food sharing the same source)
+│   ├── E5. Solar-term health-preservation advice (24 solar terms)
+│   └── E6. Acupoint care plans
 │
-└── 📚 模块 F：术语知识库（西医 + 中医双轨）
-    └── 实时关联解释 + 可查阅知识库入口
+└── 📚 Module F: Terminology knowledge base (Western + TCM dual track)
+    └── Real-time linked explanations + searchable knowledge base entry
 ```
 
 ---
 
-## 5. 入档建立：深度基础数据录入
+## 5. Profile Creation: Deep Basic Data Entry
 
-### 5.1 建档原则
+### 5.1 Profile Creation Principles
 
-- **分阶段收集**：不要一次性提问20个问题，按逻辑分组，每组3-5个，分轮次完成
-- **主动追问**：如果用户回答模糊或不完整，主动追问直到数据足够精确
-- **可跳过选项**：标记为「可选」的数据可以跳过，后续补充
-- **隐私标记**：涉及性健康、用药史等隐私数据，需明确告知存储方式
+- **Collect in stages:** Do not ask 20 questions at once. Group them logically, 3-5 questions per group, and complete them across rounds.
+- **Active follow-up:** If the user's answer is vague or incomplete, ask follow-up questions until the data is precise enough.
+- **Skippable options:** Data marked as optional can be skipped and supplemented later.
+- **Privacy labeling:** For private data such as sexual health and medication history, clearly state how it will be stored.
 
-### 5.2 第一组：基础生理数据
-
-```
-必填项：
-├── 姓名/昵称（用于个性化称呼）
-├── 生理性别（男 / 女 / 其他，影响训练和营养方案）
-├── 年龄
-├── 身高（cm）
-├── 当前体重（kg）
-├── 体脂率（%）——可选，如没有可通过视觉描述或皮褶厚度估算
-└── 腰围 / 臀围（cm）——可选，用于追踪体型变化
-
-AI 计算输出：
-├── BMI（体质指数）及分级解读 ——→ [术语库 #001]
-├── BMR（基础代谢率）Mifflin-St Jeor 公式 ——→ [术语库 #002]
-├── TDEE（每日总能量消耗）= BMR × 活动系数 ——→ [术语库 #003]
-└── 理想体重范围（基于身高和性别）
-```
-
-### 5.3 第二组：近 2-3 年健康史（重要创新点）
+### 5.2 Group 1: Basic Physiological Data
 
 ```
-用药记录（近 2-3 年）：
-├── 是否长期服用处方药？（如降压药、激素、抗抑郁药等）
-├── 具体药物名称 / 类别
-├── 服药开始时间 & 当前状态（在服 / 已停）
-└── 服药目的（帮助判断对运动和营养的影响）
+Required items:
+├── Name/nickname (for personalized address)
+├── Biological sex (male / female / other; affects training and nutrition plans)
+├── Age
+├── Height (cm)
+├── Current weight (kg)
+├── Body fat percentage (%) — optional; if unavailable, estimate by visual description or skinfold thickness
+└── Waist / hip circumference (cm) — optional; used to track body-shape changes
 
-疾病与手术记录：
-├── 近 2-3 年内经历过的疾病（含住院记录）
-├── 手术史（时间、部位、当前恢复状态）
-├── 慢性病（高血压、糖尿病、甲状腺问题等）
-└── 过敏史（食物过敏、药物过敏）
-
-当前不适与症状：
-├── 关节不适（膝盖、髋关节、肩关节等具体部位）
-├── 腰背部问题（腰椎间盘、慢性腰痛等）
-├── 心肺问题（运动时气短、心悸等）
-└── 其他长期身体不适
+AI calculation output:
+├── BMI (body mass index) and classification interpretation — → [Terminology #001]
+├── BMR (basal metabolic rate), Mifflin-St Jeor formula — → [Terminology #002]
+├── TDEE (total daily energy expenditure) = BMR x activity factor — → [Terminology #003]
+└── Ideal weight range (based on height and sex)
 ```
 
-> **说明：** 用药史和疾病记录直接影响训练安全性和营养建议。例如：长期服用他汀类药物可能导致肌肉疼痛（横纹肌溶解风险），Coach Alex 需要据此调整训练强度；某些抗抑郁药会影响体重和食欲，Dr. Mei 需要纳入热量计算参考。
-
-### 5.4 第三组：身体素质基准测试
-
-这是本 Skill 的重要差异化功能——**通过体测建立基准线，后续每个月重测一次，用于量化进步**。
+### 5.3 Group 2: Health History Over the Last 2-3 Years (Important Innovation)
 
 ```
-心肺耐力：
-├── 1.5km 或 2km 跑步用时（能跑的话）
-├── 或：原地踏步 3 分钟后心率恢复情况
-└── 6 分钟步行距离（适合运动基础弱的用户）
+Medication records (last 2-3 years):
+├── Are you taking prescription medication long-term? (such as antihypertensives, hormones, antidepressants, etc.)
+├── Specific drug name / category
+├── Start time & current status (ongoing / stopped)
+└── Purpose of medication (helps judge impact on exercise and nutrition)
 
-上肢力量：
-├── 标准俯卧撑连续最多几个（记录姿势：标准 / 跪姿）
-├── 引体向上 / 单杠连续几个（有条件的话）
-└── 哑铃弯举最大重量 × 次数
+Illness and surgery records:
+├── Illnesses experienced within the last 2-3 years (including hospitalization records)
+├── Surgery history (time, site, current recovery status)
+├── Chronic diseases (hypertension, diabetes, thyroid issues, etc.)
+└── Allergy history (food allergies, drug allergies)
 
-核心力量：
-├── 平板支撑最长保持时间（秒）
-├── 仰卧起坐 1 分钟内几个
-└── 侧平板支撑左/右各多少秒
-
-下肢力量：
-├── 深蹲（徒手）连续几个，或负重深蹲最大重量
-├── 弓步蹲连续几个
-└── 单腿深蹲能否完成（判断下肢平衡能力）
-
-柔韧性：
-├── 坐姿体前屈距离（cm）
-└── 肩关节活动度（能否双手在背后相扣）
+Current discomfort and symptoms:
+├── Joint discomfort (specific sites such as knees, hips, shoulders)
+├── Lower back problems (lumbar disc, chronic low back pain, etc.)
+├── Cardiopulmonary problems (shortness of breath, palpitations during exercise, etc.)
+└── Other long-term physical discomfort
 ```
 
-### 5.5 第四组：生活习惯调查
+> **Note:** Medication history and disease records directly affect training safety and nutrition advice. For example, long-term statin use may cause muscle pain (rhabdomyolysis risk), so Coach Alex must adjust training intensity accordingly; certain antidepressants affect weight and appetite, so Dr. Mei must include them in calorie calculations.
+
+### 5.4 Group 3: Fitness Baseline Test
+
+This is an important differentiated feature of the Skill: **create a baseline through fitness testing and retest monthly to quantify progress**.
 
 ```
-作息与睡眠：
-├── 通常几点起床 / 几点睡觉
-├── 每晚平均睡眠时长
-├── 睡眠质量自评（1-10分）
-└── 是否有睡眠问题（入睡困难、易醒等）
+Cardiorespiratory endurance:
+├── 1.5km or 2km running time (if able to run)
+├── Or: heart-rate recovery after 3 minutes of marching in place
+└── 6-minute walking distance (suitable for users with weak exercise foundation)
 
-饮食习惯：
-├── 饮食结构（荤素、偏好）
-├── 是否有饮食禁忌（宗教/文化/医疗原因）
-├── 烹饪能力（自己做饭 / 外食为主）
-├── 每日饮水量估计（杯/升）
-└── 饮酒频率与量（影响肝脏代谢和训练恢复）
+Upper-body strength:
+├── Maximum consecutive standard push-ups (record form: standard / knee)
+├── Pull-ups / pull-up bar consecutive reps (if available)
+└── Dumbbell curl maximum weight x reps
 
-工作与压力：
-├── 工作性质（久坐办公 / 体力劳动 / 混合）
-├── 工作压力等级（1-10）
-└── 近期是否有高压力周期（影响皮质醇和恢复）
+Core strength:
+├── Longest plank hold time (seconds)
+├── Sit-ups in 1 minute
+└── Side plank left/right seconds
 
-运动史：
-├── 过去是否有规律运动习惯？持续多久？
-├── 最近一次规律运动是什么时候
-└── 尝试过但失败的运动计划原因（帮助避免重复失误）
+Lower-body strength:
+├── Bodyweight squats consecutive reps, or maximum weighted squat load
+├── Lunge consecutive reps
+└── Whether single-leg squat can be completed (judges lower-body balance ability)
+
+Flexibility:
+├── Seated forward reach distance (cm)
+└── Shoulder mobility (whether hands can clasp behind the back)
 ```
 
-### 5.6 第五组：目标与资源
+### 5.5 Group 4: Lifestyle Survey
 
 ```
-健身目标（可多选，排优先级）：
-├── 减脂 / 增肌 / 维持体重
-├── 提升运动表现（跑步速度、力量增长等）
-├── 改善心肺功能
-├── 改善体型（男性：增加肌肉围度；女性：臀腿塑形）
-├── 改善性功能与性健康
-└── 综合健康（精力、睡眠、抗压）
+Schedule and sleep:
+├── Usual wake-up time / bedtime
+├── Average sleep duration per night
+├── Sleep quality self-rating (1-10)
+└── Any sleep problems (difficulty falling asleep, easy waking, etc.)
 
-时间资源：
-├── 每周可运动天数
-├── 每次可用时长（分钟）
-└── 最适合运动的时间段（早 / 午 / 晚）
+Dietary habits:
+├── Diet structure (meat/vegetarian ratio, preferences)
+├── Any dietary restrictions (religious/cultural/medical reasons)
+├── Cooking ability (cook for yourself / mainly eat out)
+├── Estimated daily water intake (cups/liters)
+└── Alcohol frequency and amount (affects liver metabolism and training recovery)
 
-器械资源：
-├── 健身房会员（是/否，距离）
-├── 家中器械（哑铃 / 弹力带 / 瑜伽垫 / 跑步机等）
-└── 户外运动条件（跑步路线、公园等）
+Work and stress:
+├── Work type (sedentary office / physical labor / mixed)
+├── Work stress level (1-10)
+└── Any recent high-stress period (affects cortisol and recovery)
+
+Exercise history:
+├── Have you had regular exercise habits before? For how long?
+├── When was the most recent regular exercise period?
+└── Reasons past attempted exercise plans failed (helps avoid repeated mistakes)
+```
+
+### 5.6 Group 5: Goals and Resources
+
+```
+Fitness goals (multiple choices allowed, rank by priority):
+├── Fat loss / muscle gain / weight maintenance
+├── Improve sports performance (running speed, strength growth, etc.)
+├── Improve cardiopulmonary function
+├── Improve body shape (male: increase muscle circumference; female: glute/leg shaping)
+├── Improve sexual function and sexual health
+└── Overall health (energy, sleep, stress resistance)
+
+Time resources:
+├── Available exercise days per week
+├── Available duration per session (minutes)
+└── Best time period for exercise (morning / noon / evening)
+
+Equipment resources:
+├── Gym membership (yes/no, distance)
+├── Home equipment (dumbbells / resistance bands / yoga mat / treadmill, etc.)
+└── Outdoor exercise conditions (running routes, parks, etc.)
 ```
 
 ---
 
-## 6. 中医模块：体质辨识与养生方案
+## 6. TCM Module: Constitution Differentiation and Health-Preservation Plans
 
-### 6.1 模块定位与设计理念
+### 6.1 Module Positioning and Design Concept
 
-中医体质学认为，每个人的体质决定了其对疾病的易感性、对运动的耐受度、对饮食的宜忌，以及最适合的养生方式。2009年中华中医药学会正式颁布《中医体质分类与判定》标准，确立了**九种体质**的辨识规范，是目前权威的体质分类依据。
+TCM constitution theory holds that each person's constitution determines susceptibility to disease, exercise tolerance, dietary suitability and avoidance, and the most suitable health-preservation methods. In 2009, the China Association of Chinese Medicine officially issued the **Classification and Determination of TCM Constitution** standard, establishing the differentiation standard for **nine constitutions**.
 
-本模块将中医体质理论**深度融入**健身和营养方案，实现真正的中西医结合：
+This module **deeply integrates** TCM constitution theory into fitness and nutrition plans, realizing true East-West integration:
 
 ```
-西医视角（现代运动科学）          中医视角（体质理论）
+Western perspective (modern exercise science)      TCM perspective (constitution theory)
 ────────────────────────────────────────────────────
-BMI、体脂率、心肺功能     +     体质类型、气血阴阳状态
-热量赤字 / 蛋白质目标     +     食物寒热温凉、药食同源
-训练频率 / 强度设计       +     体质运动宜忌、功法推荐
-运动后营养补充窗口        +     节气调养、四时起居
+BMI, body fat %, cardiopulmonary function     +     constitution type, qi/blood/yin/yang status
+Calorie deficit / protein target              +     food cold/hot/warm/cool properties, medicine-food homology
+Training frequency / intensity design         +     constitution-specific exercise suitability, exercise recommendations
+Post-exercise nutrition window                +     solar-term regulation, seasonal daily living
 ```
 
-### 6.2 中医问诊系统（Dr. Chen 主导）
+### 6.2 TCM Consultation System (Led by Dr. Chen)
 
-#### 6.2.1 问诊分组设计
+#### 6.2.1 Consultation Grouping Design
 
-Dr. Chen 的体质辨识通过**三轮分组问诊**完成，不在建档时一次性全部询问——在用户建完西医档案后，单独开启中医问诊环节。
+Dr. Chen completes constitution differentiation through **three rounds of grouped consultation**. It is not asked all at once during profile creation; after the user finishes the Western medicine profile, a separate TCM consultation stage begins.
 
 ---
 
-**第一轮：整体感受问卷（必填，12问）**
+**Round 1: Overall Feeling Questionnaire (required, 12 questions)**
 
-这12个问题覆盖体质辨识最核心的维度，用通俗语言描述，不使用生僻术语：
-
-```
-Q1. 你平时怕冷还是怕热，还是两者都不明显？
-    A. 明显怕冷（手脚尤其凉）
-    B. 明显怕热（容易上火）
-    C. 两者都不明显
-
-Q2. 你的精力和体力怎么样？
-    A. 容易疲劳，做点事就累
-    B. 精力充沛，很少累
-    C. 一般，下午/傍晚容易困
-
-Q3. 你的皮肤和出汗情况？
-    A. 皮肤偏干，不怎么出汗
-    B. 皮肤偏油，容易出汗且黏腻
-    C. 正常，运动才出汗
-
-Q4. 你的大便情况？
-    A. 偏稀、不成形，或容易拉肚子
-    B. 偏干、容易便秘
-    C. 正常
-
-Q5. 你的睡眠情况？
-    A. 难以入睡，或多梦易醒
-    B. 睡眠很好，倒下就着
-    C. 偶尔失眠，但大体正常
-
-Q6. 你的情绪状态（近半年）？
-    A. 容易焦虑、烦躁
-    B. 容易低落、郁闷，叹气多
-    C. 情绪平稳，比较开朗
-
-Q7. 你的消化情况？
-    A. 胃口不好，饭量小，消化慢
-    B. 胃口好，但容易胃胀腹胀
-    C. 正常
-
-Q8. 你是否有以下症状（多选）？
-    A. 经常口干、口渴，尤其想喝冷饮
-    B. 嘴巴常有黏腻感，或口苦
-    C. 经常气短，爬楼梯就喘
-    D. 皮肤容易出现淤青或色斑
-    E. 以上均无
-
-Q9. 你的体型特征？
-    A. 偏瘦，肌肉不明显
-    B. 偏胖，尤其是腹部
-    C. 适中匀称
-
-Q10. 你对天气变化的反应？
-     A. 梅雨/潮湿天气特别难受
-     B. 秋冬干燥天气容易上火
-     C. 换季容易过敏（鼻炎、皮疹）
-     D. 基本没有特别反应
-
-Q11. 你是否有以下长期症状（多选）？
-     A. 头发偏油或容易出油
-     B. 面色偏暗、眼眶发黑
-     C. 手脚经常有刺痛或麻木感
-     D. 以上均无
-
-Q12. 女性专项（男性跳过）：
-     月经情况如何？
-     A. 月经提前、量多、颜色鲜红
-     B. 月经延迟、量少、颜色偏暗或有血块
-     C. 月经期间腹痛明显
-     D. 基本规律，无明显不适
-```
-
----
-
-**第二轮：舌象观察（必填，图文引导）**
-
-舌象是中医诊断最直观的指标，AI 通过文字描述引导用户自我观察：
+These 12 questions cover the core dimensions of constitution differentiation and use plain language rather than obscure terminology:
 
 ```
-Dr. Chen 的引导话术：
+Q1. Are you usually more afraid of cold, afraid of heat, or neither obvious?
+    A. Obviously afraid of cold (especially cold hands and feet)
+    B. Obviously afraid of heat (easily gets internal heat)
+    C. Neither is obvious
 
-"现在请你在自然光线下，对着镜子伸出舌头，放松不要用力，
-观察约10秒钟，然后告诉我以下几点：
+Q2. How are your energy and physical strength?
+    A. Easily fatigued; tired after doing a little
+    B. Energetic; rarely tired
+    C. Average; sleepy in the afternoon/evening
 
-🔴 舌体颜色（整体颜色）：
-   □ 淡白（比正常偏白）
-   □ 淡红（正常粉红色）
-   □ 红（比正常偏红）
-   □ 深红/暗红
-   □ 暗紫或有紫色斑点
+Q3. How are your skin and sweating?
+    A. Dry skin, not much sweating
+    B. Oily skin, sweats easily and feels sticky
+    C. Normal, sweats only during exercise
 
-📏 舌体形态：
-   □ 偏胖、圆润（比嘴巴宽）
-   □ 偏瘦、细长
-   □ 正常
-   □ 边缘有齿印（像被牙齿咬出的痕迹）
-   □ 舌面有裂纹
+Q4. How are your bowel movements?
+    A. Loose, unformed, or prone to diarrhea
+    B. Dry and prone to constipation
+    C. Normal
 
-🌫️ 舌苔（舌面上的"苔藓"状覆盖物）：
-   □ 薄白（能透过苔看到舌体颜色）—— 正常
-   □ 厚白（苔厚实，像铺了一层白色）
-   □ 黄苔（偏黄色）
-   □ 腻苔（油腻感，擦不掉）
-   □ 少苔或无苔（舌面很光滑）
-   □ 舌苔偏一侧（左右不均匀）
+Q5. How is your sleep?
+    A. Hard to fall asleep, or many dreams and easy waking
+    B. Very good sleep; falls asleep quickly
+    C. Occasional insomnia, generally normal
 
-💧 舌面湿润度：
-   □ 偏干（舌面无水光感）
-   □ 正常湿润
-   □ 水滑（舌上像有水珠）
-   
-有没有其他你注意到的特别之处？（比如舌边发红、舌尖有红点等）"
+Q6. Emotional state over the past six months?
+    A. Easily anxious or irritable
+    B. Easily low, depressed, sighs often
+    C. Stable mood, relatively cheerful
+
+Q7. How is your digestion?
+    A. Poor appetite, small meals, slow digestion
+    B. Good appetite, but prone to stomach/abdominal bloating
+    C. Normal
+
+Q8. Do you have any of the following symptoms? (multiple choice)
+    A. Often dry mouth/thirst, especially wants cold drinks
+    B. Sticky feeling in the mouth, or bitter taste
+    C. Often short of breath, panting after stairs
+    D. Skin easily bruises or develops spots
+    E. None of the above
+
+Q9. Body-shape characteristics?
+    A. Lean, muscles not obvious
+    B. Overweight, especially abdomen
+    C. Moderate and balanced
+
+Q10. Reaction to weather changes?
+     A. Especially uncomfortable in plum-rain/humid weather
+     B. Easily gets internal heat in dry autumn/winter weather
+     C. Seasonal changes easily trigger allergy (rhinitis, rash)
+     D. Basically no special reaction
+
+Q11. Do you have any of the following long-term symptoms? (multiple choice)
+     A. Hair tends to be oily
+     B. Dull complexion or dark eye sockets
+     C. Hands and feet often have stabbing pain or numbness
+     D. None of the above
+
+Q12. Female-specific (men skip):
+     How is menstruation?
+     A. Early menstruation, heavy amount, bright red color
+     B. Delayed menstruation, low amount, darker color or clots
+     C. Obvious abdominal pain during menstruation
+     D. Basically regular, no obvious discomfort
 ```
 
 ---
 
-**第三轮：生活细节补充（可选，6问）**
+**Round 2: Tongue Observation (required, guided with text/images)**
+
+Tongue image is one of the most direct indicators in TCM diagnosis. The AI guides the user to self-observe through text:
 
 ```
-Q13. 你喜欢喝什么温度的水/饮料？
-     A. 喜欢热饮，冷的喝了不舒服
-     B. 喜欢冷饮，热的喝不下去
-     C. 无所谓
+Dr. Chen's guide wording:
 
-Q14. 你的腰腹部是否容易感到寒凉或酸胀？
-Q15. 运动时是否特别容易大量出汗（比同等强度下其他人多）？
-Q16. 你最近半年压力大吗？主要是工作还是情感？
-Q17. 你有没有在中医院或通过其他方式做过体质辨识？结论是什么？
-Q18. 你是否有服用中药或中成药的习惯？（如六味地黄丸、补中益气丸等）
+"Now please look in a mirror under natural light, stick out your tongue, relax and do not strain,
+observe for about 10 seconds, then tell me the following:
+
+🔴 Tongue body color (overall color):
+   □ Pale white (whiter than normal)
+   □ Light red (normal pink)
+   □ Red (redder than normal)
+   □ Deep red / dark red
+   □ Dark purple or with purple spots
+
+📏 Tongue body shape:
+   □ Fat and rounded (wider than the mouth)
+   □ Thin and slender
+   □ Normal
+   □ Teeth marks on the edge (like bite marks from teeth)
+   □ Cracks on the tongue surface
+
+🌫️ Tongue coating (moss-like covering on tongue surface):
+   □ Thin white (tongue color can be seen through the coating) — normal
+   □ Thick white (thick coating, like a white layer)
+   □ Yellow coating
+   □ Greasy coating (oily feel, cannot be wiped off)
+   □ Little coating or no coating (very smooth tongue surface)
+   □ Coating biased to one side (left/right uneven)
+
+💧 Tongue surface moisture:
+   □ Dry (no watery shine)
+   □ Normally moist
+   □ Slippery-wet (like water beads on the tongue)
+
+Is there anything else special you noticed? (for example, red edges or red dots at the tip)"
 ```
 
 ---
 
-#### 6.2.2 体质辨识逻辑
-
-AI 根据三轮问卷的答案，结合舌象描述，按照以下逻辑输出体质判断：
+**Round 3: Lifestyle Detail Supplements (optional, 6 questions)**
 
 ```
-九种体质 × 核心辨识要点 × 运动/饮食宜忌总表：
+Q13. What temperature water/drinks do you prefer?
+     A. Likes hot drinks; cold drinks feel uncomfortable
+     B. Likes cold drinks; hot drinks are hard to drink
+     C. No preference
 
-┌──────────┬──────────────────┬────────────────┬────────────────────────────┬────────────────────────┐
-│ 体质     │ 最核心特征       │ 典型舌象       │ 运动宜忌                   │ 饮食宜忌               │
-├──────────┼──────────────────┼────────────────┼────────────────────────────┼────────────────────────┤
-│ 平和质   │ 精力充沛，百病不侵│ 淡红舌，薄白苔 │ 各类运动均可，强度自由     │ 均衡饮食，无特殊忌口   │
-│ 气虚质   │ 疲劳乏力，气短懒言│ 淡白舌，有齿痕 │ 宜柔缓（散步、八段锦），忌大汗│ 益气食物（山药、红枣）│
-│ 阳虚质   │ 怕冷，手脚凉     │ 淡胖舌，白苔   │ 宜温和，锻炼后即刻保暖，忌冬季大汗│ 温热食物（羊肉、生姜），忌生冷│
-│ 阴虚质   │ 怕热，手心烫，盗汗│ 红舌，少苔或无苔│ 宜平缓，避免高温运动，忌大量出汗│ 甘凉滋润（百合、黑木耳），忌辛辣│
-│ 痰湿质   │ 体胖腹大，口黏腻 │ 胖大舌，白腻苔 │ 宜大量有氧（跑步、游泳），忌久坐│ 清淡祛湿（薏苡仁、冬瓜），忌肥甘│
-│ 湿热质   │ 面油，口苦，易长痘│ 红舌，黄腻苔   │ 宜强度大运动（长跑、球类），避暑│ 清热利湿（绿豆、苦瓜），忌酒和辛辣│
-│ 血瘀质   │ 色斑，面色暗，刺痛│ 暗紫舌，有瘀点 │ 宜活血（有氧+太极），忌久坐静卧│ 活血食物（山楂、玫瑰花），忌寒凉│
-│ 气郁质   │ 情绪郁闷，爱叹气 │ 淡红舌，苔薄白 │ 宜户外有氧（爬山、跑步），忌封闭运动│ 疏肝食物（柠檬、陈皮），忌过甜│
-│ 特禀质   │ 过敏体质，鼻炎皮疹│ 因人而异       │ 避开过敏原，季节交替注意保暖│ 远离发物（鱼虾、酒），清淡为主│
-└──────────┴──────────────────┴────────────────┴────────────────────────────┴────────────────────────┘
-
-注：大多数人为复合体质（同时具有2-3种偏颇体质特征），AI 需要综合判断并说明主体质和兼夹体质。
+Q14. Does your waist/abdomen easily feel cold, sore, or distended?
+Q15. Do you sweat especially heavily during exercise (more than others at the same intensity)?
+Q16. Has your stress been high over the past six months? Mainly work or relationships?
+Q17. Have you ever had constitution differentiation done at a TCM hospital or elsewhere? What was the conclusion?
+Q18. Do you habitually take Chinese herbs or Chinese patent medicines? (such as Liuwei Dihuang Wan, Buzhong Yiqi Wan, etc.)
 ```
-
-### 6.3 体质专属方案：九种体质的运动+食疗详细建议
-
-完整方案下沉到 `references/tcm_constitution.md`，以下为每种体质的核心要点：
 
 ---
 
-#### 气虚质 — 最常见的"容易累"体质
+#### 6.2.2 Constitution Differentiation Logic
 
-**体质特点：** 元气不足，动则汗出，说话声音小，饭后困倦，免疫力偏低。
+Based on the three rounds of questionnaire answers and tongue-image description, the AI outputs constitution judgment according to this logic:
 
-**运动方案：**
-- 强度：低至中等，绝对禁止暴汗运动
-- 推荐：散步（每天30分钟）、八段锦（每日一遍，约15分钟）、气功养肾功
-- 进阶：可缓慢增加到慢跑，但每次不超过40分钟
-- 禁忌：举重、高强度间歇训练（会耗散元气）
+```
+Nine constitutions x core differentiation points x exercise/diet suitability summary:
 
-**食疗方案（Dr. Mei 协同）：**
-- 日常补气食物：山药、小米、鸡肉、红枣、龙眼肉、蜂蜜
-- 补气代茶饮：黄芪 10g + 红枣 5颗 + 枸杞 10g，水煎代茶
-- 避免：白萝卜（耗气）、空心菜、生冷食物
+| Constitution | Core feature | Typical tongue image | Exercise suitability | Diet suitability |
+|---|---|---|---|---|
+| Balanced | Energetic, generally resistant to illness | Light red tongue, thin white coating | All sports acceptable, intensity flexible | Balanced diet, no special restrictions |
+| Qi deficiency | Fatigue, shortness of breath, disinclination to speak | Pale tongue, teeth marks | Gentle exercise (walking, Baduanjin), avoid heavy sweating | Qi-tonifying foods (yam, red dates) |
+| Yang deficiency | Aversion to cold, cold hands and feet | Pale swollen tongue, white coating | Mild exercise, keep warm after exercise, avoid winter heavy sweating | Warming foods (lamb, ginger), avoid raw/cold foods |
+| Yin deficiency | Heat aversion, hot palms, night sweats | Red tongue, little/no coating | Gentle exercise, avoid high-temperature exercise and heavy sweating | Cool moistening foods (lily bulb, black fungus), avoid spicy foods |
+| Phlegm-dampness | Obese abdomen, sticky mouth | Large tongue, white greasy coating | More aerobic exercise (running, swimming), avoid prolonged sitting | Light dampness-removing foods (coix seed, winter melon), avoid fatty/sweet foods |
+| Damp-heat | Oily face, bitter mouth, acne-prone | Red tongue, yellow greasy coating | Higher-intensity exercise acceptable, avoid summer heat | Heat-clearing dampness-draining foods (mung beans, bitter melon), avoid alcohol/spicy foods |
+| Blood stasis | Spots, dull complexion, stabbing pain | Dark-purple tongue with stasis spots | Blood-moving exercise (aerobic + Taiji), avoid long sitting/lying | Blood-moving foods (hawthorn, rose), avoid cold foods |
+| Qi stagnation | Depressed mood, frequent sighing | Light red tongue, thin white coating | Outdoor aerobic exercise (hiking, running), avoid closed indoor exercise | Liver-soothing foods (lemon, aged tangerine peel), avoid excessive sweets |
+| Special diathesis | Allergic constitution, rhinitis/rash | Varies by person | Avoid allergens; keep warm during seasonal transitions | Avoid triggering foods (seafood, alcohol); focus on light diet |
 
-**穴位保健：** 每日按摩足三里穴（膝盖下三寸），每次 3-5 分钟
+Note: Most people have compound constitutions (2-3 biased constitution features at the same time). The AI must make an integrated judgment and explain the primary and secondary constitutions.
+```
+
+### 6.3 Constitution-Specific Plans: Detailed Exercise + Food Therapy Advice for Nine Constitutions
+
+The complete plan is moved into `references/tcm_constitution.md`; the following are the core points for each constitution.
 
 ---
 
-#### 阳虚质 — "怕冷一族"
+#### Qi-Deficiency Constitution — the most common "easily tired" constitution
 
-**体质特点：** 阳气不足，畏寒怕冷，手脚冰凉，喜温热食物，精神萎靡，性功能可能偏弱。
+**Constitution features:** Insufficient original qi, sweating on exertion, soft voice, post-meal sleepiness, lower immunity.
 
-**运动方案：**
-- 强度：低至中等，重视热身和运动后保暖
-- 推荐：快走、慢跑（日间阳光充足时进行，最佳时间上午10点）、太极拳
-- 推荐传统功法：五禽戏（激发阳气效果好）
-- 禁忌：冬季户外剧烈运动，游泳（水寒伤阳）
+**Exercise plan:**
+- Intensity: low to moderate; heavy sweating is strictly prohibited
+- Recommended: walking (30 minutes daily), Baduanjin (once daily, about 15 minutes), kidney-nourishing qigong
+- Progression: may slowly increase to jogging, but no more than 40 minutes each time
+- Avoid: heavy lifting and high-intensity interval training (consumes original qi)
 
-**食疗方案：**
-- 温阳食物：羊肉、韭菜、生姜、大蒜、核桃、荔枝
-- 温阳代茶饮：生姜 3片 + 红糖 10g + 桂圆 5颗
-- 避免：冰淇淋、冷饮、苦瓜、鲜榨果汁（寒凉伤阳）
+**Food therapy plan (with Dr. Mei):**
+- Daily qi-tonifying foods: yam, millet, chicken, red dates, longan, honey
+- Qi-tonifying tea: astragalus 10g + red dates 5 + goji berries 10g, boiled as tea
+- Avoid: white radish (consumes qi), water spinach, raw/cold foods
 
-**艾灸方案：** 关元穴（肚脐下三寸）每次 10-15 分钟，每周 2-3 次
-
-**与男性性功能关联（Coach Alex + Dr. Chen 联动）：**
-阳虚质男性性功能偏弱高度相关。除 M2 专项训练外，推荐：
-- 艾灸肾俞穴（腰背部）+ 关元穴
-- 食用温肾壮阳食物：羊肾、海参、韭菜籽
-- 避免长期熬夜（最耗肾阳）
+**Acupoint care:** Massage Zusanli daily (three cun below the knee), 3-5 minutes each time.
 
 ---
 
-#### 阴虚质 — "内热上火"体质
+#### Yang-Deficiency Constitution — "cold-sensitive people"
 
-**体质特点：** 阴液不足，口干舌燥，手心脚心热，容易失眠，大便干结，形体偏瘦。
+**Constitution features:** Insufficient yang qi, aversion to cold, cold hands and feet, preference for warm foods, listlessness, possible weak sexual function.
 
-**运动方案：**
-- 强度：中低强度，避免高温大汗
-- 推荐：游泳（滋阴最佳运动）、太极拳、瑜伽
-- 运动时间：避开正午阳光，推荐傍晚
-- 禁忌：HIIT、桑拿、高温瑜伽（进一步耗伤阴液）
+**Exercise plan:**
+- Intensity: low to moderate; emphasize warm-up and post-exercise warmth
+- Recommended: brisk walking, jogging (during sunny daytime, best around 10 a.m.), Taijiquan
+- Traditional exercise: Wuqinxi (good for stimulating yang qi)
+- Avoid: intense outdoor exercise in winter, swimming (cold water damages yang)
 
-**食疗方案：**
-- 滋阴食物：百合、黑木耳、鸭肉、银耳、枸杞、豆腐
-- 滋阴代茶饮：麦冬 10g + 石斛 5g + 枸杞 10g
-- 避免：辛辣、油炸、烧烤、大量咖啡
+**Food therapy plan:**
+- Warming-yang foods: lamb, chives, ginger, garlic, walnuts, lychee
+- Warming-yang tea: ginger 3 slices + brown sugar 10g + longan 5 pieces
+- Avoid: ice cream, cold drinks, bitter melon, freshly squeezed juice (cold damages yang)
 
----
+**Moxa plan:** Guanyuan acupoint (three cun below the navel), 10-15 minutes each time, 2-3 times per week.
 
-#### 痰湿质 — "减肥最难"体质
-
-**体质特点：** 体胖腹大，面部出油，口中黏腻，容易犯困，行动迟缓，是减脂最难的体质。
-
-**运动方案：**
-- 强度：需要强度和量都较大的有氧运动
-- 推荐：游泳（首选）、快跑、爬山、骑行，每次至少 45 分钟
-- 重要提示：此体质有氧运动效果相对慢，需要更长的坚持周期（3个月以上才明显）
-- 禁忌：久坐不动、低强度散步（不足以化痰湿）
-
-**食疗方案：**
-- 祛湿化痰食物：薏苡仁、赤小豆、茯苓、冬瓜、海带
-- 祛湿代茶饮：薏苡仁 30g + 赤小豆 30g 煮水，代茶每日饮
-- 避免：肥肉、甜食、甜饮料、酒类、奶油
-
-**Coach Alex 特别说明（给 Analyst Ray 的预警设置）：**
-痰湿质减脂速度比平和质慢 30-50%，在统计分析时不应以相同速度进行评估和预警，需要调整期望值。
+**Link to male sexual function (Coach Alex + Dr. Chen):**
+Yang-deficiency constitution is highly associated with weaker male sexual function. In addition to M2 special training, recommend:
+- Moxa at Shenshu (lower back) + Guanyuan
+- Eat warming kidney-yang foods: lamb kidney, sea cucumber, chive seeds
+- Avoid long-term late nights (most damaging to kidney yang)
 
 ---
 
-#### 湿热质 — "容易长痘上火"体质
+#### Yin-Deficiency Constitution — "internal heat" constitution
 
-**体质特点：** 面部油腻，易生痤疮，口苦口臭，大便黏滞，小便偏黄，性格急躁。
+**Constitution features:** Insufficient yin fluids, dry mouth and tongue, hot palms/soles, easy insomnia, dry stool, relatively thin body.
 
-**运动方案：**
-- 强度：可以承受较大强度运动，有助排湿热
-- 推荐：中长跑、游泳、球类运动（有助排汗排湿）
-- 避免：夏季正午高温户外运动（暑热与湿热叠加）
+**Exercise plan:**
+- Intensity: low to moderate, avoid high heat and heavy sweating
+- Recommended: swimming (best yin-nourishing exercise), Taijiquan, yoga
+- Timing: avoid noon sun, recommend evening
+- Avoid: HIIT, sauna, hot yoga (further consumes yin fluids)
 
-**食疗方案：**
-- 清热利湿食物：绿豆、苦瓜、黄瓜、冬瓜、薏苡仁、莲藕
-- 清热代茶饮：金银花 5g + 菊花 5g + 蒲公英 3g
-- 严格避免：酒、辛辣、烧烤、羊肉（湿热体质大忌）
-
----
-
-#### 血瘀质 — "循环不畅"体质
-
-**体质特点：** 面色偏暗，容易出现瘀青，女性常见痛经、月经有血块，皮肤干燥，舌有瘀点。
-
-**运动方案：**
-- 核心原则：运动就是最好的活血疗法，需保持规律运动
-- 推荐：有氧运动（跑步、骑行）+ 太极拳、八段锦
-- 特别推荐：跑步时的摆臂动作有助活血化瘀
-- 禁忌：久坐、久卧（加重血瘀）
-
-**食疗方案：**
-- 活血化瘀食物：山楂、玫瑰花、桃仁、醋、黑豆
-- 活血代茶饮：玫瑰花 5朵 + 山楂 10g + 红糖少许
-- 避免：寒凉食物（收缩血管，加重血瘀）
+**Food therapy plan:**
+- Yin-nourishing foods: lily bulb, black fungus, duck, tremella, goji berries, tofu
+- Yin-nourishing tea: ophiopogon 10g + dendrobium 5g + goji berries 10g
+- Avoid: spicy, fried, grilled foods, large amounts of coffee
 
 ---
 
-#### 气郁质 — "情绪影响最大"体质
+#### Phlegm-Dampness Constitution — "hardest to lose weight" constitution
 
-**体质特点：** 情绪郁闷，爱叹气，胸肋胀满，睡眠差，工作压力大的人高发（尤以女性多见）。
+**Constitution features:** Obese abdomen, oily face, sticky mouth, easy sleepiness, sluggish movement; hardest constitution for fat loss.
 
-**运动方案：**
-- 核心原则：户外运动优于室内，集体运动优于独自运动
-- 推荐：爬山、跑步（在自然环境中）、舞蹈、团体球类运动
-- 特别建议：每周至少 1 次户外长距离活动，与自然接触有助改善气郁
-- 禁忌：长期单调的室内器械训练（加重压抑感）
+**Exercise plan:**
+- Intensity: requires relatively high aerobic intensity and volume
+- Recommended: swimming (first choice), fast running, hiking, cycling, at least 45 minutes each time
+- Important note: aerobic results are relatively slow for this constitution and require longer adherence (more than 3 months before obvious effect)
+- Avoid: prolonged sitting and low-intensity strolling (not enough to transform phlegm-dampness)
 
-**食疗方案：**
-- 疏肝理气食物：柠檬、橙子、陈皮、薄荷、柴胡（药食两用）
-- 疏肝代茶饮：玫瑰花 5朵 + 陈皮 5g + 薄荷 3g
-- 避免：过量甜食（短期情绪好，长期加重气郁）
+**Food therapy plan:**
+- Dampness-removing phlegm-transforming foods: coix seed, adzuki beans, poria, winter melon, kelp
+- Dampness-removing tea: coix seed 30g + adzuki beans 30g boiled as daily tea
+- Avoid: fatty meat, sweets, sweet drinks, alcohol, cream
 
----
-
-#### 特禀质 — "过敏性"体质
-
-**体质特点：** 先天禀赋不足，对外界过敏原高度敏感，季节交替易发鼻炎、皮疹，免疫系统过激。
-
-**运动方案：**
-- 核心原则：规律适度运动提升免疫调节能力，但要避开过敏原
-- 推荐：室内有氧（游泳注意氯气影响）、瑜伽、太极
-- 春季花粉季：减少户外活动，改为室内锻炼
-- 禁忌：花粉季长跑、冷空气刺激（可诱发哮喘）
-
-**食疗方案：**
-- 益气固表食物：乌梅、百合、南瓜、胡萝卜
-- 固表代茶饮：黄芪 10g + 防风 5g + 白术 5g
-- 严格避免：海鲜、虾、蟹等发物（过敏体质大忌）
+**Coach Alex special note (warning setting for Analyst Ray):**
+Fat-loss speed for phlegm-dampness constitution is 30-50% slower than balanced constitution. Statistical analysis should not evaluate or warn using the same speed; expectations need adjustment.
 
 ---
 
-### 6.4 舌象动态追踪系统
+#### Damp-Heat Constitution — "acne/internal heat prone" constitution
 
-舌象是体质调理进度的重要参考指标。本 Skill 设计**月度舌象检查**机制：
+**Constitution features:** Oily face, acne-prone, bitter mouth and bad breath, sticky stool, yellow urine, impatient temperament.
 
-```
-触发时机：每月1日，Dr. Chen 主动发起月度舌象检查
+**Exercise plan:**
+- Intensity: can tolerate higher-intensity exercise, helpful for draining damp-heat
+- Recommended: middle/long-distance running, swimming, ball sports (helps sweat and drain dampness)
+- Avoid: outdoor exercise at high noon in summer (summer heat + damp-heat overlap)
 
-[Dr. Chen] 本月体质追踪提醒：
-距离上次舌象记录已过去 30 天，请在自然光下重新观察
-你的舌头，告诉我以下变化：
+**Food therapy plan:**
+- Heat-clearing dampness-draining foods: mung beans, bitter melon, cucumber, winter melon, coix seed, lotus root
+- Heat-clearing tea: honeysuckle 5g + chrysanthemum 5g + dandelion 3g
+- Strictly avoid: alcohol, spicy foods, barbecue, lamb (major contraindication for damp-heat constitution)
 
-1. 舌苔是否比上月更厚或更薄？
-2. 舌体颜色是否有变化？
-3. 齿痕是否减少/增加？
-4. 舌面湿润度是否有变化？
+---
 
-上次记录（2026-02-01）：
-- 舌体：淡白，有齿痕
-- 舌苔：白腻苔
-- 体质判断：阳虚质 + 痰湿质
+#### Blood-Stasis Constitution — "poor circulation" constitution
 
-请描述今天观察到的情况，我来评估你的体质是否有改善。
-```
+**Constitution features:** Dull complexion, bruises easily, women often have dysmenorrhea and menstrual clots, dry skin, stasis spots on tongue.
 
-**舌象改善判断标准（存储在 `references/tcm_constitution.md`）：**
+**Exercise plan:**
+- Core principle: exercise is the best blood-moving therapy; keep regular exercise
+- Recommended: aerobic exercise (running, cycling) + Taijiquan, Baduanjin
+- Special recommendation: arm swing while running helps move blood and transform stasis
+- Avoid: prolonged sitting and lying (worsens blood stasis)
 
-```
-积极信号（体质正在改善）：
-✅ 舌苔由厚变薄（痰湿在减轻）
-✅ 齿痕减少（气虚在改善）
-✅ 舌色由淡白变淡红（阳气在恢复）
-✅ 苔腻感减轻（湿热/痰湿改善）
+**Food therapy plan:**
+- Blood-moving stasis-transforming foods: hawthorn, rose, peach kernel, vinegar, black beans
+- Blood-moving tea: rose 5 flowers + hawthorn 10g + a little brown sugar
+- Avoid: cold foods (contract vessels and worsen stasis)
 
-需要关注的信号：
-⚠️ 舌苔突然变黄（可能有炎症或上火）
-⚠️ 舌体颜色变深红（阴虚加重或有热）
-⚠️ 出现新的瘀点瘀斑（血瘀加重）
-⚠️ 舌苔完全脱落（胃阴受损）
-```
+---
 
-### 6.5 节气养生建议系统
+#### Qi-Stagnation Constitution — "emotion has the greatest impact" constitution
 
-中医特别强调"顺应四时"，Dr. Chen 在每个节气前 2-3 天自动推送节气养生提醒：
+**Constitution features:** Depressed mood, frequent sighing, chest/rib fullness, poor sleep; common in people with high work stress, especially women.
 
-```
-节气养生示例（冬至前推送）：
+**Exercise plan:**
+- Core principle: outdoor exercise is better than indoor; group exercise is better than solo exercise
+- Recommended: hiking, running in nature, dance, team ball sports
+- Special advice: at least one weekly outdoor long-distance activity; contact with nature helps improve qi stagnation
+- Avoid: long-term monotonous indoor machine training (worsens suppression)
 
-[Dr. Chen] 🌙 冬至节气将至（2026年12月22日）
-冬至是一年中阴气最盛、阳气初生的转折点，是"进补"的
-黄金节点，尤其对阳虚质和气虚质非常重要。
+**Food therapy plan:**
+- Liver-soothing qi-regulating foods: lemon, orange, aged tangerine peel, mint, bupleurum (food/medicine dual-use)
+- Liver-soothing tea: rose 5 flowers + aged tangerine peel 5g + mint 3g
+- Avoid: excessive sweets (short-term mood lift, long-term worsens qi stagnation)
 
-📌 本节气重点建议（基于你的阳虚质 + 气虚质体质）：
+---
 
-运动调整：
-→ Coach Alex 建议本周减少 20% 训练量，为身体蓄能
-→ 减少早起室外运动，改为室内或日出后再进行
-→ 增加热身时间（10分钟以上），防寒护阳
+#### Special-Diathesis Constitution — "allergic" constitution
 
-饮食调整（Dr. Mei 协同）：
-→ 三九天可以吃一次羊肉火锅（温阳效果最好）
-→ 增加黑色食物（黑芝麻、黑豆、黑米）补肾
-→ 可适当饮用红糖姜茶
+**Constitution features:** Congenital insufficiency, highly sensitive to external allergens, seasonal transitions easily trigger rhinitis and rash, immune system overreactive.
 
-穴位保健：
-→ 冬至当天艾灸关元穴 + 足三里，每穴 15 分钟
-→ 每晚泡脚（40°C，20分钟，可加生姜或艾草）
+**Exercise plan:**
+- Core principle: regular moderate exercise improves immune regulation, but allergens must be avoided
+- Recommended: indoor aerobic exercise (pay attention to chlorine in swimming), yoga, Taiji
+- Spring pollen season: reduce outdoor activities, switch to indoor training
+- Avoid: long runs during pollen season, cold-air irritation (may trigger asthma)
 
-注意事项：
-→ 早睡晚起，顺应冬季藏阳原则
-→ 注意背部、膝关节保暖（阳虚体质尤其重要）
-```
+**Food therapy plan:**
+- Qi-strengthening exterior-stabilizing foods: smoked plum, lily bulb, pumpkin, carrot
+- Exterior-stabilizing tea: astragalus 10g + saposhnikovia 5g + atractylodes 5g
+- Strictly avoid: seafood, shrimp, crab, and other triggering foods (major contraindication for allergic constitution)
 
-**二十四节气养生要点总表（存储在 `references/tcm_seasons.md`）：**
+---
+
+### 6.4 Dynamic Tongue-Image Tracking System
+
+Tongue image is an important reference indicator for constitution-regulation progress. This Skill designs a **monthly tongue-image check** mechanism:
 
 ```
-春季（立春→谷雨）：疏肝养肝，增加户外运动，气郁质重点调养
-夏季（立夏→大暑）：养心清热，痰湿质/湿热质高强度运动黄金期
-秋季（立秋→霜降）：润肺养阴，阴虚质注意补水滋润
-冬季（立冬→大寒）：补肾藏阳，阳虚质/气虚质进补好时机
+Trigger timing: on the 1st of every month, Dr. Chen proactively starts a monthly tongue-image check
+
+[Dr. Chen] Monthly constitution tracking reminder:
+It has been 30 days since your last tongue-image record. Please reobserve your tongue under natural light and tell me these changes:
+
+1. Is the tongue coating thicker or thinner than last month?
+2. Has the tongue body color changed?
+3. Have teeth marks decreased/increased?
+4. Has tongue-surface moisture changed?
+
+Last record (2026-02-01):
+- Tongue body: pale white, with teeth marks
+- Tongue coating: white greasy coating
+- Constitution judgment: yang deficiency + phlegm-dampness
+
+Please describe what you observed today, and I will evaluate whether your constitution has improved.
 ```
 
-### 6.6 中医模块在建档流程中的位置
+**Tongue-image improvement criteria (stored in `references/tcm_constitution.md`):**
 
 ```
-完整建档顺序：
+Positive signals (constitution improving):
+✅ Tongue coating changes from thick to thin (phlegm-dampness is reducing)
+✅ Teeth marks decrease (qi deficiency is improving)
+✅ Tongue color changes from pale white to light red (yang qi is recovering)
+✅ Greasy coating decreases (damp-heat/phlegm-dampness improves)
 
-阶段1（西医档案，约10-15分钟）
-→ 基础生理数据 → 健康史 → 体测 → 生活习惯 → 目标资源
-
-阶段2（中医档案，约8-12分钟）——建档完成后由 Dr. Chen 主动发起
-→ 整体感受12问 → 舌象观察 → 生活细节6问
-
-阶段3（中医体质判断输出）
-→ Dr. Chen 给出体质判断（主体质 + 兼夹体质）
-→ Dr. Chen 与 Coach Alex 联动：调整训练强度宜忌
-→ Dr. Chen 与 Dr. Mei 联动：调整饮食方案（加入食疗建议）
-→ Analyst Ray 存储体质档案，设置首次月度舌象提醒
+Signals needing attention:
+⚠️ Tongue coating suddenly turns yellow (possible inflammation or internal heat)
+⚠️ Tongue body color turns deep red (yin deficiency worsens or heat present)
+⚠️ New stasis spots appear (blood stasis worsens)
+⚠️ Tongue coating completely peels off (stomach yin damage)
 ```
 
-### 6.7 中医建档数据存储 Schema
+### 6.5 Solar-Term Health-Preservation Advice System
+
+TCM emphasizes "following the four seasons." Dr. Chen automatically pushes solar-term health-preservation reminders 2-3 days before each solar term:
+
+```
+Solar-term health-preservation example (pushed before Winter Solstice):
+
+[Dr. Chen] 🌙 Winter Solstice is approaching (December 22, 2026)
+Winter Solstice is the turning point when yin is at its peak and yang begins to arise. It is a golden timing for supplementation, especially important for yang-deficiency and qi-deficiency constitutions.
+
+📌 Key advice for this solar term (based on your yang-deficiency + qi-deficiency constitution):
+
+Exercise adjustment:
+→ Coach Alex recommends reducing this week's training volume by 20% to store energy for the body
+→ Reduce early-morning outdoor exercise; switch to indoors or train after sunrise
+→ Increase warm-up time (more than 10 minutes) to protect yang from cold
+
+Diet adjustment (with Dr. Mei):
+→ During the coldest period, you may eat lamb hotpot once (best warming-yang effect)
+→ Increase black foods (black sesame, black beans, black rice) to tonify the kidneys
+→ Drink brown sugar ginger tea as appropriate
+
+Acupoint care:
+→ On Winter Solstice day, apply moxa to Guanyuan + Zusanli, 15 minutes per point
+→ Soak feet every night (40°C, 20 minutes, ginger or mugwort can be added)
+
+Notes:
+→ Sleep early and wake later, following the winter principle of storing yang
+→ Keep the back and knees warm (especially important for yang-deficiency constitution)
+```
+
+**Summary table of 24 solar-term health-preservation points (stored in `references/tcm_seasons.md`):**
+
+```
+Spring (Start of Spring → Grain Rain): soothe and nourish the liver, increase outdoor exercise, focus regulation for qi-stagnation constitution
+Summer (Start of Summer → Major Heat): nourish the heart and clear heat; golden period for high-intensity exercise in phlegm-dampness/damp-heat constitutions
+Autumn (Start of Autumn → Frost's Descent): moisten lungs and nourish yin; yin-deficiency constitution should hydrate and moisten
+Winter (Start of Winter → Major Cold): tonify kidneys and store yang; good timing for supplementation in yang-deficiency/qi-deficiency constitutions
+```
+
+### 6.6 Position of the TCM Module in Profile Creation Flow
+
+```
+Complete profile creation order:
+
+Stage 1 (Western medicine profile, about 10-15 minutes)
+→ Basic physiological data → Health history → Fitness test → Lifestyle habits → Goals and resources
+
+Stage 2 (TCM profile, about 8-12 minutes) — initiated by Dr. Chen after profile creation is complete
+→ 12 questions on overall feelings → tongue-image observation → 6 lifestyle-detail questions
+
+Stage 3 (TCM constitution judgment output)
+→ Dr. Chen gives constitution judgment (primary constitution + secondary constitution)
+→ Dr. Chen and Coach Alex coordinate: adjust training intensity and suitability
+→ Dr. Chen and Dr. Mei coordinate: adjust dietary plan (add food therapy advice)
+→ Analyst Ray stores constitution profile and sets the first monthly tongue-image reminder
+```
+
+### 6.7 TCM Profile Data Storage Schema
 
 ```javascript
-// 中医体质档案
+// TCM constitution profile
 storage.set('tcm_profile', {
   created_at: "2026-03-16",
   last_assessed: "2026-03-16",
-  
-  // 体质判断结果
-  primary_constitution: "yang_xu",     // 主体质：阳虚质
-  secondary_constitutions: ["qi_xu"],  // 兼夹体质：气虚质
-  constitution_scores: {               // 各体质倾向分（0-100）
-    ping_he: 45,     // 平和质
-    qi_xu: 62,       // 气虚质
-    yang_xu: 78,     // 阳虚质（主体质，最高分）
+
+  // Constitution judgment results
+  primary_constitution: "yang_xu",     // primary constitution: yang-deficiency constitution
+  secondary_constitutions: ["qi_xu"],  // secondary constitution: qi-deficiency constitution
+  constitution_scores: {               // tendency score for each constitution (0-100)
+    ping_he: 45,     // balanced constitution
+    qi_xu: 62,       // qi-deficiency constitution
+    yang_xu: 78,     // yang-deficiency constitution (primary, highest score)
     yin_xu: 30,
     tan_shi: 40,
     shi_re: 25,
@@ -903,539 +853,537 @@ storage.set('tcm_profile', {
     qi_yu: 50,
     te_bing: 20
   },
-  
-  // 问诊原始答案
+
+  // Raw consultation answers
   questionnaire: {
-    q1: "A",  // 怕冷
-    q2: "A",  // 容易疲劳
-    // ... 其余答案
+    q1: "A",  // afraid of cold
+    q2: "A",  // easily fatigued
+    // ... remaining answers
   },
-  
-  // 舌象记录
+
+  // Tongue-image records
   tongue_records: [
     {
       date: "2026-03-16",
-      body_color: "淡白",
-      body_shape: "胖大有齿痕",
-      coating: "白腻苔",
-      moisture: "水滑",
-      notes: "边缘有轻微齿痕",
-      dr_chen_assessment: "典型阳虚+气虚舌象"
+      body_color: "pale white",
+      body_shape: "swollen with teeth marks",
+      coating: "white greasy coating",
+      moisture: "slippery-wet",
+      notes: "slight teeth marks on the edge",
+      dr_chen_assessment: "typical yang-deficiency + qi-deficiency tongue image"
     }
   ],
-  
-  // 体质专属调养方案（Dr. Chen 生成）
+
+  // Constitution-specific regulation plan (generated by Dr. Chen)
   current_plan: {
-    exercise_restrictions: ["避免大汗", "冬季减少室外", "运动后即刻保暖"],
-    recommended_exercises: ["八段锦", "太极拳", "慢跑"],
+    exercise_restrictions: ["avoid heavy sweating", "reduce outdoor activity in winter", "keep warm immediately after exercise"],
+    recommended_exercises: ["Baduanjin", "Taijiquan", "jogging"],
     food_therapy: {
-      beneficial: ["山药", "红枣", "羊肉", "生姜", "核桃"],
-      avoid: ["冷饮", "苦瓜", "白萝卜", "生冷食物"],
-      daily_tea: "黄芪红枣枸杞茶"
+      beneficial: ["yam", "red dates", "lamb", "ginger", "walnuts"],
+      avoid: ["cold drinks", "bitter melon", "white radish", "raw/cold foods"],
+      daily_tea: "astragalus red-date goji tea"
     },
-    acupoints: ["关元穴", "足三里", "肾俞穴"],
-    seasonal_notes: "冬至前后是调养黄金期，加强艾灸频率"
+    acupoints: ["Guanyuan", "Zusanli", "Shenshu"],
+    seasonal_notes: "The period around Winter Solstice is a golden regulation window; increase moxa frequency"
   }
 })
 
-// 节气养生记录
-storage.set('tcm_seasonal:2026-冬至', {
+// Solar-term health-preservation record
+storage.set('tcm_seasonal:2026-winter-solstice', {
   date: "2026-12-22",
   pushed: true,
   user_acknowledged: true,
-  adjustments_made: "减少了本周训练量，增加了艾灸"
+  adjustments_made: "reduced this week's training volume and increased moxa"
 })
 ```
 
 ---
 
-## 7. 性别差异化训练体系
+## 7. Gender-Differentiated Training System
 
-### 6.1 设计理念
+### 6.1 Design Concept
 
-男性和女性在生理结构、激素水平、训练目标上存在显著差异。本 Skill 不提供"中性化通用计划"，而是**根据性别和用户明确的专项目标提供精准化方案**。
+Men and women differ significantly in physiological structure, hormone levels, and training goals. This Skill does not provide "neutral generic plans"; it **provides precise plans based on gender and the user's explicit specialized goals**.
 
-### 6.2 男性专项训练模块
+### 6.2 Male-Specific Training Module
 
-#### 核心训练目标分类
-
-```
-目标 M1：综合增肌（大众男性最常见需求）
-目标 M2：男性性功能改善与强化（重要专项）
-目标 M3：力量运动员方向（最大力量提升）
-目标 M4：减脂塑形（保留肌肉同时减脂）
-目标 M5：心肺耐力提升（跑步、游泳等）
-```
-
-#### M2 专项：男性性功能强化训练方案
-
-> **生理背景：** 男性性功能与以下因素高度相关：盆底肌群力量、睾酮水平（与抗阻训练相关）、心肺耐力（勃起所需血流量）、腰腹核心稳定性。Coach Alex 需针对这四个维度制定专项方案。
-
-**核心训练动作：**
+#### Core Training Goal Categories
 
 ```
-盆底肌强化（凯格尔运动，男性版本）：
-├── 收缩盆底肌 5 秒 → 放松 5 秒，每组 10-15 次，每日 3 组
-├── 快速收缩版：快速收缩/放松，每组 20 次
-└── 注意：在日常任何时间均可进行，无需器械
-
-睾酮促进训练（多关节大肌群复合动作）：
-├── 深蹲（最重要，刺激睾酮分泌最强）
-├── 硬拉（激活全身大肌群）
-├── 卧推
-└── 负重行走/农夫走（全身张力训练）
-
-腰腹核心强化：
-├── 死虫式（保护腰椎的核心激活）
-├── 俯卧撑至核心旋转
-└── 侧平板支撑变式
-
-心肺改善（改善勃起质量的基础）：
-├── 中等强度有氧：每周 3 次 × 30 分钟（目标心率 60-70% HRmax）
-└── HIIT 间歇训练：每周 1-2 次（促进血流）
+Goal M1: Comprehensive muscle gain (most common need among men)
+Goal M2: Male sexual function improvement and strengthening (important specialty)
+Goal M3: Strength athlete direction (maximum strength improvement)
+Goal M4: Fat loss and shaping (preserve muscle while losing fat)
+Goal M5: Cardiopulmonary endurance improvement (running, swimming, etc.)
 ```
 
-**营养配合（Dr. Mei 负责）：**
-- 锌：牡蛎、牛肉、南瓜子（支持睾酮合成）
-- 维生素 D：日晒 + 必要时补剂（与睾酮水平正相关）
-- Omega-3：深海鱼、亚麻籽（改善血管弹性）
-- 避免：长期高酒精摄入（显著抑制睾酮）
+#### M2 Specialty: Male Sexual Function Strengthening Training Plan
 
-### 6.3 女性专项训练模块
+> **Physiological background:** Male sexual function is highly associated with pelvic floor muscle strength, testosterone level (related to resistance training), cardiopulmonary endurance (blood flow required for erection), and waist/abdominal core stability. Coach Alex needs to create specialized plans for these four dimensions.
 
-#### 核心训练目标分类
+**Core training movements:**
 
 ```
-目标 F1：臀腿塑形（最主流女性需求）
-目标 F2：全身纤体减脂
-目标 F3：核心收紧与腰腹塑形
-目标 F4：上肢线条（蝴蝶袖、肩部线条）
-目标 F5：产后恢复专项
-目标 F6：骨密度强化（25岁+ 预防骨质疏松）
+Pelvic floor strengthening (Kegel exercise, male version):
+├── Contract pelvic floor for 5 seconds → relax for 5 seconds, 10-15 reps per set, 3 sets daily
+├── Quick contraction version: quick contract/relax, 20 reps per set
+└── Note: can be done anytime in daily life, no equipment needed
+
+Testosterone-promoting training (multi-joint large-muscle compound movements):
+├── Squat (most important; strongest testosterone secretion stimulus)
+├── Deadlift (activates large full-body muscle groups)
+├── Bench press
+└── Loaded carry / farmer's walk (full-body tension training)
+
+Waist/abdominal core strengthening:
+├── Dead bug (core activation that protects the lumbar spine)
+├── Push-up to core rotation
+└── Side plank variation
+
+Cardiopulmonary improvement (basis for improving erection quality):
+├── Moderate-intensity aerobic: 3 times/week x 30 minutes (target heart rate 60-70% HRmax)
+└── HIIT interval training: 1-2 times/week (promotes blood flow)
 ```
 
-#### F1 专项：臀腿塑形方案
+**Nutrition coordination (Dr. Mei):**
+- Zinc: oysters, beef, pumpkin seeds (supports testosterone synthesis)
+- Vitamin D: sunlight + supplements when needed (positively correlated with testosterone levels)
+- Omega-3: deep-sea fish, flaxseed (improves vascular elasticity)
+- Avoid: long-term high alcohol intake (significantly suppresses testosterone)
 
-> **生理背景：** 女性雌激素水平使得下肢脂肪更难减少，但同时女性下肢肌肉恢复速度较男性快，对高频臀腿训练的适应性更好。臀大肌、臀中肌、腘绳肌是核心目标肌群。
+### 6.3 Female-Specific Training Module
 
-**核心训练动作（按难度分级）：**
+#### Core Training Goal Categories
 
 ```
-初级（无器械家练）：
-├── 臀桥（双腿）：3组 × 20次
-├── 单腿臀桥：3组 × 15次/腿
-├── 侧卧蚌式开合：3组 × 20次/侧（激活臀中肌）
-└── 深蹲：3组 × 15次
-
-中级（有弹力带或哑铃）：
-├── 弹力带深蹲：增加外展阻力，强化臀中肌
-├── 罗马尼亚硬拉（哑铃）：主攻臀大肌 + 腘绳肌
-├── 保加利亚分腿蹲：下肢最有效动作之一
-└── 弹力带侧走：臀中肌塑形神器
-
-进阶（健身房）：
-├── 臀推（Hip Thrust）——臀大肌最高激活动作 ——→ [术语库 #012]
-├── 腿举（腿蹬机）
-├── 腿弯举（腘绳肌孤立训练）
-└── 电缆后踢腿（电缆机 / 弹力带）
+Goal F1: Glute/leg shaping (most mainstream female need)
+Goal F2: Full-body slimming and fat loss
+Goal F3: Core tightening and waist/abdominal shaping
+Goal F4: Upper-body lines (upper arms, shoulder lines)
+Goal F5: Postpartum recovery specialty
+Goal F6: Bone-density strengthening (age 25+ osteoporosis prevention)
 ```
 
-**训练频率建议（臀腿）：**
-- 每周 2-3 次臀腿专项
-- 每次间隔至少 48 小时（肌肉修复）
-- 搭配每周 2-3 次有氧（保持脂肪燃烧）
+#### F1 Specialty: Glute/Leg Shaping Plan
 
-**营养配合（Dr. Mei 负责）：**
-- 蛋白质目标：1.6-2.0g / kg 体重（支持肌肉合成）
-- 胶原蛋白：有助于皮肤和结缔组织健康（臀部皮肤紧致）
-- 铁元素：女性因月经流失铁较多，需确保摄入足够
-- 月经周期饮食调整：排卵前增加碳水（高强度训练匹配），月经期减少训练强度、补充铁和镁
+> **Physiological background:** Female estrogen levels make lower-body fat harder to reduce, but female lower-body muscles recover faster than male muscles and adapt better to higher-frequency glute/leg training. Gluteus maximus, gluteus medius, and hamstrings are the core target muscle groups.
+
+**Core training movements (graded by difficulty):**
+
+```
+Beginner (no-equipment home training):
+├── Glute bridge (double-leg): 3 sets x 20 reps
+├── Single-leg glute bridge: 3 sets x 15 reps/leg
+├── Side-lying clamshell: 3 sets x 20 reps/side (activates gluteus medius)
+└── Squat: 3 sets x 15 reps
+
+Intermediate (resistance band or dumbbells):
+├── Banded squat: adds abduction resistance and strengthens gluteus medius
+├── Romanian deadlift (dumbbell): targets gluteus maximus + hamstrings
+├── Bulgarian split squat: one of the most effective lower-body movements
+└── Banded lateral walk: a key gluteus medius shaping movement
+
+Advanced (gym):
+├── Hip Thrust — highest-activation gluteus maximus movement — → [Terminology #012]
+├── Leg press
+├── Leg curl (hamstring isolation training)
+└── Cable kickback (cable machine / resistance band)
+```
+
+**Training frequency recommendation (glute/leg):**
+- 2-3 glute/leg specialty sessions per week
+- At least 48 hours between sessions (muscle repair)
+- Pair with 2-3 aerobic sessions per week (maintain fat burning)
+
+**Nutrition coordination (Dr. Mei):**
+- Protein target: 1.6-2.0g / kg body weight (supports muscle synthesis)
+- Collagen: helps skin and connective tissue health (glute skin firmness)
+- Iron: women lose more iron through menstruation and need adequate intake
+- Menstrual-cycle dietary adjustment: increase carbohydrates before ovulation (matches high-intensity training), reduce training intensity during menstruation, supplement iron and magnesium
 
 ---
 
-## 8. 术语知识库系统（含中医术语）
+## 8. Terminology Knowledge Base System (Including TCM Terms)
 
-### 7.1 设计原则
+### 7.1 Design Principles
 
-**每次提到专业术语，都在该次回复中简短解释，并注明「→ 术语库 #XXX」，方便用户随时查阅完整解释。**
+**Every time a professional term is mentioned, briefly explain it in that response and mark "→ Terminology #XXX" so the user can view the full explanation at any time.**
 
-用户可以随时说"查看术语库"或"解释一下XXX是什么意思"来获取完整知识库。
+Users can say "view terminology base" or "explain what XXX means" at any time to access the full knowledge base.
 
-### 7.2 术语知识库（核心词条，共 30+ 条）
+### 7.2 Terminology Knowledge Base (Core Entries, 30+ Entries)
 
-术语知识库完整内容下沉到 `references/glossary.md`，以下是主要词条概览：
-
----
-
-**指标计算类**
-
-| 编号 | 术语 | 简短解释（每次出现时附带） | 知识库链接 |
-|------|------|------|------|
-| #001 | **BMI**（体质指数） | 体重(kg) ÷ 身高²(m)，衡量体重是否在健康范围，18.5-24.9为正常 | → 术语库 #001 |
-| #002 | **BMR**（基础代谢率） | 你完全静止时维持生命体征所需的最低热量，是热量计划的基础 | → 术语库 #002 |
-| #003 | **TDEE**（每日总能量消耗） | BMR × 活动系数，等于你每天实际消耗的总热量 | → 术语库 #003 |
-| #004 | **体脂率** | 体内脂肪质量占总体重的百分比，比BMI更准确反映体型 | → 术语库 #004 |
-
-**训练原则类**
-
-| 编号 | 术语 | 简短解释 | 知识库链接 |
-|------|------|------|------|
-| #005 | **渐进超负荷** | 每次训练逐渐增加重量/次数，是肌肉生长的核心原则 | → 术语库 #005 |
-| #006 | **RM / 1RM** | Repetition Maximum，某个重量下最多能做几次。1RM = 只能做1次的最大重量 | → 术语库 #006 |
-| #007 | **PR**（个人最佳） | Personal Record，你在某项运动上的历史最好成绩 | → 术语库 #007 |
-| #008 | **HIIT** | 高强度间歇训练，短时间高强度与休息交替，燃脂效率高 | → 术语库 #008 |
-| #009 | **EPOC 效应** | 运动后超额氧耗，俗称"后燃效应"，高强度训练后身体持续燃烧热量 | → 术语库 #009 |
-| #010 | **周期化训练** | 将训练按2-4周分为不同阶段（累积期/强化期/减量期），防止停滞 | → 术语库 #010 |
-| #011 | **乳酸阈值** | 你运动时开始大量积累乳酸的心率/强度节点，超过则无法持续 | → 术语库 #011 |
-| #012 | **臀推（Hip Thrust）** | 以肩背支撑的臀大肌专项动作，是激活臀大肌效率最高的动作之一 | → 术语库 #012 |
-| #013 | **复合动作 vs 孤立动作** | 复合：多关节参与（深蹲、硬拉）；孤立：单关节（二头弯举）。复合效率更高 | → 术语库 #013 |
-| #014 | **超负荷恢复** | 训练后48-72小时内，肌肉比训练前更强——休息与训练同等重要 | → 术语库 #014 |
-
-**营养类**
-
-| 编号 | 术语 | 简短解释 | 知识库链接 |
-|------|------|------|------|
-| #015 | **宏量营养素** | 蛋白质、碳水化合物、脂肪——三大供能物质 | → 术语库 #015 |
-| #016 | **蛋白质合成窗口** | 运动后30-60分钟内补充蛋白质效果最佳的时间段 | → 术语库 #016 |
-| #017 | **卡路里赤字** | 摄入热量 < 消耗热量，是减脂的唯一必要条件 | → 术语库 #017 |
-| #018 | **糖原** | 碳水化合物在肌肉和肝脏中的储存形式，是高强度运动的主要燃料 | → 术语库 #018 |
-| #019 | **Omega-3** | 一种不饱和脂肪酸，主要来源于深海鱼，具有抗炎和改善血管功能的作用 | → 术语库 #019 |
-| #020 | **热量循环（Calorie Cycling）** | 训练日高热量、休息日低热量的动态饮食策略，比固定热量更优 | → 术语库 #020 |
-
-**健康指标类**
-
-| 编号 | 术语 | 简短解释 | 知识库链接 |
-|------|------|------|------|
-| #021 | **HRmax（最大心率）** | 理论最大心率 = 220 - 年龄，用于制定有氧训练强度 | → 术语库 #021 |
-| #022 | **静息心率** | 完全放松状态下的心跳频率，心肺健康的重要指标（越低越好） | → 术语库 #022 |
-| #023 | **皮质醇** | 压力激素，长期过高会导致肌肉分解和脂肪堆积，与过度训练和睡眠不足相关 | → 术语库 #023 |
-| #024 | **睾酮** | 男性主要合成代谢激素，与肌肉生长、性功能、精力密切相关 | → 术语库 #024 |
-| #025 | **盆底肌** | 骨盆底部的肌肉群，对核心稳定性、性功能（男女均适用）至关重要 | → 术语库 #025 |
-| #026 | **过度训练综合征** | 训练量超过恢复能力时出现的疲劳、成绩下降、情绪低落等系列症状 | → 术语库 #026 |
-
-**性健康类（隐私模块，术语库独立章节）**
-
-| 编号 | 术语 | 简短解释 | 知识库链接 |
-|------|------|------|------|
-| #027 | **性功能与运动的关系** | 规律有氧运动显著改善勃起功能，力量训练提升睾酮，两者协同作用 | → 术语库 #027 |
-| #028 | **凯格尔运动** | 盆底肌收缩/放松练习，对男性前列腺健康和女性盆底恢复均有效 | → 术语库 #028 |
-
-**中医体质类（Dr. Chen 专属术语库）**
-
-| 编号 | 术语 | 简短解释 | 知识库链接 |
-|------|------|------|------|
-| #101 | **九种体质** | 中华中医药学会2009年颁布标准，将人体体质分为平和质和8种偏颇体质 | → 术语库 #101 |
-| #102 | **气虚质** | 元气不足，以疲劳乏力、气短懒言、舌有齿痕为特征的体质，宜柔缓运动 | → 术语库 #102 |
-| #103 | **阳虚质** | 阳气不足，以畏寒怕冷、手脚冰凉、舌淡胖为特征，是男性性功能偏弱的常见体质基础 | → 术语库 #103 |
-| #104 | **阴虚质** | 阴液亏损，以口干、手心热、舌红少苔为特征，忌大汗高温运动 | → 术语库 #104 |
-| #105 | **痰湿质** | 水液代谢失调，以体胖腹大、口黏腻、白腻苔为特征，减脂最难的体质 | → 术语库 #105 |
-| #106 | **湿热质** | 湿热内蕴，以面油、长痘、口苦、黄腻苔为特征，可承受较大运动强度 | → 术语库 #106 |
-| #107 | **血瘀质** | 血行不畅，以面色暗、易瘀青、舌有瘀点为特征，运动活血是最好疗法 | → 术语库 #107 |
-| #108 | **气郁质** | 气机郁滞，以情绪郁闷、爱叹气、胸肋胀为特征，须优先户外运动 | → 术语库 #108 |
-| #109 | **特禀质** | 先天禀赋不足的过敏体质，对外界刺激高度敏感 | → 术语库 #109 |
-| #110 | **舌诊** | 中医通过观察舌体颜色、形态、舌苔来判断体质和健康状态的诊断方法 | → 术语库 #110 |
-| #111 | **舌苔** | 舌面上的苔状覆盖物，反映消化系统和体内湿热状态；薄白为正常，厚腻提示痰湿 | → 术语库 #111 |
-| #112 | **齿痕舌** | 舌体边缘有牙齿压痕，提示气虚或痰湿，舌体偏胖撑满口腔所致 | → 术语库 #112 |
-| #113 | **药食同源** | 中医认为某些食物同时具有食用和药用价值，如山药补气、枸杞养阴、生姜温阳 | → 术语库 #113 |
-| #114 | **八段锦** | 中国传统健身功法，共八个动作，柔和舒缓，适合气虚质、阳虚质，增强元气 | → 术语库 #114 |
-| #115 | **五禽戏** | 模仿虎、鹿、熊、猿、鸟五种动物的中医功法，激发阳气效果好，适合阳虚质 | → 术语库 #115 |
-| #116 | **艾灸** | 用艾草燃烧产生热能刺激穴位，温阳散寒效果显著，适合阳虚质和气虚质 | → 术语库 #116 |
-| #117 | **关元穴** | 位于肚脐下三寸，是重要的补阳穴位，艾灸此穴可温补元阳，改善性功能 | → 术语库 #117 |
-| #118 | **足三里** | 位于膝盖下三寸，是最重要的补气强壮穴位，经常按摩可增强免疫力和体力 | → 术语库 #118 |
-| #119 | **二十四节气养生** | 中医顺应自然四时变化调整饮食和运动的养生方法，每个节气有对应的调养重点 | → 术语库 #119 |
-| #120 | **复合体质** | 同时具有两种或以上偏颇体质特征，如"气虚+阳虚"，比单纯体质更为常见（约占人群95%） | → 术语库 #120 |
-
-### 8.3 术语知识库使用规则
-
-```
-规则 1：首次出现必须解释
-首次在对话中提到某术语时，必须在括号内附简短解释。
-例："你的 TDEE（每日总能量消耗，约2200kcal）显示..."
-
-规则 2：后续出现附库链接
-同一对话中再次提到时，附"→ 术语库 #XXX"提示。
-
-规则 3：用户可随时查询
-用户说"解释一下XXX"或"查术语库"，立即打开对应词条完整解释。
-
-规则 4：新术语自动入库
-遇到用户提到的新术语（如某种他从网上看到的训练方法），
-Analyst Ray 负责将其收录入知识库并解释。
-```
+The complete terminology knowledge base is moved into `references/glossary.md`; below is an overview of the main entries.
 
 ---
 
-## 9. 每日汇报与智能记录机制
+**Metric Calculation Terms**
 
-### 9.1 汇报处理流程
+| No. | Term | Brief explanation (attached whenever it appears) | Knowledge-base link |
+|------|------|------|------|
+| #001 | **BMI** (Body Mass Index) | Weight (kg) ÷ height² (m), used to assess whether weight is in a healthy range; 18.5-24.9 is normal | → Terminology #001 |
+| #002 | **BMR** (Basal Metabolic Rate) | Minimum calories needed to maintain vital signs at complete rest; the basis of calorie planning | → Terminology #002 |
+| #003 | **TDEE** (Total Daily Energy Expenditure) | BMR x activity factor; total actual calories burned each day | → Terminology #003 |
+| #004 | **Body Fat Percentage** | Percentage of body fat mass in total body weight; reflects body shape more accurately than BMI | → Terminology #004 |
+
+**Training Principle Terms**
+
+| No. | Term | Brief explanation | Knowledge-base link |
+|------|------|------|------|
+| #005 | **Progressive Overload** | Gradually increasing load/reps each session; core principle for muscle growth | → Terminology #005 |
+| #006 | **RM / 1RM** | Repetition Maximum; the most reps possible at a given weight. 1RM = maximum weight for one rep | → Terminology #006 |
+| #007 | **PR** (Personal Record) | Your historical best result in a sport or exercise | → Terminology #007 |
+| #008 | **HIIT** | High-intensity interval training, alternating short bursts of high intensity with rest; efficient for fat burning | → Terminology #008 |
+| #009 | **EPOC Effect** | Excess post-exercise oxygen consumption, also called the afterburn effect; body continues burning calories after high-intensity training | → Terminology #009 |
+| #010 | **Periodized Training** | Dividing training into 2-4 week phases (accumulation/intensification/deload) to prevent stagnation | → Terminology #010 |
+| #011 | **Lactate Threshold** | Heart-rate/intensity point where lactate starts accumulating rapidly and effort becomes unsustainable | → Terminology #011 |
+| #012 | **Hip Thrust** | Gluteus maximus specialty movement supported by the shoulders/back; one of the most efficient glute activation exercises | → Terminology #012 |
+| #013 | **Compound vs Isolation Movement** | Compound: multiple joints (squat, deadlift); isolation: single joint (biceps curl). Compound is more efficient | → Terminology #013 |
+| #014 | **Supercompensation Recovery** | Within 48-72 hours after training, muscles become stronger than before; rest is as important as training | → Terminology #014 |
+
+**Nutrition Terms**
+
+| No. | Term | Brief explanation | Knowledge-base link |
+|------|------|------|------|
+| #015 | **Macronutrients** | Protein, carbohydrates, and fat — the three major energy-providing nutrients | → Terminology #015 |
+| #016 | **Protein Synthesis Window** | Best time window for protein intake after exercise, usually 30-60 minutes | → Terminology #016 |
+| #017 | **Calorie Deficit** | Calories consumed < calories burned; the only necessary condition for fat loss | → Terminology #017 |
+| #018 | **Glycogen** | Storage form of carbohydrates in muscles and liver; main fuel for high-intensity exercise | → Terminology #018 |
+| #019 | **Omega-3** | Unsaturated fatty acid mainly from deep-sea fish, with anti-inflammatory and vascular benefits | → Terminology #019 |
+| #020 | **Calorie Cycling** | Dynamic dietary strategy: higher calories on training days, lower calories on rest days | → Terminology #020 |
+
+**Health Indicator Terms**
+
+| No. | Term | Brief explanation | Knowledge-base link |
+|------|------|------|------|
+| #021 | **HRmax** (Maximum Heart Rate) | Theoretical maximum heart rate = 220 - age; used for aerobic training intensity | → Terminology #021 |
+| #022 | **Resting Heart Rate** | Heart rate at complete rest; important cardiopulmonary health indicator (lower is generally better) | → Terminology #022 |
+| #023 | **Cortisol** | Stress hormone; chronically high levels can cause muscle breakdown and fat accumulation | → Terminology #023 |
+| #024 | **Testosterone** | Main male anabolic hormone, closely related to muscle growth, sexual function, and energy | → Terminology #024 |
+| #025 | **Pelvic Floor Muscles** | Muscles at the bottom of the pelvis, important for core stability and sexual function in both men and women | → Terminology #025 |
+| #026 | **Overtraining Syndrome** | Fatigue, performance decline, low mood, and other symptoms when training exceeds recovery capacity | → Terminology #026 |
+
+**Sexual Health Terms (private module, separate terminology chapter)**
+
+| No. | Term | Brief explanation | Knowledge-base link |
+|------|------|------|------|
+| #027 | **Relationship Between Sexual Function and Exercise** | Regular aerobic exercise improves erectile function, strength training improves testosterone, and the two work synergistically | → Terminology #027 |
+| #028 | **Kegel Exercise** | Pelvic-floor contraction/relaxation practice, effective for male prostate health and female pelvic-floor recovery | → Terminology #028 |
+
+**TCM Constitution Terms (Dr. Chen's exclusive terminology base)**
+
+| No. | Term | Brief explanation | Knowledge-base link |
+|------|------|------|------|
+| #101 | **Nine Constitutions** | 2009 China Association of Chinese Medicine standard dividing constitutions into balanced plus eight biased types | → Terminology #101 |
+| #102 | **Qi-Deficiency Constitution** | Insufficient original qi; fatigue, shortness of breath, teeth-marked tongue; gentle exercise recommended | → Terminology #102 |
+| #103 | **Yang-Deficiency Constitution** | Insufficient yang qi; cold aversion, cold hands/feet, pale swollen tongue; common basis for weaker male sexual function | → Terminology #103 |
+| #104 | **Yin-Deficiency Constitution** | Depleted yin fluids; dry mouth, hot palms, red tongue with little coating; avoid heavy sweating and high heat | → Terminology #104 |
+| #105 | **Phlegm-Dampness Constitution** | Disordered fluid metabolism; abdominal obesity, sticky mouth, white greasy coating; hardest constitution for fat loss | → Terminology #105 |
+| #106 | **Damp-Heat Constitution** | Internal damp-heat; oily face, acne, bitter mouth, yellow greasy coating; can tolerate higher exercise intensity | → Terminology #106 |
+| #107 | **Blood-Stasis Constitution** | Poor blood movement; dull complexion, bruising, stasis spots; exercise is the best blood-moving therapy | → Terminology #107 |
+| #108 | **Qi-Stagnation Constitution** | Stagnant qi movement; depressed mood, sighing, chest/rib distension; prioritize outdoor exercise | → Terminology #108 |
+| #109 | **Special-Diathesis Constitution** | Congenital allergic constitution; highly sensitive to external stimuli | → Terminology #109 |
+| #110 | **Tongue Diagnosis** | TCM diagnostic method observing tongue color, shape, and coating to judge constitution and health state | → Terminology #110 |
+| #111 | **Tongue Coating** | Moss-like covering on the tongue surface, reflecting digestion and internal damp-heat; thin white is normal, thick greasy suggests phlegm-dampness | → Terminology #111 |
+| #112 | **Teeth-Marked Tongue** | Tooth marks on tongue edge, suggesting qi deficiency or phlegm-dampness | → Terminology #112 |
+| #113 | **Medicine-Food Homology** | Some foods have both edible and medicinal value, such as yam for qi, goji for yin, and ginger for yang | → Terminology #113 |
+| #114 | **Baduanjin** | Traditional Chinese exercise with eight movements; gentle and suitable for qi/yang-deficiency constitutions | → Terminology #114 |
+| #115 | **Wuqinxi** | TCM exercise imitating five animals; good for stimulating yang qi and suitable for yang deficiency | → Terminology #115 |
+| #116 | **Moxa** | Mugwort heat stimulation of acupoints; warms yang and dispels cold, suitable for yang/qi deficiency | → Terminology #116 |
+| #117 | **Guanyuan Acupoint** | Three cun below the navel; important yang-tonifying point, moxa may improve sexual function | → Terminology #117 |
+| #118 | **Zusanli** | Three cun below the knee; key qi-tonifying strengthening point, massage can improve immunity and stamina | → Terminology #118 |
+| #119 | **24 Solar-Term Health Preservation** | TCM method of adjusting diet and exercise according to seasonal natural changes | → Terminology #119 |
+| #120 | **Compound Constitution** | Two or more biased constitution features at the same time, such as qi deficiency + yang deficiency; more common than pure constitutions | → Terminology #120 |
+
+### 8.3 Terminology Knowledge Base Usage Rules
 
 ```
-用户说："今天跑了5公里，用了32分钟，感觉有点累"
+Rule 1: First appearance must be explained
+When a term first appears in conversation, include a short explanation in parentheses.
+Example: "Your TDEE (total daily energy expenditure, about 2200kcal) shows..."
+
+Rule 2: Later appearances include knowledge-base link
+When the same term appears again in the same conversation, include "→ Terminology #XXX".
+
+Rule 3: User can query anytime
+If the user says "explain XXX" or "view terminology base", immediately open the corresponding full entry.
+
+Rule 4: New terms automatically enter the base
+When users mention new terms (for example, a training method they saw online), Analyst Ray records it into the knowledge base and explains it.
+```
+
+---
+
+## 9. Daily Check-in and Smart Logging Mechanism
+
+### 9.1 Check-in Processing Flow
+
+```
+User says: "I ran 5 kilometers today in 32 minutes and felt a little tired"
         ↓
-Step 1：[Analyst Ray] 解析结构化数据
-        - 运动类型：跑步
-        - 距离：5km
-        - 时长：32分钟
-        - 配速：6'24"/km
-        - 状态：疲劳
+Step 1: [Analyst Ray] Parse structured data
+        - Exercise type: running
+        - Distance: 5km
+        - Duration: 32 minutes
+        - Pace: 6'24"/km
+        - State: fatigued
 
-Step 2：检查信息完整性（主动追问机制）
-        - 心率是否有记录？→ 如无，询问主观强度（1-10）
-        - 是否完成了今日计划？→ 对比昨日 Coach Alex 的计划
-        - 今天的饮食是否正常？→ 如未汇报，询问
+Step 2: Check information completeness (active follow-up mechanism)
+        - Was heart rate recorded? → if not, ask subjective intensity (1-10)
+        - Did this complete today's plan? → compare with Coach Alex's plan from yesterday
+        - Was today's diet normal? → if not reported, ask
 
-Step 3：数据存储到持久化记录
+Step 3: Store data into persistent records
 
-Step 4：三线即时反馈
-        [Coach Alex] 分析训练质量 + 明日建议
-        [Dr. Mei] 训练后营养建议
-        [Analyst Ray] 数据更新通知 + 阶段进度
+Step 4: Immediate three-line feedback
+        [Coach Alex] Analyze training quality + tomorrow's advice
+        [Dr. Mei] Post-training nutrition advice
+        [Analyst Ray] Data update notice + stage progress
 
-Step 5：预告明日计划
+Step 5: Preview tomorrow's plan
 ```
 
-### 9.2 主动追问规则
+### 9.2 Active Follow-up Rules
 
-**不清楚的信息一定要追问，不允许用猜测填充数据：**
-
-```
-信息模糊示例 → 追问方式：
-
-用户："今天练了胸"
-追问："好的！胸部训练记录一下——做了哪些动作？
-      每个动作几组 × 几次，重量大概是多少？
-      （如果不记得精确数字，大概说一下也可以）"
-
-用户："今天吃得不太好"
-追问："能说说具体吃了什么吗？大概的分量也行。
-      这样 Dr. Mei 可以帮你评估营养缺口。"
-
-用户："感觉最近有进步"
-追问："这个进步具体体现在哪里？比如配速变快了、
-      重量增加了、还是体重有变化？这样我可以帮你
-      量化记录下来作为里程碑。"
-```
-
-### 9.3 每日汇报完整模板（Analyst Ray 引导用户填写）
+**Unclear information must be followed up; guessing is not allowed:**
 
 ```
-📋 今日健康日志（可部分填写，未填写项可跳过）
+Vague information example → follow-up method:
 
-运动情况：
-├── 今天运动了吗？（是/否）
-├── 运动类型 + 具体数据
-└── 主观强度评分（1-10，10为最累）
+User: "I trained chest today"
+Follow-up: "Great! Let's record the chest training — which movements did you do?
+      How many sets x reps for each movement, and about what weight?
+      (If you do not remember exact numbers, approximate is okay.)"
 
-身体状态：
-├── 今日体重（kg）——可选，建议晨起空腹测量
-├── 精力水平（1-10）
-├── 睡眠时长 & 质量（1-10）
-└── 肌肉酸痛部位（如有）
+User: "I didn't eat very well today"
+Follow-up: "Can you say specifically what you ate? Approximate portions are fine.
+      This allows Dr. Mei to evaluate your nutrition gap."
 
-饮食记录：
-├── 三餐大致内容（不需要精确克重，描述即可）
-├── 是否达到蛋白质目标？
-└── 饮水量（杯/升）
-
-其他：
-├── 今日压力/情绪状态（影响恢复评估）
-└── 任何想告诉 AI 的身体变化或问题
+User: "I feel like I've improved recently"
+Follow-up: "Where exactly does this improvement show? For example, faster pace,
+      heavier weights, or weight change? This lets me quantify it as a milestone."
 ```
 
-### 9.4 异常情况主动识别
-
-Analyst Ray 需要在以下情况下主动发出预警：
+### 9.3 Complete Daily Check-in Template (Analyst Ray Guides User Filling)
 
 ```
-⚠️ 体重异常：3天内变化超过 1.5kg（可能是水分波动或数据错误）
-⚠️ 训练中断：超过 5 天未记录任何运动
-⚠️ 疲劳积累：连续 3 天主观强度评分 ≥ 8
-⚠️ 体重停滞：连续 3 周体重无变化（进入平台期）
-⚠️ 营养不足：连续 5 天蛋白质摄入低于目标的 70%
-⚠️ 睡眠问题：连续 3 天睡眠评分 < 5
+📋 Today's health log (can be partially filled; skipped items are allowed)
+
+Exercise:
+├── Did you exercise today? (yes/no)
+├── Exercise type + specific data
+└── Subjective intensity score (1-10, 10 = most tiring)
+
+Physical state:
+├── Today's weight (kg) — optional, recommended after waking on an empty stomach
+├── Energy level (1-10)
+├── Sleep duration & quality (1-10)
+└── Muscle soreness areas (if any)
+
+Diet record:
+├── Approximate contents of three meals (exact grams not needed, description is enough)
+├── Did you reach the protein target?
+└── Water intake (cups/liters)
+
+Other:
+├── Today's stress/emotional state (affects recovery evaluation)
+└── Any body changes or issues you want to tell the AI
 ```
 
----
+### 9.4 Active Identification of Abnormal Situations
 
-## 10. 隐私健康数据模块（性健康）
-
-### 10.1 模块定位
-
-性健康数据属于最高隐私级别数据，本模块遵循以下原则：
-
-- **完全可选**：用户可以选择不填写，不影响其他功能
-- **独立存储**：性健康数据存储在独立的加密标记 key 下（`private_sexual_health`）
-- **专业视角**：以健康管理和运动优化的角度讨论，不涉及道德评价
-- **用途说明**：此数据主要用于帮助 Coach Alex 优化训练计划（如性生活后腰痛 → 需加强腰背部稳定性训练），以及 Dr. Mei 优化营养建议
-
-### 10.2 性健康数据录入项目
+Analyst Ray needs to proactively warn in these situations:
 
 ```
-基础性健康状态（建档时收集，可随时更新）：
-
-性生活频率：
-├── 近 1 个月大概每周几次？
-└── 是否规律稳定？
-
-性生活后身体反应：
-├── 性生活后是否有腰部疼痛？（位置：下腰 / 臀部 / 大腿）
-├── 性生活后是否感觉明显疲劳？（影响次日训练评估）
-├── 性生活后是否有其他不适？
-
-性功能自评（男性）：
-├── 勃起功能自评（1-10）
-├── 是否有勃起功能问题？（偶尔 / 经常）
-├── 晨勃频率（正常 / 减少 / 无）
-└── 是否有前列腺相关症状（排尿问题等）
-
-性功能自评（女性）：
-├── 是否有盆底肌问题（漏尿等，尤其产后）
-├── 月经规律程度（对训练和营养计划有影响）
-├── 月经期间运动是否有不适
-└── 是否在哺乳期（影响营养需求）
-
-补充信息：
-└── 是否服用与性功能相关的药物？（如伟哥/西地那非、避孕药等）
-    （影响 Dr. Mei 的营养建议和 Coach Alex 的强度把握）
-```
-
-### 10.3 性健康数据的使用方式
-
-```
-[Coach Alex] 基于性健康数据的训练调整：
-- 如腰痛：增加腰背稳定性训练（死虫式、鸟狗式、超人式）
-- 如性生活后疲劳影响训练：将高强度训练日避开高频性生活日
-- 男性功能强化目标：激活 M2 专项训练方案（见第6节）
-- 女性盆底问题：加入凯格尔运动和盆底激活训练
-
-[Dr. Mei] 基于性健康数据的营养调整：
-- 男性睾酮支持：锌、维生素D、Omega-3 优化方案
-- 女性月经周期营养：铁、镁的周期性补充
-- 避孕药用户：叶酸和维生素B6额外补充建议
-```
-
-### 10.4 每日性健康汇报（可选项）
-
-用户可在每日汇报中选择性填写：
-
-```
-今日性健康记录（完全可选）：
-├── 昨晚/今天是否有性生活？（影响今日训练强度安排）
-├── 如有，身体感受如何？（有无腰痛、疲劳加重等）
-└── 其他想记录的性健康相关变化
+⚠️ Weight anomaly: change over 1.5kg within 3 days (may be water fluctuation or data error)
+⚠️ Training interruption: no exercise recorded for over 5 days
+⚠️ Fatigue accumulation: subjective intensity score ≥ 8 for 3 consecutive days
+⚠️ Weight plateau: no weight change for 3 consecutive weeks
+⚠️ Nutrition insufficiency: protein intake below 70% of target for 5 consecutive days
+⚠️ Sleep issue: sleep score < 5 for 3 consecutive days
 ```
 
 ---
 
-## 11. 数据存储方案（精细化 Schema）
+## 10. Private Health Data Module (Sexual Health)
 
-### 11.1 存储分层架构
+### 10.1 Module Positioning
+
+Sexual health data belongs to the highest privacy level. This module follows these principles:
+
+- **Completely optional:** users can choose not to fill it in, without affecting other features
+- **Independent storage:** sexual health data is stored under an independent encrypted-flag key (`private_sexual_health`)
+- **Professional perspective:** discussion is from health management and exercise optimization, without moral judgment
+- **Purpose explanation:** this data mainly helps Coach Alex optimize training plans (for example, low back pain after sex → strengthen lumbar/back stability) and helps Dr. Mei optimize nutrition advice
+
+### 10.2 Sexual Health Data Entry Items
 
 ```
-存储层级       Key 格式                    内容
-─────────────────────────────────────────────────────
-用户档案层     profile                     完整建档信息
-              profile_fitness_baseline    体测基准数据
-              profile_health_history      健康史（用药/疾病）
-              private_sexual_health       性健康数据（独立加密标记）
+Basic sexual health status (collected during profile creation, can be updated anytime):
 
-每日记录层     daily:YYYY-MM-DD            当日综合日志
-              workout:YYYY-MM-DD:N        当日第N次运动（可多条）
-              nutrition:YYYY-MM-DD        当日饮食记录
-              metrics:YYYY-MM-DD          当日身体指标
+Sexual activity frequency:
+├── About how many times per week in the last month?
+└── Is it regular and stable?
 
-成绩追踪层     pr:{exercise_id}            各项目 PR 记录
-              glossary                    术语知识库（用户自定义词条）
+Physical reaction after sexual activity:
+├── Any low back pain after sexual activity? (location: lower back / glutes / thighs)
+├── Obvious fatigue after sexual activity? (affects next-day training evaluation)
+├── Any other discomfort after sexual activity?
 
-统计缓存层     weekly_summary:YYYY-WXX     周统计缓存
-              monthly_summary:YYYY-MM     月统计缓存
-              achievements                成就系统记录
+Sexual function self-rating (male):
+├── Erectile function self-rating (1-10)
+├── Any erectile function issue? (occasional / frequent)
+├── Morning erection frequency (normal / reduced / none)
+└── Any prostate-related symptoms (urination issues, etc.)
+
+Sexual function self-rating (female):
+├── Any pelvic floor muscle issues (urinary leakage, etc., especially postpartum)?
+├── Menstrual regularity (affects training and nutrition plans)
+├── Any discomfort exercising during menstruation?
+└── Breastfeeding period? (affects nutrition needs)
+
+Supplementary information:
+└── Are you taking any medication related to sexual function? (such as Viagra/sildenafil, contraceptive pills, etc.)
+    (Affects Dr. Mei's nutrition advice and Coach Alex's intensity control)
 ```
 
-### 11.2 关键 Schema 定义
+### 10.3 How Sexual Health Data Is Used
+
+```
+[Coach Alex] Training adjustments based on sexual health data:
+- If low back pain: increase lumbar/back stability training (dead bug, bird dog, superman)
+- If post-sex fatigue affects training: avoid scheduling high-intensity training on high-frequency sexual activity days
+- Male function strengthening goal: activate M2 specialty training plan (see section 6)
+- Female pelvic floor issues: add Kegel exercises and pelvic floor activation training
+
+[Dr. Mei] Nutrition adjustments based on sexual health data:
+- Male testosterone support: zinc, vitamin D, Omega-3 optimization plan
+- Female menstrual-cycle nutrition: periodic iron and magnesium supplementation
+- Contraceptive pill users: extra folate and vitamin B6 advice
+```
+
+### 10.4 Daily Sexual Health Check-in (Optional)
+
+Users may choose to fill this in during daily check-ins:
+
+```
+Today's sexual health record (completely optional):
+├── Sexual activity last night/today? (affects today's training intensity arrangement)
+├── If yes, how did your body feel? (any low back pain, increased fatigue, etc.)
+└── Other sexual-health-related changes to record
+```
+
+---
+
+## 11. Data Storage Plan (Fine-Grained Schema)
+
+### 11.1 Storage Layered Architecture
+
+```
+Storage layer       Key format                    Content
+────────────────────────────────────────────────────
+User profile layer  profile                       Complete profile information
+                   profile_fitness_baseline      Fitness baseline data
+                   profile_health_history        Health history (medication/illness)
+                   private_sexual_health         Sexual health data (independent encrypted flag)
+
+Daily record layer  daily:YYYY-MM-DD              Integrated daily log
+                   workout:YYYY-MM-DD:N          Nth workout of the day (multiple allowed)
+                   nutrition:YYYY-MM-DD          Diet record of the day
+                   metrics:YYYY-MM-DD            Body metrics of the day
+
+Performance layer   pr:{exercise_id}              PR records for each item
+                   glossary                      Terminology knowledge base (user-defined entries)
+
+Statistics cache    weekly_summary:YYYY-WXX       Weekly statistics cache
+                   monthly_summary:YYYY-MM       Monthly statistics cache
+                   achievements                  Achievement system records
+```
+
+### 11.2 Key Schema Definitions
 
 ```javascript
-// ===== 用户档案（核心档案）=====
+// ===== User profile (core profile) =====
 storage.set('profile', {
   created_at: "2026-03-16",
   updated_at: "2026-03-16",
-  nickname: "用户昵称",
+  nickname: "user nickname",
   gender: "male",           // male / female / other
   age: 28,
   height_cm: 175,
   weight_kg: 70.5,
-  body_fat_pct: 18.5,       // 可选
-  waist_cm: 82,             // 可选
-  hip_cm: 96,               // 可选
+  body_fat_pct: 18.5,       // optional
+  waist_cm: 82,             // optional
+  hip_cm: 96,               // optional
 
-  // 计算值（建档时自动生成）
+  // Calculated values (automatically generated during profile creation)
   bmi: 23.0,
   bmr: 1780,
   tdee: 2490,
   activity_level: "moderate",  // sedentary/light/moderate/active/very_active
 
-  // 目标
+  // Goals
   primary_goal: "fat_loss",    // fat_loss/muscle_gain/maintain/performance/sexual_health
   secondary_goals: ["glute_shape", "cardio"],
   target_weight_kg: 65,
   goal_deadline: "2026-09-16",
 
-  // 资源
+  // Resources
   has_gym: true,
   equipment: ["dumbbells", "resistance_bands", "yoga_mat"],
   weekly_workout_days: 4,
   session_duration_min: 60,
   preferred_time: "evening",
 
-  // 饮食
+  // Diet
   diet_type: "omnivore",      // omnivore/vegetarian/vegan/pescatarian
   food_allergies: [],
   alcohol_weekly: "occasional",
 
-  // 工作与生活
+  // Work and life
   work_type: "sedentary",
   stress_level: 6,
   sleep_target_hours: 7.5
 })
 
-// ===== 健康史档案 =====
+// ===== Health history profile =====
 storage.set('profile_health_history', {
   medications: [
     {
-      name: "X药",
-      category: "降压药",
+      name: "Drug X",
+      category: "antihypertensive",
       start_date: "2024-06",
       status: "ongoing",
-      purpose: "高血压",
-      notes: "影响运动强度上限，需控制心率"
+      purpose: "hypertension",
+      notes: "affects upper limit of exercise intensity; heart rate must be controlled"
     }
   ],
   diseases: [
     {
-      name: "轻度腰椎间盘突出",
+      name: "mild lumbar disc herniation",
       diagnosed_date: "2024-03",
       status: "managed",
-      impact_on_training: "避免高负荷脊椎压缩动作"
+      impact_on_training: "avoid high-load spinal compression movements"
     }
   ],
   surgeries: [],
   chronic_conditions: ["hypertension"],
   allergies: {
-    food: ["坚果"],
+    food: ["nuts"],
     medication: []
   }
 })
 
-// ===== 体测基准数据 =====
+// ===== Fitness baseline data =====
 storage.set('profile_fitness_baseline', {
   test_date: "2026-03-16",
   cardio: {
-    run_1500m_sec: null,       // 秒
-    run_2km_sec: 720,          // 12分钟
-    step_test_recovery_hr: 95  // 踏步测试后1分钟心率
+    run_1500m_sec: null,       // seconds
+    run_2km_sec: 720,          // 12 minutes
+    step_test_recovery_hr: 95  // heart rate 1 minute after step test
   },
   upper_body: {
-    pushup_max: 22,             // 个（标准姿势）
+    pushup_max: 22,             // reps (standard form)
     pushup_type: "standard",   // standard / knee
     pullup_max: 5,
     dumbbell_curl_max_kg: 14
@@ -1452,36 +1400,36 @@ storage.set('profile_fitness_baseline', {
     single_leg_squat_can_do: false
   },
   flexibility: {
-    seated_reach_cm: -3,       // 负值表示够不到脚尖
+    seated_reach_cm: -3,       // negative means cannot reach toes
     shoulder_clasp_can_do: false
   }
 })
 
-// ===== 性健康档案（独立加密标记）=====
+// ===== Sexual health profile (independent encrypted flag) =====
 storage.set('private_sexual_health', {
-  privacy_confirmed: true,     // 用户明确同意记录
+  privacy_confirmed: true,     // user explicitly agrees to record
   last_updated: "2026-03-16",
 
-  // 男性专项
+  // Male-specific
   male_data: {
     frequency_weekly: 2,
-    post_sex_lower_back_pain: true,  // 性后腰痛
+    post_sex_lower_back_pain: true,  // low back pain after sex
     post_sex_fatigue_level: 4,       // 1-10
-    erectile_function_score: 7,     // 1-10 自评
+    erectile_function_score: 7,      // 1-10 self-rating
     morning_erection_frequency: "occasional",
     prostate_symptoms: false,
-    medications: []                  // 如服用相关药物
+    medications: []                  // related medications if any
   },
 
-  // 女性专项
+  // Female-specific
   female_data: null,
 
-  // 通用
+  // General
   goals_related: ["improve_male_function", "reduce_back_pain"],
-  notes: "性生活后次日腰部明显不适，需重点训练腰背稳定性"
+  notes: "obvious low back discomfort the day after sexual activity; focus on lumbar/back stability training"
 })
 
-// ===== 每日综合日志 =====
+// ===== Integrated daily log =====
 storage.set('daily:2026-03-16', {
   date: "2026-03-16",
   metrics: {
@@ -1494,11 +1442,11 @@ storage.set('daily:2026-03-16', {
   },
   workout_ids: ["workout:2026-03-16:1"],
   nutrition_logged: true,
-  daily_note: "今天状态还不错，但下午有点困",
-  sexual_health_note: null    // 可选
+  daily_note: "felt pretty good today, but a little sleepy in the afternoon",
+  sexual_health_note: null    // optional
 })
 
-// ===== 运动记录（精细化）=====
+// ===== Exercise record (fine-grained) =====
 storage.set('workout:2026-03-16:1', {
   date: "2026-03-16",
   session_number: 1,
@@ -1507,7 +1455,7 @@ storage.set('workout:2026-03-16:1', {
   duration_min: 55,
   exercises: [
     {
-      name: "哑铃卧推",
+      name: "Dumbbell Bench Press",
       name_en: "Dumbbell Bench Press",
       muscle_groups: ["chest", "triceps", "anterior_deltoid"],
       sets: [
@@ -1518,16 +1466,16 @@ storage.set('workout:2026-03-16:1', {
       is_pr: false
     }
   ],
-  perceived_exertion: 7,    // RPE 1-10 ——→ [术语库 #029]
+  perceived_exertion: 7,     // RPE 1-10 — → [Terminology #029]
   heart_rate_avg: null,
   calories_burned_est: 320,
-  coach_plan_followed: true,  // 是否按 Coach Alex 计划执行
+  coach_plan_followed: true, // whether Coach Alex's plan was followed
   deviation_note: null
 })
 
-// ===== PR 记录 =====
+// ===== PR record =====
 storage.set('pr:pushup', {
-  exercise: "俯卧撑",
+  exercise: "push-up",
   current_best: { value: 22, unit: "reps", date: "2026-03-16" },
   history: [
     { value: 18, date: "2026-02-01" },
@@ -1537,355 +1485,341 @@ storage.set('pr:pushup', {
 })
 ```
 
-### 11.3 数据隐私保护
+### 11.3 Data Privacy Protection
 
 ```
-数据保护措施：
-├── 所有数据：shared: false（仅当前用户可见）
-├── 性健康数据：独立 key（private_*），需二次确认才读取
-├── 用户随时可执行"导出我的数据"获取全部原始数据
-├── 用户随时可执行"清除健康数据"完全重置
-└── 在首次建档时明确告知：哪些数据存储在哪里，用于什么目的
+Data protection measures:
+├── All data: shared: false (visible only to the current user)
+├── Sexual health data: independent key (private_*), requires secondary confirmation before reading
+├── User can execute "export my data" at any time to obtain all raw data
+├── User can execute "clear health data" at any time for a complete reset
+└── During first profile creation, clearly explain which data is stored where and for what purpose
 ```
 
 ---
 
-## 12. 精细化模块化文件结构
+## 12. Fine-Grained Modular File Structure
 
-### 12.1 目录结构全览
+### 12.1 Full Directory Structure Overview
 
 ```
 healthfit/
-├── SKILL.md                              # 主入口（≤ 400行，轻量路由层）
+├── SKILL.md                              # Main entry (≤ 400 lines, lightweight routing layer)
 │
-├── agents/                               # 四线角色独立指令文件
-│   ├── coach_alex.md                     # Coach Alex 完整人格、职责、话术规范
-│   ├── dr_mei.md                         # Dr. Mei 完整人格、职责、话术规范
-│   ├── analyst_ray.md                    # Analyst Ray 完整人格、职责、话术规范
-│   └── dr_chen.md                        # Dr. Chen 完整人格、职责、中医问诊流程【新增】
+├── agents/                               # Independent instruction files for four role lines
+│   ├── coach_alex.md                     # Coach Alex complete persona, responsibilities, wording rules
+│   ├── dr_mei.md                         # Dr. Mei complete persona, responsibilities, wording rules
+│   ├── analyst_ray.md                    # Analyst Ray complete persona, responsibilities, wording rules
+│   └── dr_chen.md                        # Dr. Chen complete persona, responsibilities, TCM consultation flow [New]
 │
-├── references/                           # 核心参考文档（按需加载）
-│   ├── onboarding.md                     # 完整西医建档流程（分阶段问题脚本）
-│   ├── onboarding_tcm.md                 # 中医体质辨识建档流程（三轮问诊脚本）【新增】
-│   ├── onboarding_sexual_health.md       # 性健康建档专项（独立文件）
-│   ├── male_training.md                  # 男性专项训练库（M1-M5全方案）
-│   ├── female_training.md                # 女性专项训练库（F1-F6全方案）
-│   ├── nutrition_guidelines.md           # 营养计算公式与建议框架
-│   ├── nutrition_male.md                 # 男性专项营养（睾酮支持、性功能营养）
-│   ├── nutrition_female.md               # 女性专项营养（月经周期、产后等）
-│   ├── tcm_constitution.md               # 九种体质完整方案（运动+食疗+穴位）【新增】
-│   ├── tcm_seasons.md                    # 二十四节气养生完整指引【新增】
-│   ├── tcm_tongue_guide.md               # 舌象完整判断指南（含舌色/舌苔/形态对照表）【新增】
-│   ├── exercise_library.md               # 动作库（200+动作 + 传统功法，含中英文名）
-│   ├── storage_schema.md                 # 完整数据存储 Schema 定义
-│   ├── glossary_western.md               # 西医术语知识库完整版（#001-#028）
-│   ├── glossary_tcm.md                   # 中医术语知识库完整版（#101-#120）【新增】
-│   └── response_templates.md            # 四角色标准回复模板
+├── references/                           # Core reference documents (loaded as needed)
+│   ├── onboarding.md                     # Complete Western profile creation flow (staged question script)
+│   ├── onboarding_tcm.md                 # TCM constitution profile creation flow (three-round consultation script) [New]
+│   ├── onboarding_sexual_health.md       # Sexual health profile specialty (independent file)
+│   ├── male_training.md                  # Male-specific training library (full M1-M5 plans)
+│   ├── female_training.md                # Female-specific training library (full F1-F6 plans)
+│   ├── nutrition_guidelines.md           # Nutrition calculation formulas and advice framework
+│   ├── nutrition_male.md                 # Male-specific nutrition (testosterone support, sexual-function nutrition)
+│   ├── nutrition_female.md               # Female-specific nutrition (menstrual cycle, postpartum, etc.)
+│   ├── tcm_constitution.md               # Complete nine-constitution plans (exercise + food therapy + acupoints) [New]
+│   ├── tcm_seasons.md                    # Complete 24 solar-term health-preservation guide [New]
+│   ├── tcm_tongue_guide.md               # Complete tongue-image judgment guide (tongue color/coating/shape comparison table) [New]
+│   ├── exercise_library.md               # Exercise library (200+ movements + traditional exercises, Chinese/English names)
+│   ├── storage_schema.md                 # Complete data storage Schema definitions
+│   ├── glossary_western.md               # Complete Western terminology base (#001-#028)
+│   ├── glossary_tcm.md                   # Complete TCM terminology base (#101-#120) [New]
+│   └── response_templates.md             # Standard response templates for four roles
 │
 └── assets/
-    ├── fitness_baseline_test.md          # 体测标准操作流程（用户可查阅）
-    ├── tongue_self_exam_guide.md         # 舌象自检图文说明（引导用户正确观察）【新增】
-    └── achievement_milestones.md         # 成就系统里程碑清单
+    ├── fitness_baseline_test.md          # Fitness test standard operating procedure (user-readable)
+    ├── tongue_self_exam_guide.md         # Tongue-image self-exam visual/text instructions [New]
+    └── achievement_milestones.md         # Achievement system milestone list
 ```
 
-> **文件总计：** 22个文件（v2.0 为15个），新增7个中医相关文件。主 SKILL.md 保持轻量（≤400行），所有内容均有明确的下沉子文件。
+> **File total:** 22 files (v2.0 had 15), with 7 new TCM-related files. Main `SKILL.md` stays lightweight (≤400 lines), and all content has explicit subfiles.
 
-### 12.2 主 SKILL.md 的结构（轻量路由原则）
+### 12.2 Main SKILL.md Structure (Lightweight Routing Principle)
 
-主文件只做三件事：**角色路由、模块加载指引、触发机制**。所有详细内容均下沉到子文件。
+The main file does only three things: **role routing, module loading guidance, and trigger mechanism**. All detailed content is moved into subfiles.
 
 ```markdown
 ---
 name: healthfit
-description: 个人全维度健康管理 Skill，中西医融合。
-  用户说"调用healthfit"、"健身助手"、"帮我制定运动计划"、
-  "记录今天的运动"、"营养建议"、"查看我的健康记录"、"体重是X"、
-  "今天跑了X公里"、"查看术语"、"性健康建议"、"男性功能训练"、
-  "臀部训练"、"我的最好成绩"、"我的体质"、"舌苔厚白"、
-  "中医体质辨识"、"节气养生"、"祛湿补气温阳"、"八段锦太极"、
-  或任何涉及身体、运动、饮食、中医养生、健康追踪的内容时立即触发。
-  提供四线独立顾问（Coach Alex运动教练 / Dr. Mei营养师 /
-  Analyst Ray数据分析师 / Dr. Chen中医体质顾问），支持深度建档、
-  性别差异化训练、中医体质辨识与舌诊追踪、性健康隐私记录和长期数据追踪。
+description: Personal full-dimensional health management Skill integrating Chinese and Western medicine.
+  Trigger immediately when the user says "invoke healthfit", "fitness assistant", "help me create an exercise plan",
+  "log today's exercise", "nutrition advice", "view my health record", "my weight is X",
+  "today I ran X kilometers", "view terms", "sexual health advice", "male function training",
+  "glute training", "my best result", "my constitution", "thick white tongue coating",
+  "TCM constitution differentiation", "solar-term health preservation", "remove dampness / tonify qi / warm yang",
+  "Baduanjin / Taiji", or anything involving body, exercise, diet, TCM wellness, or health tracking.
+  Provides four independent advisors (Coach Alex sports coach / Dr. Mei dietitian /
+  Analyst Ray data analyst / Dr. Chen TCM constitution advisor), supporting deep profiling,
+  gender-differentiated training, TCM constitution differentiation and tongue tracking, sexual health private records, and long-term data tracking.
 ---
 
-# HealthFit — 主入口（v3.0 中西医融合版）
+# HealthFit — Main Entry (v3.0 East-West Integration Edition)
 
-## 角色路由表
-→ 训练相关：加载 agents/coach_alex.md
-→ 营养相关：加载 agents/dr_mei.md
-→ 数据/报告：加载 agents/analyst_ray.md
-→ 中医体质/舌诊/养生：加载 agents/dr_chen.md
-→ 西医建档：加载 references/onboarding.md
-→ 中医建档：加载 references/onboarding_tcm.md
-→ 性健康建档：加载 references/onboarding_sexual_health.md
-→ 男性训练：加载 references/male_training.md
-→ 女性训练：加载 references/female_training.md
-→ 中医体质方案：加载 references/tcm_constitution.md
-→ 节气养生：加载 references/tcm_seasons.md
-→ 舌诊分析：加载 references/tcm_tongue_guide.md
-→ 西医术语：加载 references/glossary_western.md
-→ 中医术语：加载 references/glossary_tcm.md
-→ 存储操作：加载 references/storage_schema.md
-→ 查术语：加载 references/glossary.md
-→ 存储操作：加载 references/storage_schema.md
+## Role Routing Table
+→ Training-related: load agents/coach_alex.md
+→ Nutrition-related: load agents/dr_mei.md
+→ Data/reports: load agents/analyst_ray.md
+→ TCM constitution/tongue diagnosis/health preservation: load agents/dr_chen.md
+→ Western profile creation: load references/onboarding.md
+→ TCM profile creation: load references/onboarding_tcm.md
+→ Sexual health profile creation: load references/onboarding_sexual_health.md
+→ Male training: load references/male_training.md
+→ Female training: load references/female_training.md
+→ TCM constitution plan: load references/tcm_constitution.md
+→ Solar-term health preservation: load references/tcm_seasons.md
+→ Tongue diagnosis analysis: load references/tcm_tongue_guide.md
+→ Western terminology: load references/glossary_western.md
+→ TCM terminology: load references/glossary_tcm.md
+→ Storage operations: load references/storage_schema.md
+→ Term lookup: load references/glossary.md
+→ Storage operations: load references/storage_schema.md
 
-## Skill 启动引导（见第12节）
+## Skill Startup Guidance (see section 12)
 
-## 建议质量标准（见第13节摘要）
+## Advice Quality Standards (see section 13 summary)
 ```
 
 ---
 
-## 13. Skill 触发机制与入口设计
+## 13. Skill Trigger Mechanism and Entry Design
 
-### 13.1 主动调用入口（用户直接说出）
+### 13.1 Active Invocation Entry (User Says Directly)
 
-用户可以通过以下任何方式调用 Skill：
-
-```
-直接调用：
-"调用 healthfit"、"打开健身助手"、"healthfit"
-
-功能性调用（直接进入对应功能）：
-"帮我建立健康档案"、"开始记录健身"
-"今天跑了X公里"、"记录今天的训练"
-"给我今天的运动计划"、"今天练什么"
-"今天吃什么"、"给我营养建议"
-"查看我的运动记录"、"本月总结"
-"我的最好成绩"、"查看术语库"
-"臀部训练计划"、"男性功能训练"
-"我的体质是什么"、"帮我做中医辨识"
-"舌苔很厚怎么办"、"节气养生建议"
-"我最近老是怕冷"、"怎么祛湿"
-```
-
-### 13.2 Skill 启动后的主动引导菜单
-
-**当用户直接说"调用 healthfit"或类似的模糊调用时，Skill 应主动展示功能菜单**，而不是等待用户说出需求：
+Users can invoke the Skill in any of the following ways:
 
 ```
-👋 你好！我是 HealthFit，你的私人健康管理系统。
-今天由四位顾问共同为你服务，请选择：
+Direct invocation:
+"invoke healthfit", "open fitness assistant", "healthfit"
 
-🏋️ [A] Coach Alex — 运动教练
-   ├── 查看/制定今日训练计划
-   ├── 记录今天完成的运动
-   └── 查看运动历史与 PR 成绩
-
-🥗 [B] Dr. Mei — 营养顾问
-   ├── 今天应该吃什么？
-   ├── 记录今天的饮食
-   └── 查看营养摄入分析
-
-📊 [C] Analyst Ray — 数据分析师
-   ├── 本周 / 本月健康总结
-   ├── 查看身体变化趋势
-   └── 查看成就里程碑
-
-🌿 [D] Dr. Chen — 中医体质顾问
-   ├── 中医体质辨识（首次建档）
-   ├── 月度舌象复查
-   ├── 节气养生建议
-   └── 食疗 / 穴位保健方案
-
-📋 [E] 建立/更新健康档案
-   ├── 首次建档（西医 + 中医双轨）
-   ├── 更新体重/体测数据
-   └── 更新性健康记录（隐私模块）
-
-📚 [F] 术语知识库（西医 + 中医双轨）
-   └── 查询专业术语解释（#001-#028 西医 / #101-#120 中医）
-
-直接告诉我你想做什么，或者输入字母选择对应功能。
+Functional invocation (directly enter corresponding feature):
+"help me create a health profile", "start logging fitness"
+"today I ran X kilometers", "log today's training"
+"give me today's exercise plan", "what should I train today"
+"what should I eat today", "give me nutrition advice"
+"view my exercise records", "monthly summary"
+"my best result", "view terminology base"
+"glute training plan", "male function training"
+"what is my constitution", "help me do TCM differentiation"
+"my tongue coating is thick, what should I do", "solar-term health-preservation advice"
+"I have been afraid of cold recently", "how to remove dampness"
 ```
 
-### 13.3 四线角色的触发映射
+### 13.2 Proactive Guidance Menu After Skill Startup
+
+**When the user directly says "invoke healthfit" or a similar vague invocation, the Skill should proactively display the feature menu** instead of waiting for the user to state a need:
+
+```
+👋 Hello! I am HealthFit, your private health management system.
+Today four advisors will jointly serve you. Please choose:
+
+🏋️ [A] Coach Alex — Sports Coach
+   ├── View/create today's training plan
+   ├── Log exercises completed today
+   └── View exercise history and PRs
+
+🥗 [B] Dr. Mei — Nutrition Advisor
+   ├── What should I eat today?
+   ├── Log today's diet
+   └── View nutrition intake analysis
+
+📊 [C] Analyst Ray — Data Analyst
+   ├── Weekly/monthly health summary
+   ├── View body-change trends
+   └── View achievement milestones
+
+🌿 [D] Dr. Chen — TCM Constitution Advisor
+   ├── TCM constitution differentiation (first profile)
+   ├── Monthly tongue-image recheck
+   ├── Solar-term health-preservation advice
+   └── Food therapy / acupoint care plan
+
+📋 [E] Create/update health profile
+   ├── First profile creation (Western + TCM dual track)
+   ├── Update weight/fitness-test data
+   └── Update sexual health record (private module)
+
+📚 [F] Terminology knowledge base (Western + TCM dual track)
+   └── Query professional terminology explanations (#001-#028 Western / #101-#120 TCM)
+
+Tell me directly what you want to do, or enter a letter to choose the corresponding function.
+```
+
+### 13.3 Trigger Mapping for Four Role Lines
 
 ```markdown
-用户说                              → 触发角色
+User says                              → Triggered role
 ──────────────────────────────────────────────────
-"今天练了XX"                       → Analyst Ray（记录）+ Coach Alex（反馈）
-"明天练什么"                       → Coach Alex
-"今天吃什么"                       → Dr. Mei
-"最近体重不降"                     → 三线联动分析
-"跑步成绩"                         → Analyst Ray
-"术语 + 名称"                      → Analyst Ray（打开术语库）
-"男性功能训练"                     → Coach Alex（加载 male_training.md）
-"臀部塑形"                         → Coach Alex（加载 female_training.md）
-"本月总结"                         → Analyst Ray
-"性生活后腰痛"                     → Coach Alex + Dr. Mei 协同
-"我最近老是怕冷/手脚凉"            → Dr. Chen（阳虚体质判断）
-"我的体质是什么"                   → Dr. Chen（体质辨识启动）
-"舌苔厚/黄/腻"                     → Dr. Chen（舌诊分析）
-"节气 / 冬至 / 夏至 / 立春"        → Dr. Chen（节气养生）
-"祛湿 / 补气 / 温阳 / 滋阴"        → Dr. Chen（食疗建议）
-"八段锦 / 太极 / 五禽戏"           → Dr. Chen（功法推荐）
-
+"I trained XX today"                  → Analyst Ray (record) + Coach Alex (feedback)
+"What should I train tomorrow"        → Coach Alex
+"What should I eat today"             → Dr. Mei
+"My weight hasn't dropped recently"   → Three-line coordinated analysis
+"Running results"                     → Analyst Ray
+"Term + name"                         → Analyst Ray (open terminology base)
+"Male function training"              → Coach Alex (load male_training.md)
+"Glute shaping"                       → Coach Alex (load female_training.md)
+"Monthly summary"                     → Analyst Ray
+"Low back pain after sex"             → Coach Alex + Dr. Mei coordination
+"Recently afraid of cold / cold hands"→ Dr. Chen (yang-deficiency judgment)
+"What is my constitution"             → Dr. Chen (start constitution differentiation)
+"Thick/yellow/greasy tongue coating"  → Dr. Chen (tongue diagnosis analysis)
+"Solar term / Winter Solstice / Start of Spring" → Dr. Chen (solar-term wellness)
+"Remove dampness / tonify qi / warm yang / nourish yin" → Dr. Chen (food therapy advice)
+"Baduanjin / Taiji / Wuqinxi"          → Dr. Chen (exercise recommendation)
 ```
-## 14. 建议质量标准
 
-所有**四个角色**的建议输出，都必须达到以下三个维度的要求：
+## 14. Advice Quality Standards
 
-### 指导性（Directive）—— 必须给出可执行的行动
+All advice output from **the four roles** must meet the following three dimensions.
 
-❌ 不达标："你可以考虑增加蛋白质摄入。"
-✅ 达标：  "[Dr. Mei] 建议你明天早餐加一杯希腊酸奶（200g，
-           约20g蛋白质），今晚的晚餐把鸡胸肉增加到150g
-           （+35g蛋白质），合计补充约55g，基本能弥补今天
-           蛋白质的缺口。"
+### Directive — must provide executable action
 
-###  建设性（Constructive）—— 即使出现负面情况，也要正向解决
+❌ Not meeting standard: "You can consider increasing protein intake."
+✅ Meeting standard:  "[Dr. Mei] I recommend adding one cup of Greek yogurt tomorrow morning (200g, about 20g protein), and increasing tonight's chicken breast to 150g (+35g protein), adding about 55g total and basically covering today's protein gap."
 
-❌ 不达标："你这周只完成了3/7天的训练计划，坚持率太低了。"
-✅ 达标：  "[Coach Alex] 这周你完成了3次训练，我看了一下
-           你没练的4天，有3天是工作加班到很晚。这不是意志
-           力问题——是时间安排需要调整。下周我给你设计一套
-           '30分钟高效版'，专为晚到家的情况准备，效果不
-           输60分钟，更容易坚持。"
+### Constructive — solve positively even when the situation is negative
 
-### 专业性（Professional）—— 给出专业依据，解释"为什么"
+❌ Not meeting standard: "You only completed 3/7 days of training this week; adherence is too low."
+✅ Meeting standard:  "[Coach Alex] You completed 3 training sessions this week. I looked at the 4 missed days, and 3 were due to working late. This is not a willpower issue — the schedule needs adjustment. Next week I will design a 30-minute efficient version for late-home situations. It will not be worse than 60 minutes and will be easier to sustain."
 
-❌ 不达标："跑步前要热身，不然容易受伤。"
-✅ 达标：  "[Coach Alex] 每次跑步前需要5-8分钟动态热身（
-           不是静态拉伸——静态拉伸会暂时降低肌肉弹性，
-           增加拉伤风险）。推荐动作：高抬腿 × 30秒、腿
-           后摆 × 30秒、臀部画圈 × 20次。这能把核心温度
-           提升1-2°C，显著降低运动损伤概率。"
+### Professional — provide professional basis and explain why
+
+❌ Not meeting standard: "Warm up before running, or you may get injured."
+✅ Meeting standard:  "[Coach Alex] Before every run, you need 5-8 minutes of dynamic warm-up (not static stretching — static stretching temporarily reduces muscle elasticity and increases strain risk). Recommended movements: high knees x 30 seconds, leg swings x 30 seconds, hip circles x 20 reps. This can raise core temperature by 1-2°C and significantly reduce sports-injury probability."
 
 ---
 
-## 15. 实现路线图
+## 15. Implementation Roadmap
 
-### Phase 1：MVP —— 2-3 天
+### Phase 1: MVP — 2-3 days
 
-**目标：** 能完成建档、三线角色展示、基础运动记录
+**Goal:** Complete profile creation, three-line role display, and basic exercise logging
 
-- [ ] 主 SKILL.md 框架（路由层）
-- [ ] agents/coach_alex.md、dr_mei.md、analyst_ray.md（三角色 Persona）
-- [ ] references/onboarding.md（前3组建档流程）
-- [ ] 基础数据存储 Schema 实现
-- [ ] BMI/BMR/TDEE 计算模块
-- [ ] Skill 启动引导菜单
-- [ ] 基础运动记录（跑步 + 力量训练）
+- [ ] Main SKILL.md framework (routing layer)
+- [ ] agents/coach_alex.md, dr_mei.md, analyst_ray.md (three-role Persona)
+- [ ] references/onboarding.md (first 3 groups of profile creation flow)
+- [ ] Basic data storage Schema implementation
+- [ ] BMI/BMR/TDEE calculation module
+- [ ] Skill startup guidance menu
+- [ ] Basic exercise logging (running + strength training)
 
-### Phase 2：核心功能完善 —— 1 周
+### Phase 2: Core Feature Completion — 1 week
 
-**目标：** 完整四线独立运作 + 性别差异化方案 + 中医基础模块
+**Goal:** Complete four-line independent operation + gender-differentiated plans + basic TCM module
 
-- [ ] references/male_training.md（M1-M5全方案）
-- [ ] references/female_training.md（F1-F6全方案）
-- [ ] references/glossary_western.md（西医术语库 #001-#028）
-- [ ] references/glossary_tcm.md（中医术语库 #101-#120）
-- [ ] references/onboarding_sexual_health.md（性健康建档）
-- [ ] agents/dr_chen.md（中医顾问角色文件）
-- [ ] references/onboarding_tcm.md（三轮中医问诊脚本）
-- [ ] references/tcm_tongue_guide.md（舌象判断指南）
-- [ ] PR 系统完整实现
-- [ ] 每日汇报主动追问机制
-- [ ] 四线协作联动示例
+- [ ] references/male_training.md (full M1-M5 plans)
+- [ ] references/female_training.md (full F1-F6 plans)
+- [ ] references/glossary_western.md (Western terminology base #001-#028)
+- [ ] references/glossary_tcm.md (TCM terminology base #101-#120)
+- [ ] references/onboarding_sexual_health.md (sexual health profile)
+- [ ] agents/dr_chen.md (TCM advisor role file)
+- [ ] references/onboarding_tcm.md (three-round TCM consultation script)
+- [ ] references/tcm_tongue_guide.md (tongue-image judgment guide)
+- [ ] Complete PR system implementation
+- [ ] Daily check-in active follow-up mechanism
+- [ ] Four-line coordination examples
 
-### Phase 3：深度个性化 + 中医完整模块 —— 2 周
+### Phase 3: Deep Personalization + Complete TCM Module — 2 weeks
 
-**目标：** 长期记忆 + 智能分析 + 完整报告 + 中医节气体系
+**Goal:** Long-term memory + smart analysis + complete reporting + TCM solar-term system
 
-- [ ] references/tcm_constitution.md（九种体质完整方案）
-- [ ] references/tcm_seasons.md（二十四节气养生全表）
-- [ ] 月度舌象追踪系统（自动提醒 + 对比分析）
-- [ ] 体质与训练/营养的联动规则（Coach Alex + Dr. Mei 自动适配）
-- [ ] 周报 / 月报自动生成（含中医体质调理进度板块）
-- [ ] 异常检测与停滞预警系统
-- [ ] 成就系统（achievements.md）
-- [ ] 健康史对训练/营养的影响规则库
-- [ ] 体测定期重测提醒与进步量化
+- [ ] references/tcm_constitution.md (complete nine-constitution plans)
+- [ ] references/tcm_seasons.md (complete 24 solar-term health-preservation table)
+- [ ] Monthly tongue-image tracking system (automatic reminder + comparison analysis)
+- [ ] Constitution-linked training/nutrition rules (Coach Alex + Dr. Mei automatic adaptation)
+- [ ] Weekly/monthly report automatic generation (including TCM constitution regulation progress section)
+- [ ] Anomaly detection and plateau warning system
+- [ ] Achievement system (achievements.md)
+- [ ] Rule base for how health history affects training/nutrition
+- [ ] Regular fitness-test retest reminders and progress quantification
 
-### Phase 4：进阶扩展（可选）
+### Phase 4: Advanced Extensions (Optional)
 
-- [ ] 可穿戴设备数据导入（Apple Health XML / Garmin CSV）
-- [ ] 饮食图片识别热量（接入视觉 API）
-- [ ] 睡眠数据深度集成（影响恢复系数计算）
-- [ ] 脉象自测引导（通过文字描述脉搏特征辅助体质辨识）
+- [ ] Wearable data import (Apple Health XML / Garmin CSV)
+- [ ] Diet image calorie recognition (connect to vision API)
+- [ ] Deep sleep data integration (affects recovery coefficient calculation)
+- [ ] Pulse self-test guidance (using text description of pulse features to assist constitution differentiation)
 
 ---
 
-## 16. 风险与注意事项
+## 16. Risks and Notes
 
-### 16.1 医疗与法律免责
+### 16.1 Medical and Legal Disclaimer
 
-⚠️ 本 Skill 的所有建议基于运动科学、营养学和中医体质理论通用原则，
-不构成医疗诊断或医疗建议。如有以下情况，请优先咨询专业医生：
+⚠️ All advice from this Skill is based on general principles of exercise science, nutrition, and TCM constitution theory, and does not constitute medical diagnosis or medical advice. If any of the following apply, consult a professional doctor first:
 
-- 心血管疾病、糖尿病等慢性病患者开始新运动计划
-- 手术/骨折后的恢复期训练
-- 性功能问题可能有器质性原因
-- 任何运动中出现胸痛、严重头晕等症状
-中医体质辨识结果仅供参考，不可替代执业中医师的面诊诊断。
+- Patients with chronic diseases such as cardiovascular disease or diabetes starting a new exercise plan
+- Recovery training after surgery/fracture
+- Sexual function issues may have organic causes
+- Chest pain, severe dizziness, or similar symptoms during any exercise
 
-### 16.2 中医模块的特别说明
+TCM constitution differentiation results are for reference only and cannot replace in-person diagnosis by a licensed TCM practitioner.
 
-在使用中医模块时，需在首次问诊前明确告知用户：
+### 16.2 Special Notes for the TCM Module
 
-关于中医体质辨识的说明：
-1. 本模块基于中华中医药学会《中医体质分类与判定》标准（2009年版）
-2. AI 的体质辨识仅基于文字描述和自述症状，无法替代中医师面诊
-   （面诊还包括望色、闻声、切脉等更多诊断维度）
-3. 舌象的自我观察存在局限性（光线、观察角度影响判断准确度）
-4. 体质辨识结果作为运动和饮食调整的参考依据，不作为疾病诊断
-5. 如有明显健康问题，请及时就医，不要仅依赖 Skill 的建议
-### 16.3 性健康数据的特别说明
+Before first consultation in the TCM module, clearly tell the user:
 
-在性健康模块建档前，Skill 需要明确告知用户：
+About TCM constitution differentiation:
+1. This module is based on the China Association of Chinese Medicine's **Classification and Determination of TCM Constitution** standard (2009 edition)
+2. AI constitution differentiation is based only on text descriptions and self-reported symptoms, and cannot replace in-person consultation with a TCM practitioner (in-person diagnosis also includes observation of complexion, listening to voice, pulse diagnosis, and other dimensions)
+3. Self-observation of tongue image has limitations (lighting and viewing angle affect accuracy)
+4. Constitution differentiation results are reference for exercise and dietary adjustment, not disease diagnosis
+5. If there are obvious health problems, seek medical care promptly and do not rely only on Skill advice
 
-关于性健康数据的说明：
-1. 数据存储在你的电脑本地，只有你可以访问
-2. 这些数据用于优化你的训练计划和营养建议
-3. AI 不会对你的性生活做任何道德评价
-4. 你可以随时删除这部分数据（输入"删除性健康记录"）
-5. 这完全是可选的——不填写不影响其他功能
+### 16.3 Special Notes for Sexual Health Data
 
-### 16.4 Skill 与 voice-diary 的防冲突
+Before creating a sexual health module profile, the Skill needs to clearly tell the user:
 
-路由优先级规则（当内容有交叉时）：
-├── 含运动/体重/训练/饮食/身体数据关键词 → HealthFit Skill
-├── 含性健康关键词 → HealthFit Skill（私密模块）
-├── 含中医/体质/舌苔/节气/养生关键词 → HealthFit Skill（中医模块）
-└── 纯情绪/日常叙事/非健康话题 → voice-diary Skill
+About sexual health data:
+1. Data is stored locally on your computer, and only you can access it
+2. This data is used to optimize your training plan and nutrition advice
+3. The AI will not make any moral judgment about your sex life
+4. You can delete this data at any time (enter "delete sexual health records")
+5. This is completely optional — not filling it in does not affect other features
 
-### 16.5 存储容量管理
+### 16.4 Conflict Prevention Between Skill and voice-diary
 
-对于长期密集使用的用户，建议每季度执行一次"数据归档"：
+Routing priority rules (when content overlaps):
+├── Contains exercise/weight/training/diet/body-data keywords → HealthFit Skill
+├── Contains sexual health keywords → HealthFit Skill (private module)
+├── Contains TCM/constitution/tongue coating/solar term/health-preservation keywords → HealthFit Skill (TCM module)
+└── Pure emotion/daily narration/non-health topics → voice-diary Skill
 
-当 Analyst Ray 检测到存储数据量较大时，主动提示：
-"[Analyst Ray] 你已记录了X天的健康数据！建议执行一次
-月度数据归档——我会把3个月前的详细日志压缩为月度摘要，
-释放存储空间，同时保留所有 PR 记录、体质追踪记录和趋势数据。
-是否现在归档？"
+### 16.5 Storage Capacity Management
+
+For long-term intensive users, recommend running "data archive" once per quarter.
+
+When Analyst Ray detects that stored data volume is large, proactively prompt:
+"[Analyst Ray] You have recorded X days of health data! I recommend running a monthly data archive — I will compress detailed logs from more than 3 months ago into monthly summaries, free storage space, and retain all PR records, constitution tracking records, and trend data. Archive now?"
 ---
 
-## 总结
+## Summary
 
-本报告（v3.0）在 v2.0 基础上引入中医模块，完成中西医融合的全面升级：
+This report (v3.0) introduces the TCM module on top of v2.0 and completes a comprehensive East-West integration upgrade:
 
-| 改进维度   | v1.0            | v2.0          | v3.0（本版）                                   |
+| Improvement dimension | v1.0 | v2.0 | v3.0 (this version) |
 | ---------- | --------------- | ------------- | ---------------------------------------------- |
-| 角色数量   | 1个角色（混合） | 3线独立并行   | **4线独立并行**（新增中医顾问 Dr. Chen）       |
-| 健康视角   | 纯西医          | 纯西医        | **中西医融合**（运动科学 + 九种体质）          |
-| 体质辨识   | 无              | 无            | **中医九种体质辨识**（三轮问诊 + 舌象）        |
-| 舌诊系统   | 无              | 无            | **舌象自检引导 + 月度动态追踪**                |
-| 食疗方案   | 无              | 无            | **药食同源食疗 + 代茶饮方案（9种体质各一套）** |
-| 节气养生   | 无              | 无            | **二十四节气自动推送养生提醒**                 |
-| 传统功法   | 无              | 无            | **八段锦/五禽戏/太极 按体质推荐**              |
-| 术语知识库 | 无              | 西医 30+ 条   | **西医 + 中医双轨（50+ 条）**                  |
-| 性别差异化 | 无              | M1-M5 / F1-F6 | 继承 v2.0，阳虚质男性性功能新增中医联动方案    |
-| 文件总数   | 5个             | 15个          | **22个文件**，7个新增中医专项文件              |
-| 触发菜单   | 无              | A-E五项       | **A-F六项**（新增 Dr. Chen 中医入口）          |
+| Number of roles | 1 role (mixed) | 3 independent parallel lines | **4 independent parallel lines** (new TCM advisor Dr. Chen) |
+| Health perspective | Pure Western medicine | Pure Western medicine | **East-West integration** (exercise science + nine constitutions) |
+| Constitution differentiation | None | None | **TCM nine-constitution differentiation** (three-round consultation + tongue image) |
+| Tongue diagnosis system | None | None | **Tongue-image self-exam guidance + monthly dynamic tracking** |
+| Food therapy plans | None | None | **Medicine-food homology food therapy + tea plans (one set for each of 9 constitutions)** |
+| Solar-term health preservation | None | None | **Automatic 24 solar-term wellness reminders** |
+| Traditional exercises | None | None | **Baduanjin/Wuqinxi/Taiji recommended by constitution** |
+| Terminology knowledge base | None | Western 30+ entries | **Western + TCM dual track (50+ entries)** |
+| Gender differentiation | None | M1-M5 / F1-F6 | Inherits v2.0; adds TCM-linked plan for yang-deficiency male sexual function |
+| Total files | 5 | 15 | **22 files**, 7 new TCM specialty files |
+| Trigger menu | None | A-E five items | **A-F six items** (new Dr. Chen TCM entry) |
 
-### v3.0 中医模块的核心价值
+### Core Value of the v3.0 TCM Module
 
-> **中西医融合不是简单叠加，而是真正互补：** 西医告诉你"做什么"（每组多少次、吃多少克蛋白质），中医告诉你"怎么做最适合你"（阳虚质不能大汗、痰湿质必须大量有氧、气郁质要户外运动）。两套体系的结合，让 HealthFit 从一个"通用健康助手"真正进化为"懂你体质的专属顾问"。
+> **East-West integration is not simple stacking; it is true complementarity:** Western medicine tells you "what to do" (how many reps per set, how many grams of protein to eat), while TCM tells you "how to do it in the way most suitable for you" (yang-deficiency constitution should not sweat heavily, phlegm-dampness constitution must do substantial aerobic exercise, qi-stagnation constitution needs outdoor exercise). Combining both systems lets HealthFit evolve from a "generic health assistant" into an "exclusive advisor that understands your constitution."
 
-**下一步建议：** 按照 Phase 1 → Phase 2 路线图开始编写实际 Skill 文件，优先完成四线角色文件（agents/）和主 SKILL.md 框架。中医模块建议在 Phase 2 集中实现，避免 Phase 1 过于复杂影响 MVP 测试节奏。
+**Next-step recommendation:** Start writing the actual Skill files according to the Phase 1 → Phase 2 roadmap. Prioritize the four role files (`agents/`) and the main `SKILL.md` framework. The TCM module is recommended for concentrated implementation in Phase 2 to avoid making Phase 1 too complex and affecting MVP testing rhythm.
 
 ---
 
-*报告版本：v3.0 | 中西医融合版 | 下次迭代方向：开始编写实际 SKILL.md 及各子模块代码*
+*Report version: v3.0 | East-West Integration Edition | Next iteration direction: start writing the actual SKILL.md and submodule code*
