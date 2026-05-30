@@ -1,140 +1,140 @@
-# 舌象自检指南（标准化收集）
+# Tongue-Image Self-Exam Guide (Standardized Collection)
 
-> **用途：** 配合 Dr. Chen 进行中医体质辨识和舌象动态追踪  
-> **使用说明：** 在自然光下，对着镜子观察并回答以下问题
+> **Purpose:** Work with Dr. Chen for TCM constitution differentiation and dynamic tongue-image tracking  
+> **Instructions:** Observe in natural light while facing a mirror, and answer the following questions
 
 ---
 
-## 📋 舌象自检表单（标准化收集）
+## 📋 Tongue-Image Self-Exam Form (Standardized Collection)
 
-**请按以下顺序观察并回答：**
+**Please observe and answer in the following order:**
 
-### 1. 舌体颜色（单选）
+### 1. Tongue Body Color (Single Choice)
 
-| 选项 | 描述 | 对应体质 |
+| Option | Description | Corresponding Constitution |
 |------|------|---------|
-| □ A. 淡白色 | 比正常更白，缺乏血色 | 气虚/阳虚 |
-| □ B. 淡红色 | 红润有光泽（正常） | 平和质 |
-| □ C. 红色 | 比正常更红 | 阴虚/湿热 |
-| □ D. 绛红/深红色 | 深红发暗 | 热盛/阴虚火旺 |
-| □ E. 紫暗色 | 发紫发暗 | 血瘀 |
+| □ A. Pale white | Whiter than normal, lacking blood color | Qi deficiency/Yang deficiency |
+| □ B. Pale red | Rosy and glossy (normal) | Balanced constitution |
+| □ C. Red | Redder than normal | Yin deficiency/Damp-heat |
+| □ D. Crimson/deep red | Deep red and dark | Excess heat/Yin deficiency with exuberant fire |
+| □ E. Purplish dark | Purple and dark | Blood stasis |
 
 ---
 
-### 2. 舌体形状（单选）
+### 2. Tongue Body Shape (Single Choice)
 
-| 选项 | 描述 | 对应体质 |
+| Option | Description | Corresponding Constitution |
 |------|------|---------|
-| □ A. 正常大小 | 与口腔大小匹配 | 平和质 |
-| □ B. 胖大 | 比口腔大，有压迫感 | 气虚/阳虚/痰湿 |
-| □ C. 瘦小 | 明显比正常小 | 阴虚 |
-| □ D. 有齿痕 | 边缘有牙齿压痕 | 气虚/阳虚/痰湿 |
-| □ E. 有裂纹 | 舌面有纵向或横向裂纹 | 阴虚/血虚 |
+| □ A. Normal size | Matches the size of the oral cavity | Balanced constitution |
+| □ B. Enlarged | Larger than the oral cavity, with a sense of pressure | Qi deficiency/Yang deficiency/Phlegm-damp |
+| □ C. Thin and small | Obviously smaller than normal | Yin deficiency |
+| □ D. Has teeth marks | Tooth pressure marks on the edges | Qi deficiency/Yang deficiency/Phlegm-damp |
+| □ E. Has cracks | Vertical or horizontal cracks on the tongue surface | Yin deficiency/Blood deficiency |
 
 ---
 
-### 3. 舌苔颜色（单选）
+### 3. Tongue Coating Color (Single Choice)
 
-| 选项 | 描述 | 对应证型 |
+| Option | Description | Corresponding Pattern |
 |------|------|---------|
-| □ A. 薄白苔 | 薄薄一层白色（正常） | 平和质/表证 |
-| □ B. 白厚苔 | 白色且厚 | 寒湿/痰湿 |
-| □ C. 黄苔 | 淡黄/深黄/焦黄 | 热证 |
-| □ D. 灰黑苔 | 灰色或黑色 | 热极/寒极 |
-| □ E. 无苔/剥苔 | 部分或全部无苔 | 阴虚/胃气不足 |
+| □ A. Thin white coating | A thin white layer (normal) | Balanced constitution/Exterior pattern |
+| □ B. Thick white coating | White and thick | Cold-damp/Phlegm-damp |
+| □ C. Yellow coating | Light yellow/deep yellow/scorched yellow | Heat pattern |
+| □ D. Gray-black coating | Gray or black | Extreme heat/Extreme cold |
+| □ E. No coating/peeled coating | Partial or complete absence of coating | Yin deficiency/Insufficient stomach qi |
 
 ---
 
-### 4. 舌苔质地（单选）
+### 4. Tongue Coating Texture (Single Choice)
 
-| 选项 | 描述 | 对应证型 |
+| Option | Description | Corresponding Pattern |
 |------|------|---------|
-| □ A. 薄苔 | 能透过舌苔看到舌体 | 正常/表证 |
-| □ B. 厚苔 | 不能透过舌苔看到舌体 | 里证/痰湿 |
-| □ C. 腻苔 | 苔质细腻致密，如涂油 | 痰湿/湿热 |
-| □ D. 腐苔 | 苔质松散，如豆腐渣 | 食积/胃气衰败 |
-| □ E. 少苔/无苔 | 苔很少或没有 | 阴虚 |
+| □ A. Thin coating | Tongue body can be seen through the coating | Normal/Exterior pattern |
+| □ B. Thick coating | Tongue body cannot be seen through the coating | Interior pattern/Phlegm-damp |
+| □ C. Greasy coating | Fine, greasy, and dense coating texture, like oil applied | Phlegm-damp/Damp-heat |
+| □ D. Rotten coating | Loose coating texture, like tofu residue | Food accumulation/Stomach qi decline |
+| □ E. Little coating/no coating | Coating is very little or absent | Yin deficiency |
 
 ---
 
-### 5. 舌面润燥（单选）
+### 5. Tongue Surface Moisture/Dryness (Single Choice)
 
-| 选项 | 描述 | 对应证型 |
+| Option | Description | Corresponding Pattern |
 |------|------|---------|
-| □ A. 润泽 | 正常湿润度 | 平和质 |
-| □ B. 水滑 | 明显湿润，口水多 | 阳虚/痰湿 |
-| □ C. 干燥 | 舌面干涩，少津液 | 阴虚/热盛 |
-| □ D. 粗糙 | 舌面粗糙如砂纸 | 热盛伤津 |
+| □ A. Moist | Normal moisture level | Balanced constitution |
+| □ B. Slippery-wet | Obviously moist, much saliva | Yang deficiency/Phlegm-damp |
+| □ C. Dry | Tongue surface is dry and rough, little fluid | Yin deficiency/Excess heat |
+| □ D. Rough | Tongue surface is rough like sandpaper | Excess heat damaging fluids |
 
 ---
 
-### 6. 舌下静脉（可选）
+### 6. Sublingual Veins (Optional)
 
-**观察方法：** 舌尖向上卷起，观察舌系带两侧的静脉
+**Observation Method:** Curl the tongue tip upward and observe the veins on both sides of the lingual frenulum
 
-| 选项 | 描述 | 对应证型 |
+| Option | Description | Corresponding Pattern |
 |------|------|---------|
-| □ A. 不明显 | 静脉隐约可见 | 正常 |
-| □ B. 略显青紫 | 静脉略显青紫色 | 轻度血瘀 |
-| □ C. 明显青紫曲张 | 静脉怒张、颜色深紫 | 重度血瘀 |
+| □ A. Not obvious | Veins are faintly visible | Normal |
+| □ B. Slightly bluish-purple | Veins are slightly bluish-purple | Mild blood stasis |
+| □ C. Obviously bluish-purple and varicose | Veins are distended and deep purple | Severe blood stasis |
 
 ---
 
-## 📊 提交格式示例
+## 📊 Submission Format Example
 
-**请将您的观察结果按以下格式提交给 Dr. Chen：**
+**Please submit your observation results to Dr. Chen in the following format:**
 
 ```
-舌象自检结果：
-1. 舌体颜色：B（淡红色）
-2. 舌体形状：D（有齿痕）
-3. 舌苔颜色：B（白厚苔）
-4. 舌苔质地：C（腻苔）
-5. 舌面润燥：B（水滑）
-6. 舌下静脉：A（不明显）
+Tongue-image self-exam results:
+1. Tongue body color: B (pale red)
+2. Tongue body shape: D (has teeth marks)
+3. Tongue coating color: B (thick white coating)
+4. Tongue coating texture: C (greasy coating)
+5. Tongue surface moisture/dryness: B (slippery-wet)
+6. Sublingual veins: A (not obvious)
 
-自我感觉：最近总觉得累，大便稀溏
+Self-feeling: recently I always feel tired, and my stool is loose
 ```
 
-**Dr. Chen 会基于您的舌象给出：**
-- 体质辨识结果
-- 调理建议（食疗/运动/穴位）
-- 舌象变化追踪
+**Based on your tongue image, Dr. Chen will give:**
+- Constitution differentiation result
+- Regulation advice (dietary therapy/exercise/acupoints)
+- Tongue-image change tracking
 
 ---
 
-## 📸 拍照技巧（可选）
+## 📸 Photography Tips (Optional)
 
-**如条件允许，可拍摄舌象照片供 Dr. Chen 参考：**
+**If conditions allow, you may take tongue-image photos for Dr. Chen's reference:**
 
-1. **光线：** 自然光最佳，避免强光直射
-2. **角度：** 正对镜子，舌头自然伸出（不要过度用力）
-3. **时间：** 晨起刷牙前最佳（避免食物染色）
-4. **注意：** 拍照前不要吃有色食物（咖啡、火龙果等）
-
----
-
-## ⚠️ 注意事项
-
-1. **最佳观察时间：** 晨起空腹，未刷牙前
-2. **避免干扰因素：**
-   - 刚喝过热饮/冷饮（等待 30 分钟）
-   - 刚吃过有色食物（等待 1 小时）
-   - 刚刷过舌苔（等待次日）
-3. **动态追踪：** 建议每周观察 1 次，记录变化
-4. **个体差异：** 舌象会随季节、情绪、饮食变化，属正常现象
+1. **Lighting:** Natural light is best; avoid direct strong light
+2. **Angle:** Face the mirror directly, tongue naturally extended (do not strain too much)
+3. **Timing:** Best before brushing teeth after waking in the morning (avoid food staining)
+4. **Note:** Do not eat colored foods before taking photos (coffee, dragon fruit, etc.)
 
 ---
 
-## 🔗 相关术语
+## ⚠️ Notes
 
-- `#110` 舌象
-- `#111` 舌体
-- `#112` 舌苔
-- `#113` 齿痕
-
-详见：`data/txt/glossary_tcm.txt`
+1. **Best Observation Time:** Empty stomach after waking in the morning, before brushing teeth
+2. **Avoid Interfering Factors:**
+   - Just drank a hot/cold drink (wait 30 minutes)
+   - Just ate colored food (wait 1 hour)
+   - Just brushed the tongue coating (wait until the next day)
+3. **Dynamic Tracking:** It is recommended to observe once per week and record changes
+4. **Individual Differences:** Tongue image changes with seasons, emotions, and diet; this is normal
 
 ---
 
-*最后更新：2026-03-17 | HealthFit v3.0*
+## 🔗 Related Terms
+
+- `#110` Tongue image
+- `#111` Tongue body
+- `#112` Tongue coating
+- `#113` Teeth marks
+
+See details: `data/txt/glossary_tcm.txt`
+
+---
+
+*Last updated: 2026-03-17 | HealthFit v3.0*
