@@ -25,8 +25,8 @@ One skill, your complete lifelong health companion.
 
 <br>
 
-**其他语言 / Other Languages:**
-[中文](README.md)
+**Other Languages:**
+[Chinese](README.md)
 
 </div>
 
@@ -236,6 +236,6 @@ Issues and PRs are welcome:
 *HealthFit v4.0 — Expert Matrix, East-West Integration*<br>
 *Your dedicated health journey companion*
 
-[⭐ Star this repo](https://github.com/ChenChen913/healthfit) · [中文版](README.md)
+[⭐ Star this repo](https://github.com/ChenChen913/healthfit) · [Chinese Version](README.md)
 
 </div>
