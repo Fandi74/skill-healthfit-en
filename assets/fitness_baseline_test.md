@@ -1,275 +1,275 @@
-# 身体素质基准测试流程
+# Physical Fitness Baseline Testing Process
 
-## 测试前准备
+## Preparation Before Testing
 
-### 装备要求
-- 运动服装（透气、舒适）
-- 运动鞋（跑步/训练专用）
-- 计时器（手机即可）
-- 记录工具（纸笔或手机）
-- 水和毛巾
+### Equipment Requirements
+- Sportswear (breathable and comfortable)
+- Sports shoes (for running/training)
+- Timer (a phone is fine)
+- Recording tool (paper and pen or phone)
+- Water and towel
 
-### 热身流程（必做，5-10 分钟）
+### Warm-Up Process (Required, 5-10 Minutes)
 ```
-1. 慢跑或快走：3 分钟
-2. 动态拉伸：
-   - 开合跳 × 30 秒
-   - 高抬腿 × 30 秒
-   - 腿摆动（前后/左右）× 10 次/侧
-   - 手臂画圈 × 10 次
-3. 专项热身：
-   - 徒手深蹲 × 10 次
-   - 俯卧撑 × 5 次
-   - 弓步蹲 × 5 次/腿
-```
-
----
-
-## 测试项目
-
-### 1. 心肺耐力测试
-
-#### 选项 A：1.5km/2km 跑步测试
-```
-适用人群：有跑步基础者
-
-流程：
-1. 在跑道或平坦路面进行
-2. 全力跑完 1.5km 或 2km
-3. 记录完成时间（分钟：秒）
-
-评级标准（2km，男性）：
-- 优秀：<8 分钟
-- 良好：8-10 分钟
-- 一般：10-12 分钟
-- 较差：>12 分钟
-
-评级标准（2km，女性）：
-- 优秀：<10 分钟
-- 良好：10-12 分钟
-- 一般：12-14 分钟
-- 较差：>14 分钟
-```
-
-#### 选项 B：6 分钟步行测试
-```
-适用人群：运动基础弱、年长者、康复期
-
-流程：
-1. 在平坦地面（跑道或长廊）
-2. 6 分钟内尽可能走更远
-3. 记录行走距离（米）
-
-评级标准：
-- 优秀：>650 米
-- 良好：550-650 米
-- 一般：450-550 米
-- 较差：<450 米
+1. Jog or brisk walk: 3 minutes
+2. Dynamic stretching:
+   - Jumping jacks × 30 seconds
+   - High knees × 30 seconds
+   - Leg swings (front-back/left-right) × 10 times/side
+   - Arm circles × 10 times
+3. Specific warm-up:
+   - Bodyweight squats × 10 times
+   - Push-ups × 5 times
+   - Lunges × 5 times/leg
 ```
 
 ---
 
-### 2. 上肢力量测试
+## Test Items
 
-#### 俯卧撑测试
+### 1. Cardiopulmonary Endurance Test
+
+#### Option A: 1.5km/2km Running Test
 ```
-适用人群：所有人
+Suitable population: people with a running foundation
 
-男性标准版：
-- 起始：标准俯卧撑姿势
-- 动作：胸部接近地面，手臂完全伸直
-- 记录：连续最多次数
+Process:
+1. Perform on a track or flat road surface
+2. Run 1.5km or 2km at full effort
+3. Record completion time (minutes:seconds)
 
-女性跪姿版：
-- 起始：双膝跪地，小腿交叉
-- 动作：同上
-- 记录：连续最多次数
+Rating standards (2km, male):
+- Excellent: <8 minutes
+- Good: 8-10 minutes
+- Average: 10-12 minutes
+- Poor: >12 minutes
 
-评级标准（男性标准版）：
-- 优秀：>40 个
-- 良好：30-40 个
-- 一般：20-30 个
-- 较差：<20 个
-
-评级标准（女性跪姿版）：
-- 优秀：>25 个
-- 良好：18-25 个
-- 一般：10-18 个
-- 较差：<10 个
+Rating standards (2km, female):
+- Excellent: <10 minutes
+- Good: 10-12 minutes
+- Average: 12-14 minutes
+- Poor: >14 minutes
 ```
 
-#### 引体向上测试（可选）
+#### Option B: 6-Minute Walk Test
 ```
-适用人群：有单杠条件者
+Suitable population: weak exercise foundation, older adults, rehabilitation period
 
-流程：
-- 起始：正手握杠，手臂完全伸直
-- 动作：下巴过杠，缓慢下放
-- 记录：连续最多次数
+Process:
+1. On flat ground (track or corridor)
+2. Walk as far as possible within 6 minutes
+3. Record walking distance (meters)
 
-评级标准（男性）：
-- 优秀：>15 个
-- 良好：10-15 个
-- 一般：5-10 个
-- 较差：<5 个
+Rating standards:
+- Excellent: >650 meters
+- Good: 550-650 meters
+- Average: 450-550 meters
+- Poor: <450 meters
 ```
 
 ---
 
-### 3. 核心力量测试
+### 2. Upper-Limb Strength Test
 
-#### 平板支撑测试
+#### Push-Up Test
 ```
-适用人群：所有人
+Suitable population: everyone
 
-流程：
-1. 起始：俯卧撑姿势，前臂支撑
-2. 保持：身体成直线，不要塌腰或撅臀
-3. 记录：保持到力竭的时间（秒）
+Male standard version:
+- Start: standard push-up position
+- Movement: chest approaches the ground, arms fully straighten
+- Record: maximum consecutive repetitions
 
-评级标准：
-- 优秀：>120 秒
-- 良好：90-120 秒
-- 一般：60-90 秒
-- 较差：<60 秒
-```
+Female kneeling version:
+- Start: both knees on the ground, lower legs crossed
+- Movement: same as above
+- Record: maximum consecutive repetitions
 
-#### 侧平板支撑测试
-```
-适用人群：所有人
+Rating standards (male standard version):
+- Excellent: >40 reps
+- Good: 30-40 reps
+- Average: 20-30 reps
+- Poor: <20 reps
 
-流程：
-1. 起始：侧卧，前臂支撑，身体成直线
-2. 保持：臀部抬起，身体成一直线
-3. 记录：左/右各保持到力竭的时间（秒）
-
-评级标准：
-- 优秀：>90 秒/侧
-- 良好：60-90 秒/侧
-- 一般：30-60 秒/侧
-- 较差：<30 秒/侧
+Rating standards (female kneeling version):
+- Excellent: >25 reps
+- Good: 18-25 reps
+- Average: 10-18 reps
+- Poor: <10 reps
 ```
 
----
-
-### 4. 下肢力量测试
-
-#### 徒手深蹲测试
+#### Pull-Up Test (Optional)
 ```
-适用人群：所有人
+Suitable population: people with access to a horizontal bar
 
-流程：
-1. 起始：双脚与肩同宽，脚尖略微外展
-2. 动作：下蹲至大腿平行地面，站起
-3. 记录：连续最多次数（动作标准）
+Process:
+- Start: overhand grip on the bar, arms fully straightened
+- Movement: chin over the bar, lower slowly
+- Record: maximum consecutive repetitions
 
-评级标准：
-- 优秀：>50 个
-- 良好：35-50 个
-- 一般：20-35 个
-- 较差：<20 个
-```
-
-#### 弓步蹲测试
-```
-适用人群：所有人
-
-流程：
-1. 起始：站立，双手叉腰
-2. 动作：向前迈步下蹲，后膝接近地面
-3. 记录：单腿连续最多次数
-
-评级标准（单腿）：
-- 优秀：>25 个
-- 良好：18-25 个
-- 一般：10-18 个
-- 较差：<10 个
+Rating standards (male):
+- Excellent: >15 reps
+- Good: 10-15 reps
+- Average: 5-10 reps
+- Poor: <5 reps
 ```
 
 ---
 
-### 5. 柔韧性测试
+### 3. Core Strength Test
 
-#### 坐姿体前屈测试
+#### Plank Test
 ```
-适用人群：所有人
+Suitable population: everyone
 
-流程：
-1. 起始：坐姿，双腿伸直，脚跟贴墙
-2. 动作：身体前屈，手指尽量向前伸
-3. 记录：手指与脚尖的距离
+Process:
+1. Start: push-up position, forearms supporting
+2. Hold: body in a straight line, do not let the waist sag or the hips lift
+3. Record: time held until exhaustion (seconds)
 
-评级标准：
-- 优秀：超过脚尖 10cm 以上
-- 良好：刚好到达脚尖
-- 一般：距离脚尖 0-10cm
-- 较差：距离脚尖 10cm 以上
-```
-
-#### 肩关节活动度测试
-```
-适用人群：所有人
-
-流程：
-1. 起始：站立，一手从上向后，一手从下向后
-2. 动作：尝试双手相扣
-3. 记录：能否相扣及距离
-
-评级标准：
-- 优秀：轻松相扣，手指重叠
-- 良好：刚好相扣，手指接触
-- 一般：无法相扣，但距离<10cm
-- 较差：距离>10cm 或活动受限
+Rating standards:
+- Excellent: >120 seconds
+- Good: 90-120 seconds
+- Average: 60-90 seconds
+- Poor: <60 seconds
 ```
 
----
-
-## 测试后记录
-
-### 记录模板
+#### Side Plank Test
 ```
-【体测日期】2026-03-16
+Suitable population: everyone
 
-【心肺耐力】
-- 项目：2km 跑步
-- 成绩：12 分 30 秒
-- 评级：一般
+Process:
+1. Start: side-lying, forearm supporting, body in a straight line
+2. Hold: lift the hips, body in one straight line
+3. Record: time held on left/right until exhaustion (seconds)
 
-【上肢力量】
-- 俯卧撑：25 个（标准版）
-- 评级：良好
-
-【核心力量】
-- 平板支撑：75 秒
-- 侧平板支撑：左 60 秒 / 右 55 秒
-- 评级：一般
-
-【下肢力量】
-- 徒手深蹲：30 个
-- 弓步蹲：15 个/腿
-- 评级：一般
-
-【柔韧性】
-- 坐姿体前屈：距离脚尖 5cm
-- 肩关节：刚好相扣
-- 评级：一般
-
-【总体评价】
-心肺耐力一般，上肢力量良好，核心和下肢需加强。
-建议：增加有氧训练和核心训练频率。
+Rating standards:
+- Excellent: >90 seconds/side
+- Good: 60-90 seconds/side
+- Average: 30-60 seconds/side
+- Poor: <30 seconds/side
 ```
 
 ---
 
-## 复测计划
+### 4. Lower-Limb Strength Test
 
-| 阶段 | 时间 | 目的 |
+#### Bodyweight Squat Test
+```
+Suitable population: everyone
+
+Process:
+1. Start: feet shoulder-width apart, toes slightly turned outward
+2. Movement: squat down until thighs are parallel to the ground, then stand up
+3. Record: maximum consecutive repetitions (standard movement)
+
+Rating standards:
+- Excellent: >50 reps
+- Good: 35-50 reps
+- Average: 20-35 reps
+- Poor: <20 reps
+```
+
+#### Lunge Test
+```
+Suitable population: everyone
+
+Process:
+1. Start: standing, hands on waist
+2. Movement: step forward and squat down, rear knee close to the ground
+3. Record: maximum consecutive repetitions on one leg
+
+Rating standards (single leg):
+- Excellent: >25 reps
+- Good: 18-25 reps
+- Average: 10-18 reps
+- Poor: <10 reps
+```
+
+---
+
+### 5. Flexibility Test
+
+#### Seated Forward Bend Test
+```
+Suitable population: everyone
+
+Process:
+1. Start: seated position, both legs straight, heels against the wall
+2. Movement: bend the body forward, fingers reaching forward as much as possible
+3. Record: distance between fingers and toes
+
+Rating standards:
+- Excellent: more than 10cm beyond toes
+- Good: just reaches toes
+- Average: 0-10cm away from toes
+- Poor: more than 10cm away from toes
+```
+
+#### Shoulder Joint Mobility Test
+```
+Suitable population: everyone
+
+Process:
+1. Start: standing, one hand reaches backward from above, one hand reaches backward from below
+2. Movement: try to clasp both hands together
+3. Record: whether they can clasp and the distance
+
+Rating standards:
+- Excellent: easily clasped, fingers overlap
+- Good: just clasped, fingers touch
+- Average: cannot clasp, but distance <10cm
+- Poor: distance >10cm or movement is limited
+```
+
+---
+
+## Post-Test Record
+
+### Record Template
+```
+【Fitness Test Date】2026-03-16
+
+【Cardiopulmonary Endurance】
+- Item: 2km run
+- Result: 12 minutes 30 seconds
+- Rating: Average
+
+【Upper-Limb Strength】
+- Push-ups: 25 reps (standard version)
+- Rating: Good
+
+【Core Strength】
+- Plank: 75 seconds
+- Side plank: left 60 seconds / right 55 seconds
+- Rating: Average
+
+【Lower-Limb Strength】
+- Bodyweight squats: 30 reps
+- Lunges: 15 reps/leg
+- Rating: Average
+
+【Flexibility】
+- Seated forward bend: 5cm away from toes
+- Shoulder joint: just clasped
+- Rating: Average
+
+【Overall Evaluation】
+Cardiopulmonary endurance is average, upper-limb strength is good, and core and lower limbs need strengthening.
+Recommendation: increase the frequency of aerobic training and core training.
+```
+
+---
+
+## Retest Plan
+
+| Stage | Time | Purpose |
 |------|------|------|
-| 初次体测 | 建档时 | 建立基准线 |
-| 第一次复测 | 1 个月后 | 评估初期进步 |
-| 第二次复测 | 3 个月后 | 评估长期进步 |
-| 常规复测 | 每 3 个月 | 持续追踪 |
+| Initial fitness test | At profile creation | Establish baseline |
+| First retest | After 1 month | Evaluate early progress |
+| Second retest | After 3 months | Evaluate long-term progress |
+| Routine retest | Every 3 months | Continuous tracking |
 
 ---
 
-*体测流程完成 | 下一步：舌象自检指南（tongue_self_exam_guide.md）*
+*Fitness testing process complete | Next step: tongue-image self-exam guide (tongue_self_exam_guide.md)*
