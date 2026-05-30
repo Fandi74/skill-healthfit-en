@@ -1,126 +1,126 @@
-# HealthFit 成就里程碑系统
+# HealthFit Achievement Milestone System
 
-## 成就分类
+## Achievement Categories
 
-### 🏋️ 训练成就
+### 🏋️ Training Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 初出茅庐 | 完成首次训练 | 🟢 简单 | 10 |
-| 持之以恒 | 连续训练 7 天 | 🟡 中等 | 50 |
-| 铁人意志 | 连续训练 30 天 | 🔴 困难 | 200 |
-| 百日战神 | 连续训练 100 天 | 🔴 困难 | 500 |
-| 一年之约 | 连续训练 365 天 | ⭐ 史诗 | 1000 |
-| 训练达人 | 累计训练 100 次 | 🟡 中等 | 100 |
-| 千锤百炼 | 累计训练 500 次 | 🔴 困难 | 400 |
+| First Steps | Complete the first training session | 🟢 Easy | 10 |
+| Perseverance | Train for 7 consecutive days | 🟡 Medium | 50 |
+| Iron Will | Train for 30 consecutive days | 🔴 Hard | 200 |
+| Hundred-Day War God | Train for 100 consecutive days | 🔴 Hard | 500 |
+| One-Year Promise | Train for 365 consecutive days | ⭐ Epic | 1000 |
+| Training Expert | Complete 100 cumulative training sessions | 🟡 Medium | 100 |
+| Tempered a Thousand Times | Complete 500 cumulative training sessions | 🔴 Hard | 400 |
 
-### 💪 力量成就
+### 💪 Strength Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 力量新星 | 任意项目 PR 提升 10% | 🟡 中等 | 50 |
-| 深蹲高手 | 深蹲达到 1.5 倍体重 | 🔴 困难 | 200 |
-| 卧推大师 | 卧推达到 1 倍体重 | 🔴 困难 | 200 |
-| 硬拉王者 | 硬拉达到 2 倍体重 | 🔴 困难 | 200 |
-| 三项全能 | 深蹲 + 卧推 + 硬拉 = 体重 4 倍 | ⭐ 史诗 | 500 |
+| Rising Strength Star | Any exercise PR improves by 10% | 🟡 Medium | 50 |
+| Squat Expert | Squat reaches 1.5× body weight | 🔴 Hard | 200 |
+| Bench Press Master | Bench press reaches 1× body weight | 🔴 Hard | 200 |
+| Deadlift King | Deadlift reaches 2× body weight | 🔴 Hard | 200 |
+| Big Three All-Rounder | Squat + bench press + deadlift = 4× body weight | ⭐ Epic | 500 |
 
-### 🏃 有氧成就
+### 🏃 Aerobic Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 5km 完成者 | 完成 5 公里跑步 | 🟢 简单 | 30 |
-| 10km 挑战者 | 完成 10 公里跑步 | 🟡 中等 | 80 |
-| 半马勇士 | 完成 21.1km 半程马拉松 | 🔴 困难 | 300 |
-| 全马传奇 | 完成 42.2km 全程马拉松 | ⭐ 史诗 | 800 |
-| 速度突破 | 5km 配速进入 5'00'' | 🔴 困难 | 200 |
+| 5km Finisher | Complete a 5 km run | 🟢 Easy | 30 |
+| 10km Challenger | Complete a 10 km run | 🟡 Medium | 80 |
+| Half-Marathon Warrior | Complete a 21.1 km half marathon | 🔴 Hard | 300 |
+| Full-Marathon Legend | Complete a 42.2 km full marathon | ⭐ Epic | 800 |
+| Speed Breakthrough | 5 km pace enters 5'00'' | 🔴 Hard | 200 |
 
-### 📉 减脂成就
+### 📉 Fat-Loss Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 初见成效 | 体重下降 2kg | 🟢 简单 | 30 |
-| 减脂达人 | 体重下降 5kg | 🟡 中等 | 100 |
-| 蜕变重生 | 体重下降 10kg | 🔴 困难 | 300 |
-| 半百突破 | 体重下降 25kg | ⭐ 史诗 | 600 |
-| 体脂达标 | 体脂率进入正常范围 | 🟡 中等 | 100 |
+| First Results | Body weight decreases by 2 kg | 🟢 Easy | 30 |
+| Fat-Loss Expert | Body weight decreases by 5 kg | 🟡 Medium | 100 |
+| Transformed and Reborn | Body weight decreases by 10 kg | 🔴 Hard | 300 |
+| Half-Hundred Breakthrough | Body weight decreases by 25 kg | ⭐ Epic | 600 |
+| Body Fat on Target | Body-fat percentage enters the normal range | 🟡 Medium | 100 |
 
-### 🥗 营养成就
+### 🥗 Nutrition Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 营养大师 | 连续 7 天蛋白质达标 | 🟡 中等 | 50 |
-| 饮食自律 | 连续 14 天热量达标 | 🔴 困难 | 150 |
-| 水分充足 | 连续 7 天饮水达标 | 🟢 简单 | 30 |
-| 均衡饮食 | 连续 30 天三餐记录完整 | 🔴 困难 | 200 |
+| Nutrition Master | Protein reaches target for 7 consecutive days | 🟡 Medium | 50 |
+| Dietary Self-Discipline | Calories reach target for 14 consecutive days | 🔴 Hard | 150 |
+| Well Hydrated | Water intake reaches target for 7 consecutive days | 🟢 Easy | 30 |
+| Balanced Diet | Complete three-meal records for 30 consecutive days | 🔴 Hard | 200 |
 
-### 😴 健康成就
+### 😴 Health Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 睡眠冠军 | 连续 7 天睡眠>7 小时 | 🟢 简单 | 30 |
-| 精力充沛 | 连续 14 天精力评分>7 | 🟡 中等 | 80 |
-| 压力管理 | 连续 7 天压力评分<5 | 🟡 中等 | 50 |
-| 健康达人 | 连续 30 天各项指标正常 | 🔴 困难 | 200 |
+| Sleep Champion | Sleep >7 hours for 7 consecutive days | 🟢 Easy | 30 |
+| Full of Energy | Energy score >7 for 14 consecutive days | 🟡 Medium | 80 |
+| Stress Management | Stress score <5 for 7 consecutive days | 🟡 Medium | 50 |
+| Health Expert | All indicators normal for 30 consecutive days | 🔴 Hard | 200 |
 
-### 🌿 中医养生成就
+### 🌿 TCM Health-Preservation Achievements
 
-| 成就名称 | 触发条件 | 难度 | 积分 |
+| Achievement Name | Trigger Condition | Difficulty | Points |
 |---------|---------|------|------|
-| 体质辨识 | 完成中医体质辨识 | 🟢 简单 | 20 |
-| 八段锦入门 | 连续练习八段锦 7 天 | 🟡 中等 | 50 |
-| 舌象追踪 | 完成 3 次月度舌象检查 | 🟡 中等 | 60 |
-| 节气养生 | 完成 24 节气养生打卡 | 🔴 困难 | 300 |
-| 体质改善 | 体质倾向分改善 20 分 | 🔴 困难 | 200 |
+| Constitution Differentiation | Complete TCM constitution differentiation | 🟢 Easy | 20 |
+| Baduanjin Beginner | Practice Baduanjin for 7 consecutive days | 🟡 Medium | 50 |
+| Tongue-Image Tracking | Complete 3 monthly tongue-image checks | 🟡 Medium | 60 |
+| Solar-Term Health Preservation | Complete check-ins for the 24 solar terms | 🔴 Hard | 300 |
+| Constitution Improvement | Constitution tendency score improves by 20 points | 🔴 Hard | 200 |
 
-## 成就积分系统
+## Achievement Points System
 
-### 积分等级
+### Point Levels
 
-| 等级 | 积分范围 | 称号 |
+| Level | Point Range | Title |
 |------|---------|------|
-| Lv.1 | 0-99 | 健康新手 |
-| Lv.2 | 100-299 | 健身爱好者 |
-| Lv.3 | 300-599 | 运动达人 |
-| Lv.4 | 600-999 | 健康精英 |
-| Lv.5 | 1000-1999 | 健身专家 |
-| Lv.6 | 2000-4999 | 运动大师 |
-| Lv.7 | 5000+ | 传奇健身者 |
+| Lv.1 | 0-99 | Health Beginner |
+| Lv.2 | 100-299 | Fitness Enthusiast |
+| Lv.3 | 300-599 | Exercise Expert |
+| Lv.4 | 600-999 | Health Elite |
+| Lv.5 | 1000-1999 | Fitness Specialist |
+| Lv.6 | 2000-4999 | Exercise Master |
+| Lv.7 | 5000+ | Legendary Fitness Practitioner |
 
-### 积分用途
+### Point Uses
 
-- 解锁专属训练计划
-- 解锁高级数据分析
-- 解锁个性化建议
-- 成就展示（分享功能）
+- Unlock exclusive training plans
+- Unlock advanced data analysis
+- Unlock personalized advice
+- Achievement display (sharing feature)
 
-## 成就庆祝模板
+## Achievement Celebration Template
 
 ```
-🎉 成就解锁！
+🎉 Achievement Unlocked!
 
-🏆【{成就名称}】{成就描述}
+🏆【{Achievement Name}】{Achievement Description}
 
 ═══════════════════════════════════════════════════
 
-这是一个了不起的成就！
+This is an amazing achievement!
 
-📊 数据统计
-- 开始日期：{date}
-- 结束日期：{date}
-- 总训练次数：{X} 次
-- 总训练时长：{X} 分钟
+📊 Data Statistics
+- Start date: {date}
+- End date: {date}
+- Total training sessions: {X} sessions
+- Total training duration: {X} minutes
 
-💪 期间进步
-- {进步 1}
-- {进步 2}
+💪 Progress During This Period
+- {Progress 1}
+- {Progress 2}
 
-🌟 这个成就意味着
-{意义解读}
+🌟 What This Achievement Means
+{Meaning Interpretation}
 
-继续保持！下一个里程碑：{下一个目标}！
+Keep it up! Next milestone: {Next Goal}!
 
-#HealthFit 成就系统 | 解锁时间：{time}
+#HealthFit Achievement System | Unlock time: {time}
 ```
 
 ---
-*成就里程碑系统完成 | 下一步：体测流程（fitness_baseline_test.md）*
+*Achievement milestone system complete | Next step: fitness testing process (fitness_baseline_test.md)*
