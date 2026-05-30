@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-HealthFit 数据导出脚本
-支持导出为 JSON、CSV、Markdown 格式
+HealthFit data export script
+Supports exporting to JSON, CSV, and Markdown formats
 """
 
 import json
@@ -20,42 +20,42 @@ DB_PATH = DATA_DIR / "db" / "healthfit.db"
 
 
 def export_json_files(output_dir: Path, include_private: bool = False):
-    """导出所有 JSON 文件"""
+    """Export all JSON files"""
     json_dir = DATA_DIR / "json"
     
     if not json_dir.exists():
-        print("⚠️ JSON 目录不存在，跳过")
+        print("⚠️ JSON directory does not exist, skipping")
         return
     
     exported_count = 0
     skipped_count = 0
     
     for json_file in json_dir.glob("*.json"):
-        # 跳过私密文件（除非明确要求）
+        # Skip private files unless explicitly requested
         if json_file.name == "private_sexual_health.json" and not include_private:
-            print(f"⏭️ 跳过私密文件：{json_file.name}")
+            print(f"⏭️ Skipping private file: {json_file.name}")
             skipped_count += 1
             continue
         
-        # 复制文件
+        # Copy file
         dest = output_dir / json_file.name
         shutil.copy2(json_file, dest)
-        print(f"✅ 导出：{json_file.name}")
+        print(f"✅ Exported: {json_file.name}")
         exported_count += 1
     
-    print(f"\n📊 JSON 文件导出完成：{exported_count} 个文件，跳过 {skipped_count} 个私密文件")
+    print(f"\n📊 JSON file export complete: {exported_count} files, skipped {skipped_count} private files")
 
 
 def export_database_to_csv(output_dir: Path):
-    """将数据库表导出为 CSV"""
+    """Export database tables to CSV"""
     if not DB_PATH.exists():
-        print("⚠️ 数据库不存在，跳过")
+        print("⚠️ Database does not exist, skipping")
         return
     
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
-    # 获取所有表名
+    # Get all table names
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
     tables = cursor.fetchall()
     
@@ -65,146 +65,146 @@ def export_database_to_csv(output_dir: Path):
         cursor.execute(f"SELECT * FROM {table_name}")
         rows = cursor.fetchall()
         
-        # 获取列名
+        # Get column names
         cursor.execute(f"PRAGMA table_info({table_name})")
         columns = [col[1] for col in cursor.fetchall()]
         
-        # 写入 CSV
+        # Write CSV
         csv_path = output_dir / f"{table_name}.csv"
         with open(csv_path, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             writer.writerow(columns)
             writer.writerows(rows)
         
-        print(f"✅ 导出表：{table_name}.csv ({len(rows)} 条记录)")
+        print(f"✅ Exported table: {table_name}.csv ({len(rows)} records)")
         exported_count += 1
     
     conn.close()
-    print(f"\n📊 数据库导出完成：{exported_count} 张表")
+    print(f"\n📊 Database export complete: {exported_count} tables")
 
 
 def generate_markdown_report(output_dir: Path):
-    """生成可读的 Markdown 报告"""
+    """Generate a readable Markdown report"""
     report_lines = [
-        "# HealthFit 数据导出报告",
-        f"\n导出时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n",
+        "# HealthFit Data Export Report",
+        f"\nExport time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n",
         "---\n"
     ]
     
-    # 读取用户档案
+    # Read user profile
     profile_path = DATA_DIR / "json" / "profile.json"
     if profile_path.exists():
         profile = json.loads(profile_path.read_text(encoding="utf-8"))
-        report_lines.append("## 用户档案\n")
-        report_lines.append(f"- 昵称：{profile.get('nickname', '未设置')}")
-        report_lines.append(f"- 身高：{profile.get('height_cm', '未设置')} cm")
-        report_lines.append(f"- 体重：{profile.get('weight_kg', '未设置')} kg")
-        report_lines.append(f"- 主要目标：{profile.get('primary_goal', '未设置')}")
-        report_lines.append(f"- 创建时间：{profile.get('created_at', '未知')}")
-        report_lines.append(f"- 上次更新：{profile.get('updated_at', '未知')}\n")
+        report_lines.append("## User Profile\n")
+        report_lines.append(f"- Nickname: {profile.get('nickname', 'Not set')}")
+        report_lines.append(f"- Height: {profile.get('height_cm', 'Not set')} cm")
+        report_lines.append(f"- Weight: {profile.get('weight_kg', 'Not set')} kg")
+        report_lines.append(f"- Primary goal: {profile.get('primary_goal', 'Not set')}")
+        report_lines.append(f"- Created at: {profile.get('created_at', 'Unknown')}")
+        report_lines.append(f"- Last updated: {profile.get('updated_at', 'Unknown')}\n")
     
-    # 统计数据库记录数
+    # Count database records
     if DB_PATH.exists():
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         
-        report_lines.append("## 数据统计\n")
+        report_lines.append("## Data Statistics\n")
         
         cursor.execute("SELECT COUNT(*) FROM workouts")
-        report_lines.append(f"- 运动记录：{cursor.fetchone()[0]} 条")
+        report_lines.append(f"- Exercise records: {cursor.fetchone()[0]} records")
         
         cursor.execute("SELECT COUNT(*) FROM nutrition_entries")
-        report_lines.append(f"- 饮食记录：{cursor.fetchone()[0]} 条")
+        report_lines.append(f"- Nutrition records: {cursor.fetchone()[0]} records")
         
         cursor.execute("SELECT COUNT(*) FROM metrics_daily")
-        report_lines.append(f"- 每日指标：{cursor.fetchone()[0]} 条")
+        report_lines.append(f"- Daily metrics: {cursor.fetchone()[0]} records")
         
         cursor.execute("SELECT COUNT(*) FROM pr_records")
-        report_lines.append(f"- PR 记录：{cursor.fetchone()[0]} 条")
+        report_lines.append(f"- PR records: {cursor.fetchone()[0]} records")
         
         cursor.execute("SELECT COUNT(*) FROM weekly_summaries")
-        report_lines.append(f"- 周统计：{cursor.fetchone()[0]} 条")
+        report_lines.append(f"- Weekly statistics: {cursor.fetchone()[0]} records")
         
         cursor.execute("SELECT COUNT(*) FROM monthly_summaries")
-        report_lines.append(f"- 月统计：{cursor.fetchone()[0]} 条\n")
+        report_lines.append(f"- Monthly statistics: {cursor.fetchone()[0]} records\n")
         
         conn.close()
     
-    # 写入 TXT 日志统计
+    # Write TXT log statistics
     txt_dir = DATA_DIR / "txt"
     if txt_dir.exists():
-        report_lines.append("## 文本日志\n")
+        report_lines.append("## Text Logs\n")
         
         workout_log = txt_dir / "workout_log.txt"
         if workout_log.exists():
             lines = workout_log.read_text(encoding="utf-8").strip().split('\n')
-            report_lines.append(f"- 运动日志：{len(lines)} 条记录")
+            report_lines.append(f"- Exercise log: {len(lines)} records")
         
         nutrition_log = txt_dir / "nutrition_log.txt"
         if nutrition_log.exists():
             lines = nutrition_log.read_text(encoding="utf-8").strip().split('\n')
-            report_lines.append(f"- 饮食日志：{len(lines)} 条记录")
+            report_lines.append(f"- Nutrition log: {len(lines)} records")
         
         achievements = txt_dir / "achievements.txt"
         if achievements.exists():
             lines = achievements.read_text(encoding="utf-8").strip().split('\n')
-            report_lines.append(f"- 成就记录：{len(lines)} 条")
+            report_lines.append(f"- Achievement records: {len(lines)} records")
         
         report_lines.append("")
     
-    # 写入报告
+    # Write report
     report_path = output_dir / "export_report.md"
     report_path.write_text("\n".join(report_lines), encoding="utf-8")
-    print(f"✅ 生成报告：export_report.md")
+    print(f"✅ Generated report: export_report.md")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="HealthFit 数据导出")
-    parser.add_argument("--output", "-o", default="./healthfit_export", help="导出目录")
-    parser.add_argument("--include-private", action="store_true", help="包含私密数据（需二次确认）")
+    parser = argparse.ArgumentParser(description="HealthFit data export")
+    parser.add_argument("--output", "-o", default="./healthfit_export", help="Export directory")
+    parser.add_argument("--include-private", action="store_true", help="Include private data (requires secondary confirmation)")
     parser.add_argument("--format", choices=["all", "json", "csv", "markdown"], default="all",
-                       help="导出格式")
+                       help="Export format")
     
     args = parser.parse_args()
     
-    # 私密数据二次确认
+    # Secondary confirmation for private data
     if args.include_private:
         print("\n" + "="*60)
-        print("⚠️  警告：高度敏感数据导出确认  ⚠️")
+        print("⚠️  Warning: Highly Sensitive Data Export Confirmation  ⚠️")
         print("="*60)
         print("""
-您选择了导出私密数据，包括：
-  - 性健康记录（private_sexual_health.json）
-  - 所有个人健康隐私信息
+You chose to export private data, including:
+  - Sexual health records (private_sexual_health.json)
+  - All personal health privacy information
 
-此操作风险：
-  ❌ 备份文件可能被他人访问
-  ❌ 云同步可能自动上传
-  ❌ 数据泄露可能造成隐私损害
+Risks of this operation:
+  ❌ Export files may be accessed by others
+  ❌ Cloud sync may upload them automatically
+  ❌ Data leakage may cause privacy harm
 
-请确认您理解以上风险。
+Please confirm that you understand the above risks.
 """)
         print("="*60)
         
-        # 随机验证码确认
+        # Random verification-code confirmation
         import random
         import string
         verify_code = ''.join(random.choices(string.ascii_uppercase, k=6))
-        print(f"\n请输入以下验证码以确认：{verify_code}")
+        print(f"\nPlease enter the following verification code to confirm: {verify_code}")
         
-        user_input = input("验证码：").strip().upper()
+        user_input = input("Verification code: ").strip().upper()
         if user_input != verify_code:
-            print("❌ 验证码错误，已取消操作")
+            print("❌ Verification code incorrect, operation canceled")
             return
         
-        # 记录操作日志
+        # Record operation log
         log_path = DATA_DIR / "security_log.txt"
         with open(log_path, "a", encoding="utf-8") as f:
-            f.write(f"[{datetime.now()}] 私密数据导出操作已执行\n")
+            f.write(f"[{datetime.now()}] Private data export operation executed\n")
         
-        print("✅ 验证通过，继续执行导出...\n")
+        print("✅ Verification passed, continuing export...\n")
     
-    # 创建输出目录
+    # Create output directory
     output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
     
@@ -212,26 +212,26 @@ def main():
     export_dir = output_dir / f"export_{timestamp}"
     export_dir.mkdir()
     
-    print(f"📁 导出目录：{export_dir}\n")
+    print(f"📁 Export directory: {export_dir}\n")
     
-    # 执行导出
+    # Execute export
     if args.format in ["all", "json"]:
-        print("📄 导出 JSON 文件...")
+        print("📄 Exporting JSON files...")
         export_json_files(export_dir, args.include_private)
         print()
     
     if args.format in ["all", "csv"]:
-        print("📊 导出数据库为 CSV...")
+        print("📊 Exporting database to CSV...")
         export_database_to_csv(export_dir)
         print()
     
     if args.format in ["all", "markdown"]:
-        print("📝 生成 Markdown 报告...")
+        print("📝 Generating Markdown report...")
         generate_markdown_report(export_dir)
         print()
     
-    print(f"\n✅ 导出完成！目录：{export_dir}")
-    print(f"💡 提示：可手动压缩备份，或上传到云存储")
+    print(f"\n✅ Export complete! Directory: {export_dir}")
+    print(f"💡 Tip: you can manually compress the backup or upload it to cloud storage")
 
 
 if __name__ == "__main__":
