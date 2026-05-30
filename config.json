@@ -81,11 +81,11 @@
     "quick_commands": true,
     "draft_recovery": true,
     "photo_upload": false,
-    "_note": "photo_upload 功能 v3.1 实现，当前版本需手动上传图片到 exercise_images 目录"
+    "_note": "photo_upload will be implemented in v3.1; the current version requires manually uploading images to the exercise_images directory"
   },
   "ui": {
     "welcome_menu": "simple",
     "show_role_status": true,
-    "language": "zh-CN"
+    "language": "en-US"
   }
 }
