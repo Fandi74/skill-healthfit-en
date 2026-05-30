@@ -1,78 +1,78 @@
-# 运动动作图片资源库
+# Exercise Movement Image Resource Library
 
-> **当前状态：** ⚠️ 图片资源待补充（v3.1 计划）
+> **Current Status:** ⚠️ Image resources to be added (planned for v3.1)
 
 ---
 
-## 📁 目录结构
+## 📁 Directory Structure
 
-本目录规划用于存放 HealthFit 训练动作的图解资源：
+This directory is planned for storing illustrated resources for HealthFit training movements:
 
 ```
 exercise_images/
-├── squat/              # 深蹲系列
-│   ├── squat_start.jpg        # 起始姿势
-│   ├── squat_bottom.jpg       # 最低点姿势
-│   └── squat_animation.gif    # 完整动作动图
-├── deadlift/           # 硬拉系列
-├── bench_press/        # 卧推系列
-├── shoulder_press/     # 肩上推举系列
-├── row/                # 划船系列
-├── pullup/             # 引体向上系列
-├── plank/              # 平板支撑系列
-└── baduanjin/          # 八段锦系列
+├── squat/              # Squat series
+│   ├── squat_start.jpg        # Starting posture
+│   ├── squat_bottom.jpg       # Bottom-position posture
+│   └── squat_animation.gif    # Complete movement animation
+├── deadlift/           # Deadlift series
+├── bench_press/        # Bench press series
+├── shoulder_press/     # Shoulder press series
+├── row/                # Row series
+├── pullup/             # Pull-up series
+├── plank/              # Plank series
+└── baduanjin/          # Baduanjin series
 ```
 
-**当前状态：** 目录结构已创建，图片资源待补充。
+**Current Status:** The directory structure has been created; image resources are to be added.
 
 ---
 
-## 📸 图片来源方案（按优先级）
+## 📸 Image Source Plans (By Priority)
 
-### 方案 A：用户自拍（推荐）
-- 用户可拍摄自己的动作照片
-- AI 对比标准动作提供纠正建议
-- 记录进步历程
+### Plan A: User Self-Photos (Recommended)
+- Users can take photos of their own movements
+- AI compares them with standard movements and provides correction suggestions
+- Record progress history
 
-### 方案 B：公开资源
-- Unsplash（免费商用）
-- Pexels（免费商用）
-- 其他 CC0 授权资源
+### Plan B: Public Resources
+- Unsplash (free for commercial use)
+- Pexels (free for commercial use)
+- Other CC0 licensed resources
 
-### 方案 C：AI 生成
-- DALL-E 3 生成动作示意图
-- Midjourney 生成专业插图
-
----
-
-## 🎯 使用场景
-
-1. **训练计划中** — Coach Alex 在制定计划时引用对应动作图片
-2. **动作纠正** — 用户自拍动作，AI 对比标准姿势提供建议
-3. **进步记录** — 定期拍摄同一动作，对比姿势改善
+### Plan C: AI Generation
+- DALL-E 3 generates movement diagrams
+- Midjourney generates professional illustrations
 
 ---
 
-## ⚠️ 注意事项
+## 🎯 Use Cases
 
-- 所有图片需获得用户授权才能使用
-- 用户自拍照片属于隐私数据，存储需加密
-- 公开资源需确认版权许可
+1. **In training plans** — Coach Alex references corresponding movement images when creating plans
+2. **Movement correction** — Users take movement photos, and AI compares them with standard posture to provide suggestions
+3. **Progress records** — Regularly photograph the same movement to compare posture improvements
 
 ---
 
-## 🔗 临时替代方案
+## ⚠️ Notes
 
-在图片资源完善前，Coach Alex 会提供：
-- ✅ 详细的文字描述（已实现）
-- ✅ 常见错误列表（已实现）
-- ✅ 降阶/进阶动作（已实现）
-- ✅ 参考视频链接（B 站/YouTube，已实现）
+- All images require user authorization before they can be used
+- User self-photos are private data and must be stored with encryption
+- Copyright licenses must be confirmed for public resources
 
-**小白用户提示：** 如不确定动作标准，可：
-1. 请健身教练现场指导
-2. 搜索"B 站/YouTube [动作名称] 教程"观看视频
-3. 拍摄自己的动作请 AI 帮忙纠正
+---
+
+## 🔗 Temporary Alternatives
+
+Before image resources are complete, Coach Alex will provide:
+- ✅ Detailed text descriptions (implemented)
+- ✅ Common error lists (implemented)
+- ✅ Regression/progression movements (implemented)
+- ✅ Reference video links (Bilibili/YouTube, implemented)
+
+**Beginner User Tip:** If unsure about movement standards, you can:
+1. Ask a fitness coach for on-site guidance
+2. Search "Bilibili/YouTube [movement name] tutorial" to watch videos
+3. Take photos of your own movements and ask AI to help correct them
 
 ---
 
