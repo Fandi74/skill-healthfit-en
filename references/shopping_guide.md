@@ -1,215 +1,215 @@
-# HealthFit 购物指南
+#HealthFit Shopping Guide
 
-> 根据您的健身目标定制食材清单，帮您高效采购、科学饮食。
-
----
-
-## 🎯 请先选择您的目标
-
-- [减脂期购物清单](#减脂期购物清单)
-- [增肌期购物清单](#增肌期购物清单)
-- [维持期购物清单](#维持期购物清单)
+> Customize the ingredient list according to your fitness goals to help you purchase efficiently and eat scientifically.
 
 ---
 
-## 减脂期购物清单
+## 🎯 Please select your goal first
 
-**核心原则：** 高蛋白、中低碳水、高纤维、适度热量缺口
-
-### 🛒 强烈推荐（⭐⭐⭐⭐⭐ 每周必买）
-
-#### 蛋白质类
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
-|------|---------|-----------|------|
-| 鸡胸肉 | 每周 4-5 次 | 500g-1kg | 高蛋白低脂，性价比之王 |
-| 鸡蛋 | 每天 1-2 个 | 10-15 个 | 完整蛋白质，营养全面 |
-| 鱼虾（鳕鱼/虾仁） | 每周 3-4 次 | 300-500g | 低脂高蛋白，富含 Omega-3 |
-| 希腊酸奶（无糖） | 每周 3-4 次 | 500g | 高蛋白，饱腹感强 |
-
-#### 蔬菜类
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
-|------|---------|-----------|------|
-| 西兰花 | 每周 4-5 次 | 500g | 十字花科，高纤维，抗癌 |
-| 菠菜/生菜 | 每周 4-5 次 | 300-500g | 低卡高纤维，富含铁镁 |
-| 黄瓜 | 每周 3-4 次 | 500g | 低卡解馋，可当零食 |
-| 番茄 | 每周 3-4 次 | 500g | 富含番茄红素，抗氧化 |
-
-#### 主食类（控制量）
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
-|------|---------|-----------|------|
-| 燕麦片（原味） | 每周 3-4 次 | 500g | 选非即食型，慢碳饱腹 |
-| 红薯/紫薯 | 每周 2-3 次 | 500g | 优质慢碳，富含纤维 |
-| 糙米/杂粮米 | 每周 2-3 次 | 500g | 替代白米饭，GI 值低 |
-
-#### 健康脂肪
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
-|------|---------|-----------|------|
-| 坚果（杏仁/核桃） | 每天一小把 | 200g | 约 30g/天，不要过量 |
-| 橄榄油 | 烹饪用油 | 500ml | 单不饱和脂肪酸 |
-| 牛油果 | 每周 1-2 次 | 2-3 个 | 优质脂肪，适量 |
+- [Fat Loss Period Shopping List](# Fat Loss Period Shopping List)
+- [Muscle-Building Period Shopping List](#Muscle-Building Period Shopping List)
+- [Maintenance Shopping List](#Maintenance Shopping List)
 
 ---
 
-### ⚠️ 减脂期避免食物
+## Shopping list for fat loss period
 
-| 食物类型 | 具体例子 | 原因 |
+**Core Principles:** High protein, medium to low carbohydrates, high fiber, moderate caloric deficit
+
+### 🛒 Highly recommended (⭐⭐⭐⭐⭐ must buy every week)
+
+#### Protein
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
+|------|---------|-----------|------|
+| Chicken Breast | 4-5 times a week | 500g-1kg | High protein and low fat, the best value for money |
+| Eggs | 1-2 per day | 10-15 | Complete protein, comprehensive nutrition |
+| Fish and shrimp (cod/shrimp) | 3-4 times a week | 300-500g | Low-fat, high-protein, rich in Omega-3 |
+| Greek yogurt (sugar-free) | 3-4 times a week | 500g | High protein, strong satiety |
+
+#### Vegetables
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
+|------|---------|-----------|------|
+| Broccoli | 4-5 times a week | 500g | Cruciferous, high fiber, anti-cancer |
+| Spinach/lettuce | 4-5 times a week | 300-500g | Low in calories and high in fiber, rich in iron and magnesium |
+| Cucumber | 3-4 times a week | 500g | Low calorie satiates cravings and can be used as a snack |
+| Tomatoes | 3-4 times a week | 500g | Rich in lycopene, antioxidant |
+
+#### Staple food (control the amount)
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
+|------|---------|-----------|------|
+| Oatmeal (original flavor) | 3-4 times a week | 500g | Choose non-ready-to-eat type, slow carb filling |
+| Sweet potato/purple potato | 2-3 times a week | 500g | High-quality slow carbs, rich in fiber |
+| Brown rice/multigrain rice | 2-3 times a week | 500g | Substitute for white rice, low GI value |
+
+#### Healthy Fats
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
+|------|---------|-----------|------|
+| Nuts (almonds/walnuts) | A handful a day | 200g | About 30g/day, don’t overdose |
+| Olive oil | Cooking oil | 500ml | Monounsaturated fatty acids |
+| Avocado | 1-2 times a week | 2-3 | Good fat, moderate amount |
+
+---
+
+### ⚠️ Foods to avoid during fat loss period
+
+| Types of food | Specific examples | Reasons |
 |---------|---------|------|
-| ❌ 含糖饮料 | 可乐、果汁、奶茶 | 高糖低营养，快速升高血糖 |
-| ❌ 油炸食品 | 炸鸡、薯条、油条 | 高热量，反式脂肪 |
-| ❌ 精制甜点 | 蛋糕、饼干、冰淇淋 | 高糖高脂，易堆积脂肪 |
-| ❌ 加工肉类 | 香肠、培根、午餐肉 | 高钠，含亚硝酸盐 |
-| ❌ 精白主食 | 白米饭、白面包、馒头 | GI 值高，易饿 |
+| ❌ Sugary drinks | Coke, juice, milk tea | High sugar and low nutrition, quickly raise blood sugar |
+| ❌ Fried food | Fried chicken, French fries, fried dough sticks | High in calories, trans fat |
+| ❌ Refined desserts | Cakes, cookies, ice cream | High in sugar and fat, easy to accumulate fat |
+| ❌ Processed meats | Sausage, bacon, luncheon meats | High sodium, containing nitrites |
+| ❌ Refined white staple food | White rice, white bread, steamed buns | High GI value, easy to get hungry |
 
 ---
 
-## 增肌期购物清单
+##Muscle Building Shopping List
 
-**核心原则：** 充足热量盈余、高蛋白、中高碳水、优质脂肪
+**Core principles:** Adequate caloric surplus, high protein, medium to high carbohydrates, and high-quality fats
 
-### 🛒 强烈推荐（⭐⭐⭐⭐⭐ 每周必买）
+### 🛒 Highly recommended (⭐⭐⭐⭐⭐ must buy every week)
 
-#### 蛋白质类
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
+#### Protein
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
 |------|---------|-----------|------|
-| 鸡胸肉/鸡腿肉 | 每周 4-5 次 | 1-1.5kg | 高蛋白，鸡腿肉热量稍高 |
-| 鸡蛋 | 每天 2-3 个 | 15-20 个 | 完整蛋白质，蛋黄也吃 |
-| 瘦牛肉 | 每周 3-4 次 | 500-800g | 富含肌酸和铁，助力量增长 |
-| 三文鱼 | 每周 2-3 次 | 400-600g | 高蛋白 + Omega-3，抗炎 |
-| 乳清蛋白粉 | 每天 1-2 勺 | 1-2kg | 训练后补充，方便快捷 |
+| Chicken breast/leg meat | 4-5 times a week | 1-1.5kg | High protein, chicken leg meat has slightly higher calories |
+| Eggs | 2-3 a day | 15-20 | Complete protein, including yolks |
+| Lean beef | 3-4 times a week | 500-800g | Rich in creatine and iron to support strength growth |
+| Salmon | 2-3 times a week | 400-600g | High protein + Omega-3, anti-inflammatory |
+| Whey protein powder | 1-2 scoops per day | 1-2kg | Supplement after training, convenient and fast |
 
-#### 主食类（增肌关键）
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
+#### Staple foods (key to muscle gain)
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
 |------|---------|-----------|------|
-| 白米饭 | 每周 4-5 次 | 1-2kg | 训练后快速补充糖原 |
-| 燕麦片 | 每周 3-4 次 | 500g | 早餐优质碳水 |
-| 红薯/紫薯 | 每周 2-3 次 | 500g | 训练前 2 小时食用 |
-| 全麦面包 | 每周 3-4 次 | 1 条 | 方便加餐 |
-| 意大利面 | 每周 2-3 次 | 500g | 低 GI，持续供能 |
+| White rice | 4-5 times a week | 1-2kg | Quickly replenish glycogen after training |
+| Oatmeal | 3-4 times a week | 500g | High-quality carbohydrates for breakfast |
+| Sweet potato/purple potato | 2-3 times a week | 500g | Consume 2 hours before training |
+| Whole wheat bread | 3-4 times a week | 1 loaf | Convenient snack |
+| Pasta | 2-3 times a week | 500g | Low GI, continuous energy supply |
 
-#### 蔬菜类
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
+#### Vegetables
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
 |------|---------|-----------|------|
-| 西兰花 | 每周 4-5 次 | 500g | 十字花科，帮助雌激素代谢 |
-| 菠菜 | 每周 3-4 次 | 300-500g | 富含镁，助肌肉收缩 |
-| 胡萝卜 | 每周 3-4 次 | 500g | 富含β-胡萝卜素 |
-| 混合蔬菜 | 每周 3-4 次 | 500g | 保证营养全面 |
+| Broccoli | 4-5 times a week | 500g | Cruciferous, helps estrogen metabolism |
+| Spinach | 3-4 times a week | 300-500g | Rich in magnesium, helps muscle contraction |
+| Carrots | 3-4 times a week | 500g | Rich in beta-carotene |
+| Mixed vegetables | 3-4 times a week | 500g | Guaranteed complete nutrition |
 
-#### 健康脂肪
-| 食材 | 推荐频率 | 每次购买量 | 备注 |
+#### Healthy Fats
+| Ingredients | Recommended frequency | Amount per purchase | Remarks |
 |------|---------|-----------|------|
-| 坚果混合 | 每天一小把 | 300g | 约 50g/天，增肌期可多吃 |
-| 花生酱（天然） | 每周 3-4 次 | 500g | 选无添加糖的 |
-| 橄榄油 | 烹饪用油 | 500ml | 拌饭拌面增加热量 |
-| 全脂牛奶 | 每天 1-2 杯 | 2L | 训练后奶昔基底 |
+| Mixed nuts | A handful a day | 300g | About 50g/day, you can eat more during the muscle-building period |
+| Peanut butter (natural) | 3-4 times a week | 500g | Choose without added sugar |
+| Olive oil | Cooking oil | 500ml | Mix rice and noodles to increase calories |
+| Whole milk | 1-2 cups per day | 2L | Post-training shake base |
 
 ---
 
-### ⚠️ 增肌期限制食物
+### ⚠️ Restricted foods during the muscle-building period
 
-| 食物类型 | 具体例子 | 建议 |
+| Types of food | Specific examples | Suggestions |
 |---------|---------|------|
-| ⚠️ 含糖饮料 | 可乐、果汁 | 训练后可少量，其他时间避免 |
-| ⚠️ 油炸食品 | 炸鸡、薯条 | 偶尔解馋，不要过量 |
-| ⚠️ 高糖零食 | 糖果、巧克力 | 选择黑巧克力（70% 以上） |
+| ⚠️ Sugary drinks | Coke, juice | A small amount after training, avoid at other times |
+| ⚠️ Fried food | Fried chicken, French fries | Satisfy your cravings occasionally, but don’t overdo it |
+| ⚠️ High-sugar snacks | Candy, chocolate | Choose dark chocolate (more than 70%) |
 
 ---
 
-## 维持期购物清单
+## Maintenance shopping list
 
-**核心原则：** 均衡营养、适度热量、多样化、可持续性
+**Core Principles:** Balanced nutrition, moderate calories, variety, sustainability
 
-### 🛒 推荐食物（均衡搭配）
+### 🛒 Recommended food (balanced combination)
 
-#### 蛋白质类（多样化）
-| 食材 | 推荐频率 | 每次购买量 |
+#### Proteins (diversified)
+| Ingredients | Recommended frequency | Amount per purchase |
 |------|---------|-----------|
-| 鸡肉（胸/腿） | 每周 3-4 次 | 500-800g |
-| 鱼虾 | 每周 3-4 次 | 500g |
-| 鸡蛋 | 每天 1-2 个 | 10 个 |
-| 瘦牛肉 | 每周 2-3 次 | 400g |
-| 豆制品（豆腐/豆浆） | 每周 2-3 次 | 500g |
+| Chicken (breast/leg) | 3-4 times a week | 500-800g |
+| Fish and shrimp | 3-4 times a week | 500g |
+| Eggs | 1-2 per day | 10 |
+| Lean beef | 2-3 times a week | 400g |
+| Soy products (tofu/soy milk) | 2-3 times a week | 500g |
 
-#### 主食类（粗细搭配）
-| 食材 | 推荐频率 | 每次购买量 |
+#### Staple food (thick and thin combination)
+| Ingredients | Recommended frequency | Amount per purchase |
 |------|---------|-----------|
-| 白米饭 | 每周 3-4 次 | 1kg |
-| 糙米/杂粮 | 每周 2-3 次 | 500g |
-| 燕麦片 | 每周 2-3 次 | 500g |
-| 红薯 | 每周 2 次 | 500g |
-| 全麦面包 | 每周 2-3 次 | 1 条 |
+| White rice | 3-4 times a week | 1kg |
+| Brown rice/grains | 2-3 times a week | 500g |
+| Oatmeal | 2-3 times a week | 500g |
+| Sweet potatoes | 2 times a week | 500g |
+| Whole wheat bread | 2-3 times a week | 1 loaf |
 
-#### 蔬菜水果（丰富多样）
-| 类别 | 推荐 | 每次购买量 |
+#### Vegetables and fruits (rich and varied)
+| Categories | Recommendations | Amount Per Purchase |
 |------|------|-----------|
-| 绿叶蔬菜 | 菠菜、生菜、油麦菜 | 500g |
-| 十字花科 | 西兰花、花椰菜 | 500g |
-| 根茎类 | 胡萝卜、甜菜根 | 500g |
-| 水果 | 苹果、香蕉、蓝莓 | 1kg |
+| Green leafy vegetables | Spinach, lettuce, lettuce | 500g |
+| Cruciferous | Broccoli, cauliflower | 500g |
+| Roots | Carrots, beetroot | 500g |
+| Fruits | Apples, bananas, blueberries | 1kg |
 
 ---
 
-## 🍳 通用烹饪建议
+## 🍳 General cooking advice
 
-### 推荐烹饪方式
-| 方式 | 适合食材 | 优点 |
+### Recommended cooking methods
+| Method | Suitable for ingredients | Advantages |
 |------|---------|------|
-| 蒸 | 鱼、鸡胸肉、蔬菜 | 保留营养，无额外油脂 |
-| 煮 | 鸡蛋、虾、蔬菜 | 简单快捷 |
-| 烤 | 鸡胸肉、鱼、红薯 | 风味好，少油 |
-| 煎（少油） | 牛排、鸡胸肉 | 快速，口感好 |
-| 炒（少油） | 蔬菜、虾仁 | 家常，易坚持 |
+| Steam | Fish, chicken breast, vegetables | Retain nutrients without additional fat |
+| Boil | Eggs, shrimps, vegetables | Quick and easy |
+| Grilled | Chicken breast, fish, sweet potato | Good flavor, less oil |
+| Fry (less oil) | Steak, chicken breast | Fast, good taste |
+| Stir-fried (less oil) | Vegetables and shrimps | Home-cooked, easy to stick to |
 
-### 调味料推荐
-| 调料 | 推荐度 | 备注 |
+### Recommended seasonings
+| Condiments | Recommendation | Remarks |
 |------|-------|------|
-| 盐 | 适量 | 每日<6g |
-| 黑胡椒 | ⭐⭐⭐⭐⭐ | 增香，几乎无热量 |
-| 蒜粉/洋葱粉 | ⭐⭐⭐⭐⭐ | 天然调味 |
-| 辣椒粉 | ⭐⭐⭐⭐ | 促进代谢 |
-| 酱油/生抽 | 适量 | 选择低钠版本 |
-| 蚝油 | 适量 | 含糖，控制量 |
-| 番茄酱 | 适量 | 选择无添加糖版本 |
+| Salt | Moderate amount | <6g per day |
+| Black pepper | ⭐⭐⭐⭐⭐ | Adds flavor and virtually no calories |
+| Garlic Powder/Onion Powder | ⭐⭐⭐⭐⭐ | Natural Flavoring |
+| Chili powder | ⭐⭐⭐⭐ | Boosts metabolism |
+| Soy sauce/light soy sauce | Moderate amount | Choose low-sodium version |
+| Oyster sauce | Moderate amount | Sugar content, control the amount |
+| Ketchup | Moderate amount | Choose the version without added sugar |
 
 ---
 
-## 💡 采购技巧
+## 💡 Purchasing Tips
 
-### 1. 周末批量采购
-- ✅ 一次性买好一周的食材
-- ✅ 避免工作日没时间买菜
-- ✅ 减少冲动消费
+### 1. Weekend bulk purchasing
+- ✅ Buy a week’s worth of ingredients at once
+- ✅ Avoid running out of time to buy groceries on weekdays
+- ✅ Reduce impulse spending
 
-### 2. 分装冷冻
-- ✅ 鸡胸肉、鱼虾分装成小份
-- ✅ 标注日期，先进先出
-- ✅ 吃前一晚冷藏解冻
+### 2. Pack and freeze
+- ✅ Chicken breast, fish and shrimp are divided into small portions
+- ✅ Mark the date, first in, first out
+- ✅ Refrigerate and defrost the night before eating
 
-### 3. 看配料表
-- ✅ 选择配料表短的
-- ✅ 避免添加剂过多的加工食品
-- ✅ 注意隐藏糖分（果葡糖浆、麦芽糊精等）
+### 3. Look at the ingredient list
+- ✅ Choose one with a short ingredient list
+- ✅ Avoid processed foods with too many additives
+- ✅ Pay attention to hidden sugars (fructose syrup, maltodextrin, etc.)
 
-### 4. 季节性购买
-- ✅ 应季蔬菜水果更新鲜便宜
-- ✅ 营养密度更高
-- ✅ 支持本地农业
+### 4. Seasonal purchases
+- ✅ Seasonal vegetables and fruits are fresher and cheaper
+- ✅ Higher nutritional density
+- ✅Support local agriculture
 
-### 5. 备餐准备（Meal Prep）
-- ✅ 周日花 2 小时准备一周的饭
-- ✅ 分装到保鲜盒，冷藏 3-4 天
-- ✅ 工作日晚餐加热即食
+### 5. Meal Prep
+- ✅ Spend 2 hours on Sunday preparing meals for the week
+- ✅Pack into crisper boxes and refrigerate for 3-4 days
+- ✅ Reheat and eat for weekday dinners
 
 ---
 
-## 📱 推荐工具
+## 📱 Recommended tools
 
-| 工具 | 用途 |
+| Tools | Purpose |
 |------|------|
-| 薄荷健康 | 查询食物热量和营养 |
-| 下厨房 | 找健康食谱 |
-| 叮咚买菜/盒马 | 在线采购生鲜 |
-| 淘宝/京东 | 批量购买干货、补剂 |
+| Mint Health | Check food calories and nutrition |
+| Get in the kitchen | Find healthy recipes |
+| Dingdong Grocery/Hema | Purchase fresh food online |
+| Taobao/JD.com | Buy dry goods and supplements in bulk |
 
 ---
 
-*最后更新：2026-03-17 | HealthFit v3.0*
+*Last updated: 2026-03-17 | HealthFit v3.0*

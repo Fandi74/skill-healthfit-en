@@ -1,552 +1,552 @@
-# 女性专项训练方案（F1-F6）
+# Women’s specific training program (F1-F6)
 
-## 目录
-- [设计理念](#设计理念)
-- [核心训练目标分类](#核心训练目标分类)
-- [F1 臀腿塑形](#f1 臀腿塑形方案)
-- [F2 全身纤体减脂](#f2 全身纤体减脂方案)
-- [F3 核心收紧](#f3 核心收紧与腰腹塑形方案)
-- [F4 上肢线条](#f4 上肢线条方案)
-- [F5 产后恢复](#f5 产后恢复方案)
-- [F6 骨密度强化](#f6 骨密度强化方案 25 岁+)
-- [营养配合](#营养配合与 dr-mei 协同)
-- [进度追踪](#进度追踪指标)
-
----
-
-## 设计理念
-
-女性和男性在生理结构、激素水平、训练目标上存在显著差异。本方案**不提供"中性化通用计划"**，而是根据女性生理特点和用户明确的专项目标提供精准化方案。
+## Table of contents
+- [Design Concept](#Design Concept)
+- [Core Training Objective Category](#Core Training Objective Category)
+- [F1 Buttocks and Legs Shaping](#f1 Buttocks and Legs Shaping Program)
+- [F2 Full Body Slimming and Fat Loss](#f2 Whole Body Slimming and Fat Loss Plan)
+- [F3 Core Tightening](#f3 Core Tightening and Waist and Abdomen Shaping Program)
+- [F4 upper limb line](#f4 upper limb line plan)
+- [F5 Postpartum Recovery](#f5 Postpartum Recovery Plan)
+- [F6 Bone Density Strengthening](#f6 Bone Density Strengthening Program 25 years old+)
+- [NUTRITIONAL COMBINATION](#NUTRITIONAL COMBINATION AND dr-mei SYNERGY)
+- [Progress Tracking](#progress tracking indicator)
 
 ---
 
-## 核心训练目标分类
+## Design concept
 
-| 目标代码 | 目标名称 | 适用人群 | 核心诉求 |
+There are significant differences in physiological structure, hormone levels, and training goals between women and men. This plan** does not provide a "neutral general plan"**, but provides a precise plan based on women's physiological characteristics and the user's clear special goals.
+
+---
+
+## Core training target classification
+
+| Target code | Target name | Applicable people | Core demands |
 |---------|---------|---------|---------|
-| F1 | 臀腿塑形 | 希望改善臀腿线条的女性 | 臀部圆润、腿部紧致 |
-| F2 | 全身纤体减脂 | 希望整体减脂的女性 | 体脂率下降、身材匀称 |
-| F3 | 核心收紧与腰腹塑形 | 希望改善腰腹的女性 | 马甲线、小蛮腰 |
-| F4 | 上肢线条 | 希望改善手臂肩背的女性 | 蝴蝶袖、肩部线条 |
-| F5 | 产后恢复 | 产后女性 | 盆底肌修复、腹直肌闭合 |
-| F6 | 骨密度强化 | 25 岁 + 女性 | 预防骨质疏松 |
+| F1 | Butt and leg shaping | Women who want to improve the lines of their butt and legs | Round buttocks and firm legs |
+| F2 | Full body slimming and fat reduction | Women who want to lose overall fat | Decreased body fat rate and a well-proportioned figure |
+| F3 | Core tightening and waist and abdominal shaping | Women who want to improve their waist and abdomen | Vest line, slim waist |
+| F4 | Upper body lines | Women who want to improve their arms and shoulders | Butterfly sleeves, shoulder lines |
+| F5 | Postpartum recovery | Postpartum women | Pelvic floor muscle repair, rectus abdominis closure |
+| F6 | Strengthen bone density | 25+ women | Prevent osteoporosis |
 
 ---
 
-## F1：臀腿塑形方案 ⭐
+## F1: Hip and leg shaping plan ⭐
 
-### 生理背景
+### Physiological background
 
-- 女性雌激素水平使得下肢脂肪更难减少
-- 女性下肢肌肉恢复速度较男性快，对高频臀腿训练的适应性更好
-- 臀大肌、臀中肌、腘绳肌是核心目标肌群
+- Women’s estrogen levels make it harder to lose lower body fat
+- Women's lower limb muscles recover faster than men, and are more adaptable to high-frequency hip and leg training
+- Gluteus maximus, gluteus medius, and hamstrings are core target muscle groups
 
-### 核心训练动作（按难度分级）
+### Core training movements (graded by difficulty)
 
-#### 初级（无器械家练）
-
-```
-1. 臀桥（双腿）
-   - 3 组 × 20 次
-   - 顶峰收缩 2 秒
-   - 感受臀部发力，而非大腿
-
-2. 单腿臀桥
-   - 3 组 × 15 次/腿
-   - 增加难度，强化单侧臀部
-
-3. 侧卧蚌式开合
-   - 3 组 × 20 次/侧
-   - 激活臀中肌
-   - 改善臀部凹陷
-
-4. 深蹲（徒手）
-   - 3 组 × 15 次
-   - 动作标准：大腿平行地面
-   - 膝盖朝向脚尖方向
-
-5. 弓步蹲（徒手）
-   - 3 组 × 12 次/腿
-   - 身体垂直下降
-   - 感受臀部和腘绳肌发力
-```
-
-#### 中级（有弹力带或哑铃）
+#### Elementary (home training without equipment)
 
 ```
-1. 弹力带深蹲
-   - 4 组 × 15 次
-   - 弹力带置于膝盖上方
-   - 增加外展阻力，强化臀中肌
+1. Glute bridge (legs)
+- 3 sets × 20 reps
+- Peak contraction for 2 seconds
+- Feel the force in your glutes, not your thighs
 
-2. 罗马尼亚硬拉（哑铃）
-   - 3 组 × 12 次
-   - 主攻臀大肌 + 腘绳肌
-   - 保持背部挺直，感受拉伸
+2. Single-leg glute bridge
+- 3 sets × 15 reps/leg
+- Increase the difficulty and strengthen one side of the hip
 
-3. 保加利亚分腿蹲
-   - 3 组 × 10 次/腿
-   - 下肢最有效动作之一
-   - 可用哑铃增加负重
+3. Side-lying clam opening and closing
+- 3 sets × 20 reps/side
+- Activate gluteus medius
+- Improve hip depression
 
-4. 弹力带侧走
-   - 3 组 × 15 步/方向
-   - 臀中肌塑形神器
-   - 改善臀部两侧凹陷
+4. Deep Squat (Bare Hands)
+- 3 sets × 15 reps
+- Action standards: thighs parallel to the ground
+- Knees pointed toward toes
 
-5. 哑铃臀推
-   - 4 组 × 12 次
-   - 臀大肌最高激活动作
-   - 顶峰收缩 2 秒
+5. Lunge Squat (Bare Hands)
+- 3 sets × 12 reps/leg
+- The body descends vertically
+- Feel the force in your glutes and hamstrings
 ```
 
-#### 进阶（健身房）
+#### Intermediate (with elastic bands or dumbbells)
 
 ```
-1. 臀推（Hip Thrust）— 杠铃
-   - 4 组 × 10-12 次
-   - 臀大肌激活效率最高
-   - 重量渐进增加
+1. Squats with resistance bands
+- 4 sets × 15 reps
+- Elastic band placed above the knees
+- Increase abduction resistance and strengthen gluteus medius
 
-2. 腿举（腿蹬机）
-   - 3 组 × 12-15 次
-   - 脚位偏高，更多刺激臀部
-   - 注意安全锁
+2. Romanian Deadlift (Dumbbell)
+- 3 sets × 12 reps
+- Focus on gluteus maximus + hamstrings
+- Keep your back straight and feel the stretch
 
-3. 腿弯举（腘绳肌孤立训练）
-   - 3 组 × 12-15 次
-   - 改善大腿后侧线条
+3. Bulgarian Split Squat
+- 3 sets × 10 reps/leg
+- One of the most effective movements for the lower limbs
+- Use dumbbells to increase weight
 
-4. 电缆后踢腿
-   - 3 组 × 15 次/腿
-   - 孤立臀大肌上部
-   - 改善臀部上缘线条
+4. Side walking with elastic band
+- 3 sets × 15 steps/direction
+- Gluteus medius shaping tool
+- Improve the depression on both sides of the buttocks
 
-5. 哈克深蹲
-   - 3 组 × 10-12 次
-   - 固定轨迹，更安全
-   - 可大重量刺激
+5. Dumbbell hip thrust
+- 4 sets × 12 reps
+- Maximum activation of gluteus maximus
+- Peak contraction for 2 seconds
 ```
 
-### F1 完整周计划
+#### Advanced (Gym)
 
 ```
-【周一：臀大肌主导】
-1. 杠铃臀推：4 × 10-12
-2. 罗马尼亚硬拉：3 × 12
-3. 保加利亚分腿蹲：3 × 10/腿
-4. 臀桥（单腿）：3 × 15/腿
-5. 有氧：20 分钟（可选）
+1. Hip Thrust – Barbell
+- 4 sets × 10-12 reps
+- The gluteus maximus activates the most efficiently
+- Gradual increase in weight
 
-【周二：上肢 + 核心】
-1. 俯卧撑（或跪姿）：3 × 力竭
-2. 哑铃划船：3 × 12
-3. 侧平举：3 × 15
-4. 平板支撑：3 × 45 秒
-5. 死虫式：3 × 10/侧
+2. Leg press (leg press machine)
+- 3 sets × 12-15 reps
+- The foot position is higher to stimulate the buttocks more
+- Pay attention to the safety lock
 
-【周三：臀中肌主导】
-1. 弹力带深蹲：4 × 15
-2. 弹力带侧走：3 × 15 步/方向
-3. 侧卧蚌式开合：3 × 20/侧
-4. 电缆后踢腿：3 × 15/腿
-5. 有氧：30 分钟
+3. Leg curls (hamstring isolation training)
+- 3 sets × 12-15 reps
+- Improve the lines on the back of the thighs
 
-【周四：休息或主动恢复】
-- 瑜伽或拉伸：30 分钟
-- 泡沫轴放松
+4. Cable back kick
+- 3 sets × 15 reps/leg
+-Isolate the upper gluteus maximus
+- Improve the upper edge line of the buttocks
 
-【周五：全身臀腿】
-1. 深蹲：4 × 12
-2. 腿举：3 × 15
-3. 腿弯举：3 × 15
-4. 臀桥（负重）：3 × 15
-5. 有氧：20 分钟（可选）
-
-【周末：休息或低强度有氧】
-- 散步、骑行、游泳：30-45 分钟
+5. Hack Squat
+- 3 sets × 10-12 reps
+- Fixed trajectory, safer
+- Can be stimulated with heavy weight
 ```
 
----
-
-## F2：全身纤体减脂方案
-
-### 训练原则
-
-- **力量训练 + 有氧结合**：保持肌肉量的同时燃烧脂肪
-- **热量赤字**：摄入 < 消耗（约 300-500 kcal/天赤字）
-- **高蛋白**：1.6-2.0g/kg 体重（保护肌肉）
-- **频率**：每周 4-5 次训练
-
-### 训练计划
+### F1 Complete Weekly Plan
 
 ```
-【周一：全身循环训练】
-- 深蹲 → 俯卧撑 → 划船 → 平板支撑
-- 每个动作 45 秒，休息 15 秒
-- 循环 4 轮
-- 有氧：15 分钟（训练后）
+[Monday: Gluteus Maximus Dominance]
+1. Barbell hip thrust: 4 × 10-12
+2. Romanian Deadlift: 3×12
+3. Bulgarian Split Squat: 3 × 10/leg
+4. Glute bridge (single leg): 3 × 15/leg
+5. Aerobic: 20 minutes (optional)
 
-【周二：稳态有氧】
-- 跑步/游泳/骑行：40-45 分钟
-- 心率：60-70% HRmax
-- 燃脂最佳区间
+[Tuesday: Upper Body + Core]
+1. Push-ups (or kneeling position): 3 × failure
+2. Dumbbell row: 3 × 12
+3. Lateral raise: 3 × 15
+4. Plank: 3 × 45 seconds
+5. Dead Bug: 3 × 10/side
 
-【周三：下肢 + 核心】
-- 臀桥：3 × 20
-- 弓步蹲：3 × 12/腿
-- 死虫式：3 × 10/侧
-- 有氧：20 分钟（训练后）
+[Wednesday: Gluteus medius dominates]
+1. Squats with resistance bands: 4 × 15
+2. Side walking with elastic band: 3 × 15 steps/direction
+3. Side-lying clam opening and closing: 3 × 20/side
+4. Cable back kick: 3 × 15/leg
+5. Aerobic: 30 minutes
 
-【周四：休息或主动恢复】
-- 瑜伽或拉伸：30 分钟
+[Thursday: Rest or active recovery]
+- Yoga or stretching: 30 minutes
+- Foam roller for relaxation
 
-【周五：上肢 + HIIT】
-- 俯卧撑：3 × 力竭
-- 哑铃推举：3 × 12
-- 划船：3 × 12
-- HIIT：8 组（30 秒冲刺 + 90 秒慢走）
+[Friday: Full body buttocks and legs]
+1. Squat: 4 × 12
+2. Leg press: 3 × 15
+3. Leg curls: 3 × 15
+4. Glute bridge (weight bearing): 3 × 15
+5. Aerobic: 20 minutes (optional)
 
-【周末：休息或低强度活动】
-- 散步、家务、轻度活动
+[Weekends: rest or low-intensity aerobics]
+- Walking, biking, swimming: 30-45 minutes
 ```
 
 ---
 
-## F3：核心收紧与腰腹塑形方案
+## F2: Full body slimming and fat reduction plan
 
-### 训练原则
+### Training principles
 
-- **深层核心激活**：腹横肌优先于腹直肌
-- **避免传统仰卧起坐**：可能加重腹直肌分离
-- **呼吸配合**：呼气时收紧核心
-- **频率**：可每日训练（核心恢复快）
+- **Strength Training + Aerobic Combination**: Maintain muscle mass while burning fat
+- **Caloric Deficit**: Intake < Expenditure (approximately 300-500 kcal/day deficit)
+- **High protein**: 1.6-2.0g/kg body weight (protect muscles)
+- **Frequency**: 4-5 training sessions per week
 
-### 核心训练动作
-
-```
-【基础动作】
-1. 腹式呼吸
-   - 仰卧，一手放腹部
-   - 吸气时腹部鼓起，呼气时收紧
-   - 5 分钟/天
-
-2. 死虫式
-   - 3 组 × 10 次/侧
-   - 深层核心激活最佳动作
-   - 保护腰椎
-
-3. 平板支撑
-   - 3 组 × 30-60 秒
-   - 保持身体成直线
-   - 不要塌腰或撅臀
-
-4. 鸟狗式
-   - 3 组 × 10 次/侧
-   - 对侧手脚伸展
-   - 保持 3 秒
-
-【进阶动作】
-5. 侧平板支撑
-   - 3 组 × 30 秒/侧
-   - 强化腹斜肌
-   - 改善腰部线条
-
-6. 空心体保持
-   - 3 组 × 20-30 秒
-   - 全身核心张力
-   - 体操运动员核心训练
-
-7. 悬垂举腿
-   - 3 组 × 10-15 次
-   - 下腹部最佳动作
-   - 需要单杠
-
-8. 俄罗斯转体
-   - 3 组 × 20 次
-   - 腹斜肌训练
-   - 可持重物增加难度
-```
-
-### F3 周计划
+### Training Plan
 
 ```
-【每日核心训练】（10-15 分钟）
-1. 腹式呼吸：2 分钟
-2. 死虫式：3 × 10/侧
-3. 平板支撑：3 × 45 秒
-4. 鸟狗式：3 × 10/侧
-5. 侧平板支撑：3 × 30 秒/侧
+[Monday: Full body circuit training]
+- Squat → Push-up → Row → Plank
+- 45 seconds each exercise, 15 seconds rest
+- Cycle 4 rounds
+- Aerobic: 15 minutes (after training)
 
-【每周 2-3 次有氧】
-- 跑步/游泳/骑行：30-40 分钟
-- 帮助降低体脂，显露马甲线
+[Tuesday: Steady State Aerobics]
+- Run/Swim/Cycle: 40-45 minutes
+- Heart rate: 60-70% HRmax
+- Best fat burning zone
 
-【饮食配合】
-- 热量赤字：体脂降低才能看到腹肌
-- 高蛋白：保护肌肉
-- 低盐：减少水肿
+[Wednesday: Lower Body + Core]
+- Glute bridge: 3 × 20
+- Lunges: 3 × 12/leg
+- Dead bug: 3 × 10/side
+- Aerobic: 20 minutes (after training)
+
+[Thursday: Rest or active recovery]
+- Yoga or stretching: 30 minutes
+
+[Friday: Upper Body + HIIT]
+- Push-ups: 3 × failure
+- Dumbbell press: 3 × 12
+- Rowing: 3 × 12
+- HIIT: 8 sets (30 seconds sprint + 90 seconds slow walk)
+
+[Weekends: Rest or low-intensity activities]
+- Walking, housework, light activities
 ```
 
 ---
 
-## F4：上肢线条方案
+## F3: Core tightening and waist and abdomen shaping plan
 
-### 训练原则
+### Training principles
 
-- **轻重量高次数**：15-20RM（塑形而非增粗）
-- **重点肌群**：三角肌中后束、肱三头肌、背部
-- **频率**：每周 2-3 次
+- **Deep Core Activation**: Prioritize the transversus abdominis over the rectus abdominis
+- **Avoid traditional sit-ups**: May aggravate diastasis rectus abdominis
+- **Breathwork**: Tighten your core as you exhale
+- **Frequency**: Can be trained daily (fast core recovery)
 
-### 训练动作
-
-```
-【肩部线条】
-1. 侧平举
-   - 3 组 × 15-20 次
-   - 轻重量（2-4kg）
-   - 感受三角肌中束发力
-
-2. 面拉
-   - 3 组 × 15-20 次
-   - 拉力绳或哑铃
-   - 改善圆肩，塑造后肩
-
-3. 俯身飞鸟
-   - 3 组 × 15 次
-   - 三角肌后束
-   - 改善背部线条
-
-【手臂线条】
-4. 臂屈伸（椅子或双杠）
-   - 3 组 × 力竭
-   - 肱三头肌
-   - 改善"蝴蝶袖"
-
-5.  overhead 臂屈伸
-   - 3 组 × 15 次
-   - 哑铃或弹力带
-   - 孤立三头肌长头
-
-6. 钻石俯卧撑（或跪姿）
-   - 3 组 × 力竭
-   - 三头肌 + 胸肌
-
-【背部线条】
-7. 弹力带划船
-   - 3 组 × 20 次
-   - 改善体态
-   - 塑造背部线条
-
-8. 超人式
-   - 3 组 × 15 次
-   - 下背部强化
-   - 改善腰背线条
-```
-
----
-
-## F5：产后恢复方案
-
-### 训练原则
-
-- **盆底肌修复优先**：产后 6 周开始（顺产）或 8 周（剖腹产）
-- **腹直肌闭合**：避免卷腹类动作
-- **循序渐进**：从呼吸训练开始
-- **医生许可**：开始训练前咨询医生
-
-### 产后恢复阶段
-
-#### 第一阶段（产后 6-8 周）
+### Core training movements
 
 ```
-【呼吸训练】
-1. 腹式呼吸
-   - 仰卧，一手放腹部
-   - 吸气时腹部鼓起，呼气时收紧
-   - 5 分钟，每日 2-3 次
+[Basic actions]
+1. Abdominal breathing
+- Lie on your back with one hand on your abdomen
+- The abdomen expands when inhaling and tightens when exhaling
+- 5 minutes/day
 
-2. 凯格尔运动（盆底肌）
-   - 收缩盆底肌 5 秒 → 放松 5 秒
-   - 每组 10 次，每日 3 组
-   - 改善漏尿问题
+2. Dead bug style
+- 3 sets × 10 reps/side
+- Deep core activation of optimal moves
+- Protect lumbar spine
 
-【轻度激活】
-3. 骨盆倾斜
-   - 仰卧，屈膝
-   - 骨盆前后倾斜
-   - 10 次 × 2 组
+3. Plank
+- 3 sets × 30-60 seconds
+- Keep your body in a straight line
+- Don’t slump your waist or stick your butt out
 
-4. 脚跟滑动
-   - 仰卧，屈膝
-   - 单腿伸直滑动 → 收回
-   - 10 次/腿 × 2 组
+4. Bird Dog
+- 3 sets × 10 reps/side
+- Stretch the contralateral hand and foot
+- Hold for 3 seconds
+
+【Advanced Action】
+5. Side plank
+- 3 sets × 30 seconds/side
+-Strengthen oblique abdominal muscles
+-Improve waist line
+
+6. Hollow body retention
+- 3 sets × 20-30 seconds
+- Whole body core tension
+- Core training for gymnasts
+
+7. Hanging leg raise
+- 3 sets × 10-15 reps
+- Best exercises for lower abdomen
+- Requires horizontal bar
+
+8. Russian Twist
+- 3 sets × 20 reps
+- Oblique muscle training
+- Hold heavy objects to increase difficulty
 ```
 
-#### 第二阶段（产后 8-12 周）
+### F3 Weekly Plan
 
 ```
-【核心激活】
-1. 死虫式（简化版）
-   - 仅动手臂，腿部保持
-   - 3 组 × 8 次/侧
+【Daily Core Training】(10-15 minutes)
+1. Abdominal breathing: 2 minutes
+2. Dead Bug: 3 × 10/side
+3. Plank: 3 × 45 seconds
+4. Bird dog: 3 × 10/side
+5. Side plank: 3 × 30 seconds/side
 
-2. 鸟狗式（简化版）
-   - 仅伸手或腿，不同时
-   - 3 组 × 8 次/侧
+【Aerobic 2-3 times a week】
+-Running/swimming/cycling: 30-40 minutes
+- Helps reduce body fat and reveal waistcoat lines
 
-3. 臀桥
-   - 3 组 × 12 次
-   - 激活臀部和核心
-
-【低强度有氧】
-4. 散步
-   - 20-30 分钟
-   - 每日或隔日
-```
-
-#### 第三阶段（产后 12 周+）
-
-```
-逐步恢复正常训练，但仍需：
-- 避免高冲击运动（跑步、跳跃）
-- 继续盆底肌训练
-- 监测腹直肌分离情况
-- 如有漏尿或不适，及时就医
+【dietary coordination】
+- Caloric deficit: only when body fat is reduced can you see your abdominal muscles
+- High protein: protects muscles
+- Low salt: Reduce edema
 ```
 
 ---
 
-## F6：骨密度强化方案（25 岁+）
+## F4: Upper body line plan
 
-### 生理背景
+### Training principles
 
-- 女性 25 岁后骨密度开始下降
-- 绝经后骨质疏松风险显著增加
-- **负重训练是预防骨质疏松最有效方法**
+- **Light weight and high reps**: 15-20RM (shaping rather than thickening)
+- **Key Muscle Groups**: Middle and posterior deltoid, triceps brachii, back
+- **Frequency**: 2-3 times per week
 
-### 训练原则
-
-- **负重训练**：给骨骼施加压力，刺激骨密度增加
-- **复合动作**：深蹲、硬拉、推举等多关节动作
-- **渐进负荷**：逐渐增加重量
-- **钙 + 维生素 D**：营养支持（→ Dr. Mei）
-
-### 训练动作
+### Training actions
 
 ```
-【核心负重动作】
-1. 深蹲（哑铃或杠铃）
-   - 3 组 × 10-12 次
-   - 刺激髋部和脊柱骨骼
-   - 重量渐进增加
+[shoulder line]
+1. Lateral raise
+- 3 sets × 15-20 reps
+-Light weight (2-4kg)
+- Feel the strength of the middle deltoid muscle
 
-2. 硬拉（轻重量开始）
-   - 3 组 × 8-10 次
-   - 全身骨骼受力
-   - 注意动作标准
+2. Noodles
+- 3 sets × 15-20 reps
+- Resistance rope or dumbbells
+- Improve rounded shoulders and shape back shoulders
 
-3. 肩推举
-   - 3 组 × 10-12 次
-   - 刺激上肢和脊柱骨骼
-   - 哑铃或杠铃
+3. Leaning over the bird
+- 3 sets × 15 reps
+- Rear deltoid muscle
+-Improve back line
 
-4. 台阶踏步
-   - 3 组 × 12 次/腿
-   - 负重（持哑铃）
-   - 刺激髋部骨骼
+[Arm lines]
+4. Dips and extensions (chair or parallel bars)
+- 3 sets × failure
+- Triceps
+- Improved "butterfly sleeves"
 
-5. 农夫走
-   - 3 组 × 30 秒
-   - 手持重物行走
-   - 全身骨骼受力
-```
+5. overhead arm flexion and extension
+- 3 sets × 15 reps
+- Dumbbells or resistance bands
+- Isolate the long head of triceps
 
-### F6 周计划
+6. Diamond push-ups (or kneeling position)
+- 3 sets × failure
+- Triceps + Chest
 
-```
-【周一：下肢负重】
-1. 深蹲：3 × 10-12
-2. 台阶踏步：3 × 12/腿
-3. 小腿提踵：3 × 15
-4. 散步：20 分钟
+[Back line]
+7. Rowing with elastic bands
+- 3 sets × 20 reps
+- Improve body posture
+- Shape the back line
 
-【周三：上肢负重】
-1. 肩推举：3 × 10-12
-2. 划船：3 × 12
-3. 俯卧撑（或跪姿）：3 × 力竭
-4. 手臂摆动：2 分钟
-
-【周五：全身负重】
-1. 硬拉（轻重量）：3 × 8-10
-2. 农夫走：3 × 30 秒
-3. 臀桥：3 × 15
-4. 拉伸：10 分钟
-
-【周末：低冲击有氧】
-- 快走、游泳、骑行：30-40 分钟
+8. Superman style
+- 3 sets × 15 reps
+-Lower back strengthening
+- Improve waist and back lines
 ```
 
 ---
 
-## 营养配合（与 Dr. Mei 协同）
+## F5: Postpartum recovery plan
 
-### F1 臀腿塑形营养
+### Training principles
 
-- **热量**：维持或微盈余（支持肌肉生长）
-- **蛋白质**：1.6-2.0g/kg
-- **碳水**：训练前后集中摄入
-- **补剂**：肌酸（可选）、胶原蛋白（皮肤紧致）
+- **Pelvic floor muscle repair priority**: starting at 6 weeks after delivery (natural birth) or 8 weeks (cesarean section)
+- **Rectus Abdominis Closure**: Avoid crunch-type movements
+- **Step-by-step**: Start with breathing exercises
+- **Doctor’s Clearance**: Consult your doctor before starting training
 
-### F2 减脂营养
+### Postpartum recovery stage
 
-- **热量**：TDEE - 300-500 kcal
-- **蛋白质**：1.6-2.0g/kg（保护肌肉）
-- **碳水**：2-3g/kg（训练日高，休息日低）
-- **补剂**：咖啡因、左旋肉碱（可选）
+#### Stage 1 (6-8 weeks postpartum)
 
-### F3 核心塑形营养
+```
+【breathing training】
+1. Abdominal breathing
+- Lie on your back with one hand on your abdomen
+- The abdomen expands when inhaling and tightens when exhaling
+- 5 minutes, 2-3 times daily
 
-- **热量**：TDEE - 200-300 kcal（显露腹肌需要低体脂）
-- **蛋白质**：1.8-2.2g/kg
-- **低盐**：减少水肿
-- **高纤维**：减少腹胀
+2. Kegel exercises (pelvic floor muscles)
+- Contract pelvic floor muscles for 5 seconds → relax for 5 seconds
+- 10 reps per set, 3 sets daily
+- Improve urinary leakage problem
 
-### F4 上肢塑形营养
+【Mild activation】
+3. Pelvic tilt
+- Lie on your back with your knees bent
+- Pelvis tilts forward and backward
+- 10 times × 2 sets
 
-- **热量**：维持
-- **蛋白质**：1.4-1.8g/kg
-- **均衡饮食**：支持肌肉修复
+4. Heel slide
+- Lie on your back with your knees bent
+- Slide one leg straight → retract
+- 10 reps/leg × 2 sets
+```
 
-### F5 产后恢复营养
+#### Stage 2 (8-12 weeks postpartum)
 
-- **热量**：哺乳期间 TDEE + 300-500 kcal
-- **蛋白质**：1.8-2.2g/kg（支持恢复和哺乳）
-- **钙**：1000-1200mg/天
-- **铁**：补偿分娩失血
-- **DHA**：支持婴儿大脑发育（如哺乳）
+```
+【Core Activation】
+1. Dead Bug Style (Simplified Version)
+- Move arms only, keep legs
+- 3 sets × 8 reps/side
 
-### F6 骨密度营养
+2. Bird Dog (Simplified Version)
+- Only arms or legs, not both at the same time
+- 3 sets × 8 reps/side
 
-- **钙**：1000-1200mg/天（奶制品、绿叶蔬菜）
-- **维生素 D**：1000-2000 IU/天（日晒 + 补剂）
-- **蛋白质**：1.2-1.6g/kg（支持骨骼健康）
-- **镁**：坚果、全谷物（支持钙吸收）
-- **维生素 K**：绿叶蔬菜（骨骼矿化）
+3. Glute bridge
+- 3 sets × 12 reps
+- Activate glutes and core
+
+【Low intensity aerobic】
+4. Take a walk
+- 20-30 minutes
+- Daily or every other day
+```
+
+#### Stage 3 (12 weeks postpartum+)
+
+```
+Gradually resume normal training, but still need to:
+- Avoid high impact exercise (running, jumping)
+- Continue pelvic floor muscle training
+- Monitor rectus abdominis diastasis
+- If you have urine leakage or discomfort, seek medical attention promptly
+```
 
 ---
 
-## 进度追踪指标
+## F6: Bone Density Enhancement Program (25+)
 
-| 目标 | 关键指标 | 测量频率 |
+### Physiological background
+
+- Bone density begins to decrease in women after the age of 25
+- The risk of osteoporosis increases significantly after menopause
+- **Weight-bearing training is the most effective way to prevent osteoporosis**
+
+### Training principles
+
+- **Weight-bearing training**: puts pressure on bones and stimulates an increase in bone density
+- **Compound Movements**: Squats, deadlifts, presses and other multi-joint movements
+- **Progressive Loading**: Gradually increase the weight
+- **Calcium + Vitamin D**: nutritional support (→ Dr. Mei)
+
+### Training actions
+
+```
+[Core weight-bearing movements]
+1. Squat (dumbbell or barbell)
+- 3 sets × 10-12 reps
+- Stimulates hip and spine bones
+- Gradual increase in weight
+
+2. Deadlift (start with light weight)
+- 3 sets × 8-10 reps
+- Stress on bones throughout the body
+- Pay attention to action standards
+
+3. Shoulder press
+- 3 sets × 10-12 reps
+- Stimulates upper limbs and spinal bones
+- Dumbbells or barbells
+
+4. Step on the stairs
+- 3 sets × 12 reps/leg
+- Weight bearing (dumbbells)
+- Stimulate hip bones
+
+5. The farmer walks
+- 3 sets × 30 seconds
+- Walking with heavy objects in hand
+- Stress on bones throughout the body
+```
+
+### F6 Weekly Plan
+
+```
+[Monday: lower limb weight bearing]
+1. Squat: 3 × 10-12
+2. Steps: 3 × 12/leg
+3. Calf raises: 3 × 15
+4. Walk: 20 minutes
+
+[Wednesday: Upper limb weight bearing]
+1. Shoulder Press: 3 × 10-12
+2. Rowing: 3 × 12
+3. Push-ups (or kneeling position): 3 × failure
+4. Arm swing: 2 minutes
+
+[Friday: Full body weight bearing]
+1. Deadlift (light weight): 3 × 8-10
+2. Farmer’s Walk: 3 × 30 seconds
+3. Glute bridge: 3 × 15
+4. Stretching: 10 minutes
+
+[Weekend: Low Impact Aerobics]
+- Brisk walking, swimming, cycling: 30-40 minutes
+```
+
+---
+
+## Nutritional coordination (in collaboration with Dr. Mei)
+
+### F1 Buttocks and Leg Shaping Nutrition
+
+- **Calories**: maintenance or slight surplus (supports muscle growth)
+- **Protein**: 1.6-2.0g/kg
+- **Carbohydrate**: Concentrated intake before and after training
+- **Supplements**: Creatine (optional), Collagen (skin firming)
+
+### F2 Fat Loss Nutrition
+
+- **Caloric**: TDEE - 300-500 kcal
+- **Protein**: 1.6-2.0g/kg (protect muscles)
+- **Carbohydrate**: 2-3g/kg (high on training days, low on rest days)
+- **Supplements**: Caffeine, L-carnitine (optional)
+
+### F3 Core Shaping Nutrition
+
+- **Calories**: TDEE - 200-300 kcal (requires low body fat to reveal abdominal muscles)
+- **Protein**: 1.8-2.2g/kg
+- **Low Salt**: Reduce edema
+- **High Fiber**: Reduces bloating
+
+### F4 Upper limb shaping nutrition
+
+- **Calories**: Maintenance
+- **Protein**: 1.4-1.8g/kg
+- **BALANCED DIET**: Supports muscle repair
+
+### F5 Postpartum recovery nutrition
+
+- **Calories**: TDEE + 300-500 kcal during lactation
+- **Protein**: 1.8-2.2g/kg (supports recovery and lactation)
+- **Calcium**: 1000-1200mg/day
+- **Iron**: Compensates for blood loss during childbirth
+- **DHA**: supports infant brain development (e.g. breastfeeding)
+
+### F6 Bone Density Nutrition
+
+- **Calcium**: 1000-1200mg/day (dairy products, green leafy vegetables)
+- **Vitamin D**: 1000-2000 IU/day (sun exposure + supplements)
+- **Protein**: 1.2-1.6g/kg (supports bone health)
+- **Magnesium**: Nuts, whole grains (supports calcium absorption)
+- **Vitamin K**: Green leafy vegetables (bone mineralization)
+
+---
+
+## Progress tracking indicators
+
+| Objectives | Key Indicators | Measurement Frequency |
 |------|---------|---------|
-| F1 臀腿 | 臀围、腿围、臀型照片 | 每 2 周 |
-| F2 减脂 | 体重、体脂率、腰围 | 每周 |
-| F3 核心 | 腰围、体脂率、平板支撑时间 | 每 2 周 |
-| F4 上肢 | 臂围、肩宽、照片 | 每 2 周 |
-| F5 产后 | 盆底肌功能、腹直肌分离距离 | 每月 |
-| F6 骨骼 | 骨密度检测（医院）、力量进步 | 每 3-6 个月 |
+| F1 Hips and Legs | Hips, Legs, Butt Shape Photos | Every 2 Weeks |
+| F2 fat loss | Weight, body fat percentage, waist circumference | Weekly |
+| F3 Core | Waist, body fat, plank time | Every 2 weeks |
+| F4 Upper Body | Arm circumference, shoulder width, photo | Every 2 weeks |
+| F5 Postpartum | Pelvic floor muscle function, rectus abdominis separation distance | Monthly |
+| F6 Bones | Bone density testing (hospital), strength improvement | Every 3-6 months |
 
 ---
 
-*女性专项训练方案完成 | 下一步：营养指南（nutrition_guidelines.md）*
+*Women-specific training program completed | Next step: Nutrition Guidelines (nutrition_guidelines.md)*

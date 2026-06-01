@@ -1,39 +1,39 @@
-# 中医养生功法完整库
+# Complete library of traditional Chinese medicine health-preserving exercises
 
-> 本文档为 Dr. Gong 的详细参考资料库。包含五大经典养生功法的标准动作描述和中医理论背景。
+> This document is a detailed reference library for Dr. Gong. Contains standard action descriptions of the five classic health-preserving exercises and the theoretical background of traditional Chinese medicine.
 
-## 功法选择指南
+## Exercise Selection Guide
 
-| 目标 | 推荐功法 | 练习时长 |
+| Goals | Recommended exercises | Practice duration |
 |------|---------|---------|
-| 全身调理（入门）| 八段锦 | 20 分钟/次 |
-| 呼吸系统调养 | 六字诀 | 15 分钟/次 |
-| 脏腑整体调养 | 五禽戏 | 25 分钟/次 |
-| 筋骨强健 | 易筋经 | 20 分钟/次 |
-| 太极健身（有基础）| 24 式太极 | 15-30 分钟/次 |
+| Whole Body Conditioning (Introduction) | Baduanjin | 20 minutes/time |
+| Respiratory system care | Liu Zi Jue | 15 minutes/time |
+| Overall nourishment of internal organs | Wu Qin Xi | 25 minutes/time |
+| Strong muscles and bones | Yi Jin Jing | 20 minutes/time |
+| Tai Chi fitness (basic required) | 24 styles of Tai Chi | 15-30 minutes/time |
 
-## 练习环境要求
+## Practice environment requirements
 
-1. 空气清新，避免风口、空调直吹
-2. 宽敞平坦地面，约 2×2 米空间即可
-3. 穿着宽松、棉质衣物，软底平底鞋或赤脚
-4. 最佳时间：清晨 6-8 时（卯辰时），或傍晚 17-19 时（酉时）
-5. 饭后 1 小时内避免激烈功法
+1. Keep the air fresh and avoid direct blowing from air vents and air conditioners.
+2. Spacious and flat ground, about 2×2 meters is enough
+3. Wear loose, cotton clothing, soft-soled flat shoes or bare feet
+4. Best time: 6-8 am in the morning (Mao Chen hour), or 17-19 pm in the evening (You time)
+5. Avoid strenuous exercises within 1 hour after meals
 
-## 体质与功法对应表
+## Correspondence table between physical constitution and exercises
 
-| 中医体质 | 优先功法 | 特别注意 |
+| Traditional Chinese Medicine Constitution | Priority Exercises | Special Attention |
 |---------|---------|---------|
-| 平和质 | 任意功法均可 | 保持规律 |
-| 气虚质 | 八段锦（慢练）、站桩 | 不过度出汗，补气为主 |
-| 阳虚质 | 八段锦（温阳节）、易筋经 | 意守命门，配合温阳食补 |
-| 阴虚质 | 六字诀、八段锦（柔和版）| 不可大汗淋漓，意守丹田 |
-| 痰湿质 | 五禽戏（熊戏）、八段锦三节 | 需适度出汗，配合健脾饮食 |
-| 湿热质 | 六字诀之呵字诀和嘘字诀 | 宜清淡，避免大热天练习 |
-| 血瘀质 | 五禽戏（虎戏）、八段锦七节 | 可适度出汗，配合活血食物 |
-| 气郁质 | 八段锦（疏肝节）、导引 | 重视情绪调节，配合呼吸冥想 |
-| 特禀质 | 八段锦（缓慢版）| 注意过敏原，避免户外高花粉时段 |
+| Peace and quality | Any exercise can be used | Maintain regularity |
+| Qi deficiency | Baduanjin (slow practice), Zhanzhuang | Do not sweat excessively, focus on replenishing qi |
+| Yang Deficiency | Baduanjin (Warming Yang Festival), Yi Jin Jing | Intention to guard the gate of life, combined with warming Yang food supplements |
+| Yin Deficiency | Liu Zi Jue, Baduan Jin (soft version) | Do not sweat profusely and focus on guarding the Dantian |
+| Phlegm-dampness | Three sections of Wuqinxi (Xiongxi) and Baduanjin | Moderate sweating is required and a spleen-strengthening diet is required |
+| Damp-heat quality | The Six-Character Jue: He Zi Jue and Boo Zi Jue | Should be light and avoid practicing on hot days |
+| Blood stasis | Wuqinxi (Tiger Play), Baduanjin Qijie | Moderate sweating, combined with blood-activating food |
+| Qi stagnation | Baduanjin (Soothing Liver Festival), Daoyin | Pay attention to emotional regulation and cooperate with breathing meditation |
+| Special qualities | Baduanjin (slow version) | Pay attention to allergens and avoid high pollen periods outdoors |
 
 ---
 
-*详细动作分解见 agents/dr_qigong.md*
+*See agents/dr_qigong.md for detailed action breakdown*

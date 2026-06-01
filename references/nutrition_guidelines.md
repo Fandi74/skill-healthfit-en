@@ -1,220 +1,220 @@
-# 营养计算指南（Nutrition Guidelines）
+# Nutrition Guidelines
 
-## 基础计算公式
+## Basic calculation formula
 
-### 基础代谢率（BMR）
+### Basal Metabolic Rate (BMR)
 
-**Mifflin-St Jeor 公式（最准确）：**
+**Mifflin-St Jeor formula (most accurate):**
 
 ```
-男性：BMR = (10 × 体重 kg) + (6.25 × 身高 cm) - (5 × 年龄) + 5
-女性：BMR = (10 × 体重 kg) + (6.25 × 身高 cm) - (5 × 年龄) - 161
+Male: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age) + 5
+Female: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age) - 161
 ```
 
-**示例计算：**
+**Example calculation:**
 ```
-男性，28 岁，175cm，70kg
+Male, 28 years old, 175cm, 70kg
 BMR = (10 × 70) + (6.25 × 175) - (5 × 28) + 5
     = 700 + 1093.75 - 140 + 5
-    = 1,658.75 kcal/天
+= 1,658.75 kcal/day
 ```
 
-### 每日总能量消耗（TDEE）
+### Total Daily Energy Expenditure (TDEE)
 
 ```
-TDEE = BMR × 活动系数
+TDEE = BMR × activity coefficient
 
-活动系数：
-- 久坐（几乎不运动）：1.2
-- 轻度活动（每周 1-3 次运动）：1.375
-- 中度活动（每周 3-5 次运动）：1.55
-- 高度活动（每周 6-7 次运动）：1.725
-- 极高活动（体力劳动 + 每天训练）：1.9
+Activity coefficient:
+- Sedentary (little exercise): 1.2
+- Light activity (exercise 1-3 times per week): 1.375
+- Moderate activity (3-5 times of exercise per week): 1.55
+- Highly active (6-7 exercises per week): 1.725
+- Extreme activity (physical work + daily training): 1.9
 ```
 
-### 热量目标
+### Calorie Target
 
-| 目标 | 公式 | 预期速率 |
+| Target | Formula | Expected Rate |
 |------|------|---------|
-| 减脂 | TDEE - 500 kcal | 0.5kg/周 |
-| 增肌 | TDEE + 250 kcal | 0.25kg/周 |
-| 维持 | TDEE | 体重稳定 |
+| Fat loss | TDEE - 500 kcal | 0.5kg/week |
+| Muscle Building | TDEE + 250 kcal | 0.25kg/week |
+| Maintenance | TDEE | Weight Stabilization |
 
 ---
 
-## 宏量营养素配比
+## Macronutrient ratio
 
-### 蛋白质
+### protein
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 减脂 | 2.0-2.4g/kg | 保护肌肉，增加饱腹感 |
-| 增肌 | 1.6-2.2g/kg | 支持肌肉合成 |
-| 维持 | 1.4-1.8g/kg | 基础需求 |
-| 耐力运动 | 1.4-1.6g/kg | 支持恢复 |
-| 力量运动 | 1.8-2.2g/kg | 支持肌肉生长 |
+| Fat loss | 2.0-2.4g/kg | Protect muscles and increase satiety |
+| Build muscle | 1.6-2.2g/kg | Support muscle synthesis |
+| Maintenance | 1.4-1.8g/kg | Basic needs |
+| Endurance sports | 1.4-1.6g/kg | Support recovery |
+| Strength exercise | 1.8-2.2g/kg | Support muscle growth |
 
-**食物来源：**
-- 动物蛋白：鸡胸肉、鱼、牛肉、鸡蛋、奶制品
-- 植物蛋白：豆腐、豆类、藜麦、坚果
+**Food Source:**
+- Animal protein: chicken breast, fish, beef, eggs, dairy products
+- Plant proteins: tofu, beans, quinoa, nuts
 
-### 脂肪
+### Fat
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 减脂 | 0.8-1.0g/kg | 激素合成必需 |
-| 增肌 | 0.8-1.2g/kg | 支持睾酮合成 |
-| 维持 | 0.8-1.0g/kg | 基础需求 |
+| Fat loss | 0.8-1.0g/kg | Necessary for hormone synthesis |
+| Build muscle | 0.8-1.2g/kg | Support testosterone synthesis |
+| Maintenance | 0.8-1.0g/kg | Basic requirements |
 
-**食物来源：**
-- 饱和脂肪：红肉、奶制品（适量）
-- 单不饱和脂肪：橄榄油、牛油果、坚果
-- 多不饱和脂肪：深海鱼、亚麻籽（Omega-3）
+**Food Source:**
+- Saturated fat: red meat, dairy products (in moderation)
+- Monounsaturated fats: olive oil, avocado, nuts
+- Polyunsaturated fats: deep-sea fish, flax seeds (Omega-3)
 
-### 碳水化合物
+### carbohydrate
 
 ```
-碳水 = (总热量 - 蛋白质热量 - 脂肪热量) ÷ 4
+Carbohydrate = (total calories - protein calories - fat calories) ÷ 4
 
-1g 碳水 = 4 kcal
-1g 蛋白质 = 4 kcal
-1g 脂肪 = 9 kcal
+1g carbohydrate = 4 kcal
+1g protein = 4 kcal
+1g fat = 9 kcal
 ```
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 减脂 | 2-3g/kg | 训练日高，休息日低 |
-| 增肌 | 4-6g/kg | 支持训练和恢复 |
-| 耐力运动 | 5-7g/kg | 主要燃料 |
+| Fat loss | 2-3g/kg | High on training days, low on rest days |
+| Muscle building | 4-6g/kg | Support training and recovery |
+| Endurance sports | 5-7g/kg | Main fuel |
 
 ---
 
-## 微量营养素重点
+## Micronutrient Focus
 
-### 男性重点
+### Male focus
 
-| 营养素 | 推荐量 | 作用 | 食物来源 |
+| Nutrients | Recommended amounts | Functions | Food sources |
 |--------|--------|------|---------|
-| 锌 | 11mg/天 | 睾酮合成 | 牡蛎、牛肉、南瓜子 |
-| 维生素 D | 1000-2000 IU/天 | 睾酮、骨骼 | 日晒、鱼肝油、蛋黄 |
-| 镁 | 400-420mg/天 | 肌肉功能 | 坚果、绿叶蔬菜、全谷物 |
-| Omega-3 | 1-2g/天 | 心血管、抗炎 | 深海鱼、亚麻籽 |
+| Zinc | 11mg/day | Testosterone synthesis | Oysters, beef, pumpkin seeds |
+| Vitamin D | 1000-2000 IU/day | Testosterone, bone | Sun exposure, cod liver oil, egg yolk |
+| Magnesium | 400-420mg/day | Muscle function | Nuts, green leafy vegetables, whole grains |
+| Omega-3 | 1-2g/day | Cardiovascular, anti-inflammatory | Deep-sea fish, flaxseed |
 
-### 女性重点
+### Female focus
 
-| 营养素 | 推荐量 | 作用 | 食物来源 |
+| Nutrients | Recommended amounts | Functions | Food sources |
 |--------|--------|------|---------|
-| 铁 | 18mg/天（经期） | 补血 | 红肉、菠菜、豆类 |
-| 钙 | 1000mg/天 | 骨骼健康 | 奶制品、绿叶蔬菜 |
-| 叶酸 | 400μg/天 | 细胞分裂 | 绿叶蔬菜、豆类 |
-| 维生素 B6 | 1.3-1.5mg/天 | 激素调节 | 香蕉、坚果、鱼类 |
+| Iron | 18mg/day (menstrual period) | Blood supplement | Red meat, spinach, beans |
+| Calcium | 1000mg/day | Bone health | Dairy products, green leafy vegetables |
+| Folic acid | 400μg/day | Cell division | Green leafy vegetables, beans |
+| Vitamin B6 | 1.3-1.5mg/day | Hormone regulation | Bananas, nuts, fish |
 
 ---
 
-## 饮食时机
+## Eating timing
 
-### 训练前（1-2 小时）
-
-```
-- 碳水：30-50g（提供能量）
-- 蛋白质：20-30g（预防肌肉分解）
-- 脂肪：少量（延缓消化）
-
-示例：
-- 香蕉 + 希腊酸奶
-- 全麦面包 + 鸡胸肉
-- 燕麦 + 蛋白粉
-```
-
-### 训练后（30-60 分钟内）
+### Before training (1-2 hours)
 
 ```
-- 碳水：40-60g（补充糖原）
-- 蛋白质：25-40g（肌肉合成）
-- 快速吸收为佳
+-Carbohydrate: 30-50g (provides energy)
+- Protein: 20-30g (prevents muscle breakdown)
+- Fat: small amount (slows digestion)
 
-示例：
-- 乳清蛋白 + 香蕉
-- 鸡胸肉 + 米饭
-- 金枪鱼 + 面包
+Example:
+- Banana + Greek yogurt
+- Whole wheat bread + chicken breast
+- Oats + protein powder
 ```
 
-### 睡前
+### After training (within 30-60 minutes)
 
 ```
-- 酪蛋白（缓释蛋白）：酪蛋白粉、希腊酸奶、奶酪
-- 少量健康脂肪：坚果
-- 避免大量碳水（影响生长激素分泌）
+-Carbohydrate: 40-60g (replenish glycogen)
+- Protein: 25-40g (muscle synthesis)
+- Fast absorption is preferred
+
+Example:
+- Whey protein + banana
+- Chicken Breast + Rice
+- Tuna + bread
+```
+
+### Before going to bed
+
+```
+- Casein (slow-release protein): casein powder, Greek yogurt, cheese
+- Small amounts of healthy fats: nuts
+- Avoid large amounts of carbohydrates (affects growth hormone secretion)
 ```
 
 ---
 
-## 补剂指南
+## Supplement Guide
 
-### A 级证据（强烈推荐）
+### Level A evidence (strongly recommended)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 乳清蛋白 | 20-30g/次 | 便捷蛋白质来源 | 蛋白质摄入不足者 |
-| 肌酸一水合物 | 3-5g/天 | 力量、爆发力 | 力量训练者 |
-| 咖啡因 | 3-6mg/kg | 提神、运动表现 | 训练前 |
+| Whey protein | 20-30g/time | Convenient source of protein | People with insufficient protein intake |
+| Creatine monohydrate | 3-5g/day | Strength, power | Strength trainers |
+| Caffeine | 3-6mg/kg | Energy-boosting, performance | Pre-training |
 
-### B 级证据（推荐）
+### Level B evidence (recommended)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 维生素 D3 | 1000-2000 IU/天 | 骨骼、免疫、睾酮 | 日照不足者 |
-| Omega-3 鱼油 | 1-2g/天（EPA+DHA） | 心血管、抗炎 | 少吃鱼者 |
-| 镁 | 200-400mg/天 | 肌肉、睡眠 | 运动量大者 |
+| Vitamin D3 | 1000-2000 IU/day | Bones, immunity, testosterone | People with insufficient sunlight |
+| Omega-3 fish oil | 1-2g/day (EPA+DHA) | Cardiovascular, anti-inflammatory | Those who eat less fish |
+| Magnesium | 200-400mg/day | Muscle, sleep | People who exercise a lot |
 
-### C 级证据（可选）
+### Level C evidence (optional)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 复合维生素 | 按说明 | 填补营养缺口 | 饮食不均衡者 |
-| 左旋肉碱 | 1-2g/天 | 脂肪代谢 | 减脂期（效果有限） |
-| BCAA | 5-10g/天 | 肌肉保护 | 空腹训练者 |
+| Multivitamins | As directed | Fill nutritional gaps | Those with unbalanced diet |
+| L-carnitine | 1-2g/day | Fat metabolism | Fat loss period (limited effect) |
+| BCAA | 5-10g/day | Muscle protection | Fasting trainers |
 
 ---
 
-## 饮食计划模板
+## Diet Plan Template
 
-### 减脂饮食（示例：70kg 男性，TDEE 2500kcal）
+### Fat loss diet (example: 70kg male, TDEE 2500kcal)
 
 ```
-目标热量：2000 kcal（-500kcal 赤字）
-蛋白质：140g（560 kcal，28%）
-脂肪：70g（630 kcal，31%）
-碳水：200g（800 kcal，40%）
+Target calories: 2000 kcal (-500kcal deficit)
+Protein: 140g (560 kcal, 28%)
+Fat: 70g (630 kcal, 31%)
+Carbohydrate: 200g (800 kcal, 40%)
 
-【早餐】（400 kcal）
-- 燕麦 50g（180 kcal）
-- 蛋白粉 1 勺（120 kcal）
-- 蓝莓 50g（30 kcal）
-- 杏仁 10g（60 kcal）
+【Breakfast】（400 kcal）
+- Oats 50g (180 kcal)
+- 1 scoop of protein powder (120 kcal)
+- Blueberries 50g (30 kcal)
+- Almonds 10g (60 kcal)
 
-【午餐】（600 kcal）
-- 鸡胸肉 150g（165 kcal）
-- 糙米饭 150g（180 kcal）
-- 西兰花 200g（70 kcal）
-- 橄榄油 10ml（90 kcal）
-- 混合蔬菜（100 kcal）
+【Lunch】（600 kcal）
+- Chicken breast 150g (165 kcal)
+- Brown rice 150g (180 kcal)
+- Broccoli 200g (70 kcal)
+- Olive oil 10ml (90 kcal)
+- Mixed vegetables (100 kcal)
 
-【加餐】（200 kcal）
-- 希腊酸奶 150g（100 kcal）
-- 苹果 1 个（95 kcal）
+【Additional Meal】（200 kcal）
+- Greek yogurt 150g (100 kcal)
+- 1 apple (95 kcal)
 
-【晚餐】（600 kcal）
-- 三文鱼 150g（310 kcal）
-- 红薯 200g（180 kcal）
-- 芦笋 200g（40 kcal）
-- 橄榄油 5ml（45 kcal）
+【Dinner】（600 kcal）
+- Salmon 150g (310 kcal)
+- Sweet potato 200g (180 kcal)
+- Asparagus 200g (40 kcal)
+- Olive oil 5ml (45 kcal)
 
-【睡前】（200 kcal）
-- 酪蛋白粉 1 勺（120 kcal）
-- 核桃 10g（65 kcal）
+【Before bed】(200 kcal)
+- Casein powder 1 scoop (120 kcal)
+- Walnuts 10g (65 kcal)
 ```
 
 ---
 
-*营养指南完成 | 下一步：西医术语库（glossary_western.md）*
+*Nutritional Guidelines Completed | Next: Glossary of Western Medicine Glossary (glossary_western.md)*

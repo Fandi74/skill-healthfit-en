@@ -1,79 +1,79 @@
-# HealthFit 数据存储 Schema
+# HealthFit Data Storage Schema
 
-## 存储架构总览
+## Storage architecture overview
 
 ```
-HealthFit 数据存储
+HealthFit data storage
 │
-├── JSON 文件（结构化数据）
-│   ├── profile.json — 基础生理数据档案
-│   ├── profile_health_history.json — 健康史
-│   ├── profile_fitness_baseline.json — 体测基准
-│   ├── private_sexual_health.json — 性健康隐私数据（独立存储，二次确认门控）
-│   ├── tcm_profile.json — 中医体质档案
-│   └── daily/YYYY-MM-DD.json — 每日综合日志
+├── JSON file (structured data)
+│ ├── profile.json — basic physiological data file
+│ ├── profile_health_history.json — Health History
+│ ├── profile_fitness_baseline.json — Physical Measurement Baseline
+│ ├── private_sexual_health.json — Sexual health privacy data (independent storage, secondary confirmation gate control)
+│ ├── tcm_profile.json — TCM constitution file
+│ └── daily/YYYY-MM-DD.json — Daily comprehensive log
 │
-├── TXT 文件（文本记录）
-│   ├── workout_log.txt — 运动训练日志
-│   ├── nutrition_log.txt — 饮食记录日志
-│   ├── glossary_western.txt — 西医术语库
-│   ├── glossary_tcm.txt — 中医术语库
-│   └── achievements.txt — 成就里程碑记录
+├── TXT file (text record)
+│ ├── workout_log.txt — Exercise training log
+│ ├── nutrition_log.txt — Diet record log
+│ ├── glossary_western.txt — Western Medicine Glossary
+│ ├── glossary_tcm.txt — Traditional Chinese Medicine Glossary
+│ └── achievements.txt — achievement milestone record
 │
-├── SQLite 数据库（查询优化）
+├── SQLite database (query optimization)
 │   └── healthfit.db
-│       ├── workouts — 运动记录表
-│       ├── nutrition_entries — 饮食记录表
-│       ├── metrics_daily — 每日身体指标表
-│       ├── pr_records — 个人最佳成绩表
-│       ├── weekly_summaries — 周统计缓存
-│       └── monthly_summaries — 月统计缓存
+│ ├── workouts — exercise record sheet
+│ ├── nutrition_entries — Diet record form
+│ ├── metrics_daily — Daily body indicator table
+│ ├── pr_records — personal best results table
+│ ├── weekly_summaries — weekly statistics cache
+│ └── monthly_summaries — monthly statistics cache
 │
-└── assets/ 资源文件（非用户数据）
-    └── exercise_images/ — 动作图解资源（公开资源/用户自拍）
-        └── [用户自拍照片建议加密存储或存于私有目录]
+└── assets/ resource files (non-user data)
+└── exercise_images/ — action illustration resources (public resources/user selfies)
+└── [User selfie photos are recommended to be encrypted or stored in a private directory]
 ```
 
 ---
 
-## 隐私数据保护说明
+## Privacy data protection instructions
 
-### 敏感数据分类
+### Sensitive data classification
 
-| 数据类别 | 文件 | 保护级别 | 说明 |
+| Data Category | File | Protection Level | Description |
 |---------|------|---------|------|
-| **高度敏感** | `private_sexual_health.json` | 🔴 最高级 | 独立存储，默认排除备份/导出，需二次确认 |
-| **中度敏感** | `profile_health_history.json` | 🟡 高级 | 包含用药史、疾病史，建议加密 |
-| **低敏感度** | `profile.json`, `workout_log.txt` | 🟢 普通级 | 可正常备份/导出 |
-| **用户自拍照片** | `assets/exercise_images/` | 🟡 高级 | 建议加密存储或存于私有目录，不随技能分发 |
+| **Highly Sensitive** | `private_sexual_health.json` | 🔴 Highest level | Independent storage, backup/export excluded by default, double confirmation required |
+| **Moderately sensitive** | `profile_health_history.json` | 🟡 Advanced | Contains medication history, disease history, encryption is recommended |
+| **Low sensitivity** | `profile.json`, `workout_log.txt` | 🟢 Normal level | Can be backed up/exported normally |
+| **User selfies** | `assets/exercise_images/` | 🟡 Advanced | It is recommended to encrypt the storage or store it in a private directory and not distribute it with the skills |
 
-### 用户自拍照片存储方案
+### User selfie photo storage solution
 
-**如用户选择拍摄动作照片供 AI 纠正：**
+**If the user chooses to take action photos for AI correction:**
 
-1. **存储位置：** 建议存于用户私有目录（如 `data/private_photos/`），而非技能目录
-2. **加密方案：** 可使用 base64 编码 + 密码保护，或调用系统加密 API
-3. **访问控制：** 仅在用户明确授权时读取，用后及时清理
-4. **备份策略：** 默认排除在备份之外，用户可手动选择是否包含
-5. **当前状态：** ⚠️ v3.1 计划功能，当前版本需手动上传图片到 `exercise_images` 目录
+1. **Storage location:** It is recommended to store it in the user's private directory (such as `data/private_photos/`) rather than the skills directory
+2. **Encryption scheme:** You can use base64 encoding + password protection, or call the system encryption API
+3. **Access Control:** Only read when explicitly authorized by the user, and clean up promptly after use
+4. **Backup policy:** Excluded from backup by default, users can manually choose whether to include
+5. **Current status:** ⚠️ v3.1 planned function, the current version requires manual uploading of images to the `exercise_images` directory
 
-**实现示例（伪代码）：**
+**Implementation example (pseudocode):**
 ```python
-# 用户自拍照片存储建议
+# User selfie photo storage suggestions
 photo_path = Path(__file__).parent.parent / "data" / "private_photos" / f"{date}_{exercise}.jpg"
-# 建议：使用加密库（如 cryptography）对照片进行加密存储
-# 或：仅保存照片的 base64 编码到 JSON，原始照片不落地
+# Recommendation: Use an encryption library (such as cryptography) to encrypt and store photos.
+# Or: Only save the base64 encoding of the photo to JSON, and the original photo will not be saved.
 ```
 
 ---
 
-### 性健康数据加密方案（可选）
+### Sexual health data encryption scheme (optional)
 
-**当前状态：** ⚠️ 明文存储（依赖文件隔离 + 备份排除）
+**Current status:** ⚠️ Plain text storage (relies on file isolation + backup exclusion)
 
-**加密升级方案（未来迭代）：**
+**Encryption upgrade plan (future iteration):**
 
-#### 方案 A：简单加密（Base64 + XOR）
+#### Solution A: Simple encryption (Base64 + XOR)
 ```python
 # scripts/crypto_utils.py
 import base64
@@ -81,21 +81,21 @@ import hashlib
 import json
 
 def encrypt_data(data: dict, password: str) -> str:
-    """简单加密（非军用级，但足够防止随意查看）"""
+"""Simple encryption (not military grade, but enough to prevent casual viewing)"""
     json_str = json.dumps(data, ensure_ascii=False)
     key = hashlib.sha256(password.encode()).digest()
     encrypted_bytes = bytes([b ^ key[i % len(key)] for i, b in enumerate(json_str.encode('utf-8'))])
     return base64.b64encode(encrypted_bytes).decode('ascii')
 
 def decrypt_data(encrypted_str: str, password: str) -> dict:
-    """解密数据"""
+"""Decrypt data"""
     key = hashlib.sha256(password.encode()).digest()
     encrypted_bytes = base64.b64decode(encrypted_str.encode('ascii'))
     decrypted_bytes = bytes([b ^ key[i % len(key)] for i, b in enumerate(encrypted_bytes)])
     return json.loads(decrypted_bytes.decode('utf-8'))
 ```
 
-#### 方案 B：AES-256 加密（推荐）
+#### Option B: AES-256 encryption (recommended)
 ```python
 # scripts/secure_storage.py
 from cryptography.fernet import Fernet
@@ -105,7 +105,7 @@ import base64
 import os
 
 def generate_key(password: str, salt: bytes = None) -> tuple:
-    """从密码生成加密密钥"""
+"""Generate encryption key from password"""
     if salt is None:
         salt = os.urandom(16)
     
@@ -119,33 +119,33 @@ def generate_key(password: str, salt: bytes = None) -> tuple:
     return key, salt
 
 def encrypt_file(data: dict, password: str, filepath: Path):
-    """加密并保存文件"""
+"""Encrypt and save the file"""
     key, salt = generate_key(password)
     fernet = Fernet(key)
     
     json_bytes = json.dumps(data, ensure_ascii=False).encode('utf-8')
     encrypted = fernet.encrypt(json_bytes)
     
-    # 保存 salt + 加密数据
+# Save salt + encrypted data
     filepath.write_bytes(salt + encrypted)
 ```
 
-**实施建议：**
-- 当前版本：明文存储 + 文件隔离 + 备份排除（已足够安全）
-- 未来版本：可选加密升级（用户设置密码后启用）
-- 密码管理：密码仅存于用户记忆中，系统不保存（丢失无法恢复）
+**Implementation suggestions:**
+- Current version: plain text storage + file isolation + backup exclusion (safe enough)
+- Future versions: Optional encryption upgrade (enabled after user sets password)
+- Password management: Passwords only exist in the user's memory and are not saved by the system (cannot be recovered if lost)
 
 ---
 
-## JSON Schema 定义
+## JSON Schema definition
 
-### 1. profile.json（基础生理数据）
+### 1. profile.json (basic physiological data)
 
 ```json
 {
   "created_at": "2026-03-16",
   "updated_at": "2026-03-16",
-  "nickname": "用户昵称",
+"nickname": "User Nickname",
   "gender": "male",
   "age": 28,
   "height_cm": 175,
@@ -175,38 +175,38 @@ def encrypt_file(data: dict, password: str, filepath: Path):
 }
 ```
 
-### 2. profile_health_history.json（健康史）
+### 2. profile_health_history.json (health history)
 
 ```json
 {
   "medications": [
     {
-      "name": "X 药",
-      "category": "降压药",
+"name": "X medicine",
+"category": "antihypertensive drugs",
       "start_date": "2024-06",
       "status": "ongoing",
-      "purpose": "高血压",
-      "notes": "影响运动强度上限"
+"purpose": "hypertension",
+"notes": "Affects the upper limit of exercise intensity"
     }
   ],
   "diseases": [
     {
-      "name": "轻度腰椎间盘突出",
+"name": "Mild lumbar disc herniation",
       "diagnosed_date": "2024-03",
       "status": "managed",
-      "impact_on_training": "避免高负荷脊椎压缩动作"
+"impact_on_training": "Avoid high-load spinal compression movements"
     }
   ],
   "surgeries": [],
   "chronic_conditions": ["hypertension"],
   "allergies": {
-    "food": ["坚果"],
+"food": ["nuts"],
     "medication": []
   }
 }
 ```
 
-### 3. profile_fitness_baseline.json（体测基准）
+### 3. profile_fitness_baseline.json (physical measurement baseline)
 
 ```json
 {
@@ -240,7 +240,7 @@ def encrypt_file(data: dict, password: str, filepath: Path):
 }
 ```
 
-### 4. private_sexual_health.json（性健康隐私数据）
+### 4. private_sexual_health.json (sexual health privacy data)
 
 ```json
 {
@@ -265,7 +265,7 @@ def encrypt_file(data: dict, password: str, filepath: Path):
 }
 ```
 
-### 5. tcm_profile.json（中医体质档案）
+### 5. tcm_profile.json (TCM constitution file)
 
 ```json
 {
@@ -292,29 +292,29 @@ def encrypt_file(data: dict, password: str, filepath: Path):
   "tongue_records": [
     {
       "date": "2026-03-16",
-      "body_color": "淡白",
-      "body_shape": "胖大有齿痕",
-      "coating": "白腻苔",
-      "moisture": "水滑",
-      "notes": "边缘有轻微齿痕",
-      "dr_chen_assessment": "典型阳虚 + 气虚舌象"
+"body_color": "Light white",
+"body_shape": "Fat and tooth-marked",
+"coating": "white greasy moss",
+"moisture": "water slippery",
+"notes": "There are slight tooth marks on the edges",
+"dr_chen_assessment": "Typical Yang deficiency + Qi deficiency tongue symptoms"
     }
   ],
   "current_plan": {
-    "exercise_restrictions": ["避免大汗", "冬季减少室外"],
-    "recommended_exercises": ["八段锦", "太极拳"],
+"exercise_restrictions": ["Avoid sweating", "Reduce outdoor use in winter"],
+"recommended_exercises": ["Ba Duan Jin", "Tai Chi"],
     "food_therapy": {
-      "beneficial": ["山药", "红枣", "羊肉"],
-      "avoid": ["冷饮", "苦瓜"],
-      "daily_tea": "黄芪红枣枸杞茶"
+"beneficial": ["yam", "red dates", "mutton"],
+"avoid": ["cold drink", "bitter melon"],
+"daily_tea": "Astragalus, red dates and wolfberry tea"
     },
-    "acupoints": ["关元穴", "足三里"],
-    "seasonal_notes": "冬至前后是调养黄金期"
+"acupoints": ["Guanyuan point", "Zusanli"],
+"seasonal_notes": "Before and after the winter solstice is the golden period for recuperation"
   }
 }
 ```
 
-### 6. daily/YYYY-MM-DD.json（每日综合日志）
+### 6. daily/YYYY-MM-DD.json (daily comprehensive log)
 
 ```json
 {
@@ -329,69 +329,69 @@ def encrypt_file(data: dict, password: str, filepath: Path):
   },
   "workout_ids": ["workout:2026-03-16:1"],
   "nutrition_logged": true,
-  "daily_note": "今天状态还不错，但下午有点困",
+"daily_note": "I'm in good condition today, but I feel a little sleepy in the afternoon",
   "sexual_health_note": null
 }
 ```
 
 ---
 
-## TXT 日志格式
+## TXT log format
 
 ### workout_log.txt
 
 ```
-[2026-03-16 19:30] 上肢力量训练 | 55 分钟
-  - 哑铃卧推：4 组 (12/10/8/8) × 20-22kg
-  - 单臂划船：3 组 × 12 次/侧 × 14kg
-  - 面拉：3 组 × 15 次 × 拉力绳
-  RPE: 7/10 | 完成度：100% | 备注：状态不错，卧推 PR 22kg
+[2026-03-16 19:30] Upper body strength training | 55 minutes
+- Dumbbell bench press: 4 sets (12/10/8/8) × 20-22kg
+- Single-arm rowing: 3 sets × 12 times/side × 14kg
+- Face pull: 3 sets × 15 times × tension rope
+RPE: 7/10 | Completion: 100% | Notes: In good condition, bench press PR 22kg
 
-[2026-03-15 07:00] 晨跑 | 32 分钟
-  - 距离：5.0km
-  - 配速：6'24''/km
-  - 平均心率：145bpm
-  RPE: 6/10 | 完成度：100% | 备注：晨跑状态好
+[2026-03-15 07:00] Morning run | 32 minutes
+- Distance: 5.0km
+- Pace: 6'24''/km
+- Average heart rate: 145bpm
+RPE: 6/10 | Completion: 100% | Remarks: Morning run in good condition
 ```
 
 ### nutrition_log.txt
 
 ```
-[2026-03-16] 训练日 | 目标：2740 kcal
-  早餐：燕麦 + 牛奶 + 鸡蛋 + 香蕉 = 550 kcal (P30g/C65g/F12g)
-  午餐：鸡胸肉 + 糙米饭 + 西兰花 = 750 kcal (P45g/C85g/F18g)
-  晚餐：三文鱼 + 红薯 + 芦笋 = 700 kcal (P35g/C60g/F25g)
-  加餐：蛋白粉 + 苹果 + 杏仁 = 400 kcal (P28g/C25g/F15g)
+[2026-03-16] Training Day | Target: 2740 kcal
+Breakfast: oats + milk + eggs + banana = 550 kcal (P30g/C65g/F12g)
+Lunch: chicken breast + brown rice + broccoli = 750 kcal (P45g/C85g/F18g)
+Dinner: salmon + sweet potato + asparagus = 700 kcal (P35g/C60g/F25g)
+Snack: protein powder + apple + almond = 400 kcal (P28g/C25g/F15g)
   ────────────────────────────────────────────────────
-  合计：2400 kcal (P138g/C235g/F70g)
-  达标率：热量 88% | 蛋白质 99% | 碳水 61% | 脂肪 100%
-  备注：碳水偏低，明天注意补充
+Total: 2400 kcal (P138g/C235g/F70g)
+Compliance rate: Calories 88% | Protein 99% | Carbohydrates 61% | Fat 100%
+Note: Carbs are on the low side, please make sure to replenish them tomorrow
 ```
 
 ### achievements.txt
 
 ```
-[2026-03-16 19:45] 成就解锁：铁人意志
-  描述：连续训练 30 天
-  难度：🔴 困难
-  数据统计：
-    - 开始日期：2026-02-15
-    - 结束日期：2026-03-16
-    - 总训练次数：26 次
-    - 总训练时长：1,480 分钟
-    - 总消耗：约 11,200 kcal
-  期间进步：
-    - 体重：-2.0kg
-    - 深蹲：+14%
-    - 5km 配速：-25 秒
+[2026-03-16 19:45] Achievement Unlocked: Iron Will
+Description: Training for 30 consecutive days
+Difficulty: 🔴 Hard
+Statistics:
+- Start date: 2026-02-15
+- End date: 2026-03-16
+- Total training times: 26 times
+- Total training time: 1,480 minutes
+- Total consumption: approx. 11,200 kcal
+Progress during this period:
+- Weight: -2.0kg
+- Squat: +14%
+- 5km pace: -25 seconds
 ```
 
 ---
 
-## SQLite 数据库 Schema
+## SQLite Database Schema
 
 ```sql
--- 运动记录表
+-- Exercise record sheet
 CREATE TABLE workouts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL,
@@ -404,7 +404,7 @@ CREATE TABLE workouts (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- 饮食记录表
+-- Diet record sheet
 CREATE TABLE nutrition_entries (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL,
@@ -417,7 +417,7 @@ CREATE TABLE nutrition_entries (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- 每日指标表
+--Daily indicator table
 CREATE TABLE metrics_daily (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL UNIQUE,
@@ -429,7 +429,7 @@ CREATE TABLE metrics_daily (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- PR 记录表
+--PR record table
 CREATE TABLE pr_records (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     exercise_name TEXT NOT NULL,
@@ -440,7 +440,7 @@ CREATE TABLE pr_records (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- 周统计缓存表
+-- Weekly statistics cache table
 CREATE TABLE weekly_summaries (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     week TEXT NOT NULL UNIQUE,
@@ -455,7 +455,7 @@ CREATE TABLE weekly_summaries (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- 月统计缓存表
+--Monthly statistics cache table
 CREATE TABLE monthly_summaries (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     month TEXT NOT NULL UNIQUE,
@@ -470,7 +470,7 @@ CREATE TABLE monthly_summaries (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- 索引优化
+-- Index optimization
 CREATE INDEX idx_workouts_date ON workouts(date);
 CREATE INDEX idx_nutrition_date ON nutrition_entries(date);
 CREATE INDEX idx_metrics_date ON metrics_daily(date);
@@ -480,31 +480,31 @@ CREATE INDEX idx_monthly_month ON monthly_summaries(month);
 
 ---
 
-## 数据备份策略
+## Data backup strategy
 
-### 自动备份
-- **频率**：每周日凌晨 2:00
-- **内容**：所有 JSON 文件 + SQLite 数据库
-- **位置**：`data/db/backup/`
-- **保留**：最近 4 次备份
+### Automatic backup
+- **Frequency**: Every Sunday at 2:00 AM
+- **Content**: All JSON files + SQLite database
+- **Location**: `data/db/backup/`
+- **KEEP**: Last 4 backups
 
-### 手动导出
-**用户命令**：`导出我的数据`
+### Manual export
+**User Command**: `Export my data`
 
-**输出**：
-- 所有 JSON 文件打包
-- SQLite 数据库导出为 CSV
-- 生成可读的 Markdown 报告
+**Output**:
+- All JSON files packaged
+- SQLite database export to CSV
+- Generate readable Markdown reports
 
-### 数据清除
-**用户命令**：`清除健康数据`
+### Data clearing
+**User Command**: `Clear Health Data`
 
-**操作**：
-1. 清空所有 JSON 文件内容
-2. 删除 SQLite 数据库
-3. 保留 TXT 日志（可选）
-4. 重置所有计数器
+**operate**:
+1. Clear all JSON file contents
+2. Delete SQLite database
+3. Keep TXT log (optional)
+4. Reset all counters
 
 ---
 
-*存储 Schema 完成 | 下一步：回复模板（response_templates.md）*
+*Storage Schema completed | Next step: reply templates (response_templates.md)*

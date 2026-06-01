@@ -1,1307 +1,1307 @@
-# 中医九体质完整调养方案
+# Complete nursing plan for the nine constitutions of traditional Chinese medicine
 
-> **来源依据：** 《中医体质分类与判定》国家标准 (GB/T 30357-2013)、《中医体质学》(王琦院士)、《黄帝内经》
+> **Source basis:** "Classification and Determination of Constitution of Traditional Chinese Medicine" National Standard (GB/T 30357-2013), "Constitution of Traditional Chinese Medicine" (Academician Wang Qi), "Huangdi Neijing"
 
 ---
 
-## 体质概览
+##Physique Overview
 
-| 体质类型 | 占比 (中国人群) | 核心特征 | 易患疾病倾向 |
+| Constitution type | Proportion (Chinese population) | Core characteristics | Predisposition to disease |
 |---------|----------------|---------|-------------|
-| 平和质 | 32% | 阴阳调和，体态适中 | 较少患病 |
-| 气虚质 | 12% | 气短乏力，易出汗 | 感冒、内脏下垂 |
-| 阳虚质 | 8% | 怕冷，手脚冰凉 | 腹泻、水肿、痛经 |
-| 阴虚质 | 9% | 手足心热，口干咽燥 | 失眠、便秘、高血压 |
-| 痰湿质 | 14% | 体型肥胖，腹部肥满 | 糖尿病、高血脂、中风 |
-| 湿热质 | 10% | 面垢油光，易生痤疮 | 痤疮、黄疸、泌尿感染 |
-| 血瘀质 | 8% | 肤色晦暗，易有瘀斑 | 心脑血管病、痛经 |
-| 气郁质 | 5% | 忧郁脆弱，多愁善感 | 抑郁症、失眠、乳腺增生 |
-| 特禀质 | 2% | 过敏体质，易患哮喘 | 过敏性鼻炎、荨麻疹 |
+| Peaceful nature | 32% | Harmony of yin and yang, moderate body shape | Fewer diseases |
+| Qi deficiency | 12% | Shortness of breath, fatigue, easy sweating | Colds, visceral sagging |
+| Yang deficiency constitution | 8% | Afraid of cold, cold hands and feet | Diarrhea, edema, dysmenorrhea |
+| Yin deficiency | 9% | Hot hands, feet, and heart, dry mouth and throat | Insomnia, constipation, high blood pressure |
+| Phlegm-dampness | 14% | Obesity, abdominal fat | Diabetes, hyperlipidemia, stroke |
+| Damp-heat quality | 10% | Oily face, prone to acne | Acne, jaundice, urinary infection |
+| Blood stasis | 8% | Dark skin color, easy to have ecchymosis | Cardiovascular and cerebrovascular diseases, dysmenorrhea |
+| Qi depression | 5% | Melancholy, fragile, sentimental | Depression, insomnia, breast hyperplasia |
+| Special qualities | 2% | Allergic constitution, susceptible to asthma | Allergic rhinitis, urticaria |
 
 ---
 
-## 一、平和质 (Neutral Constitution)
+## 1. Neutral Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 阴阳气血调和，体态适中，面色红润，精力充沛
+**General characteristics:** Yin and Yang Qi and blood are harmonious, moderate body shape, ruddy complexion, and energetic
 
-**具体表现：**
-- 体型匀称，肌肉结实
-- 面色红润有光泽
-- 头发茂密有光泽
-- 目光有神，嗅觉通利
-- 唇色红润，精力充沛
-- 耐寒耐热，睡眠良好
-- 胃口好，大小便正常
-- 舌色淡红，苔薄白
-- 脉象和缓有力
+**Specific performance:**
+- Well-proportioned body shape and strong muscles
+- Complexion is rosy and shiny
+- Hair is thick and shiny
+- Good eyesight and good sense of smell
+- Lip color is rosy and energetic
+- Resistant to cold and heat, sleep well
+- Good appetite and normal bowel movements
+-Light red tongue with thin white coating
+- Pulse is gentle and strong
 
-**心理特征：** 性格随和开朗，情绪稳定
+**Psychological Characteristics:** Easy-going and cheerful personality, emotionally stable
 
-### 运动方案
+### Exercise program
 
-**原则：** 维持现状，适度运动，避免过度
+**Principle:** Maintain the status quo, exercise moderately, and avoid excess
 
-**推荐运动：**
-- 有氧运动：慢跑、游泳、骑自行车，每周 3-5 次，每次 30-45 分钟
-- 力量训练：全身性训练，每周 2-3 次
-- 传统功法：太极拳、八段锦、五禽戏，每周 2-3 次
+**Recommended exercise:**
+- Aerobic exercise: jogging, swimming, cycling, 3-5 times a week, 30-45 minutes each time
+-Strength training: full body training, 2-3 times per week
+- Traditional exercises: Tai Chi, Baduanjin, Wuqinxi, 2-3 times a week
 
-**强度控制：** 中等强度（心率 120-150 次/分），微微出汗即可
+**Intensity control:** Moderate intensity (heart rate 120-150 beats/min), just sweat a little
 
-**注意事项：** 避免过度训练导致气耗，运动后及时补充水分
+**Note:** Avoid gas consumption caused by over-training, and replenish water in time after exercise
 
-### 食疗方案
+### Dietary therapy plan
 
-**原则：** 均衡饮食，五味调和，不偏食
+**Principle:** Balanced diet, harmony of five flavors, no partiality
 
-**推荐食物：**
-- 主食：大米、小米、玉米、燕麦（多样化）
-- 蛋白质：鸡肉、鱼肉、瘦猪肉、鸡蛋、豆制品
-- 蔬菜：各类时令蔬菜，颜色多样化
-- 水果：苹果、橙子、葡萄、猕猴桃等温和水果
-- 坚果：核桃、杏仁、腰果（适量）
+**Recommended food:**
+- Staple food: rice, millet, corn, oats (diversified)
+- Protein: chicken, fish, lean pork, eggs, soy products
+- Vegetables: all kinds of seasonal vegetables in various colors
+- Fruits: apples, oranges, grapes, kiwi and other mild fruits
+- Nuts: walnuts, almonds, cashews (appropriate amount)
 
-**食疗方：**
-- 山药粥：山药 50g + 大米 100g，健脾益胃
-- 莲子百合粥：莲子 15g + 百合 15g + 大米 100g，养心安神
+**Therapeutic Recipes:**
+-Yam porridge: 50g yam + 100g rice, strengthens the spleen and stomach
+- Lotus seed and lily porridge: 15g lotus seeds + 15g lily + 100g rice, nourishing the heart and calming the mind
 
-**饮食禁忌：** 避免过食生冷、辛辣、油腻食物
+**Dietary taboos:** Avoid eating cold, spicy, and greasy foods
 
-### 穴位保健
+### Acupoint health care
 
-**保健穴位：**
-- 足三里（ST36）：双侧，每侧按揉 3-5 分钟，每日 1-2 次
-- 关元（CV4）：按揉或艾灸，每周 2-3 次
-- 气海（CV6）：按揉 3-5 分钟，每日 1 次
+**Health acupuncture points:**
+- Zusanli (ST36): massage on both sides for 3-5 minutes on each side, 1-2 times a day
+- Guanyuan (CV4): massage or moxibustion, 2-3 times a week
+- Qihai (CV6): massage for 3-5 minutes, once a day
 
-**操作方法：** 用拇指指腹按揉，力度适中，以有酸胀感为宜
+**Operation method:** Use thumb pads to massage with moderate intensity until there is a feeling of soreness and swelling.
 
-### 调理预期
+### Adjust expectations
 
-**目标：** 保持平和状态，预防体质偏颇
+**Goal:** Maintain a peaceful state and prevent physical bias
 
-**周期：** 长期维持
+**Period:** Long-term maintenance
 
-**评估指标：**
-- 精力充沛，无明显疲劳感
-- 睡眠质量良好
-- 食欲正常，消化良好
-- 情绪稳定，心态平和
-
----
-
-## 二、气虚质 (Qi-Deficiency Constitution)
-
-### 特征表现
-
-**总体特征：** 元气不足，气短懒言，容易疲乏
-
-**具体表现：**
-- 肌肉松软不实
-- 说话声音低弱，懒得说话
-- 呼吸短促，稍微活动就气喘
-- 容易出汗（自汗），活动后更明显
-- 容易感冒，抵抗力差
-- 精神不振，容易疲劳
-- 舌头淡红，舌体胖大，边有齿痕
-- 脉象虚弱
-
-**心理特征：** 性格内向，情绪不稳定，胆小不喜欢冒险
-
-**易患疾病：** 感冒、内脏下垂（胃下垂、子宫脱垂）、脱肛
-
-### 运动方案
-
-**原则：** 循序渐进，低强度开始，避免大汗耗气
-
-**推荐运动：**
-- 散步：每日 30-60 分钟，速度适中
-- 太极拳：动作缓慢，调息养气，每日 20-30 分钟
-- 八段锦：重点练习"调理脾胃须单举"、"双手托天理三焦"
-- 瑜伽：温和的拉伸动作，避免过度用力
-
-**强度控制：** 低至中等强度（心率 100-120 次/分），以不出大汗为度
-
-**禁忌：**
-- ❌ 避免高强度间歇训练（HIIT）
-- ❌ 避免长时间跑步导致大汗淋漓
-- ❌ 避免在炎热环境下运动
-
-**进阶计划：**
-- 第 1-2 周：每日散步 30 分钟
-- 第 3-4 周：加入太极拳 15 分钟
-- 第 5-8 周：逐渐延长至 45-60 分钟
-
-### 食疗方案
-
-**原则：** 健脾益气，补肺固表
-
-**推荐食物：**
-- 补气食材：山药、莲子、芡实、白扁豆、大枣
-- 谷物：糯米、小米、燕麦
-- 蛋白质：鸡肉、牛肉、鱼肉、鸡蛋
-- 蔬菜：胡萝卜、南瓜、土豆、香菇
-
-**推荐食疗方：**
-
-**1. 黄芪山药粥**
-```
-材料：黄芪 15g，山药 50g，大米 100g
-做法：黄芪煎水取汁，与山药、大米同煮成粥
-功效：补中益气，健脾养胃
-频率：每周 3-4 次
-```
-
-**2. 党参红枣茶**
-```
-材料：党参 10g，红枣 5 枚（去核）
-做法：沸水冲泡，代茶饮用
-功效：补气养血
-频率：每日 1 剂
-```
-
-**3. 四神汤**
-```
-材料：山药 20g，莲子 20g，芡实 20g，茯苓 20g，猪肚或瘦肉适量
-做法：材料洗净，与肉类同炖 2 小时
-功效：健脾益气，固肠止泻
-频率：每周 1-2 次
-```
-
-**饮食禁忌：**
-- ❌ 生冷食物：冰淇淋、冷饮、生鱼片
-- ❌ 耗气食物：萝卜（生）、槟榔
-- ❌ 辛辣刺激性食物
-
-### 穴位保健
-
-**主穴：**
-- 足三里（ST36）：双侧，每侧按揉 5 分钟，每日 2 次；可艾灸，每侧 10-15 分钟
-- 气海（CV6）：按揉 5 分钟，每日 1 次；可艾灸 15-20 分钟
-- 关元（CV4）：按揉 5 分钟，每日 1 次；可艾灸 15-20 分钟
-- 肺俞（BL13）：双侧，按揉 3-5 分钟，每日 1 次
-
-**配穴：**
-- 脾俞（BL20）：健脾益气
-- 太渊（LU9）：补肺气
-
-**艾灸方案：**
-- 穴位：足三里、气海、关元
-- 方法：温和灸，每穴 10-15 分钟
-- 频率：每周 3-4 次
-- 疗程：连续 4 周为 1 疗程
-
-### 调理预期
-
-**短期（1-2 周）：** 疲劳感减轻，出汗减少
-
-**中期（1-2 月）：** 体力增强，感冒次数减少
-
-**长期（3-6 月）：** 体质明显改善，精神状态好转
-
-**评估指标：**
-- 日常活动后气喘减轻
-- 出汗量减少
-- 感冒频率降低（从每月 1-2 次降至每季度 1 次）
-- 精神状态改善
+**Evaluation indicators:**
+- Energetic and no obvious fatigue
+- Good sleep quality
+- Normal appetite and good digestion
+- Emotional stability and peace of mind
 
 ---
 
-## 三、阳虚质 (Yang-Deficiency Constitution)
+## 2. Qi-Deficiency Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 阳气不足，畏寒怕冷，手足不温
+**General characteristics:** Lack of energy, shortness of breath, laziness, and easy fatigue
 
-**具体表现：**
-- 畏寒怕冷，尤其背部和腹部
-- 手脚冰凉，冬天更明显
-- 喜欢热饮，不耐受生冷
-- 精神不振，嗜睡
-- 大便稀溏，小便清长
-- 性欲减退
-- 舌淡胖嫩，边有齿痕，苔白滑
-- 脉象沉迟
+**Specific performance:**
+- Muscles are soft and unreliable
+- Speaks in a low voice and is too lazy to speak
+- Shortness of breath, wheezing with slight activity
+- Sweating easily (spontaneous sweating), more obvious after activity
+- Easy to catch colds and have poor immunity
+- Lack of energy and fatigue easily
+- The tongue is light red, the tongue is fat and enlarged, and there are tooth marks on the edges.
+- Weak pulse
 
-**心理特征：** 性格多沉静、内向
+**Psychological characteristics:** Introverted, emotionally unstable, timid and not fond of taking risks
 
-**易患疾病：** 腹泻（尤其晨起腹泻）、水肿、痛经、不孕、风湿病
+**Susceptible diseases:** Colds, visceroptosis (gastroptosis, uterine prolapse), anal prolapse
 
-### 运动方案
+### Exercise program
 
-**原则：** 动则生阳，但避免大汗伤阳
+**Principle:** Gradually, start with low intensity to avoid sweating and consuming gas
 
-**推荐运动：**
-- 慢跑：每日 20-30 分钟，以身体发热为度
-- 快走：每日 40-60 分钟
-- 太极拳：温阳益气，每日 20-30 分钟
-- 八段锦：重点练习"两手攀足固肾腰"
-- 瑜伽：温和的热瑜伽（避免过度出汗）
+**Recommended exercise:**
+- Walking: 30-60 minutes daily at a moderate pace
+- Tai Chi: move slowly, adjust your breath and nourish your Qi, 20-30 minutes a day
+- Baduanjin: focus on practicing "single lift to regulate the spleen and stomach" and "holding the three energizers of heaven and earth with both hands"
+- Yoga: gentle stretching to avoid overexertion
 
-**最佳运动时间：** 上午 9-11 点（阳气升发时）
+**Intensity control:** Low to moderate intensity (heart rate 100-120 beats/min), as long as you don’t sweat profusely
 
-**强度控制：** 中等强度，身体微微发热即可，避免大汗淋漓
+**Taboo:**
+- ❌ Avoid high-intensity interval training (HIIT)
+- ❌ Avoid sweating due to long-term running
+- ❌ Avoid exercising in hot environments
 
-**禁忌：**
-- ❌ 避免在寒冷环境中运动
-- ❌ 避免游泳（尤其冷水）
-- ❌ 避免夜间运动（损伤阳气）
-- ❌ 避免大汗后立即吹风或洗澡
+**Advanced Plan:**
+- Weeks 1-2: Daily 30-minute walk
+- Weeks 3-4: Add in Tai Chi for 15 minutes
+- Weeks 5-8: Gradually increase to 45-60 minutes
 
-**运动后护理：**
-- 及时擦干汗水
-- 更换干爽衣物
-- 喝温开水或姜茶
-- 避免立即吹空调
+### Dietary therapy plan
 
-### 食疗方案
+**Principle:** Strengthen the spleen and qi, nourish the lungs and strengthen the surface
 
-**原则：** 温补脾肾，助阳散寒
+**Recommended food:**
+- Qi-tonifying ingredients: yam, lotus seeds, gorgon seeds, white lentils, jujubes
+- Grains: glutinous rice, millet, oats
+- Protein: chicken, beef, fish, eggs
+- Vegetables: carrots, pumpkins, potatoes, mushrooms
 
-**推荐食物：**
-- 温性肉类：羊肉、牛肉、鸡肉、虾、鳝鱼
-- 温性蔬菜：韭菜、洋葱、大蒜、生姜、香菜
-- 坚果：核桃、栗子、松子
-- 调味品：生姜、肉桂、花椒、八角
+**Recommended dietary prescription:**
 
-**推荐食疗方：**
-
-**1. 当归生姜羊肉汤**
+**1. Astragalus and yam porridge**
 ```
-材料：当归 15g，生姜 30g，羊肉 500g
-做法：材料洗净，羊肉焯水后与当归、生姜同炖 2 小时，加盐调味
-功效：温中补血，祛寒止痛
-频率：每周 1-2 次（冬季可适当增加）
+Ingredients: 15g astragalus, 50g yam, 100g rice
+Method: Astragalus is boiled in water to extract the juice, and cooked into porridge with yam and rice.
+Efficacy: Buxing Zhongyiqi, strengthening the spleen and stomach
+Frequency: 3-4 times per week
 ```
 
-**2. 韭菜炒核桃仁**
+**2. Codonopsis and Red Date Tea**
 ```
-材料：韭菜 200g，核桃仁 50g
-做法：核桃仁炒香，加入韭菜快炒，加盐调味
-功效：温肾助阳
-频率：每周 2-3 次
-```
-
-**3. 肉桂红茶**
-```
-材料：肉桂粉 3g，红茶 3g，红糖适量
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：温阳散寒
-频率：每日 1 杯（上午饮用）
+Ingredients: 10g Codonopsis pilosula, 5 red dates (pitted)
+Method: brew with boiling water and drink instead of tea
+Efficacy: Nourishing Qi and nourishing blood
+Frequency: 1 dose daily
 ```
 
-**4. 姜枣茶**
+**3. Sishen Soup**
 ```
-材料：生姜 5 片，红枣 5 枚（去核），红糖适量
-做法：生姜、红枣加水煮沸 10 分钟，加红糖调味
-功效：温中散寒，补血益气
-频率：每日 1 剂（晨起饮用最佳）
-```
-
-**饮食禁忌：**
-- ❌ 生冷食物：冰淇淋、冷饮、生鱼片、凉拌菜
-- ❌ 寒性水果：西瓜、梨、柿子、柚子
-- ❌ 寒性蔬菜：苦瓜、冬瓜、黄瓜、芹菜
-- ❌ 绿茶（性寒）
-
-### 穴位保健
-
-**主穴：**
-- 关元（CV4）：艾灸为主，每次 20-30 分钟，每周 4-5 次
-- 气海（CV6）：艾灸 15-20 分钟，每周 4-5 次
-- 命门（GV4）：艾灸 15-20 分钟，每周 3-4 次
-- 肾俞（BL23）：双侧，艾灸或按揉，每侧 10-15 分钟
-
-**配穴：**
-- 足三里（ST36）：健脾温阳
-- 太溪（KI3）：补肾阳
-- 涌泉（KI1）：睡前按揉 5 分钟，引火归元
-
-**艾灸方案：**
-- 穴位：关元、气海、命门、肾俞
-- 方法：温和灸或隔姜灸
-- 时间：每穴 15-20 分钟
-- 频率：每周 4-5 次
-- 疗程：连续 8 周为 1 疗程，冬季可长期进行
-
-**泡脚方：**
-```
-材料：艾叶 30g，生姜 5 片，花椒 10g
-做法：材料加水煮沸 10 分钟，兑温水泡脚
-温度：40-45℃
-时间：20-30 分钟，至微微出汗
-频率：每日 1 次（睡前 1 小时）
+Ingredients: 20g yam, 20g lotus seeds, 20g Gorgon fruit, 20g Poria, appropriate amount of pork belly or lean meat
+Method: Wash the ingredients and stew them with the meat for 2 hours
+Efficacy: Strengthen the spleen and replenish qi, strengthen the intestines and stop diarrhea
+Frequency: 1-2 times per week
 ```
 
-### 调理预期
+**Dietary taboos:**
+- ❌ Raw and cold food: ice cream, cold drinks, sashimi
+- ❌ Gas-consuming foods: radish (raw), betel nut
+- ❌ Spicy food
 
-**短期（1-2 周）：** 手脚冰凉有所改善，畏寒感减轻
+### Acupoint health care
 
-**中期（1-2 月）：** 精神状态好转，大便成形
+**Main point:**
+- Zusanli (ST36): bilateral, massage for 5 minutes on each side, 2 times a day; moxibustion, 10-15 minutes on each side
+- Qihai (CV6): massage for 5 minutes, once a day; moxibustion for 15-20 minutes
+- Guanyuan (CV4): massage for 5 minutes, once a day; moxibustion for 15-20 minutes
+- Feishu (BL13): massage both sides for 3-5 minutes, once a day
 
-**长期（3-6 月）：** 体质明显改善，耐寒能力增强
+**Acupoint matching:**
+- Pishu (BL20): strengthens the spleen and replenishes qi
+- Taiyuan (LU9): Replenishes lung energy
 
-**评估指标：**
-- 手脚温度升高（自感温暖）
-- 畏寒症状减轻
-- 大便次数减少，性状改善
-- 精力增强，嗜睡改善
+**Moxibustion program:**
+- Acupoints: Zusanli, Qihai, Guanyuan
+- Method: Mild moxibustion, 10-15 minutes per point
+- Frequency: 3-4 times per week
+- Course of treatment: 4 consecutive weeks as one course of treatment
+
+### Adjust expectations
+
+**Short term (1-2 weeks):** Less fatigue and less sweating
+
+**Mid-term (January-February):** Physical strength increases and the number of colds decreases
+
+**Long-term (3-6 months):** Physical fitness improves significantly and mental state improves
+
+**Evaluation indicators:**
+- Reduction of asthma after daily activities
+- Reduced sweating
+- Reduced frequency of colds (from 1-2 per month to 1 per quarter)
+- Improved mental state
 
 ---
 
-## 四、阴虚质 (Yin-Deficiency Constitution)
+## 3. Yang-Deficiency Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 阴液亏少，口燥咽干，手足心热
+**General characteristics:** Insufficient Yang Qi, fear of cold, cold hands and feet
 
-**具体表现：**
-- 手足心发热，下午或晚上更明显
-- 口燥咽干，喜欢喝冷水
-- 面部潮红，尤其下午
-- 眼睛干涩，视物模糊
-- 皮肤干燥，容易瘙痒
-- 大便干燥，小便短黄
-- 失眠多梦，容易烦躁
-- 舌红少津，少苔或无苔
-- 脉象细数
+**Specific performance:**
+- Aversion to cold, especially on the back and abdomen
+- Cold hands and feet, more obvious in winter
+- Likes hot drinks but cannot tolerate cold drinks
+- Lack of energy, lethargy
+- Loose stools and long, clear urine
+- Decreased libido
+- The tongue is light, plump and tender, with tooth marks on the edges and white and slippery coating.
+- Deep and slow pulse
 
-**心理特征：** 性情急躁，外向好动，活泼
+**Psychological characteristics:** Quiet and introverted personality
 
-**易患疾病：** 失眠、便秘、高血压、糖尿病、甲状腺功能亢进
+**Susceptible diseases:** Diarrhea (especially morning diarrhea), edema, dysmenorrhea, infertility, rheumatism
 
-### 运动方案
+### Exercise program
 
-**原则：** 适度运动，避免大汗伤阴
+**Principle:** Movement generates yang, but avoid sweating and damaging yang.
 
-**推荐运动：**
-- 游泳：最佳选择，滋阴润燥，每周 3-4 次，每次 30-45 分钟
-- 太极拳：动作柔和，养阴生津，每日 20-30 分钟
-- 瑜伽：温和拉伸，避免高温瑜伽
-- 散步：傍晚时分，30-45 分钟
-- 羽毛球/乒乓球：中等强度，避免过度激烈
+**Recommended exercise:**
+- Jogging: 20-30 minutes a day, based on body heat
+- Brisk walking: 40-60 minutes daily
+- Tai Chi: Warming Yang and replenishing Qi, 20-30 minutes daily
+- Baduanjin: Focus on practicing "climbing the feet with both hands to strengthen the kidneys and waist"
+- Yoga: Gentle hot yoga (avoid excessive sweating)
 
-**最佳运动时间：** 傍晚 16-19 点（阴气渐生时）
+**Best time to exercise:** 9-11 am (when Yang Qi rises)
 
-**强度控制：** 中等强度，微微出汗即可，避免大汗淋漓
+**Intensity control:** Medium intensity, just enough to warm the body slightly to avoid sweating profusely
 
-**禁忌：**
-- ❌ 避免高温环境下运动（如热瑜伽、烈日下跑步）
-- ❌ 避免过度激烈的运动导致大汗
-- ❌ 避免在中午 11-13 点（阳气最盛时）运动
+**Taboo:**
+- ❌ Avoid exercising in cold environments
+- ❌ Avoid swimming (especially cold water)
+- ❌ Avoid exercising at night (damage Yang Qi)
+- ❌ Avoid blowing air or taking a shower immediately after sweating profusely
 
-**运动后护理：**
-- 及时补充水分（温开水或淡盐水）
-- 避免立即吹冷风
-- 可食用滋阴食物（如梨、银耳）
+**Post-exercise care:**
+- Wipe away sweat promptly
+- Change into dry clothes
+-Drink warm water or ginger tea
+- Avoid blowing the air conditioner immediately
 
-### 食疗方案
+### Dietary therapy plan
 
-**原则：** 滋阴润燥，清热生津
+**Principle:** Warm and nourish the spleen and kidneys, help yang and dispel cold
 
-**推荐食物：**
-- 滋阴食材：银耳、百合、莲子、枸杞、黑芝麻
-- 肉类：鸭肉、猪肉、鳖肉、海参
-- 蔬菜：菠菜、白菜、西红柿、黄瓜、冬瓜
-- 水果：梨、苹果、葡萄、桑葚、西瓜（适量）
-- 豆制品：豆腐、豆浆
+**Recommended food:**
+- Warm meat: mutton, beef, chicken, shrimp, eel
+- Warm vegetables: leeks, onions, garlic, ginger, coriander
+- Nuts: walnuts, chestnuts, pine nuts
+- Condiments: ginger, cinnamon, peppercorns, star anise
 
-**推荐食疗方：**
+**Recommended dietary prescription:**
 
-**1. 银耳莲子羹**
+**1. Angelica Ginger Mutton Soup**
 ```
-材料：银耳 15g，莲子 20g，百合 15g，冰糖适量
-做法：银耳泡发，与莲子、百合同煮 1 小时，加冰糖调味
-功效：滋阴润肺，养心安神
-频率：每周 3-4 次
-```
-
-**2. 百合粥**
-```
-材料：百合 30g，大米 100g，冰糖适量
-做法：百合、大米同煮成粥，加冰糖调味
-功效：滋阴润肺，清心安神
-频率：每周 3-4 次
+Ingredients: Angelica sinensis 15g, ginger 30g, mutton 500g
+Method: Wash the ingredients, blanch the mutton and stew it with angelica and ginger for 2 hours, add salt to taste
+Efficacy: Warming and nourishing blood, dispelling cold and relieving pain
+Frequency: 1-2 times a week (can be increased appropriately in winter)
 ```
 
-**3. 沙参玉竹老鸭汤**
+**2. Stir-fried walnuts with leeks**
 ```
-材料：沙参 20g，玉竹 20g，老鸭 1 只，生姜 3 片
-做法：老鸭焯水后与沙参、玉竹、生姜同炖 2 小时，加盐调味
-功效：滋阴清热，润肺养胃
-频率：每周 1-2 次
-```
-
-**4. 枸杞菊花茶**
-```
-材料：枸杞 15g，菊花 10g
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：滋阴明目，清热降火
-频率：每日 1 剂
+Ingredients: 200g leeks, 50g walnut kernels
+Method: Saute walnuts until fragrant, add leeks and stir-fry quickly, add salt to taste
+Efficacy: Warming the kidneys and supporting yang
+Frequency: 2-3 times per week
 ```
 
-**饮食禁忌：**
-- ❌ 辛辣刺激性食物：辣椒、花椒、生姜、大蒜
-- ❌ 温燥食物：羊肉、韭菜、荔枝、龙眼
-- ❌ 油炸、烧烤食物
-- ❌ 浓茶、咖啡（耗伤阴液）
-
-### 穴位保健
-
-**主穴：**
-- 太溪（KI3）：双侧，每侧按揉 5 分钟，每日 2 次
-- 三阴交（SP6）：双侧，每侧按揉 5 分钟，每日 2 次
-- 涌泉（KI1）：双侧，每侧按揉 5 分钟，睡前进行
-- 照海（KI6）：双侧，每侧按揉 3-5 分钟，每日 2 次
-
-**配穴：**
-- 肾俞（BL23）：滋补肾阴
-- 肝俞（BL18）：滋养肝阴
-- 复溜（KI7）：滋阴清热
-
-**操作方法：**
-- 用拇指指腹按揉，力度适中
-- 以有酸胀感为宜
-- 避免艾灸（阴虚火旺者不宜艾灸）
-
-**睡前按摩：**
+**3. Cinnamon Black Tea**
 ```
-步骤：
-1. 热水泡脚 15 分钟（水温 40℃左右）
-2. 按揉涌泉穴，每侧 5 分钟
-3. 按揉太溪穴，每侧 5 分钟
-4. 搓热双手，按摩面部
-频率：每日睡前
+Ingredients: 3g cinnamon powder, 3g black tea, appropriate amount of brown sugar
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: warming yang and dispersing cold
+Frequency: 1 cup daily (drink in the morning)
 ```
 
-### 调理预期
+**4. Ginger and jujube tea**
+```
+Ingredients: 5 slices of ginger, 5 red dates (pitted), appropriate amount of brown sugar
+Method: Boil ginger and red dates with water for 10 minutes, add brown sugar to taste
+Efficacy: Warming and dispersing cold, nourishing blood and replenishing qi
+Frequency: 1 dose daily (best taken in the morning)
+```
 
-**短期（1-2 周）：** 口干咽燥减轻，睡眠改善
+**Dietary taboos:**
+- ❌ Raw and cold food: ice cream, cold drinks, sashimi, cold dishes
+- ❌ Cold fruits: watermelon, pear, persimmon, grapefruit
+- ❌ Cold vegetables: bitter melon, winter melon, cucumber, celery
+- ❌ Green tea (cold in nature)
 
-**中期（1-2 月）：** 手足心热减轻，大便通畅
+### Acupoint health care
 
-**长期（3-6 月）：** 体质明显改善，烦躁情绪减少
+**Main point:**
+- Guanyuan (CV4): Mainly moxibustion, 20-30 minutes each time, 4-5 times a week
+- Qihai (CV6): moxibustion for 15-20 minutes, 4-5 times a week
+- Mingmen (GV4): moxibustion for 15-20 minutes, 3-4 times a week
+- Shenshu (BL23): bilateral, moxibustion or massage, 10-15 minutes on each side
 
-**评估指标：**
-- 口干症状减轻
-- 手足心温度恢复正常
-- 睡眠质量提高（入睡时间缩短，夜醒减少）
-- 大便通畅，每日 1 次
+**Acupoint matching:**
+- Zusanli (ST36): strengthens the spleen and warms yang
+- Taixi (KI3): nourishing kidney yang
+- Yongquan (KI1): Massage for 5 minutes before going to bed to induce fire and return to the original state.
+
+**Moxibustion program:**
+- Acupoints: Guanyuan, Qihai, Mingmen, Shenshu
+- Method: Mild moxibustion or ginger-partition moxibustion
+- Time: 15-20 minutes per hole
+- Frequency: 4-5 times per week
+- Course of treatment: 8 consecutive weeks is one course of treatment, and it can be carried out for a long time in winter
+
+**Foot Soaking Recipe:**
+```
+Ingredients: 30g mugwort leaves, 5 slices of ginger, 10g of Sichuan peppercorns
+Method: Boil the ingredients with water for 10 minutes, mix with warm water and soak your feet
+Temperature: 40-45℃
+Time: 20-30 minutes, until you sweat slightly
+Frequency: 1 time daily (1 hour before bed)
+```
+
+### Adjust expectations
+
+**Short-term (1-2 weeks):** Coldness of hands and feet improved, chills lessened
+
+**Mid-term (January-February):** Mental status improves, stool becomes formed
+
+**Long-term (3-6 months):** Physical fitness is significantly improved and cold tolerance is enhanced
+
+**Evaluation indicators:**
+- Increased temperature of hands and feet (self-perceived warmth)
+- Reduced symptoms of chills
+- The frequency of bowel movements is reduced and the physical properties are improved.
+- Increased energy and improved sleepiness
 
 ---
 
-## 五、痰湿质 (Phlegm-Dampness Constitution)
+## 4. Yin-Deficiency Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 痰湿凝聚，形体肥胖，腹部肥满
+**General characteristics:** Lack of Yin fluid, dry mouth and throat, hot hands, feet and heart
 
-**具体表现：**
-- 体型肥胖，腹部肥满松软
-- 面部皮肤油脂较多，多汗且黏
-- 胸闷，痰多
-- 口黏腻或甜，口中发黏
-- 喜欢吃肥甘厚味食物
-- 大便正常或不实，小便微混
-- 舌体胖大，舌苔白腻
-- 脉象滑
+**Specific performance:**
+- Fever in the palms and soles, more obvious in the afternoon or evening
+- Dry mouth and throat, like to drink cold water
+- Facial flushing, especially in the afternoon
+- Dry eyes and blurred vision
+- Dry skin, prone to itching
+- Dry stool and short yellow urine
+- Insomnia, dreaminess, and irritability
+- Red tongue with little fluid, little or no coating
+- Detailed pulse count
 
-**心理特征：** 性格偏温和、稳重、恭顺，多善于忍耐
+**Psychological characteristics:** Irritable temperament, outgoing and active, lively
 
-**易患疾病：** 糖尿病、高血脂、高血压、中风、冠心病、脂肪肝
+**Susceptible diseases:** Insomnia, constipation, hypertension, diabetes, hyperthyroidism
 
-### 运动方案
+### Exercise program
 
-**原则：** 加强代谢，化痰祛湿，持之以恒
+**Principle:** Exercise moderately to avoid excessive sweating and damaging the yin
 
-**推荐运动：**
-- 有氧运动：慢跑、快走、游泳、骑自行车，每周 5-7 次，每次 45-60 分钟
-- 力量训练：全身性训练，每周 3-4 次
-- 传统功法：八段锦（重点"调理脾胃须单举"）、太极拳
-- 球类运动：羽毛球、乒乓球、篮球
+**Recommended exercise:**
+- Swimming: the best choice, nourishing yin and moisturizing, 3-4 times a week, 30-45 minutes each time
+- Tai Chi: gentle movements, nourishing yin and promoting fluid, 20-30 minutes a day
+- Yoga: Gentle stretching, avoid hot yoga
+- Walk: evening, 30-45 minutes
+- Badminton/Table Tennis: Moderate intensity, avoid excessive intensity
 
-**强度控制：** 中高强度（心率 130-160 次/分），出汗较多为宜
+**Best exercise time:** 16-19 pm in the evening (when Yin Qi is gradually developing)
 
-**关键：** 痰湿体质需要"动"起来，运动量要足够，才能促进代谢
+**Intensity control:** Medium intensity, just sweat a little, avoid sweating profusely
 
-**运动计划：**
+**Taboo:**
+- ❌ Avoid exercising in hot environments (such as hot yoga, running under the scorching sun)
+- ❌ Avoid excessive sweating caused by excessive exercise
+- ❌ Avoid exercising between 11-13 noon (when Yang Qi is at its peak)
+
+**Post-exercise care:**
+- Replenish water in time (warm water or light salt water)
+- Avoid immediate cold air blowing
+- Edible yin-nourishing foods (such as pears, white fungus)
+
+### Dietary therapy plan
+
+**Principle:** Nourishes yin and moisturizes dryness, clears away heat and promotes fluid production
+
+**Recommended food:**
+- Ingredients for nourishing yin: white fungus, lily, lotus seeds, wolfberry, black sesame
+- Meat: duck, pork, turtle meat, sea cucumber
+- Vegetables: spinach, cabbage, tomatoes, cucumbers, winter melon
+- Fruits: pears, apples, grapes, mulberries, watermelon (appropriate amount)
+- Soy products: tofu, soy milk
+
+**Recommended dietary prescription:**
+
+**1. Tremella and Lotus Seed Soup**
 ```
-周一：慢跑 45 分钟 + 核心训练 15 分钟
-周二：游泳 45 分钟
-周三：力量训练（全身）45 分钟
-周四：快走 60 分钟
-周五：羽毛球/乒乓球 60 分钟
-周六：长距离慢跑 60 分钟
-周日：休息或散步 30 分钟
-```
-
-**注意事项：**
-- 运动前后充分热身和拉伸
-- 运动后及时补充水分
-- 避免运动后立即进食
-
-### 食疗方案
-
-**原则：** 健脾利湿，化痰降浊
-
-**推荐食物：**
-- 利湿食材：薏苡仁、赤小豆、冬瓜、玉米须
-- 健脾食材：山药、白扁豆、茯苓、陈皮
-- 蔬菜：萝卜、芹菜、韭菜、洋葱、海带
-- 水果：柚子、橙子、山楂
-
-**推荐食疗方：**
-
-**1. 薏苡仁赤小豆粥**
-```
-材料：薏苡仁 50g，赤小豆 50g，大米 50g
-做法：薏苡仁、赤小豆提前浸泡 2 小时，与大米同煮成粥
-功效：健脾利湿，化痰降浊
-频率：每周 4-5 次
+Ingredients: Tremella 15g, lotus seeds 20g, lily 15g, appropriate amount of rock sugar
+Method: Soak white fungus, cook with lotus seeds and lilies for 1 hour, add rock sugar to taste
+Efficacy: Nourishes yin and moisturizes the lungs, nourishes the heart and calms the mind
+Frequency: 3-4 times per week
 ```
 
-**2. 冬瓜薏米排骨汤**
+**2. Lily porridge**
 ```
-材料：冬瓜 500g（带皮），薏米 50g，排骨 500g，生姜 3 片
-做法：排骨焯水后与薏米、生姜同炖 1 小时，加入冬瓜再炖 30 分钟，加盐调味
-功效：利水消肿，清热化痰
-频率：每周 2-3 次
-```
-
-**3. 陈皮普洱茶**
-```
-材料：陈皮 5g，普洱茶 5g
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：理气健脾，化痰降脂
-频率：每日 1-2 杯
+Ingredients: 30g lily, 100g rice, appropriate amount of rock sugar
+Method: Boil lily and rice together into porridge, add rock sugar to taste
+Efficacy: nourishing yin and moisturizing the lungs, clearing the heart and calming the nerves
+Frequency: 3-4 times per week
 ```
 
-**4. 山楂决明子茶**
+**3. Adenophora and Yuzhu old duck soup**
 ```
-材料：山楂 15g，决明子 15g
-做法：决明子炒香后与山楂同煮 10 分钟，代茶饮用
-功效：消食化积，降脂减肥
-频率：每日 1 剂
-```
-
-**饮食禁忌：**
-- ❌ 肥甘厚味：肥肉、油炸食品、奶油蛋糕
-- ❌ 甜食：糖果、巧克力、甜饮料
-- ❌ 酒类：尤其啤酒（易生湿）
-- ❌ 生冷食物：冰淇淋、冷饮
-- ❌ 过咸食物：腌制食品
-
-### 穴位保健
-
-**主穴：**
-- 丰隆（ST40）：双侧，每侧按揉 5-10 分钟，每日 2 次（化痰要穴）
-- 足三里（ST36）：双侧，每侧按揉 5 分钟，每日 2 次；可艾灸
-- 中脘（CV12）：按揉 5-10 分钟，每日 2 次
-- 天枢（ST25）：双侧，每侧按揉 5 分钟，每日 2 次
-
-**配穴：**
-- 脾俞（BL20）：健脾化湿
-- 阴陵泉（SP9）：利水渗湿
-- 水分（CV9）：利水消肿
-
-**操作方法：**
-- 按揉力度稍重，以有酸胀感为宜
-- 可配合艾灸（足三里、中脘）
-- 腹部穴位可在饭后 1 小时进行
-
-**刮痧方案：**
-```
-部位：背部膀胱经（脾俞至大肠俞）、腹部（中脘至天枢）
-方法：用刮痧板从上向下刮拭
-频率：每周 1 次
-注意：刮痧后 4 小时内避免洗澡
+Ingredients: 20g Adenophora japonicus, 20g Polygonatum odoratum, 1 old duck, 3 slices of ginger
+Method: Blanch the old duck and simmer it with Adenophora japonicus, Polygonatum odoratum, and ginger for 2 hours. Add salt to taste.
+Efficacy: nourishing yin, clearing away heat, moistening the lungs and nourishing the stomach
+Frequency: 1-2 times per week
 ```
 
-### 调理预期
+**4. Wolfberry and Chrysanthemum Tea**
+```
+Ingredients: wolfberry 15g, chrysanthemum 10g
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: nourishing yin and improving eyesight, clearing away heat and reducing fire
+Frequency: 1 dose daily
+```
 
-**短期（1-2 周）：** 身体沉重感减轻，大便改善
+**Dietary taboos:**
+- ❌ Spicy food: chili, pepper, ginger, garlic
+- ❌ Warm food: mutton, leeks, lychees, longan
+- ❌ Fried and grilled food
+- ❌ Strong tea and coffee (consuming Yin fluid)
 
-**中期（1-2 月）：** 体重开始下降，面部油脂减少
+### Acupoint health care
 
-**长期（3-6 月）：** 体质明显改善，体重显著下降
+**Main point:**
+- Taixi (KI3): massage on both sides for 5 minutes on each side, 2 times a day
+- Sanyinjiao (SP6): massage on both sides for 5 minutes on each side, 2 times a day
+- Yongquan (KI1): massage on both sides for 5 minutes on each side, before going to bed
+- Teruhai (KI6): bilaterally, massage for 3-5 minutes on each side, 2 times a day
 
-**评估指标：**
-- 体重下降（目标：每月 2-4kg）
-- 腰围减小
-- 面部油脂分泌减少
-- 大便成形，每日 1 次
-- 血脂、血糖指标改善
+**Acupoint matching:**
+- Shenshu (BL23): nourishes kidney yin
+- Ganshu (BL18): nourishes liver yin
+- Fu Liu (KI7): Nourishes yin and clears away heat
+
+**How ​​to operate:**
+- Massage with the pads of your thumbs with moderate intensity
+- It is better if you feel soreness and swelling
+- Avoid moxibustion (people with yin deficiency and excessive fire are not suitable for moxibustion)
+
+**Massage before bed:**
+```
+step:
+1. Soak your feet in hot water for 15 minutes (water temperature is about 40℃)
+2. Massage Yongquan point for 5 minutes on each side
+3. Massage Taixi point for 5 minutes on each side
+4. Rub your hands together and massage your face
+Frequency: Daily before bed
+```
+
+### Adjust expectations
+
+**Short-term (1-2 weeks):** Dry mouth and throat reduced, sleep improved
+
+**Mid-term (January-February):** The heat in the hands, feet, and heart is relieved, and the stool is smooth
+
+**Long-term (3-6 months):** Physical fitness is significantly improved and irritability is reduced
+
+**Evaluation indicators:**
+- Reduce symptoms of dry mouth
+- The temperature of the palms and soles returns to normal
+- Improved sleep quality (shortened time to fall asleep, fewer night awakenings)
+- Smooth bowel movement, once a day
 
 ---
 
-## 六、湿热质 (Damp-Heat Constitution)
+## 5. Phlegm-Dampness Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 湿热内蕴，面垢油光，易生痤疮
+**General characteristics:** Phlegm and dampness condensed, body fat, abdominal fat
 
-**具体表现：**
-- 面部、鼻部油光发亮
-- 容易生痤疮、粉刺
-- 口苦口干，口臭
-- 身体困重，容易疲劳
-- 大便黏滞不爽，小便短黄
-- 男性阴囊潮湿，女性带下色黄
-- 舌质偏红，苔黄腻
-- 脉象滑数
+**Specific performance:**
+- Obese body, plump and soft belly
+- Facial skin is more oily, sweaty and sticky
+- Chest tightness and excessive phlegm
+- Sticky or sweet taste in the mouth, sticky feeling in the mouth
+- Like to eat rich, sweet and delicious food
+- Normal or irregular stool, slightly mixed urine
+- The tongue is fat and enlarged, and the tongue coating is white and greasy
+- Slippery pulse
 
-**心理特征：** 容易心烦急躁，易怒
+**Psychological Characteristics:** Mild, steady, submissive, and good at patience
 
-**易患疾病：** 痤疮、黄疸、泌尿系统感染、阴道炎、湿疹
+**Susceptible diseases:** Diabetes, hyperlipidemia, hypertension, stroke, coronary heart disease, fatty liver
 
-### 运动方案
+### Exercise program
 
-**原则：** 清热利湿，适度出汗
+**Principle:** Strengthen metabolism, resolve phlegm and remove dampness, persevere
 
-**推荐运动：**
-- 有氧运动：跑步、游泳、骑自行车，每周 5-6 次，每次 45-60 分钟
-- 球类运动：篮球、足球、羽毛球，每周 3-4 次
-- 力量训练：中等强度，每周 3 次
-- 传统功法：八段锦、太极拳
+**Recommended exercise:**
+- Aerobic exercise: jogging, brisk walking, swimming, cycling, 5-7 times a week, 45-60 minutes each time
+-Strength training: full body training, 3-4 times per week
+- Traditional exercises: Baduanjin (focusing on "single lifts to regulate the spleen and stomach"), Tai Chi
+- Ball sports: badminton, table tennis, basketball
 
-**强度控制：** 中高强度（心率 140-170 次/分），适当出汗有助于排湿
+**Intensity control:** Medium to high intensity (heart rate 130-160 beats/min), suitable for heavy sweating
 
-**最佳运动时间：** 清晨或傍晚，避免中午高温时段
+**Key:** Phlegm-damp constitution needs to be "active", and the amount of exercise must be sufficient to promote metabolism.
 
-**注意事项：**
-- 运动后及时洗澡，保持皮肤清洁
-- 更换干爽衣物
-- 补充足够水分（温开水或淡盐水）
-- 避免运动后立即吹空调
-
-**运动计划：**
+**Exercise Plan:**
 ```
-周一：跑步 45 分钟 + 核心训练
-周二：游泳 45 分钟
-周三：力量训练（全身）
-周四：羽毛球 60 分钟
-周五：跑步 45 分钟
-周六：篮球/足球 60 分钟
-周日：休息或散步
+Monday: 45 minutes jogging + 15 minutes core training
+Tuesday: Swim 45 minutes
+Wednesday: Strength training (full body) 45 minutes
+Thursday: Brisk walk for 60 minutes
+Friday: Badminton/Table Tennis 60 minutes
+Saturday: Long jog 60 minutes
+Sunday: Rest or walk for 30 minutes
 ```
 
-### 食疗方案
+**Note:**
+- Warm up and stretch thoroughly before and after exercise
+- Replenish water in time after exercise
+- Avoid eating immediately after exercise
 
-**原则：** 清热利湿，解毒祛痘
+### Dietary therapy plan
 
-**推荐食物：**
-- 清热食材：绿豆、苦瓜、黄瓜、冬瓜、芹菜
-- 利湿食材：薏苡仁、赤小豆、玉米须
-- 解毒食材：蒲公英、马齿苋、鱼腥草
-- 水果：西瓜、梨、柚子、猕猴桃
+**Principle:** Strengthen the spleen and remove dampness, resolve phlegm and reduce turbidity
 
-**推荐食疗方：**
+**Recommended food:**
+- Ingredients that reduce dampness: coix kernel, adzuki bean, winter melon, corn silk
+- Spleen-strengthening ingredients: yam, white lentils, poria, tangerine peel
+- Vegetables: radish, celery, leek, onion, kelp
+- Fruits: grapefruit, orange, hawthorn
 
-**1. 绿豆薏米粥**
+**Recommended dietary prescription:**
+
+**1. Coix seed and adzuki bean porridge**
 ```
-材料：绿豆 50g，薏米 50g，冰糖适量
-做法：绿豆、薏米提前浸泡 2 小时，同煮成粥，加冰糖调味
-功效：清热解毒，利湿消肿
-频率：每周 4-5 次（夏季可增加）
-```
-
-**2. 苦瓜排骨汤**
-```
-材料：苦瓜 1 根，排骨 500g，生姜 3 片
-做法：排骨焯水后与生姜同炖 1 小时，加入苦瓜再炖 30 分钟，加盐调味
-功效：清热解暑，明目解毒
-频率：每周 2-3 次
+Ingredients: 50g coix seed, 50g adzuki bean, 50g rice
+Method: Soak coix kernels and adzuki beans for 2 hours in advance, and cook them together with rice to make porridge.
+Efficacy: invigorating the spleen and promoting dampness, reducing phlegm and reducing turbidity
+Frequency: 4-5 times per week
 ```
 
-**3. 蒲公英茶**
+**2. Winter Melon, Barley and Pork Ribs Soup**
 ```
-材料：蒲公英（干品）15g
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：清热解毒，消肿散结
-频率：每日 1 剂（连续饮用不超过 2 周）
-```
-
-**4. 冬瓜薏米汤**
-```
-材料：冬瓜 500g（带皮），薏米 50g
-做法：冬瓜切块，与薏米同煮 1 小时，加盐调味
-功效：清热利湿，消肿解毒
-频率：每周 3-4 次
+Ingredients: 500g winter melon (with skin), 50g barley, 500g pork ribs, 3 slices of ginger
+Method: Blanch the ribs and simmer with barley and ginger for 1 hour. Add winter melon and simmer for another 30 minutes. Add salt to taste.
+Efficacy: Diuresis and swelling, clearing away heat and reducing phlegm
+Frequency: 2-3 times per week
 ```
 
-**饮食禁忌：**
-- ❌ 辛辣刺激性食物：辣椒、花椒、生姜、大蒜
-- ❌ 温热性食物：羊肉、狗肉、韭菜、荔枝、龙眼
-- ❌ 油炸、烧烤食物
-- ❌ 酒类：尤其白酒、啤酒
-- ❌ 甜食：糖果、蛋糕（助湿生热）
-
-### 穴位保健
-
-**主穴：**
-- 曲池（LI11）：双侧，每侧按揉 5 分钟，每日 2 次（清热要穴）
-- 阴陵泉（SP9）：双侧，每侧按揉 5 分钟，每日 2 次（利湿要穴）
-- 足三里（ST36）：双侧，每侧按揉 5 分钟，每日 2 次
-- 三阴交（SP6）：双侧，每侧按揉 5 分钟，每日 2 次
-
-**配穴：**
-- 合谷（LI4）：清热解表
-- 血海（SP10）：清热凉血
-- 委中（BL40）：清热利湿
-
-**操作方法：**
-- 按揉力度适中，以有酸胀感为宜
-- 湿热体质不宜艾灸（会加重热象）
-- 可配合刮痧（背部、肘窝、腘窝）
-
-**刮痧方案：**
+**3. Chenpi Pu’er tea**
 ```
-部位：
-- 背部膀胱经（大椎至大肠俞）
-- 肘窝（曲池附近）
-- 腘窝（委中附近）
-方法：用刮痧板从上向下刮拭，出痧为度
-频率：每周 1 次
-注意：刮痧后 4 小时内避免洗澡，多喝温水
+Ingredients: 5g tangerine peel, 5g Pu'er tea
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: Regulate qi and strengthen the spleen, resolve phlegm and lower lipids
+Frequency: 1-2 cups daily
 ```
 
-### 调理预期
+**4. Hawthorn Cassia Seed Tea**
+```
+Ingredients: 15g hawthorn, 15g cassia seed
+Method: Saute cassia seeds until fragrant, boil with hawthorn for 10 minutes, drink instead of tea
+Efficacy: digestion and accumulation, lowering fat and losing weight
+Frequency: 1 dose daily
+```
 
-**短期（1-2 周）：** 面部油脂减少，痤疮减轻
+**Dietary taboos:**
+- ❌ Fatty and sweet: fatty meat, fried food, cream cake
+- ❌ Sweets: candies, chocolate, sweet drinks
+- ❌ Alcohol: especially beer (easy to cause moisture)
+- ❌ Raw and cold food: ice cream, cold drinks
+- ❌ Too salty food: pickled food
 
-**中期（1-2 月）：** 口苦口干改善，大便通畅
+### Acupoint health care
 
-**长期（3-6 月）：** 体质明显改善，痤疮基本消退
+**Main point:**
+- Fenglong (ST40): bilaterally, massage for 5-10 minutes on each side, 2 times a day (key points for resolving phlegm)
+- Zusanli (ST36): bilateral, massage for 5 minutes on each side, 2 times a day; moxibustion can be used
+- Zhongwan (CV12): Massage for 5-10 minutes, 2 times a day
+- Tianshu (ST25): massage on both sides for 5 minutes on each side, 2 times a day
 
-**评估指标：**
-- 面部油脂分泌减少
-- 痤疮数量减少（目标：减少 50% 以上）
-- 口苦口干症状消失
-- 大便通畅，不黏滞
-- 小便颜色变清
+**Acupoint matching:**
+- Pishu (BL20): invigorating the spleen and removing dampness
+- Yinling Spring (SP9): diuretic and dampness
+- Moisture (CV9): Diuresis and swelling
+
+**How ​​to operate:**
+- Knead with a slightly stronger force until you feel soreness and swelling.
+- Can be combined with moxibustion (Zusanli, Zhongwan)
+- Abdominal acupoints can be performed 1 hour after meals
+
+**Gua Sha program:**
+```
+Location: Bladder meridian on the back (Pishu to Dachangshu), abdomen (Zhongwan to Tianshu)
+Method: Use a scraper to scrape from top to bottom
+Frequency: 1 time per week
+Note: Avoid taking a shower within 4 hours after scraping
+```
+
+### Adjust expectations
+
+**Short term (1-2 weeks):** Reduced body heaviness, improved bowel movements
+
+**Mid-term (January-February):** Weight begins to decrease and facial oil decreases
+
+**Long-term (3-6 months):** Physical fitness improves significantly and weight decreases significantly
+
+**Evaluation indicators:**
+- Weight loss (target: 2-4kg per month)
+-Reduced waist circumference
+- Reduced facial oil secretion
+- Stool formation, once a day
+- Improvement of blood lipid and blood sugar indicators
 
 ---
 
-## 七、血瘀质 (Blood-Stasis Constitution)
+## 6. Damp-Heat Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 血行不畅，肤色晦暗，易有瘀斑
+**General characteristics:** Inherent dampness and heat, oily face, prone to acne
 
-**具体表现：**
-- 面色晦暗，皮肤粗糙
-- 容易出现瘀斑或色素沉着
-- 嘴唇颜色暗紫
-- 眼睛有红血丝
-- 头发容易脱落
-- 身体某些部位疼痛（刺痛、固定痛）
-- 女性痛经，经血有血块
-- 舌质暗紫，或有瘀点、瘀斑
-- 脉象涩
+**Specific performance:**
+- The face and nose are shiny and shiny
+- Prone to acne and pimples
+- Bitter mouth, dry mouth, bad breath
+- Feeling sleepy and tired easily
+- Sticky and unpleasant stools, short and yellow urine
+- Moist scrotum in men and yellow vaginal discharge in women
+- Red tongue with yellow and greasy coating
+- Pulse slippage
 
-**心理特征：** 容易烦躁、健忘
+**Psychological characteristics:** Easily upset, irritable, and irritable
 
-**易患疾病：** 心脑血管疾病、冠心病、中风、肿瘤、痛经、乳腺增生
+**Susceptible diseases:** Acne, jaundice, urinary tract infection, vaginitis, eczema
 
-### 运动方案
+### Exercise program
 
-**原则：** 活血通络，促进血液循环
+**Principle:** Clear away heat and dampness, moderate sweating
 
-**推荐运动：**
-- 有氧运动：慢跑、快走、游泳、舞蹈，每周 5-6 次，每次 45-60 分钟
-- 力量训练：中等强度，每周 3 次
-- 传统功法：太极拳、八段锦、五禽戏（重点"摇头摆尾去心火"）
-- 瑜伽：促进血液循环的体式
+**Recommended exercise:**
+- Aerobic exercise: running, swimming, cycling, 5-6 times a week, 45-60 minutes each time
+- Ball sports: basketball, football, badminton, 3-4 times a week
+-Strength training: moderate intensity, 3 times a week
+- Traditional exercises: Baduanjin, Tai Chi
 
-**强度控制：** 中等强度（心率 120-150 次/分），微微出汗
+**Intensity control:** Medium to high intensity (heart rate 140-170 beats/min), moderate sweating helps to eliminate moisture
 
-**最佳运动时间：** 上午 9-11 点或下午 15-17 点
+**Best time to exercise:** Early morning or evening, avoid the high temperature period at noon
 
-**注意事项：**
-- 运动前充分热身，防止拉伤
-- 避免剧烈运动导致血管破裂
-- 女性经期避免剧烈运动
-- 有心血管疾病者需在医生指导下运动
+**Note:**
+- Take a shower promptly after exercise to keep your skin clean
+- Change into dry clothes
+- Add enough water (warm water or light salt water)
+- Avoid blowing the air conditioner immediately after exercise
 
-**运动计划：**
+**Exercise Plan:**
 ```
-周一：慢跑 45 分钟 + 拉伸
-周二：太极拳 45 分钟
-周三：游泳 45 分钟
-周四：快走 60 分钟
-周五：瑜伽 45 分钟
-周六：舞蹈/有氧操 45 分钟
-周日：休息或散步
-```
-
-### 食疗方案
-
-**原则：** 活血化瘀，通络止痛
-
-**推荐食物：**
-- 活血食材：山楂、黑木耳、洋葱、生姜、醋
-- 补血食材：红枣、桂圆、猪肝、菠菜
-- 其他：玫瑰花、红糖、黄酒（适量）
-
-**推荐食疗方：**
-
-**1. 山楂红糖水**
-```
-材料：山楂 30g，红糖 20g
-做法：山楂加水煮沸 10 分钟，加入红糖调味
-功效：活血化瘀，消食化积
-频率：每周 3-4 次（女性经期前 1 周可每日饮用）
+Monday: 45 min run + core training
+Tuesday: Swim 45 minutes
+Wednesday: Strength training (full body)
+Thursday: Badminton 60 minutes
+Friday: Run 45 minutes
+Saturday: Basketball/Football 60 minutes
+Sunday: Rest or take a walk
 ```
 
-**2. 黑木耳炒洋葱**
-```
-材料：黑木耳（干）20g，洋葱 1 个，青椒 1 个
-做法：黑木耳泡发，与洋葱、青椒同炒，加盐调味
-功效：活血通络，降脂降压
-频率：每周 3-4 次
-```
+### Dietary therapy plan
 
-**3. 玫瑰花茶**
-```
-材料：玫瑰花（干）10g，红糖适量
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：疏肝理气，活血化瘀
-频率：每日 1 剂
-```
+**Principle:** Clear away heat and dampness, detoxify and remove acne
 
-**4. 当归生姜羊肉汤**
+**Recommended food:**
+- Heat-clearing ingredients: mung beans, bitter melon, cucumber, winter melon, celery
+- Ingredients that reduce dampness: coix kernels, adzuki beans, corn silk
+- Detoxification ingredients: dandelion, purslane, Houttuynia cordata
+- Fruits: watermelon, pear, grapefruit, kiwi
+
+**Recommended dietary prescription:**
+
+**1. Mung bean and barley porridge**
 ```
-材料：当归 15g，生姜 30g，羊肉 500g
-做法：羊肉焯水后与当归、生姜同炖 2 小时，加盐调味
-功效：温经活血，补血止痛
-频率：每周 1-2 次（冬季适宜）
+Ingredients: 50g mung beans, 50g barley, appropriate amount of rock sugar
+Method: Soak mung beans and barley for 2 hours in advance, cook them into porridge, and add rock sugar to taste
+Efficacy: clearing away heat and detoxifying, removing dampness and reducing swelling
+Frequency: 4-5 times a week (can be increased in summer)
 ```
 
-**饮食禁忌：**
-- ❌ 寒凉食物：冰淇淋、冷饮（寒凝血瘀）
-- ❌ 过咸食物：腌制食品（加重血液黏稠）
-- ❌ 高脂肪食物：肥肉、油炸食品
-- ❌ 过量饮酒（少量黄酒可活血，过量伤肝）
-
-### 穴位保健
-
-**主穴：**
-- 血海（SP10）：双侧，每侧按揉 5-10 分钟，每日 2 次（活血要穴）
-- 三阴交（SP6）：双侧，每侧按揉 5 分钟，每日 2 次
-- 合谷（LI4）：双侧，每侧按揉 5 分钟，每日 2 次
-- 太冲（LR3）：双侧，每侧按揉 5 分钟，每日 2 次
-
-**配穴：**
-- 膈俞（BL17）：活血要穴，可拔罐
-- 肝俞（BL18）：疏肝理气
-- 足三里（ST36）：健脾益气，促进气血生化
-
-**操作方法：**
-- 按揉力度稍重，以有酸胀感为宜
-- 可配合拔罐（背部膀胱经）
-- 可配合艾灸（血海、足三里）
-
-**拔罐方案：**
+**2. Bitter melon and pork ribs soup**
 ```
-部位：背部膀胱经（膈俞至肝俞）、肩部、腰部
-方法：留罐 10-15 分钟
-频率：每周 1-2 次
-注意：拔罐后 4 小时内避免洗澡，注意保暖
+Ingredients: 1 bitter melon, 500g pork ribs, 3 slices of ginger
+Method: Blanch the pork ribs and simmer with ginger for 1 hour. Add bitter melon and simmer for another 30 minutes. Add salt to taste.
+Efficacy: clearing away heat and relieving summer heat, improving eyesight and detoxifying
+Frequency: 2-3 times per week
 ```
 
-### 调理预期
+**3. Dandelion Tea**
+```
+Ingredients: Dandelion (dry) 15g
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: clearing heat, detoxifying, reducing swelling and dissipating knots
+Frequency: 1 dose daily (no more than 2 weeks of continuous consumption)
+```
 
-**短期（1-2 周）：** 身体疼痛减轻，精神状态好转
+**4. Winter melon and barley soup**
+```
+Ingredients: 500g winter melon (with skin), 50g barley
+Method: Cut the winter melon into cubes, cook with barley for 1 hour, add salt to taste
+Efficacy: Clear away heat and dampness, reduce swelling and detoxify
+Frequency: 3-4 times per week
+```
 
-**中期（1-2 月）：** 面色改善，瘀斑减少
+**Dietary taboos:**
+- ❌ Spicy food: chili, pepper, ginger, garlic
+- ❌ Warming foods: mutton, dog meat, leeks, lychees, longan
+- ❌ Fried and grilled food
+- ❌ Alcohol: especially liquor and beer
+- ❌ Sweets: candies, cakes (helps moisturize and generate heat)
 
-**长期（3-6 月）：** 体质明显改善，疼痛基本消失
+### Acupoint health care
 
-**评估指标：**
-- 面色由晦暗转为红润
-- 瘀斑、色素沉着减少
-- 身体疼痛减轻或消失
-- 女性痛经改善，经血血块减少
-- 舌质由暗紫转为淡红
+**Main point:**
+- Quchi (LI11): massage on both sides for 5 minutes on each side, 2 times a day (key points for clearing away heat)
+- Yinlingquan (SP9): massage on both sides for 5 minutes on each side, 2 times a day (reducing dampness at key points)
+- Zusanli (ST36): massage on both sides for 5 minutes on each side, 2 times a day
+- Sanyinjiao (SP6): massage on both sides for 5 minutes on each side, 2 times a day
+
+**Acupoint matching:**
+- Hegu (LI4): clear away heat and relieve inflammation
+- Sea of ​​Blood (SP10): clears away heat and cools blood
+- Weizhong (BL40): clears away heat and promotes dampness
+
+**How ​​to operate:**
+- Massage with moderate intensity until you feel soreness and swelling.
+- Moxibustion is not suitable for people with damp-heat constitution (it will aggravate heat symptoms)
+- Can be combined with Gua Sha (back, elbow fossa, popliteal fossa)
+
+**Gua Sha program:**
+```
+Parts:
+- Bladder meridian on the back (Dazhui to Dachangshu)
+- Cubital fossa (near Quchi)
+- Popliteal fossa (near Weizhong)
+Method: Use a scraper to scrape from top to bottom until the scratches appear.
+Frequency: 1 time per week
+Note: Avoid bathing within 4 hours after scraping and drink plenty of warm water
+```
+
+### Adjust expectations
+
+**Short term (1-2 weeks):** Facial oil reduction, acne relief
+
+**Mid-term (1-2 months):** Bitter mouth and dry mouth improve, and stool becomes smooth
+
+**Long-term (3-6 months):** Physical fitness improves significantly and acne basically subsides
+
+**Evaluation indicators:**
+- Reduced facial oil secretion
+- Reduction in the number of acne breakouts (goal: more than 50% reduction)
+- Symptoms of bitter mouth and dry mouth disappear
+- Stool is smooth and not sticky
+- The color of urine becomes clearer
 
 ---
 
-## 八、气郁质 (Qi-Stagnation Constitution)
+## 7. Blood-Stasis Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 气机郁滞，忧郁脆弱，多愁善感
+**General characteristics:** Poor blood circulation, dark skin color, easy to have ecchymosis
 
-**具体表现：**
-- 情绪低落，容易忧郁
-- 多愁善感，容易伤感
-- 胸胁胀满或疼痛
-- 经常叹气（善太息）
-- 咽喉有异物感（梅核气）
-- 乳房胀痛（女性经前明显）
-- 失眠多梦，容易惊醒
-- 食欲不振，消化不良
-- 舌淡红，苔薄白
-- 脉象弦
+**Specific performance:**
+- Dull complexion and rough skin
+- Prone to bruising or hyperpigmentation
+- Lip color dark purple
+- Eyes with red bloodshot eyes
+- Hair falls out easily
+- Pain in certain parts of the body (tingling, fixed pain)
+- Women have dysmenorrhea and blood clots in their menstrual blood
+- Tongue is dark purple, or has petechiae or petechiae
+- Astringent pulse
 
-**心理特征：** 性格内向不稳定，忧郁脆弱，敏感多虑
+**Psychological characteristics:** Easily irritable and forgetful
 
-**易患疾病：** 抑郁症、焦虑症、失眠、乳腺增生、甲状腺结节、月经不调
+**Susceptible diseases:** Cardiovascular and cerebrovascular diseases, coronary heart disease, stroke, tumors, dysmenorrhea, breast hyperplasia
 
-### 运动方案
+### Exercise program
 
-**原则：** 疏肝理气，调畅情志
+**Principle:** Promote blood circulation and unblock meridians, promote blood circulation
 
-**推荐运动：**
-- 有氧运动：慢跑、快走、舞蹈，每周 4-5 次，每次 30-45 分钟
-- 团体运动：羽毛球、乒乓球、广场舞（增加社交）
-- 传统功法：八段锦（重点"调理脾胃须单举"、"摇头摆尾去心火"）、太极拳
-- 瑜伽：舒缓的拉伸动作，配合深呼吸
+**Recommended exercise:**
+- Aerobic exercise: jogging, brisk walking, swimming, dancing, 5-6 times a week, 45-60 minutes each time
+-Strength training: moderate intensity, 3 times a week
+- Traditional exercises: Tai Chi, Baduanjin, Wuqinxi (emphasis on "shaking the head and tail to remove internal heat")
+- Yoga: poses to promote blood circulation
 
-**强度控制：** 中等强度，以心情舒畅为度
+**Intensity control:** Moderate intensity (heart rate 120-150 beats/min), slightly sweaty
 
-**最佳运动时间：** 上午 9-11 点或傍晚 16-19 点
+**Best exercise time:** 9-11 am or 15-17 pm
 
-**注意事项：**
-- 选择自己喜欢的运动，增加乐趣
-- 尽量参加团体活动，增加社交
-- 运动时保持深呼吸
-- 避免独自闷头运动
+**Note:**
+- Warm up thoroughly before exercise to prevent strains
+- Avoid strenuous exercise that may cause blood vessel rupture
+- Women should avoid strenuous exercise during menstruation
+- People with cardiovascular disease need to exercise under the guidance of a doctor
 
-**运动计划：**
+**Exercise Plan:**
 ```
-周一：慢跑 30 分钟 + 拉伸
-周二：羽毛球/乒乓球 45 分钟（团体活动）
-周三：八段锦 30 分钟
-周四：舞蹈/有氧操 45 分钟（团体活动）
-周五：瑜伽 45 分钟
-周六：户外徒步 60 分钟（亲近自然）
-周日：休息或散步
-```
-
-**特别推荐：**
-- 唱歌：疏肝理气，释放情绪
-- 登山：亲近自然，开阔心胸
-- 旅行：改变环境，调节心情
-
-### 食疗方案
-
-**原则：** 疏肝解郁，理气畅中
-
-**推荐食物：**
-- 理气食材：陈皮、佛手、玫瑰花、茉莉花
-- 疏肝食材：芹菜、菠菜、西红柿、萝卜
-- 其他：柑橘类水果、山楂、醋
-
-**推荐食疗方：**
-
-**1. 玫瑰花茶**
-```
-材料：玫瑰花（干）10g，冰糖适量
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：疏肝解郁，理气止痛
-频率：每日 1 剂
+Monday: Jog 45 minutes + stretch
+Tuesday: Tai Chi 45 minutes
+Wednesday: Swim 45 minutes
+Thursday: Brisk walk for 60 minutes
+Friday: Yoga 45 minutes
+Saturday: Dance/Aerobics 45 minutes
+Sunday: Rest or take a walk
 ```
 
-**2. 陈皮普洱茶**
-```
-材料：陈皮 5g，普洱茶 5g
-做法：沸水冲泡，焖 5 分钟后饮用
-功效：理气健脾，消食化积
-频率：每日 1-2 杯
-```
+### Dietary therapy plan
 
-**3. 佛手粥**
-```
-材料：佛手 15g，大米 100g，冰糖适量
-做法：佛手煎水取汁，与大米同煮成粥，加冰糖调味
-功效：疏肝理气，健脾和胃
-频率：每周 3-4 次
-```
+**Principle:** Promote blood circulation and remove blood stasis, unblock meridians and relieve pain
 
-**4. 芹菜汁**
+**Recommended food:**
+- Blood-activating ingredients: hawthorn, black fungus, onion, ginger, vinegar
+- Blood-enhancing ingredients: red dates, longan, pork liver, spinach
+- Others: roses, brown sugar, rice wine (appropriate amount)
+
+**Recommended dietary prescription:**
+
+**1. Hawthorn Brown Sugar Water**
 ```
-材料：新鲜芹菜 200g，蜂蜜适量
-做法：芹菜榨汁，加入蜂蜜调味
-功效：清热平肝，降压安神
-频率：每日 1 杯（晨起饮用）
+Ingredients: 30g hawthorn, 20g brown sugar
+Method: Boil hawthorn with water for 10 minutes, add brown sugar to taste
+Efficacy: Promoting blood circulation and removing blood stasis, digesting food and reducing accumulation
+Frequency: 3-4 times a week (women can drink daily 1 week before menstruation)
 ```
 
-**饮食禁忌：**
-- ❌ 收敛食物：乌梅、酸枣、石榴（收敛气机）
-- ❌ 油腻食物：肥肉、油炸食品（阻碍气机）
-- ❌ 过甜食物：糖果、蛋糕（生湿碍脾）
-- ❌ 咖啡、浓茶（加重焦虑）
-- ❌ 酒类（尤其白酒）
-
-### 穴位保健
-
-**主穴：**
-- 太冲（LR3）：双侧，每侧按揉 5-10 分钟，每日 2 次（疏肝要穴）
-- 膻中（CV17）：按揉 5-10 分钟，每日 2 次（理气要穴）
-- 内关（PC6）：双侧，每侧按揉 5 分钟，每日 2 次（宁心安神）
-- 三阴交（SP6）：双侧，每侧按揉 5 分钟，每日 2 次
-
-**配穴：**
-- 肝俞（BL18）：疏肝理气
-- 期门（LR14）：疏肝解郁
-- 神门（HT7）：宁心安神
-
-**操作方法：**
-- 按揉力度适中，以有酸胀感为宜
-- 膻中穴可用手掌上下摩擦至发热
-- 可配合艾灸（太冲、三阴交）
-
-**情绪调节方法：**
+**2. Fried black fungus and onions**
 ```
-1. 深呼吸练习：
-   - 吸气 4 秒 → 屏气 4 秒 → 呼气 6 秒
-   - 每日 2 次，每次 10 分钟
-
-2. 冥想：
-   - 静坐，专注于呼吸
-   - 每日 15-20 分钟
-
-3. 写日记：
-   - 记录情绪变化
-   - 帮助释放负面情绪
+Ingredients: 20g black fungus (dried), 1 onion, 1 green pepper
+Method: Soak black fungus, fry with onions and green peppers, add salt to taste
+Efficacy: Promoting blood circulation and unblocking meridians, lowering lipids and blood pressure
+Frequency: 3-4 times per week
 ```
 
-### 调理预期
+**3. Rose tea**
+```
+Ingredients: 10g roses (dried), appropriate amount of brown sugar
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: soothes the liver and regulates qi, activates blood circulation and removes blood stasis
+Frequency: 1 dose daily
+```
 
-**短期（1-2 周）：** 情绪有所改善，叹气减少
+**4. Angelica Ginger Mutton Soup**
+```
+Ingredients: Angelica sinensis 15g, ginger 30g, mutton 500g
+Method: Blanch the mutton and stew it with angelica and ginger for 2 hours. Add salt to taste.
+Efficacy: Warming menstruation and activating blood circulation, nourishing blood and relieving pain
+Frequency: 1-2 times a week (suitable in winter)
+```
 
-**中期（1-2 月）：** 胸胁胀满减轻，睡眠改善
+**Dietary taboos:**
+- ❌ Cold food: ice cream, cold drinks (cold coagulation and blood stasis)
+- ❌ Too salty food: pickled food (increased blood viscosity)
+- ❌ High-fat foods: fatty meats, fried foods
+- ❌ Excessive drinking (a small amount of rice wine can activate blood circulation, but excessive drinking can damage the liver)
 
-**长期（3-6 月）：** 体质明显改善，情绪稳定
+### Acupoint health care
 
-**评估指标：**
-- 情绪低落频率减少
-- 叹气次数减少
-- 胸胁胀满感减轻或消失
-- 睡眠质量提高
-- 食欲改善
+**Main point:**
+- Sea of ​​Blood (SP10): massage on both sides for 5-10 minutes on each side, 2 times a day (key point for promoting blood circulation)
+- Sanyinjiao (SP6): massage on both sides for 5 minutes on each side, 2 times a day
+- Hegu (LI4): massage on both sides for 5 minutes on each side, 2 times a day
+- Taichong (LR3): massage on both sides for 5 minutes on each side, 2 times a day
+
+**Acupoint matching:**
+- Geshu (BL17): an important point for promoting blood circulation and can be cupped
+- Ganshu (BL18): soothes the liver and regulates qi
+- Zusanli (ST36): strengthens the spleen and qi, promotes the biochemistry of qi and blood
+
+**How ​​to operate:**
+- Knead with a slightly stronger force until you feel soreness and swelling.
+- Can be combined with cupping (bladder meridian on back)
+- Can be combined with moxibustion (Xuehai, Zusanli)
+
+**Cupping program:**
+```
+Location: Bladder meridian on the back (Geshu to Ganshu), shoulders, waist
+Method: Leave the jar for 10-15 minutes
+Frequency: 1-2 times per week
+Note: Avoid bathing within 4 hours after cupping and keep warm
+```
+
+### Adjust expectations
+
+**Short term (1-2 weeks):** Reduced physical pain, improved mental status
+
+**Mid-term (1-2 months):** Complexion improves and ecchymoses decrease
+
+**Long-term (3-6 months):** Physical fitness improves significantly and pain basically disappears
+
+**Evaluation indicators:**
+- Complexion changes from dull to rosy
+- Ecchymosis, hypopigmentation
+- Body pain lessens or disappears
+- Women’s dysmenorrhea improves and menstrual blood clots decrease
+- Tongue changes from dark purple to light red
 
 ---
 
-## 九、特禀质 (Special Constitution)
+## 8. Qi-Stagnation Constitution
 
-### 特征表现
+### Characteristic performance
 
-**总体特征：** 先天失常，过敏体质，易患哮喘
+**General characteristics:** Sluggish energy, melancholic and fragile, sentimental
 
-**具体表现：**
-- 容易过敏（花粉、尘螨、食物、药物等）
-- 经常打喷嚏、流鼻涕
-- 皮肤容易起荨麻疹
-- 哮喘发作
-- 对季节变化敏感
-- 容易感冒
-- 舌淡红，苔薄白
-- 脉象不规则
+**Specific performance:**
+- Feeling depressed and prone to depression
+- Sentimental, easily sad
+- Fullness or pain in the chest and flanks
+- Frequent sighing (Santa breath)
+- Feeling of foreign body in the throat (meiheqi)
+- Breast swelling and pain (obvious in women before menstruation)
+- Insomnia, frequent dreams, and easy awakening
+- Loss of appetite and indigestion
+- Pale red tongue with thin white coating
+- Pulse string
 
-**心理特征：** 因过敏困扰，可能焦虑、紧张
+**Psychological characteristics:** Introverted and unstable personality, melancholy and fragile, sensitive and worried
 
-**易患疾病：** 过敏性鼻炎、哮喘、荨麻疹、湿疹、药物过敏
+**Susceptible diseases:** Depression, anxiety, insomnia, breast hyperplasia, thyroid nodules, irregular menstruation
 
-### 运动方案
+### Exercise program
 
-**原则：** 增强体质，避免诱发因素
+**Principle:** Soothe the liver, regulate qi, and regulate emotions.
 
-**推荐运动：**
-- 有氧运动：游泳（最佳，湿润空气）、慢跑、快走，每周 4-5 次，每次 30-45 分钟
-- 传统功法：太极拳、八段锦，每日 20-30 分钟
-- 呼吸训练：腹式呼吸、缩唇呼吸，每日 2 次，每次 10 分钟
-- 瑜伽：温和的拉伸动作
+**Recommended exercise:**
+- Aerobic exercise: jogging, brisk walking, dancing, 4-5 times a week, 30-45 minutes each time
+-Team sports: badminton, table tennis, square dancing (increase social interaction)
+- Traditional exercises: Baduanjin (focusing on "single lifts to regulate the spleen and stomach", "shaking the head and tail to remove internal heat"), Tai Chi
+- Yoga: Soothing stretches and deep breathing
 
-**强度控制：** 低至中等强度，避免过度疲劳
+**Intensity control:** Medium intensity, based on feeling comfortable
 
-**注意事项：**
-- 避免在花粉季节户外运动
-- 避免在寒冷、干燥环境中运动
-- 避免接触已知过敏原
-- 运动前充分热身
-- 随身携带抗过敏药物
-- 哮喘患者运动前咨询医生
+**Best exercise time:** 9-11 am or 16-19 pm in the evening
 
-**运动计划：**
+**Note:**
+- Choose your favorite sport to increase the fun
+- Try to participate in group activities to increase social interaction
+- Breathe deeply while exercising
+- Avoid exercising alone
+
+**Exercise Plan:**
 ```
-周一：游泳 30 分钟（室内恒温泳池）
-周二：太极拳 30 分钟
-周三：室内慢跑 30 分钟
-周四：八段锦 30 分钟
-周五：游泳 30 分钟
-周六：室内瑜伽 30 分钟
-周日：休息或散步
-```
-
-**呼吸训练：**
-```
-腹式呼吸：
-- 仰卧或坐位，一手放腹部
-- 吸气时腹部隆起，呼气时腹部凹陷
-- 吸气 4 秒，呼气 6 秒
-- 每日 2 次，每次 10 分钟
-
-缩唇呼吸：
-- 用鼻吸气 2 秒
-- 缩唇（如吹口哨）缓慢呼气 4-6 秒
-- 每日 2 次，每次 10 分钟
+Monday: Jog 30 minutes + stretch
+Tuesday: Badminton/Table Tennis 45 minutes (group activity)
+Wednesday: Baduanjin 30 minutes
+Thursday: Dance/Aerobics 45 minutes (group activity)
+Friday: Yoga 45 minutes
+Saturday: 60-minute outdoor hike (close to nature)
+Sunday: Rest or take a walk
 ```
 
-### 食疗方案
+**Special recommendation:**
+- Singing: soothes the liver, regulates qi, and releases emotions
+- Mountain climbing: get close to nature and open your mind
+- Travel: change the environment and adjust your mood
 
-**原则：** 益气固表，避免过敏原
+### Dietary therapy plan
 
-**推荐食物：**
-- 益气食材：山药、莲子、芡实、大枣
-- 抗过敏食材：蜂蜜（本地产）、生姜、大蒜
-- 清淡食物：大米、小米、蔬菜、水果
+**Principle:** Soothe the liver and relieve stagnation, regulate qi and smooth the heart
 
-**推荐食疗方：**
+**Recommended food:**
+- Ingredients for regulating qi: tangerine peel, bergamot, rose, jasmine
+- Liver-soothing ingredients: celery, spinach, tomatoes, radishes
+- Others: citrus fruits, hawthorn, vinegar
 
-**1. 山药莲子粥**
+**Recommended dietary prescription:**
+
+**1. Rose tea**
 ```
-材料：山药 50g，莲子 20g，大米 100g
-做法：山药、莲子、大米同煮成粥
-功效：健脾益气，固表止汗
-频率：每周 4-5 次
-```
-
-**2. 蜂蜜水**
-```
-材料：本地蜂蜜 1-2 勺
-做法：温水冲服（水温不超过 40℃）
-功效：抗过敏，润肺
-频率：每日 1 杯（晨起空腹）
-注意：1 岁以下婴儿禁用蜂蜜
+Ingredients: 10g roses (dried), appropriate amount of rock sugar
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: soothes the liver and relieves depression, regulates qi and relieves pain
+Frequency: 1 dose daily
 ```
 
-**3. 姜枣茶**
+**2. Chenpi Pu’er tea**
 ```
-材料：生姜 3 片，红枣 5 枚（去核），红糖适量
-做法：生姜、红枣加水煮沸 10 分钟，加红糖调味
-功效：温中散寒，益气固表
-频率：每日 1 剂
-```
-
-**4. 玉屏风粥**
-```
-材料：黄芪 15g，白术 10g，防风 6g，大米 100g
-做法：三味中药煎水取汁，与大米同煮成粥
-功效：益气固表，预防感冒
-频率：每周 3-4 次
+Ingredients: 5g tangerine peel, 5g Pu'er tea
+Method: brew with boiling water, simmer for 5 minutes and drink
+Efficacy: Regulates qi and strengthens the spleen, digests food and resolves accumulation
+Frequency: 1-2 cups daily
 ```
 
-**饮食禁忌：**
-- ❌ 已知过敏食物（因人而异）
-- ❌ 海鲜（常见过敏原）
-- ❌ 芒果、菠萝（易致敏水果）
-- ❌ 辛辣刺激性食物
-- ❌ 酒类
-
-**常见过敏原食物清单：**
-- 海鲜：虾、蟹、贝类
-- 坚果：花生、核桃、杏仁
-- 水果：芒果、菠萝、猕猴桃
-- 其他：牛奶、鸡蛋、大豆、小麦
-
-### 穴位保健
-
-**主穴：**
-- 足三里（ST36）：双侧，每侧按揉 5 分钟，每日 2 次；可艾灸（增强免疫力）
-- 肺俞（BL13）：双侧，按揉或艾灸，每侧 10-15 分钟
-- 迎香（LI20）：双侧，每侧按揉 3-5 分钟，每日 2 次（缓解鼻塞）
-- 合谷（LI4）：双侧，每侧按揉 5 分钟，每日 2 次
-
-**配穴：**
-- 大椎（GV14）：增强免疫力，可艾灸
-- 风门（BL12）：预防感冒
-- 肾俞（BL23）：补肾固本
-
-**艾灸方案：**
+**3. Bergamot porridge**
 ```
-穴位：足三里、肺俞、大椎
-方法：温和灸，每穴 10-15 分钟
-频率：每周 3-4 次
-疗程：连续 4 周为 1 疗程
-注意：过敏发作期暂停艾灸
+Ingredients: 15g bergamot, 100g rice, appropriate amount of rock sugar
+Method: Boil bergamot in water to extract juice, cook with rice to make porridge, add rock sugar to taste
+Efficacy: soothes the liver and regulates qi, strengthens the spleen and stomach
+Frequency: 3-4 times per week
 ```
 
-**自我按摩：**
+**4. Celery juice**
 ```
-鼻部按摩：
-1. 用双手食指按揉迎香穴 1 分钟
-2. 用双手食指沿鼻梁上下摩擦 30 次
-3. 用双手拇指按揉太阳穴 1 分钟
-频率：每日 2 次（晨起、睡前）
+Ingredients: 200g fresh celery, appropriate amount of honey
+Method: Juice celery and add honey to taste
+Efficacy: clearing away heat and calming the liver, lowering blood pressure and calming the nerves
+Frequency: 1 cup daily (drink in the morning)
 ```
 
-### 调理预期
+**Dietary taboos:**
+- ❌ Astringent foods: ebony plum, wild jujube, pomegranate (astringent Qi)
+- ❌ Greasy food: fatty meat, fried food (impedes Qi movement)
+- ❌ Overly sweet foods: candies, cakes (dampness affects the spleen)
+- ❌ Coffee, strong tea (increases anxiety)
+- ❌ Alcohol (especially liquor)
 
-**短期（1-2 周）：** 过敏症状有所减轻
+### Acupoint health care
 
-**中期（1-2 月）：** 过敏发作频率降低
+**Main point:**
+- Taichong (LR3): bilaterally, massage for 5-10 minutes on each side, 2 times a day (key points for soothing the liver)
+- Tanzhong (CV17): massage for 5-10 minutes, 2 times a day (key point for regulating qi)
+- Neiguan (PC6): bilaterally, massage for 5 minutes on each side, 2 times a day (soothing the mind and calming the mind)
+- Sanyinjiao (SP6): massage on both sides for 5 minutes on each side, 2 times a day
 
-**长期（3-6 月）：** 体质明显改善，过敏症状显著减少
+**Acupoint matching:**
+- Ganshu (BL18): soothes the liver and regulates qi
+- Qimen (LR14): soothes the liver and relieves depression
+- Shenmen (HT7): Peace of mind and mind
 
-**评估指标：**
-- 过敏发作频率降低（目标：减少 50% 以上）
-- 症状严重程度减轻
-- 抗过敏药物使用量减少
-- 感冒次数减少
-- 生活质量提高
+**How ​​to operate:**
+- Massage with moderate intensity until you feel soreness and swelling.
+- Tanzhong point can be rubbed up and down with the palm of your hand until it becomes warm.
+- Can be combined with moxibustion (Taichong, Sanyinjiao)
+
+**Emotional Regulation Methods:**
+```
+1. Deep breathing exercises:
+- Inhale for 4 seconds → Hold breath for 4 seconds → Exhale for 6 seconds
+- 2 times a day, 10 minutes each time
+
+2. Meditation:
+- Sit quietly and focus on your breathing
+- 15-20 minutes daily
+
+3. Keep a diary:
+- Record mood changes
+- Helps release negative emotions
+```
+
+### Adjust expectations
+
+**Short term (1-2 weeks):** Improved mood, less sighing
+
+**Mid-term (1-2 months):** Chest and hypochondrium fullness is reduced and sleep improves
+
+**Long-term (3-6 months):** Physical fitness improves significantly and mood stabilizes
+
+**Evaluation indicators:**
+- Reduced frequency of depression
+- Reduced number of sighs
+- The feeling of fullness in the chest and hypochondrium is reduced or disappeared
+- Improved sleep quality
+- Improved appetite
 
 ---
 
-## 体质判定与调理周期
+## 9. Special Constitution
 
-### 体质判定方法
+### Characteristic performance
 
-**简易判定：** 根据上述特征表现，符合 3 项以上即可初步判定为该体质
+**General characteristics:** Congenital abnormalities, allergies, susceptibility to asthma
 
-**正式判定：** 建议到正规中医院进行体质辨识，填写《中医体质分类与判定表》
+**Specific performance:**
+- prone to allergies (pollen, dust mites, food, drugs, etc.)
+- Frequent sneezing and runny nose
+- Skin prone to urticaria
+- Asthma attack
+- Sensitive to seasonal changes
+- prone to colds
+- Pale red tongue with thin white coating
+-Irregular pulse
 
-### 调理周期
+**Psychological characteristics:** May be anxious and nervous due to allergies
 
-| 体质类型 | 短期目标 | 中期目标 | 长期目标 |
+**Susceptible diseases:** Allergic rhinitis, asthma, urticaria, eczema, drug allergy
+
+### Exercise program
+
+**Principle:** Enhance physical fitness and avoid triggering factors
+
+**Recommended exercise:**
+- Aerobic exercise: swimming (best, moist air), jogging, brisk walking, 4-5 times a week, 30-45 minutes each time
+- Traditional exercises: Tai Chi, Baduanjin, 20-30 minutes daily
+- Breathing training: abdominal breathing, pursed lip breathing, 2 times a day, 10 minutes each time
+- Yoga: gentle stretching exercises
+
+**Intensity Control:** Low to moderate intensity to avoid excessive fatigue
+
+**Note:**
+- Avoid outdoor exercise during pollen season
+- Avoid exercising in cold, dry environments
+- Avoid contact with known allergens
+- Warm up thoroughly before exercise
+- Carry allergy medication with you
+- People with asthma should consult their doctor before exercising.
+
+**Exercise Plan:**
+```
+Monday: Swim 30 minutes (indoor heated pool)
+Tuesday: Tai Chi 30 minutes
+Wednesday: Jog indoors for 30 minutes
+Thursday: Baduanjin 30 minutes
+Friday: Swim for 30 minutes
+Saturday: 30 minutes of indoor yoga
+Sunday: Rest or take a walk
+```
+
+**breathing training:**
+```
+Abdominal breathing:
+- Lie on your back or sit with one hand on your abdomen
+- The abdomen rises when you inhale and sinks when you exhale
+- Inhale for 4 seconds, exhale for 6 seconds
+- 2 times a day, 10 minutes each time
+
+pursed lip breathing:
+- Breathe in through your nose for 2 seconds
+-Pinch your lips (like whistling) and exhale slowly for 4-6 seconds
+- 2 times a day, 10 minutes each time
+```
+
+### Dietary therapy plan
+
+**Principle:** Replenish qi and stabilize the surface, avoid allergens
+
+**Recommended food:**
+- Ingredients for replenishing qi: yam, lotus seeds, gorgon seeds, and jujubes
+- Anti-allergenic ingredients: honey (locally produced), ginger, garlic
+- Light food: rice, millet, vegetables, fruits
+
+**Recommended dietary prescription:**
+
+**1. Yam and Lotus Seed Porridge**
+```
+Ingredients: 50g yam, 20g lotus seeds, 100g rice
+Method: Boil yam, lotus seeds and rice into porridge
+Efficacy: Strengthen the spleen and replenish qi, strengthen the surface and stop sweating
+Frequency: 4-5 times per week
+```
+
+**2. Honey water**
+```
+Ingredients: 1-2 spoons of local honey
+Method: Take with warm water (the water temperature should not exceed 40℃)
+Efficacy: anti-allergic, moisturizing the lungs
+Frequency: 1 cup daily (on an empty stomach in the morning)
+Note: Honey is not allowed for babies under 1 year old
+```
+
+**3. Ginger and jujube tea**
+```
+Ingredients: 3 slices of ginger, 5 red dates (pitted), appropriate amount of brown sugar
+Method: Boil ginger and red dates with water for 10 minutes, add brown sugar to taste
+Efficacy: Warming the middle and dispersing cold, replenishing qi and strengthening the surface
+Frequency: 1 dose daily
+```
+
+**4. Jade Ping Feng Porridge**
+```
+Ingredients: Astragalus 15g, Atractylodes 10g, Fangfeng 6g, Rice 100g
+Method: decoct three kinds of traditional Chinese medicine in water to extract juice, and cook it together with rice to make porridge.
+Efficacy: Replenishing qi and strengthening the surface, preventing colds
+Frequency: 3-4 times per week
+```
+
+**Dietary taboos:**
+- ❌ Known allergic foods (varies from person to person)
+- ❌ Seafood (common allergens)
+- ❌ Mango, pineapple (allergenic fruits)
+- ❌ Spicy food
+- ❌ Alcohol
+
+**List of common allergen foods:**
+- Seafood: shrimp, crab, shellfish
+- Nuts: peanuts, walnuts, almonds
+- Fruits: mango, pineapple, kiwi
+- Others: milk, eggs, soybeans, wheat
+
+### Acupoint health care
+
+**Main point:**
+- Zusanli (ST36): bilateral, massage for 5 minutes on each side, 2 times a day; moxibustion (enhance immunity)
+- Feishu (BL13): bilateral, massage or moxibustion, 10-15 minutes on each side
+- Yingxiang (LI20): massage on both sides for 3-5 minutes on each side, 2 times a day (relieves nasal congestion)
+- Hegu (LI4): massage on both sides for 5 minutes on each side, 2 times a day
+
+**Acupoint matching:**
+- Dazhui (GV14): enhance immunity and can be used for moxibustion
+- Damper (BL12): prevent colds
+- Shenshu (BL23): tonify the kidneys and strengthen the foundation
+
+**Moxibustion program:**
+```
+Acupoints: Zusanli, Feishu, Dazhui
+Method: Mild moxibustion, 10-15 minutes per point
+Frequency: 3-4 times per week
+Course of treatment: 4 consecutive weeks as one course of treatment
+Note: Suspension of moxibustion during allergic attacks
+```
+
+**Self-massage:**
+```
+Nasal massage:
+1. Use the index fingers of both hands to massage Yingxiang point for 1 minute
+2. Use the index fingers of both hands to rub up and down along the bridge of the nose 30 times
+3. Use the thumbs of both hands to massage your temples for 1 minute
+Frequency: 2 times a day (morning, before bed)
+```
+
+### Adjust expectations
+
+**Short term (1-2 weeks):** Reduction of allergy symptoms
+
+**Mid-term (1-2 months):** Allergy attack frequency decreases
+
+**Long-term (3-6 months):** Physical fitness is significantly improved and allergic symptoms are significantly reduced
+
+**Evaluation indicators:**
+- Reduce the frequency of allergy attacks (goal: more than 50% reduction)
+- Reduction in symptom severity
+- Reduced use of anti-allergy medications
+- Fewer colds
+- Improved quality of life
+
+---
+
+##Physique determination and conditioning cycle
+
+### Physical fitness determination method
+
+**Simple determination:** Based on the above characteristics, if more than 3 items are met, the constitution can be preliminarily determined.
+
+**Formal Judgment:** It is recommended to go to a regular traditional Chinese medicine hospital for physical identification and fill out the "TCM Constitution Classification and Determination Form"
+
+### Conditioning cycle
+
+| Physical type | Short-term goals | Mid-term goals | Long-term goals |
 |---------|---------|---------|---------|
-| 平和质 | 维持现状 | 维持现状 | 长期保持 |
-| 气虚质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 阳虚质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 阴虚质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 痰湿质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 湿热质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 血瘀质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 气郁质 | 1-2 周 | 1-2 月 | 3-6 月 |
-| 特禀质 | 1-2 周 | 1-2 月 | 3-6 月 |
+| Peace and quality | Maintain the status quo | Maintain the status quo | Maintain for the long term |
+| Qi deficiency | 1-2 weeks | 1-2 months | 3-6 months |
+| Yang deficiency | 1-2 weeks | 1-2 months | 3-6 months |
+| Yin deficiency | 1-2 weeks | 1-2 months | 3-6 months |
+| Phlegm-dampness | 1-2 weeks | 1-2 months | 3-6 months |
+| Damp heat quality | 1-2 weeks | 1-2 months | 3-6 months |
+| Blood stasis | 1-2 weeks | 1-2 months | 3-6 months |
+| Qi stagnation | 1-2 weeks | 1-2 months | 3-6 months |
+| Special qualities | 1-2 weeks | 1-2 months | 3-6 months |
 
-### 复合体质处理
+### Complex constitution treatment
 
-**常见复合体质：**
-- 气虚 + 阳虚：温阳益气并重
-- 阴虚 + 湿热：滋阴清热利湿
-- 痰湿 + 血瘀：化痰祛湿活血
-- 气郁 + 血瘀：疏肝理气活血
+**Common complex constitutions:**
+- Qi deficiency + Yang deficiency: equal emphasis on warming Yang and replenishing Qi
+- Yin deficiency + dampness and heat: nourishing yin, clearing heat and diluting dampness
+- Phlegm + blood stasis: resolve phlegm, remove dampness and activate blood circulation
+- Qi stagnation + blood stasis: soothe the liver, regulate qi and activate blood circulation
 
-**处理原则：**
-1. 先处理主要矛盾（症状最明显的体质）
-2. 兼顾次要矛盾
-3. 分阶段调理，每 4 周评估一次
-4. 必要时咨询专业中医师
-
----
-
-## 参考文献
-
-1. 王琦。《中医体质学》. 中国中医药出版社，2005.
-2. 中华中医药学会。《中医体质分类与判定》标准 (ZYYX/T157-2009).
-3. 国家质量监督检验检疫总局。《中医体质分类与判定》国家标准 (GB/T 30357-2013).
-4. 《黄帝内经》.
-5. 李灿东，等。中医体质辨识在健康管理中的应用。中华中医药杂志，2018.
+**Processing principles:**
+1. Deal with the main contradiction first (the constitution with the most obvious symptoms)
+2. Take into account secondary contradictions
+3. Phased conditioning, with evaluation every 4 weeks
+4. Consult a professional Chinese medicine practitioner when necessary
 
 ---
 
-*九体质调养方案完成 | 数据来源：国家标准 + 权威教材 | 更新时间：2026 年 3 月*
+## References
+
+1. Wang Qi. "Physique of Traditional Chinese Medicine". China Traditional Chinese Medicine Press, 2005.
+2. China Association of Traditional Chinese Medicine. "Classification and Determination of Constitution in Traditional Chinese Medicine" Standard (ZYYX/T157-2009).
+3. General Administration of Quality Supervision, Inspection and Quarantine of the People’s Republic of China. National Standard for "Classification and Determination of Constitution in Traditional Chinese Medicine" (GB/T 30357-2013).
+4. "Huangdi Neijing".
+5. Li Candong, et al. Application of TCM constitution identification in health management. Chinese Journal of Traditional Chinese Medicine, 2018.
+
+---
+
+*Nine physical conditioning plans completed | Data source: national standards + authoritative textbooks | Update time: March 2026*

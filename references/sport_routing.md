@@ -1,128 +1,128 @@
-# 运动项目路由表（100+ 项目完整版）
+#Sports routing table (100+ projects full version)
 
-> 当用户描述的运动项目不在 SKILL.md 主路由表中时，查阅本文件确定对应教练。
+> When the sport described by the user is not in the main routing table of SKILL.md, consult this file to determine the corresponding coach.
 
 ---
 
-## 🏃 田径与跑步类 → Coach Lin（agents/coach_athletics.md）
+## 🏃 Track and Field and Running → Coach Lin（agents/coach_athletics.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 公路跑 | 5K、10K、半程马拉松、全程马拉松、超马 |
-| 越野跑 | 山地越野、悬崖赛、背包跑 |
-| 田径短跑 | 100m、200m、400m |
-| 中长跑 | 800m、1500m、3000m、5000m、10000m |
-| 跨栏跑 | 110m 栏、400m 栏 |
-| 竞走 | 20km/50km 竞走 |
-| 障碍跑 | 3000m 障碍 |
-| 跳跃项目 | 跳高、跳远、三级跳（体能部分）|
-| 投掷项目 | 铅球、铁饼、标枪（体能部分）|
-| 徒步 | 城市健步走、山地徒步 |
+| Road running | 5K, 10K, half marathon, full marathon, ultramarathon |
+| Cross-country running | Mountain cross-country, cliff racing, backpacking running |
+| Track and field sprint | 100m, 200m, 400m |
+| Middle-distance running | 800m, 1500m, 3000m, 5000m, 10000m |
+| Hurdle running | 110m hurdles, 400m hurdles |
+| Race walking | 20km/50km race walking |
+| Obstacle Run | 3000m Obstacle |
+| Jump events | High jump, long jump, triple jump (physical fitness part) |
+| Throwing events | Shot put, discus, javelin (physical fitness part) |
+| Hiking | City walking, mountain hiking |
 
 ---
 
-## 🏊 游泳与水上类 → Coach Shui（agents/coach_swim.md）
+## 🏊 Swimming and Aquatics → Coach Shui（agents/coach_swim.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 竞技游泳 | 自由泳、蛙泳、仰泳、蝶泳、个人混合泳 |
-| 健身游泳 | 有氧游泳、减脂游泳 |
-| 开放水域 | 海洋游泳、湖泊游泳、铁人三项游泳段 |
-| 水中运动 | 水中有氧、水疗、水中力量训练 |
-| 同步游泳 | 艺术游泳（体能部分）|
-| 花样游泳 | 技术动作体能准备 |
+| Competitive swimming | Freestyle, breaststroke, backstroke, butterfly, individual medley |
+| Fitness swimming | Aerobic swimming, fat loss swimming |
+| Open Water | Ocean Swimming, Lake Swimming, Triathlon Swimming |
+| Water sports | Water aerobics, hydrotherapy, water strength training |
+| Synchronized Swimming | Artistic Swimming (Physical Fitness Part) |
+| Synchronized swimming | Physical preparation for technical movements |
 
 ---
 
-## 🏋️ 力量与综合健身类 → Coach Alex（agents/coach_alex.md）
+## 🏋️ Strength and Comprehensive Fitness → Coach Alex (agents/coach_alex.md)
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 力量举 | 深蹲、硬拉、卧推（三大项）|
-| 举重 | 抓举、挺举（体能准备）|
-| 健美 | 健体、经典健美、比基尼 |
-| CrossFit | 功能性体能训练 |
-| 徒手健身 | 俯卧撑、引体向上、双力臂、街头健身 |
-| 综合健身 | 增肌减脂、体能塑形 |
-| 壶铃训练 | 壶铃摇摆、Turkish get-up |
-| TRX | 悬挂训练 |
+| Powerlifting | Squat, deadlift, bench press (three major events) |
+| Weightlifting | Snatch, clean and jerk (physical preparation) |
+| Bodybuilding | Bodybuilding, Classic Bodybuilding, Bikini |
+| CrossFit | Functional Fitness Training |
+| Calisthenics | Push-ups, pull-ups, muscle-ups, street fitness |
+| Comprehensive fitness | Build muscle, lose fat, and shape your body |
+| Kettlebell training | Kettlebell swing, Turkish get-up |
+| TRX | Suspension Training |
 
 ---
 
-## 🏀 球类运动类 → Coach Qiu（agents/coach_team.md）
+## 🏀 Ball Sports → Coach Qiu（agents/coach_team.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 大球 | 篮球、足球、排球、手球、橄榄球、美式足球 |
-| 小球（网拍）| 网球、羽毛球、乒乓球、壁球、壁球 |
-| 小球（非网拍）| 高尔夫（体能）、棒球、垒球、板球 |
-| 冰上球类 | 冰球（体能准备）|
+| Big ball | Basketball, soccer, volleyball, handball, rugby, American football |
+| Small balls (tennis rackets) | Tennis, badminton, table tennis, squash, squash |
+| Small ball (not racquet) | Golf (physical fitness), baseball, softball, cricket |
+| Ice Hockey | Ice Hockey (Physical Preparation) |
 
 ---
 
-## 🥋 武术与搏击类 → Coach Wu（agents/coach_martial.md）
+## 🥋 Martial Arts and Fighting → Coach Wu（agents/coach_martial.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 传统武术 | 太极拳（竞技）、散手、武术套路、八极拳、形意拳、咏春 |
-| 现代搏击 | 拳击、泰拳、自由搏击、散打 |
-| 地面格斗 | 巴西柔术（BJJ）、摔跤、柔道 |
-| 综合格斗 | MMA |
-| 防身术 | 以色列近身格斗术（Krav Maga）|
+| Traditional martial arts | Tai Chi (competitive), San Shou, martial arts routines, Bajiquan, Xingyiquan, Wing Chun |
+| Modern Fighting | Boxing, Muay Thai, Kickboxing, Sanda |
+| Ground Fighting | Brazilian Jiu-Jitsu (BJJ), Wrestling, Judo |
+| Mixed Martial Arts | MMA |
+| Self-Defense | Israeli Close Combat (Krav Maga) |
 
-> ⚠️ 健身养生版八段锦、太极养生操 → Dr. Gong（agents/dr_qigong.md）
+> ⚠️ Fitness and health version of Baduanjin and Tai Chi health exercises → Dr. Gong (agents/dr_qigong.md)
 
 ---
 
-## 🧘 柔韧与身心类 → Coach Rou（agents/coach_flexibility.md）
+## 🧘 Flexibility and mind-body category → Coach Rou（agents/coach_flexibility.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 瑜伽 | 哈他瑜伽、流瑜伽（Vinyasa）、阴瑜伽、热瑜伽、恢复瑜伽 |
-| 普拉提 | 垫上普拉提、器械普拉提 |
-| 拉伸 | 静态拉伸、动态拉伸、PNF 拉伸、筋膜松解 |
-| 舞蹈（体能）| 舞蹈体能准备（技术部分超出范围）|
-| 冥想 | 正念冥想、呼吸练习 |
+| Yoga | Hatha Yoga, Vinyasa, Yin Yoga, Hot Yoga, Restorative Yoga |
+| Pilates | Mat Pilates, Equipment Pilates |
+| Stretching | Static Stretching, Dynamic Stretching, PNF Stretching, Fascia Release |
+| Dance (Physical Fitness) | Dance Physical Preparation (Technical Part Out of Scope) |
+| Meditation | Mindfulness meditation, breathing exercises |
 
 ---
 
-## 🚴 耐力与户外类 → Coach Che（agents/coach_endurance.md）
+## 🚴Endurance and Outdoor Category → Coach Che（agents/coach_endurance.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 自行车 | 公路车、山地车、室内骑行（Spinning）、BMX（体能）|
-| 铁人三项 | Sprint/Olympic/Half/Full Ironman |
-| 划水类 | 皮划艇、龙舟、赛艇、桨板（SUP）|
-| 登山攀岩 | 室内攀岩体能准备、高山登山体能 |
-| 滑雪 | 滑雪体能准备（季前训练）|
-| 滑冰 | 速度滑冰体能准备 |
+| Bicycles | Road bikes, mountain bikes, indoor cycling (Spinning), BMX (physical fitness) |
+| Triathlon | Sprint/Olympic/Half/Full Ironman |
+| Paddling | Kayaking, dragon boating, rowing, paddleboarding (SUP) |
+| Mountaineering and rock climbing | Indoor rock climbing physical preparation, alpine mountaineering physical fitness |
+| Skiing | Skiing physical preparation (pre-season training) |
+| Skating | Physical preparation for speed skating |
 
 ---
 
-## 🌿 养生功法类 → Dr. Gong（agents/dr_qigong.md）
+## 🌿 Health Kung Fu → Dr. Gong（agents/dr_qigong.md）
 
-| 项目 | 细分 |
+| Project | Segmentation |
 |------|------|
-| 八段锦 | 健身气功八段锦（国家标准版）|
-| 五禽戏 | 华佗五禽戏 |
-| 六字诀 | 吐纳呼吸法 |
-| 易筋经 | 12 式导引 |
-| 太极养生操 | 24 式简化太极拳（健身版）|
-| 气功 | 站桩、导引养生功 |
+| Baduanjin | Health Qigong Baduanjin (National Standard Edition) |
+| Five-Animal Play | Hua Tuo’s Five-Animal Play |
+| Six-Character Technique | Breathing Method |
+| Yi Jin Jing | 12 Guidelines |
+| Tai Chi health exercises | 24 simplified Tai Chi exercises (fitness version) |
+| Qigong | Zhan Zhuang, Guiding Health Kung Fu |
 
 ---
 
-## 📌 特殊场景路由
+## 📌 Special scene routing
 
-| 场景 | 处理方式 |
+| Scene | Processing |
 |------|---------|
-| 铁人三项全程备赛 | Coach Lin（跑步段）+ Coach Shui（游泳段）+ Coach Che（骑行段）联合 |
-| 运动后恢复与拉伸 | Coach Rou |
-| 运动损伤初步评估 | 对应项目教练 → 判断是否需要就医 |
-| 孕期运动 | 建议就医获得许可后，Coach Rou 提供低强度建议 |
-| 老年人运动 | Coach Alex（低强度力量）+ Coach Rou（柔韧）联合，配合 Dr. Chen 体质建议 |
-| 青少年训练 | 对应项目教练，强调发育期安全原则 |
+| Full Triathlon Preparation | Coach Lin (running segment) + Coach Shui (swimming segment) + Coach Che (cycling segment) joint |
+| Post-exercise recovery and stretching | Coach Rou |
+| Preliminary assessment of sports injuries | Corresponding project coach → Determine whether medical treatment is needed |
+| Exercise during pregnancy | Recommended to seek medical advice, Coach Rou provides low-intensity recommendations |
+| Exercise for the elderly | Coach Alex (low-intensity strength) + Coach Rou (flexibility) combined with Dr. Chen’s physical recommendations |
+| Youth training | Corresponding project coach, emphasizing safety principles during development |
 
 ---
 
-*如运动项目不在本表中，由 Coach Alex 作为综合教练接待，并根据项目特点提供通用建议*
+*If the sports are not in this list, Coach Alex will serve as a comprehensive coach and provide general advice based on the characteristics of the project*

@@ -1,163 +1,163 @@
-# HealthFit 证据基础（Evidence Base）
+# HealthFit Evidence Base (Evidence Base)
 
-> 本文件汇总 HealthFit 所有建议的权威数据来源，确保每位顾问的建议都有循证依据。
+> This document summarizes authoritative data sources for all HealthFit recommendations, ensuring each consultant's recommendations are evidence-based.
 
 ---
 
-## A. 训练训练核心参数（来源：NSCA）
+## A. Training training core parameters (Source: NSCA)
 
-**来源：** 美国国家体能协会（NSCA）官方教材与立场声明  
-**网址：** https://www.nsca.com/about-us/position-statements/
+**Source:** Official textbook and position statement of the National Strength and Conditioning Association (NSCA)
+**Website:** https://www.nsca.com/about-us/position-statements/
 
-### 训练频率推荐
+### Recommended training frequency
 
-| 训练水平 | 全身训练频率 | 分化训练频率 |
+| Training level | Total body training frequency | Split training frequency |
 |---------|------------|------------|
-| 初级（< 3 个月经验） | 2-3 次/周 | 不推荐 |
-| 中级（3-12 个月经验） | 3 次/周 | 3-4 次/周 |
-| 高级（> 12 个月经验） | 4 次/周 | 4-6 次/周 |
+| Beginner (< 3 months experience) | 2-3 times/week | Not recommended |
+| Intermediate (3-12 months experience) | 3 times/week | 3-4 times/week |
+| Advanced (> 12 months experience) | 4 times/week | 4-6 times/week |
 
-### 各目标的推荐训练参数
+### Recommended training parameters for each target
 
-| 目标 | 强度（% 1RM） | 次数范围 | 组间休息 |
+| Goal | Intensity (% 1RM) | Rep range | Rest between sets |
 |------|------------|---------|---------|
-| 肌耐力 | < 70% | 12-20+ | 30-60 秒 |
-| 肌肥大 | 70-85% | 6-12 | 60-90 秒 |
-| 最大力量 | 85-100% | 1-5 | 3-5 分钟 |
-| 爆发力 | 30-60%（速度优先） | 1-6 | 3-5 分钟 |
+| Muscular Endurance | < 70% | 12-20+ | 30-60 seconds |
+| Hypertrophy | 70-85% | 6-12 | 60-90 seconds |
+| Maximum Strength | 85-100% | 1-5 | 3-5 minutes |
+| Explosive power | 30-60% (speed priority) | 1-6 | 3-5 minutes |
 
-### 超量恢复原则
+### Over-recovery principle
 
-- **超负荷原则：** 训练刺激须超过当前适应水平
-- **进阶速度：** 初级者每周增重幅度建议不超过 5-10%
-- **减量周：** 每 4-8 周安排 1 周训练量减少 40-60%，促进恢复和超量补偿
+- **Overload principle:** The training stimulus must exceed the current adaptation level
+- **Advancing speed:** It is recommended that beginners’ weekly weight gain should not exceed 5-10%
+- **Taper Week:** Arrange 1 week every 4-8 weeks to reduce training volume by 40-60% to promote recovery and overcompensation
 
-### 动作技术参考
+### Action technology reference
 
-- 动作分类体系参照：ExRx.net 动作库（https://exrx.net/Lists/Directory）
-- 该平台自 1999 年运营至今，被 NSCA、ACSM 等机构认可
-- 收录 2100+ 个动作，是健身领域最权威的免费动作参考数据库
+- Action classification system reference: ExRx.net action library (https://exrx.net/Lists/Directory)
+- This platform has been in operation since 1999 and is recognized by NSCA, ACSM and other institutions
+- Containing 2100+ movements, it is the most authoritative free movement reference database in the field of fitness
 
 ---
 
-## B. 营养素参考摄入量（来源：中国营养学会 2023 版）
+## B. Nutrient reference intake (Source: Chinese Nutrition Society 2023 edition)
 
-**来源：** 中国营养学会《中国居民膳食营养素参考摄入量（2023 版）》  
-**出版：** 人民卫生出版社，2023 年 9 月（第九版）  
-**主编：** 杨月欣（中国营养学会理事长）  
-**官网：** https://www.cnsoc.org
+**Source:** Chinese Nutrition Society "Reference Intake of Dietary Nutrients for Chinese Residents (2023 Edition)"
+**Published:** People's Medical Publishing House, September 2023 (ninth edition)
+**Editor-in-Chief:** Yang Yuexin (Chairman of the Chinese Nutrition Society)
+**Official website:** https://www.cnsoc.org
 
-### 成年人（18-50 岁）蛋白质推荐摄入量（RNI）
+### Recommended protein intake (RNI) for adults (18-50 years old)
 
-- **男性：** 65g/天（轻体力劳动）
-- **女性：** 55g/天（轻体力劳动）
+- **Male:** 65g/day (light physical work)
+- **Female:** 55g/day (light physical work)
 
-> **注意：** 以上为普通人群基础需求。运动人群蛋白质需求更高，参见各 agent 文件的具体建议。
+> **Note:** The above are the basic needs of the general population. Active people have higher protein needs, see the specific recommendations in each agent file.
 
-### 运动人群蛋白质参考范围（国际运动营养学会 ISSN 立场声明）
+### Protein Reference Range for Active Populations (International Society of Sports Nutrition ISSN Position Statement)
 
-| 人群 | 蛋白质需求 |
+| Population | Protein Requirements |
 |------|-----------|
-| 耐力运动员 | 1.2-1.4g/kg/天 |
-| 力量训练者（增肌期） | 1.6-2.2g/kg/天 |
-| 力量训练者（减脂期） | 2.2-3.1g/kg/天 |
+| Endurance athletes | 1.2-1.4g/kg/day |
+| Strength trainers (muscle-building period) | 1.6-2.2g/kg/day |
+| Strength trainers (fat loss period) | 2.2-3.1g/kg/day |
 
-### 钙（2023 版修订值）
+### Calcium (2023 revised value)
 
-- **18-50 岁成人：** 800mg/天（RNI）
-- **51 岁以上：** 1000mg/天
-- **说明：** 中国人群膳食钙摄入普遍不足（调查显示日均约 400mg），补钙有实际意义
+- **Adults 18-50 years old:** 800mg/day (RNI)
+- **Age 51+:** 1000mg/day
+- **Note:** The dietary calcium intake of the Chinese population is generally insufficient (surveys show that the average daily intake is about 400 mg), and calcium supplementation has practical significance.
 
-### 维生素 D（2023 版说明）
+### Vitamin D (2023 version instructions)
 
-- **18-65 岁：** 400 IU/天（RNI）
-- **说明：** 中国营养学会注明：我国居民维生素 D 缺乏率高，缺乏者的初始补充建议为 1000-2000 IU/天
+- **18-65 years:** 400 IU/day (RNI)
+- **Note:** The Chinese Nutrition Society notes: The vitamin D deficiency rate among Chinese residents is high, and the initial supplementation recommendation for deficient individuals is 1000-2000 IU/day.
 
-### 铁
+### iron
 
-| 人群 | 推荐摄入量 |
+| Population | Recommended intake |
 |------|-----------|
-| 成年男性 | 12mg/天（RNI） |
-| 成年女性（非孕期） | 20mg/天（2023 版较 2013 版有所调整） |
-| 孕妇 | 29mg/天 |
+| Adult males | 12mg/day (RNI) |
+| Adult women (non-pregnant) | 20mg/day (the 2023 version has been adjusted from the 2013 version) |
+| Pregnant women | 29mg/day |
 
-### 锌（2023 版修订值）
+### Zinc (2023 revised value)
 
-| 人群 | 推荐摄入量 | 备注 |
+| Population | Recommended intake | Remarks |
 |------|-----------|------|
-| 成年男性 | 12.5mg/天 | 2023 版较前版有所下调 |
-| 成年女性 | 7.5mg/天 | 2023 版较前版有所上调 |
+| Adult males | 12.5mg/day | The 2023 version is lower than the previous version |
+| Adult women | 7.5mg/day | The 2023 version has been increased compared with the previous version |
 
-> **说明：** 新版根据最新锌代谢数据修订，男女差距缩小
+> **Note:** The new version is revised based on the latest zinc metabolism data, and the gap between men and women has narrowed.
 
-### Mifflin-St Jeor 公式（基础代谢率估算）
+### Mifflin-St Jeor formula (basal metabolic rate estimate)
 
-**公式：**
-- 男性：BMR = (10 × 体重 kg) + (6.25 × 身高 cm) - (5 × 年龄) + 5
-- 女性：BMR = (10 × 体重 kg) + (6.25 × 身高 cm) - (5 × 年龄) - 161
+**formula:**
+- Male: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age) + 5
+- Female: BMR = (10 × weight kg) + (6.25 × height cm) - (5 × age) - 161
 
-**来源：** Mifflin MD 等，JADA 1990  
-**地位：** 已被 AND（美国营养学会）确认为最准确的静态代谢率估算公式
+**Source:** Mifflin MD et al., JADA 1990
+**Status:** Confirmed by AND (American Academy of Nutrition) as the most accurate resting metabolic rate estimation formula
 
 ---
 
-## C. 中医体质分类权威依据
+## C. Authoritative basis for TCM constitution classification
 
-**来源：** 《中医体质分类与判定》
+**Source:** "Classification and Determination of Constitution in Traditional Chinese Medicine"
 
-### 标准沿革
+### Standard History
 
-| 时间 | 事件 |
+| time | event |
 |------|------|
-| 2009 年 | 中华中医药学会正式颁布（ZYYXH/T157-2009），由王琦院士主持制定 |
-| 2024 年 | 升级为国家标准（GB/T），由全国中医标准化技术委员会主办 |
-| 应用规模 | 全国 1700 余家二级以上中医医院，累计应用超 5.7 亿人次 |
+| 2009 | Officially promulgated by the China Association of Traditional Chinese Medicine (ZYYXH/T157-2009), presided over by Academician Wang Qi and formulated |
+| 2024 | Upgraded to national standard (GB/T), sponsored by the National Technical Committee for Standardization of Traditional Chinese Medicine |
+| Scale of application | There are more than 1,700 traditional Chinese medicine hospitals of level two or above across the country, with a cumulative application of more than 570 million people |
 
-### 法律依据
+### Legal basis
 
-中医体质辨识于 2009 年被纳入卫生部《国家基本公共卫生服务规范》，是国家公共卫生体系中唯一纳入的中医体检内容。
+TCM constitution identification was included in the "National Basic Public Health Service Standards" of the Ministry of Health in 2009, and is the only TCM physical examination content included in the national public health system.
 
-### 标准查询
+### Standard query
 
-- **全国标准信息公共服务平台：** https://std.samr.gov.cn
-- **北京中医药大学体质研究院：** https://tizhi.bucm.edu.cn
+- **National Standard Information Public Service Platform:** https://std.samr.gov.cn
+- **Physique Research Institute of Beijing University of Chinese Medicine:** https://tizhi.bucm.edu.cn
 
-### AI 体质辨识的局限性声明
+### Limitations Statement of AI Physique Recognition
 
-> ⚠️ **重要：** 本 Skill 的中医体质辨识基于文字问卷和自述症状，与执业中医师的面诊（望色、闻声、切脉等）相比，诊断维度不完整。辨识结果作为参考，不替代专业中医诊断。
-
----
-
-## D. 推荐查阅资源
-
-以下资源经过权威机构认证，用户可通过这些渠道深入了解相关专业内容。
-
-### 运动科学
-
-| 机构 | 网址 | 说明 |
-|------|------|------|
-| NSCA 美国国家体能协会 | https://www.nsca.com | 立场声明、训练指南 |
-| ACSM 美国运动医学学会 | https://www.acsm.org | 运动处方、健康评估 |
-| ExRx.net | https://exrx.net | 2100+ 动作数据库，免费查阅核心动作 |
-| PubMed | https://pubmed.ncbi.nlm.nih.gov | 运动科学同行评审论文检索 |
-
-### 营养学
-
-| 机构 | 网址 | 说明 |
-|------|------|------|
-| 中国营养学会 | https://www.cnsoc.org | 官方营养指南、DRIs |
-| 国家卫生健康委员会 | https://www.nhc.gov.cn | 居民营养健康政策 |
-| 中国食物成分表 | http://www.cfsnt.cn | 食物营养成分查询 |
-
-### 中医
-
-| 机构 | 网址 | 说明 |
-|------|------|------|
-| 国家中医药管理局 | http://www.natcm.gov.cn | 中医养生规范、政策文件 |
-| 北京中医药大学体质研究院 | https://tizhi.bucm.edu.cn | 王琦团队官方体质研究资源 |
-| 中国非物质文化遗产数字博物馆 | https://www.ihchina.cn | 24 节气导引养生法 |
-| 全国标准信息公共服务平台 | https://std.samr.gov.cn | 中医体质国家标准查询 |
+> ⚠️ **Important:** The TCM constitution identification in this Skill is based on text questionnaires and self-reported symptoms. Compared with the face-to-face diagnosis by a practicing TCM physician (looking at the color, hearing the sound, feeling the pulse, etc.), the diagnostic dimensions are incomplete. The identification results are used as a reference and do not replace professional Chinese medicine diagnosis.
 
 ---
 
-*最后更新：2026-03-17 | HealthFit v3.0*
+## D. Recommended resources
+
+The following resources have been certified by authoritative organizations, and users can gain an in-depth understanding of relevant professional content through these channels.
+
+### Exercise Science
+
+| Organization | Website | Description |
+|------|------|------|
+| NSCA National Strength and Conditioning Association | https://www.nsca.com | Position Statement, Training Guidelines |
+| ACSM American College of Sports Medicine | https://www.acsm.org | Exercise prescription, health assessment |
+| ExRx.net | https://exrx.net | 2100+ action database, free access to core actions |
+| PubMed | https://pubmed.ncbi.nlm.nih.gov | Search for peer-reviewed papers in exercise science |
+
+### Nutrition
+
+| Organization | Website | Description |
+|------|------|------|
+| Chinese Nutrition Society | https://www.cnsoc.org | Official Nutrition Guidelines, DRIs |
+| National Health Commission | https://www.nhc.gov.cn | Resident Nutrition and Health Policy |
+| China Food Composition List | http://www.cfsnt.cn | Food Nutritional Composition Query |
+
+### Traditional Chinese Medicine
+
+| Organization | Website | Description |
+|------|------|------|
+| State Administration of Traditional Chinese Medicine | http://www.natcm.gov.cn | TCM health care regulations and policy documents |
+| Constitution Research Institute of Beijing University of Chinese Medicine | https://tizhi.bucm.edu.cn | Official physique research resources of Wang Qi’s team |
+| Chinese Intangible Cultural Heritage Digital Museum | https://www.ihchina.cn | 24 Solar Terms Guidance and Health Method |
+| National Standard Information Public Service Platform | https://std.samr.gov.cn | National Standards for Traditional Chinese Medicine Constitution Inquiry |
+
+---
+
+*Last updated: 2026-03-17 | HealthFit v3.0*

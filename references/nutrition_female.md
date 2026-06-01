@@ -1,949 +1,949 @@
-# 女性专项营养指南
+#Women’s Special Nutrition Guide
 
-> **来源依据：** 中国营养学会《中国居民膳食营养素参考摄入量》(2023 版)、ACSM 女性运动营养指南、《女性运动营养学》
-
----
-
-## 目录
-
-1. [女性营养特点](#一女性营养特点)
-2. [月经周期营养](#二月经周期营养)
-3. [基础营养参数](#三基础营养参数)
-4. [增肌营养方案](#四增肌营养方案)
-5. [减脂营养方案](#五减脂营养方案)
-6. [女性专项营养素](#六女性专项营养素)
-7. [特殊时期营养](#七特殊时期营养)
-8. [补剂指南](#八补剂指南)
-9. [常见问题](#九常见问题)
+> **Source basis:** Chinese Nutrition Society's "Reference Intake of Dietary Nutrients for Chinese Residents" (2023 Edition), ACSM Women's Sports Nutrition Guidelines, "Female Sports Nutrition"
 
 ---
 
-## 一、女性营养特点
+## Table of contents
 
-### 生理特点
+1. [Female Nutritional Characteristics](#1Female Nutritional Characteristics)
+2. [Menstrual cycle nutrition](#2Menstrual cycle nutrition)
+3. [Basic Nutritional Parameters](#3 Basic Nutritional Parameters)
+4. [Muscle-Building Nutritional Program](#4 Muscle-Building Nutritional Program)
+5. [Fat-reducing nutrition plan](#5 Fat-reducing nutrition plan)
+6. [Women’s special nutrients](#6Women’s special nutrients)
+7. [Nutrition during special periods](#7specialperiodsnutrition)
+8. [Supplement Guide](#8supplementguide)
+9. [FAQ](#9FAQ)
 
-| 特点 | 营养影响 |
+---
+
+## 1. Women’s nutritional characteristics
+
+###Physiological characteristics
+
+| Features | Nutritional Effects |
 |------|---------|
-| 基础代谢率低（比男性低 10-15%） | 热量需求较低 |
-| 肌肉量小（比男性低 30-40%） | 蛋白质需求略低 |
-| 体脂率高（健康范围 20-30%） | 需要足够脂肪支持激素 |
-| 月经周期 | 铁需求高，营养需求随周期变化 |
-| 骨骼密度较低 | 钙、维生素 D 需求高 |
-| 妊娠期特殊需求 | 叶酸、铁、钙等需求增加 |
+| Low basal metabolic rate (10-15% lower than men) | Lower caloric requirements |
+| Small muscle mass (30-40% less than men) | Slightly lower protein requirements |
+| High body fat rate (healthy range 20-30%) | Need enough fat to support hormones |
+| Menstrual cycle | Iron needs are high and nutritional needs vary with the cycle |
+| Low bone density | High calcium and vitamin D requirements |
+| Special needs during pregnancy | Increased demand for folic acid, iron, calcium, etc. |
 
-### 激素特点
+### Hormone characteristics
 
-**雌激素：**
-- 促进脂肪储存（尤其臀部、大腿）
-- 保护骨骼健康
-- 影响食欲和代谢
+**Estrogen:**
+- Promote fat storage (especially buttocks, thighs)
+- Protect bone health
+- Affects appetite and metabolism
 
-**孕激素：**
-- 黄体期升高，增加食欲
-- 提高基础体温
-- 影响水分潴留
+**Progesterone:**
+- Elevated luteal phase, increased appetite
+- Increase basal body temperature
+- Affects water retention
 
-### 营养目标优先级
+### Nutritional goal priority
 
-| 年龄段 | 主要目标 | 营养重点 |
+| Age Group | Key Goals | Nutritional Focus |
 |--------|---------|---------|
-| 18-25 岁 | 建立骨量峰值、规律月经 | 钙、维生素 D、铁、充足热量 |
-| 26-35 岁 | 维持健康、备孕/孕期 | 叶酸、铁、均衡营养 |
-| 36-45 岁 | 维持肌肉、预防骨质疏松 | 蛋白质、钙、维生素 D |
-| 46-55 岁（围绝经期） | 缓解更年期症状、保护骨骼 | 钙、维生素 D、植物雌激素 |
-| 55 岁以上（绝经后） | 预防骨质疏松、心血管健康 | 钙、维生素 D、Omega-3 |
+| 18-25 years old | Establish peak bone mass and regular menstruation | Calcium, vitamin D, iron, sufficient calories |
+| 26-35 years old | Maintaining health, preparing for pregnancy/pregnancy | Folic acid, iron, balanced nutrition |
+| 36-45 years old | Maintain muscles and prevent osteoporosis | Protein, calcium, vitamin D |
+| 46-55 years old (perimenopausal) | Relieve menopausal symptoms and protect bones | Calcium, vitamin D, phytoestrogens |
+| 55+ (postmenopausal) | Osteoporosis prevention, cardiovascular health | Calcium, Vitamin D, Omega-3 |
 
 ---
 
-## 二、月经周期营养
+## 2. Menstrual cycle nutrition
 
-### 周期概述
+### Cycle Overview
 
-**标准周期：** 28 天（21-35 天均属正常）
+**Standard cycle:** 28 days (21-35 days are normal)
 
-| 阶段 | 时间 | 激素特点 | 身体感受 |
+| Stages | Time | Hormone characteristics | Physical sensations |
 |------|------|---------|---------|
-| 月经期 | 第 1-5 天 | 雌激素、孕激素低 | 疲劳、腹痛、情绪低落 |
-| 卵泡期 | 第 6-14 天 | 雌激素上升 | 精力充沛、状态好 |
-| 排卵期 | 第 14-15 天 | 雌激素峰值 | 状态最佳 |
-| 黄体期 | 第 15-28 天 | 孕激素上升，后期下降 | 食欲增加、水肿、情绪波动 |
+| Menstrual period | Days 1-5 | Low estrogen and progesterone | Fatigue, abdominal pain, depression |
+| Follicular phase | Days 6-14 | Rising estrogen | Energetic and in good shape |
+| Ovulation | Day 14-15 | Estrogen peak | Best condition |
+| Luteal phase | Days 15-28 | Progesterone rises and then falls | Increased appetite, edema, mood swings |
 
-### 各阶段营养策略
+### Nutrition strategies for each stage
 
-#### 月经期（第 1-5 天）
+#### Menstrual Period (Days 1-5)
 
-**营养重点：**
-- 补充铁（弥补经血损失）
-- 温热食物（缓解痛经）
-- 充足热量（不要节食）
+**Nutritional Highlights:**
+- Supplement iron (to make up for menstrual blood loss)
+- Warm food (relieves menstrual cramps)
+- Adequate calories (no dieting)
 
-**推荐食物：**
-- 富含铁：红肉、动物肝脏、菠菜、黑木耳
-- 温热食物：姜茶、红糖水、热汤
-- 富含镁：坚果、黑巧克力（缓解痛经）
+**Recommended food:**
+- Rich in iron: red meat, animal liver, spinach, black fungus
+- Warm food: ginger tea, brown sugar water, hot soup
+- Rich in magnesium: nuts, dark chocolate (relieves menstrual cramps)
 
-**示例饮食：**
+**Sample Diet:**
 ```
-早餐：红糖姜茶 + 鸡蛋 + 全麦面包
-午餐：牛肉炒菠菜 + 米饭 + 热汤
-晚餐：鸡汤 + 蔬菜 + 米饭
-加餐：坚果 + 红枣
+Breakfast: brown sugar ginger tea + eggs + whole wheat bread
+Lunch: Stir-fried beef with spinach + rice + hot soup
+Dinner: chicken soup + vegetables + rice
+Snack: Nuts + Red Dates
 ```
 
-**运动建议：**
-- 轻度运动：散步、瑜伽、拉伸
-- 避免高强度训练
-- 听从身体感受，适当休息
+**Exercise suggestions:**
+- Light exercise: walking, yoga, stretching
+- Avoid high-intensity training
+- Listen to your body and rest appropriately
 
 ---
 
-#### 卵泡期（第 6-14 天）
+#### Follicular phase (days 6-14)
 
-**营养重点：**
-- 利用代谢优势，适合减脂
-- 支持训练表现
-- 均衡营养
+**Nutritional Highlights:**
+- Take advantage of metabolism, suitable for fat loss
+- Support training performance
+- Balanced nutrition
 
-**热量调整：**
-- 可比平时减少 100-200kcal（减脂期）
-- 或维持 TDEE（增肌期）
+**heat adjustment:**
+- Can reduce 100-200kcal than usual (fat loss period)
+- Or maintain TDEE (muscle building phase)
 
-**运动建议：**
-- 状态最佳时期
-- 适合安排高强度训练
-- 尝试突破 PR
+**Exercise suggestions:**
+- Best period
+- Suitable for arranging high-intensity training
+- Try to break PR
 
-**示例饮食：**
+**Sample Diet:**
 ```
-早餐：燕麦 + 蛋白粉 + 水果
-午餐：鸡胸肉 + 糙米 + 蔬菜
-晚餐：鱼 + 红薯 + 蔬菜
-加餐：希腊酸奶 + 坚果
-```
-
----
-
-#### 排卵期（第 14-15 天）
-
-**营养重点：**
-- 维持均衡饮食
-- 充足水分
-- 抗氧化食物
-
-**运动建议：**
-- 状态峰值
-- 适合安排重要训练或比赛
-
----
-
-#### 黄体期（第 15-28 天）
-
-**营养重点：**
-- 应对食欲增加
-- 缓解水肿
-- 稳定情绪
-
-**策略：**
-1. **增加热量（不要硬抗）：**
-   - 黄体期基础代谢增加 100-300kcal/天
-   - 可适当增加健康碳水和脂肪
-
-2. **控制食欲：**
-   - 增加蛋白质和膳食纤维
-   - 选择低 GI 碳水
-   - 少食多餐
-
-3. **缓解水肿：**
-   - 减少盐分摄入
-   - 增加钾摄入（香蕉、土豆、菠菜）
-   - 充足水分（ paradoxically 帮助排水）
-
-4. **稳定情绪：**
-   - 富含 Omega-3 食物
-   - 富含 B 族维生素食物
-   - 黑巧克力（适量）
-
-**示例饮食：**
-```
-早餐：全麦面包 + 鸡蛋 + 牛油果
-午餐：三文鱼 + 藜麦 + 蔬菜
-晚餐：瘦牛肉 + 土豆 + 蔬菜
-加餐：香蕉 + 坚果 + 黑巧克力（85%+）
-```
-
-**运动建议：**
-- 降低训练强度
-- 增加恢复时间
-- 瑜伽、冥想帮助缓解情绪
-
----
-
-### 周期营养模板
-
-```
-【月经期】（第 1-5 天）
-热量：TDEE
-蛋白质：1.6g/kg
-碳水：3-4g/kg
-脂肪：1.0g/kg
-重点：补铁、温热食物
-
-【卵泡期】（第 6-14 天）
-热量：TDEE - 100kcal（减脂期）
-蛋白质：1.8g/kg
-碳水：3-4g/kg
-脂肪：0.9g/kg
-重点：利用代谢优势
-
-【黄体期】（第 15-28 天）
-热量：TDEE + 100-200kcal
-蛋白质：1.8g/kg
-碳水：3-4g/kg
-脂肪：1.0g/kg
-重点：应对食欲、缓解水肿
+Breakfast: oats + protein powder + fruit
+Lunch: chicken breast + brown rice + vegetables
+Dinner: fish + sweet potato + vegetables
+Snack: Greek yogurt + nuts
 ```
 
 ---
 
-## 三、基础营养参数
+#### Ovulation (Day 14-15)
 
-### 热量需求计算
+**Nutritional Highlights:**
+- Maintain a balanced diet
+- Adequate hydration
+- Antioxidant foods
 
-**基础代谢率（BMR）- Mifflin-St Jeor 公式：**
+**Exercise suggestions:**
+- Status peak
+- Suitable for arranging important training or competitions
+
+---
+
+#### Luteal Phase (Days 15-28)
+
+**Nutritional Highlights:**
+- Cope with increased appetite
+- Relieve edema
+- Stabilize emotions
+
+**Strategy:**
+1. **Increase heat (don’t force it):**
+- Basal metabolism increases by 100-300kcal/day in the luteal phase
+- Can appropriately increase healthy carbohydrates and fats
+
+2. **Control appetite:**
+- Increase protein and dietary fiber
+- Choose low GI carbs
+- Eat small meals often
+
+3. **Relieve edema:**
+- Reduce salt intake
+- Increase potassium intake (bananas, potatoes, spinach)
+- Adequate moisture (paradoxically helps drainage)
+
+4. **Stabilize emotions:**
+- Foods rich in Omega-3
+- Foods rich in B vitamins
+- Dark chocolate (appropriate amount)
+
+**Sample Diet:**
+```
+Breakfast: Whole wheat bread + eggs + avocado
+Lunch: salmon + quinoa + vegetables
+Dinner: Lean beef + potatoes + vegetables
+Snack: Banana + Nuts + Dark Chocolate (85%+)
+```
+
+**Exercise suggestions:**
+- Reduce training intensity
+- Increased recovery time
+- Yoga and meditation help relieve emotions
+
+---
+
+### Periodic Nutrition Template
 
 ```
-BMR = (10 × 体重 kg) + (6.25 × 身高 cm) - (5 × 年龄) - 161
+【Menstrual Period】(Day 1-5)
+Calories: TDEE
+Protein: 1.6g/kg
+Carbohydrate: 3-4g/kg
+Fat: 1.0g/kg
+Key points: iron supplement, warm food
+
+【Follicular phase】(Day 6-14)
+Calories: TDEE - 100kcal (fat loss period)
+Protein: 1.8g/kg
+Carbohydrate: 3-4g/kg
+Fat: 0.9g/kg
+Focus: Taking Advantage of Metabolism
+
+【Luteal Phase】(Day 15-28)
+Calories: TDEE + 100-200kcal
+Protein: 1.8g/kg
+Carbohydrate: 3-4g/kg
+Fat: 1.0g/kg
+Focus: Coping with appetite and relieving edema
 ```
 
-**示例：** 28 岁女性，165cm，55kg
+---
+
+## 3. Basic nutritional parameters
+
+### Calorie requirement calculation
+
+**Basal Metabolic Rate (BMR) - Mifflin-St Jeor Formula:**
+
+```
+BMR = (10 × weight kg) + (6.25 × height cm) - (5 × age) - 161
+```
+
+**Example:** 28-year-old female, 165cm, 55kg
 ```
 BMR = (10 × 55) + (6.25 × 165) - (5 × 28) - 161
     = 550 + 1031.25 - 140 - 161
-    = 1,280 kcal/天
+= 1,280 kcal/day
 ```
 
-**每日总能量消耗（TDEE）：**
+**Total Daily Energy Expenditure (TDEE):**
 
 ```
-TDEE = BMR × 活动系数
+TDEE = BMR × activity coefficient
 
-活动系数：
-- 久坐（几乎不运动）：1.2
-- 轻度活动（每周 1-3 次运动）：1.375
-- 中度活动（每周 3-5 次运动）：1.55
-- 高度活动（每周 6-7 次运动）：1.725
-- 极高活动（体力劳动 + 每天训练）：1.9
+Activity coefficient:
+- Sedentary (little exercise): 1.2
+- Light activity (exercise 1-3 times per week): 1.375
+- Moderate activity (3-5 times of exercise per week): 1.55
+- Highly active (6-7 exercises per week): 1.725
+- Extreme activity (physical work + daily training): 1.9
 ```
 
-**示例：** 中度活动
+**Example:** Moderate activity
 ```
-TDEE = 1,280 × 1.55 = 1,984 kcal/天
+TDEE = 1,280 × 1.55 = 1,984 kcal/day
 ```
 
-### 宏量营养素配比
+### Macronutrient ratio
 
-#### 蛋白质
+#### protein
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 增肌 | 1.6-2.0g/kg | 支持肌肉合成 |
-| 减脂 | 1.8-2.2g/kg | 保护肌肉，增加饱腹感 |
-| 维持 | 1.2-1.6g/kg | 基础需求 |
-| 孕期 | 1.1g/kg（孕前体重） | 支持胎儿发育 |
-| 哺乳期 | 1.3g/kg（孕前体重） | 支持乳汁分泌 |
+| Build muscle | 1.6-2.0g/kg | Support muscle synthesis |
+| Fat loss | 1.8-2.2g/kg | Protect muscles and increase satiety |
+| Maintenance | 1.2-1.6g/kg | Basic needs |
+| Pregnancy | 1.1g/kg (pre-pregnancy weight) | Support fetal development |
+| Lactation period | 1.3g/kg (pre-pregnancy weight) | Support milk secretion |
 
-#### 脂肪
+#### Fat
 
-**女性脂肪需求高于男性！**
+**Women have higher fat needs than men! **
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 增肌 | 1.0-1.2g/kg | 激素合成必需 |
-| 减脂 | 0.8-1.0g/kg | 不低于 0.8g/kg |
-| 维持 | 1.0-1.2g/kg | 激素健康 |
-| 月经失调 | 1.2-1.5g/kg | 恢复月经 |
+| Muscle gain | 1.0-1.2g/kg | Necessary for hormone synthesis |
+| Fat loss | 0.8-1.0g/kg | Not less than 0.8g/kg |
+| Maintenance | 1.0-1.2g/kg | Hormone health |
+| Menstrual disorders | 1.2-1.5g/kg | Restore menstruation |
 
-**⚠️ 警告：** 脂肪摄入过低（<0.6g/kg）会导致：
-- 月经失调/闭经
-- 雌激素水平下降
-- 骨质疏松风险增加
-- 皮肤干燥、脱发
+**⚠️ WARNING: ** Low fat intake (<0.6g/kg) can lead to:
+- Menstrual disorders/amenorrhea
+- Decreased estrogen levels
+- Increased risk of osteoporosis
+- Dry skin, hair loss
 
-#### 碳水化合物
+#### carbohydrate
 
 ```
-碳水 = (总热量 - 蛋白质热量 - 脂肪热量) ÷ 4
+Carbohydrate = (total calories - protein calories - fat calories) ÷ 4
 ```
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 增肌 | 4-6g/kg | 支持训练和恢复 |
-| 减脂 | 2-3g/kg | 训练日高，休息日低 |
-| 维持 | 3-5g/kg | 根据活动量调整 |
+| Muscle building | 4-6g/kg | Support training and recovery |
+| Fat loss | 2-3g/kg | High on training days, low on rest days |
+| Maintenance | 3-5g/kg | Adjust according to activity level |
 
-### 微量营养素推荐量（中国营养学会 2023）
+### Recommended amounts of micronutrients (Chinese Nutrition Society 2023)
 
-| 营养素 | 推荐量 (18-50 岁女性) | 主要作用 | 食物来源 |
+| Nutrients | Recommended dosage (women aged 18-50 years) | Main functions | Food sources |
 |--------|---------------------|---------|---------|
-| 维生素 A | 700μg RAE/天 | 视力、免疫 | 肝脏、胡萝卜、菠菜 |
-| 维生素 D | 10μg (400IU)/天 | 骨骼、免疫 | 日晒、鱼肝油、蛋黄 |
-| 维生素 E | 14mg α-TE/天 | 抗氧化 | 坚果、植物油 |
-| 维生素 K | 80μg/天 | 凝血、骨骼 | 绿叶蔬菜 |
-| 维生素 B1 | 1.2mg/天 | 能量代谢 | 全谷物、猪肉 |
-| 维生素 B2 | 1.2mg/天 | 能量代谢 | 奶制品、肝脏 |
-| 维生素 B3 | 12mg NE/天 | 能量代谢 | 肉类、鱼类 |
-| 维生素 B6 | 1.4mg/天 | 激素调节 | 香蕉、坚果、鱼类 |
-| 维生素 B12 | 2.4μg/天 | 红细胞生成 | 肉类、鱼类、奶制品 |
-| 叶酸 | 400μg DFE/天 | 细胞分裂 | 绿叶蔬菜、豆类 |
-| 维生素 C | 100mg/天 | 抗氧化、免疫 | 柑橘类、猕猴桃 |
-| 钙 | 800mg/天 | 骨骼健康 | 奶制品、绿叶蔬菜 |
-| 镁 | 330mg/天 | 肌肉功能 | 坚果、绿叶蔬菜 |
-| 锌 | 7.5mg/天 | 免疫、伤口愈合 | 牡蛎、牛肉、南瓜子 |
-| 铁 | 18mg/天（经期） | 补血 | 红肉、菠菜、豆类 |
-| 碘 | 120μg/天 | 甲状腺激素 | 海带、碘盐 |
+| Vitamin A | 700μg RAE/day | Vision, immunity | Liver, carrots, spinach |
+| Vitamin D | 10μg (400IU)/day | Bones, immunity | Sun exposure, cod liver oil, egg yolk |
+| Vitamin E | 14mg α-TE/day | Antioxidant | Nuts, vegetable oils |
+| Vitamin K | 80μg/day | Blood coagulation, bones | Green leafy vegetables |
+| Vitamin B1 | 1.2mg/day | Energy metabolism | Whole grains, pork |
+| Vitamin B2 | 1.2mg/day | Energy metabolism | Dairy products, liver |
+| Vitamin B3 | 12mg NE/day | Energy metabolism | Meat, fish |
+| Vitamin B6 | 1.4mg/day | Hormone regulation | Bananas, nuts, fish |
+| Vitamin B12 | 2.4μg/day | Erythropoiesis | Meat, fish, dairy products |
+| Folic acid | 400μg DFE/day | Cell division | Green leafy vegetables, beans |
+| Vitamin C | 100mg/day | Antioxidant, immunity | Citrus, kiwi |
+| Calcium | 800mg/day | Bone health | Dairy products, green leafy vegetables |
+| Magnesium | 330mg/day | Muscle function | Nuts, green leafy vegetables |
+| Zinc | 7.5mg/day | Immunity, wound healing | Oysters, beef, pumpkin seeds |
+| Iron | 18mg/day (menstrual period) | Blood supplement | Red meat, spinach, beans |
+| Iodine | 120μg/day | Thyroid hormone | Kelp, iodized salt |
 
 ---
 
-## 四、增肌营养方案
+## 4. Muscle-building nutrition plan
 
-### 女性增肌特点
+### Features of women’s muscle gain
 
-- 增肌速度比男性慢（睾酮水平低）
-- 更容易储存脂肪（雌激素影响）
-- 需要更耐心（每月增肌 0.25-0.5kg 已很好）
+- Gain muscle more slowly than men (low testosterone levels)
+- Easier to store fat (effect of estrogen)
+- Need more patience (gaining 0.25-0.5kg of muscle per month is good)
 
-### 热量目标
-
-```
-增肌热量 = TDEE + 250 kcal
-
-预期增重速率：0.25-0.5kg/月
-（其中约 30-40% 为肌肉，60-70% 为脂肪）
-
-女性增肌需要更小的热量盈余，
-因为更容易储存脂肪
-```
-
-### 宏量营养素配比
+### Calorie Target
 
 ```
-蛋白质：1.6-2.0g/kg
-脂肪：1.0-1.2g/kg（支持激素）
-碳水：剩余热量（通常 4-5g/kg）
+Muscle building calories = TDEE + 250 kcal
 
-示例（55kg 女性，TDEE 2000kcal）：
-- 目标热量：2250 kcal
-- 蛋白质：88-110g（352-440 kcal，16-20%）
-- 脂肪：55-66g（495-594 kcal，22-26%）
-- 碳水：304-351g（1216-1404 kcal，54-62%）
+Expected weight gain rate: 0.25-0.5kg/month
+(About 30-40% of it is muscle and 60-70% is fat)
+
+Women need a smaller caloric surplus to gain muscle,
+Because it’s easier to store fat
 ```
 
-### 增肌饮食模板（55kg 女性）
+### Macronutrient ratio
 
 ```
-【目标热量：2250 kcal】
-【蛋白质：95g | 脂肪：63g | 碳水：320g】
+Protein: 1.6-2.0g/kg
+Fat: 1.0-1.2g/kg (hormone support)
+Carbohydrate: residual calories (usually 4-5g/kg)
 
-【早餐】（450 kcal）
-- 燕麦 60g（210 kcal）
-- 蛋白粉 1 勺（120 kcal）
-- 香蕉 1 根（105 kcal）
-- 杏仁 10g（60 kcal）
+Example (55kg female, TDEE 2000kcal):
+- Target calories: 2250 kcal
+- Protein: 88-110g (352-440 kcal, 16-20%)
+- Fat: 55-66g (495-594 kcal, 22-26%)
+- Carbohydrate: 304-351g (1216-1404 kcal, 54-62%)
+```
 
-【加餐】（300 kcal）
-- 希腊酸奶 150g（100 kcal）
-- 混合坚果 20g（120 kcal）
-- 苹果 1 个（80 kcal）
+### Muscle-building diet template (55kg female)
 
-【午餐】（600 kcal）
-- 鸡胸肉 150g（165 kcal）
-- 糙米饭 150g（180 kcal）
-- 西兰花 200g（70 kcal）
-- 橄榄油 10ml（90 kcal）
-- 混合蔬菜（100 kcal）
+```
+[Target calorie: 2250 kcal]
+[Protein: 95g | Fat: 63g | Carbohydrate: 320g]
 
-【训练前】（300 kcal）
-- 全麦面包 2 片（160 kcal）
-- 花生酱 1 勺（90 kcal）
-- 香蕉 1/2 根（50 kcal）
+【Breakfast】（450 kcal）
+- Oats 60g (210 kcal)
+- 1 scoop of protein powder (120 kcal)
+- 1 banana (105 kcal)
+- Almonds 10g (60 kcal)
 
-【训练后】（200 kcal）
-- 乳清蛋白 1 勺（120 kcal）
-- 香蕉 1 根（105 kcal）
+【Additional Meal】（300 kcal）
+- Greek yogurt 150g (100 kcal)
+- Mixed nuts 20g (120 kcal)
+- 1 apple (80 kcal)
 
-【晚餐】（500 kcal）
-- 三文鱼 120g（250 kcal）
-- 红薯 150g（135 kcal）
-- 芦笋 200g（40 kcal）
-- 橄榄油 5ml（45 kcal）
+【Lunch】（600 kcal）
+- Chicken breast 150g (165 kcal)
+- Brown rice 150g (180 kcal)
+- Broccoli 200g (70 kcal)
+- Olive oil 10ml (90 kcal)
+- Mixed vegetables (100 kcal)
+
+【Before training】(300 kcal)
+- 2 slices of whole wheat bread (160 kcal)
+- 1 tablespoon peanut butter (90 kcal)
+- 1/2 banana (50 kcal)
+
+[After training] (200 kcal)
+- 1 scoop of whey protein (120 kcal)
+- 1 banana (105 kcal)
+
+【Dinner】(500kcal)
+- Salmon 120g (250kcal)
+- Sweet potato 150g (135 kcal)
+- Asparagus 200g (40 kcal)
+- Olive oil 5ml (45 kcal)
 ```
 
 ---
 
-## 五、减脂营养方案
+## 5. Nutritional plan for fat loss
 
-### 女性减脂特点
+### Features of women’s fat loss
 
-- 减脂速度比男性慢（激素影响）
-- 黄体期体重波动正常（水分潴留）
-- 不要过度节食（影响月经）
+- Loss fat slower than men (hormone influence)
+- Normal weight fluctuations during the luteal phase (water retention)
+- Do not over-diet (affects menstruation)
 
-### ⚠️ 重要警告
+### ⚠️ IMPORTANT WARNING
 
-**女性减脂最低热量：**
+**Minimum calories for women to lose fat:**
 ```
-最低热量 = BMR × 1.2
+Minimum calories = BMR × 1.2
 
-低于此热量会导致：
-- 月经失调/闭经
-- 代谢下降
-- 肌肉流失
-- 脱发、皮肤干燥
-- 情绪问题
-```
-
-### 热量目标
-
-```
-减脂热量 = TDEE - 300-500 kcal
-
-预期减重速率：0.25-0.5kg/周
-
-⚠️ 不要超过 500kcal 赤字！
-女性过度节食风险更高
+Heat below this will result in:
+- Menstrual disorders/amenorrhea
+- Decreased metabolism
+- Muscle loss
+- Hair loss, dry skin
+- Emotional problems
 ```
 
-### 宏量营养素配比
+### Calorie Target
 
 ```
-蛋白质：1.8-2.2g/kg（保护肌肉）
-脂肪：0.8-1.0g/kg（不低于 0.8g/kg！）
-碳水：剩余热量（通常 2-3g/kg）
+Fat loss calories = TDEE - 300-500 kcal
 
-示例（55kg 女性，TDEE 2000kcal）：
-- 目标热量：1600 kcal
-- 蛋白质：99-121g（396-484 kcal，25-30%）
-- 脂肪：44-55g（396-495 kcal，25-31%）
-- 碳水：155-202g（620-808 kcal，39-50%）
+Expected weight loss rate: 0.25-0.5kg/week
+
+⚠️ Don’t go over a 500kcal deficit!
+Women at higher risk of excessive dieting
 ```
 
-### 减脂饮食模板（55kg 女性）
+### Macronutrient ratio
 
 ```
-【目标热量：1600 kcal】
-【蛋白质：100g | 脂肪：53g | 碳水：175g】
+Protein: 1.8-2.2g/kg (protect muscles)
+Fat: 0.8-1.0g/kg (not less than 0.8g/kg!)
+Carbohydrate: residual calories (usually 2-3g/kg)
 
-【早餐】（350 kcal）
-- 燕麦 40g（140 kcal）
-- 蛋白粉 1 勺（120 kcal）
-- 蓝莓 50g（30 kcal）
-- 杏仁 10g（60 kcal）
-
-【午餐】（450 kcal）
-- 鸡胸肉 120g（132 kcal）
-- 糙米饭 100g（120 kcal）
-- 西兰花 200g（70 kcal）
-- 橄榄油 10ml（90 kcal）
-- 混合蔬菜（50 kcal）
-
-【加餐】（200 kcal）
-- 希腊酸奶 100g（70 kcal）
-- 苹果 1 个（80 kcal）
-- 核桃 10g（50 kcal）
-
-【晚餐】（500 kcal）
-- 三文鱼 120g（250 kcal）
-- 红薯 150g（135 kcal）
-- 芦笋 200g（40 kcal）
-- 橄榄油 5ml（45 kcal）
-- 混合蔬菜（50 kcal）
-
-【加餐】（100 kcal）
-- 蛋白粉 1/2 勺（60 kcal）
-- 小番茄 100g（20 kcal）
+Example (55kg female, TDEE 2000kcal):
+- Target calories: 1600 kcal
+- Protein: 99-121g (396-484 kcal, 25-30%)
+- Fat: 44-55g (396-495 kcal, 25-31%)
+- Carbohydrate: 155-202g (620-808 kcal, 39-50%)
 ```
 
-### 女性减脂注意事项
+### Fat loss diet template (55kg female)
 
-1. **不要过度节食**
-   - 最低热量：BMR × 1.2
-   - 脂肪不低于 0.8g/kg
+```
+[Target calorie: 1600 kcal]
+[Protein: 100g | Fat: 53g | Carbohydrate: 175g]
 
-2. **关注月经**
-   - 月经失调 = 热量/脂肪过低
-   - 立即增加热量和脂肪
+【Breakfast】(350 kcal)
+- Oats 40g (140 kcal)
+- 1 scoop of protein powder (120 kcal)
+- Blueberries 50g (30 kcal)
+- Almonds 10g (60 kcal)
 
-3. **理解体重波动**
-   - 黄体期体重增加 1-2kg 正常（水分）
-   - 不要因此放弃
+【Lunch】（450 kcal）
+- Chicken breast 120g (132 kcal)
+- Brown rice 100g (120 kcal)
+- Broccoli 200g (70 kcal)
+- Olive oil 10ml (90 kcal)
+- Mixed vegetables (50 kcal)
 
-4. **耐心**
-   - 女性减脂比男性慢
-   - 每月减重 1-2kg 是健康的
+【Additional Meal】（200 kcal）
+- Greek yogurt 100g (70 kcal)
+- 1 apple (80 kcal)
+- Walnuts 10g (50 kcal)
+
+【Dinner】(500kcal)
+- Salmon 120g (250kcal)
+- Sweet potato 150g (135 kcal)
+- Asparagus 200g (40 kcal)
+- Olive oil 5ml (45 kcal)
+- Mixed vegetables (50 kcal)
+
+[Additional meal] (100 kcal)
+- 1/2 scoop of protein powder (60 kcal)
+- Cherry tomatoes 100g (20 kcal)
+```
+
+### Precautions for women to lose fat
+
+1. **Don’t overdiet**
+- Minimum calorie: BMR × 1.2
+- Fat not less than 0.8g/kg
+
+2. **Pay attention to menstruation**
+- Menstrual disorders = low calories/fat
+- Instantly increases calories and fat
+
+3. **Understanding Weight Fluctuations**
+- 1-2kg weight gain during luteal phase is normal (water)
+- Don't give up because of this
+
+4. **Patience**
+- Women lose fat more slowly than men
+- Losing 1-2kg per month is healthy
 
 ---
 
-## 六、女性专项营养素
+## 6. Special nutrients for women
 
-### 铁（Iron）
+### Iron
 
-**作用：**
-- 血红蛋白组成，氧气运输
-- 能量代谢
-- 免疫功能
+**effect:**
+- Hemoglobin composition, oxygen transport
+- Energy metabolism
+- immune function
 
-**推荐量：** 18mg/天（经期女性）
-**绝经后：** 12mg/天
+**Recommended dosage:** 18mg/day (menstruating women)
+**Postmenopausal:** 12mg/day
 
-**女性为什么需要更多铁？**
-- 月经失血（每月约 30-80mL 血液）
-- 妊娠期需求增加
-- 素食者吸收率低
+**Why do women need more iron? **
+- Menstrual blood loss (approximately 30-80mL of blood per month)
+- Increased needs during pregnancy
+- Low absorption rate for vegetarians
 
-**食物来源：**
+**Food Source:**
 
-| 食物 | 含量 (mg/100g) | 吸收率 |
+| Food | Content (mg/100g) | Absorption rate |
 |------|---------------|--------|
-| 猪肝 | 22.6 | 高（血红素铁） |
-| 牛肉（瘦） | 2.8 | 高（血红素铁） |
-| 鸡肉 | 1.5 | 高（血红素铁） |
-| 菠菜 | 2.9 | 低（非血红素铁） |
-| 黑木耳 | 97.4 | 低（非血红素铁） |
-| 红豆 | 7.4 | 低（非血红素铁） |
+| Pork liver | 22.6 | High (heme iron) |
+| Beef (lean) | 2.8 | High (heme iron) |
+| Chicken | 1.5 | High (heme iron) |
+| Spinach | 2.9 | Low (non-heme iron) |
+| Black fungus | 97.4 | Low (non-heme iron) |
+| Red beans | 7.4 | Low (non-heme iron) |
 
-**提高铁吸收：**
-- 与维生素 C 一起食用（橙子、猕猴桃、青椒）
-- 避免与茶、咖啡同餐（单宁抑制吸收）
-- 素食者需要更高摄入量
+**Improve Iron Absorption:**
+- Consume with vitamin C (oranges, kiwis, green peppers)
+- Avoid eating with tea and coffee (tannin inhibits absorption)
+- Vegetarians need higher intake
 
-**缺乏症状：**
-- 疲劳、乏力
-- 脸色苍白
-- 头晕
-- 指甲脆弱
-- 脱发
+**Deficiency Symptoms:**
+- Fatigue, weakness
+- pale
+- Dizziness
+- Weak nails
+- hair loss
 
-**补充建议：**
-- 优先从食物获取
-- 确诊缺铁性贫血才补充铁剂
-- 铁剂剂量：18-27mg/天（遵医嘱）
-- 与维生素 C 一起服用
-- 避免与钙、茶、咖啡同服
+**Additional suggestions:**
+- Prioritize getting it from food
+- Supplement iron only after confirmed iron deficiency anemia
+- Iron dosage: 18-27mg/day (as directed by your doctor)
+- Take with Vitamin C
+- Avoid taking it with calcium, tea, and coffee
 
 ---
 
-### 钙（Calcium）
+###Calcium
 
-**作用：**
-- 骨骼健康
-- 肌肉收缩
-- 神经传导
-- 血液凝固
+**effect:**
+- Bone health
+- Muscle contraction
+- Nerve conduction
+- blood clotting
 
-**推荐量：** 800mg/天
+**Recommended dosage:** 800mg/day
 
-**女性为什么需要关注钙？**
-- 骨骼密度低于男性
-- 绝经后骨质疏松风险高
-- 妊娠期需求增加
+**Why do women need to pay attention to calcium? **
+- Lower bone density than men
+- High risk of osteoporosis after menopause
+- Increased needs during pregnancy
 
-**食物来源：**
+**Food Source:**
 
-| 食物 | 含量 (mg/100g) |
+| Food | Content (mg/100g) |
 |------|---------------|
-| 牛奶 | 104 |
-| 酸奶 | 118 |
-| 奶酪 | 799 |
-| 豆腐（石膏点） | 138 |
-| 小鱼干 | 764 |
-| 芝麻酱 | 1170 |
-| 菠菜 | 66（草酸影响吸收） |
-| 西兰花 | 47 |
+| Milk | 104 |
+| Yogurt | 118 |
+| cheese | 799 |
+| Tofu (gypsum point) | 138 |
+| Dried small fish | 764 |
+| Tahini | 1170 |
+| Spinach | 66 (oxalic acid affects absorption) |
+| Broccoli | 47 |
 
-**补充建议：**
-- 优先从食物获取
-- 补充剂剂量：500-600mg/天（如饮食不足）
-- 分次服用（单次吸收上限约 500mg）
-- 与维生素 D 一起服用
-- 避免与铁剂同服
+**Additional suggestions:**
+- Prioritize getting it from food
+- Supplement dosage: 500-600mg/day (if diet is insufficient)
+- Take it in divided doses (the upper limit of single absorption is about 500mg)
+- Take with Vitamin D
+- Avoid taking it with iron supplements
 
 ---
 
-### 维生素 D
+### Vitamin D
 
-**作用：**
-- 促进钙吸收
-- 骨骼健康
-- 免疫功能
-- 情绪调节
+**effect:**
+- Promote calcium absorption
+- Bone health
+- immune function
+- Emotional regulation
 
-**推荐量：** 10μg (400IU)/天
+**Recommended dosage:** 10μg (400IU)/day
 
-**实际建议：**
-- 日照不足者：1000-2000 IU/天
-- 绝经后女性：2000 IU/天
-- 冬季或北方地区：建议补充
+**Actual advice:**
+- People with insufficient sunshine: 1000-2000 IU/day
+- Postmenopausal women: 2000 IU/day
+- Winter or northern areas: recommended supplement
 
-**食物来源：**
-| 食物 | 含量 (IU/100g) |
+**Food Source:**
+| Food | Content (IU/100g) |
 |------|---------------|
-| 鱼肝油 | 10,000 |
-| 三文鱼 | 526 |
-| 蛋黄 | 87 |
-| 强化牛奶 | 40-50 |
+| Cod Liver Oil | 10,000 |
+| Salmon | 526 |
+| Egg yolk | 87 |
+| Fortified milk | 40-50 |
 
-**补充建议：**
-- 维生素 D3（胆钙化醇）优于 D2
-- 与脂肪一起服用（脂溶性）
-- 定期检测血清 25(OH)D 水平
+**Additional suggestions:**
+- Vitamin D3 (cholecalciferol) is better than D2
+- Take with fat (fat soluble)
+- Regular testing of serum 25(OH)D levels
 
 ---
 
-### 叶酸（Folate）
+### Folate
 
-**作用：**
-- 细胞分裂
-- DNA 合成
-- 红细胞生成
-- 预防胎儿神经管缺陷
+**effect:**
+- cell division
+- DNA synthesis
+- Erythropoiesis
+- Prevent fetal neural tube defects
 
-**推荐量：** 400μg DFE/天
-**备孕/孕早期：** 600μg DFE/天
+**Recommended amount:** 400μg DFE/day
+**Pregnancy preparation/early pregnancy:** 600μg DFE/day
 
-**食物来源：**
-| 食物 | 含量 (μg/100g) |
+**Food Source:**
+| Food | Content (μg/100g) |
 |------|---------------|
-| 猪肝 | 236 |
-| 菠菜 | 194 |
-| 芦笋 | 152 |
-| 西兰花 | 63 |
-| 豆类 | 100-200 |
+| Pork Liver | 236 |
+| spinach | 194 |
+| Asparagus | 152 |
+| Broccoli | 63 |
+| Beans | 100-200 |
 
-**补充建议：**
-- 备孕女性必须补充（孕前 3 个月开始）
-- 补充剂剂量：400-800μg/天
-- 选择甲基叶酸（5-MTHF）吸收更好
+**Additional suggestions:**
+- Women preparing for pregnancy must supplement (starting 3 months before pregnancy)
+- Supplement dosage: 400-800μg/day
+- Choose methylfolate (5-MTHF) for better absorption
 
 ---
 
-### 维生素 B6
+### Vitamin B6
 
-**作用：**
-- 激素调节
-- 蛋白质代谢
-- 神经递质合成
-- 缓解经前综合征（PMS）
+**effect:**
+- Hormone regulation
+- Protein metabolism
+- Neurotransmitter synthesis
+- Relieve premenstrual syndrome (PMS)
 
-**推荐量：** 1.4mg/天
+**Recommended dosage:** 1.4mg/day
 
-**食物来源：**
-| 食物 | 含量 (mg/100g) |
+**Food Source:**
+| Food | Content (mg/100g) |
 |------|---------------|
-| 金枪鱼 | 0.9 |
-| 三文鱼 | 0.6 |
-| 鸡肉 | 0.5 |
-| 香蕉 | 0.4 |
-| 土豆 | 0.3 |
-| 坚果 | 0.2-0.5 |
+| Tuna | 0.9 |
+| Salmon | 0.6 |
+| Chicken | 0.5 |
+| Banana | 0.4 |
+| potatoes | 0.3 |
+| Nuts | 0.2-0.5 |
 
-**补充建议：**
-- 可帮助缓解 PMS 症状
-- 补充剂剂量：50-100mg/天（短期）
-- 长期高剂量（>200mg/天）可能导致神经损伤
+**Additional suggestions:**
+- May help relieve PMS symptoms
+- Supplement dosage: 50-100mg/day (short term)
+- Long-term high doses (>200mg/day) may cause neurological damage
 
 ---
 
-### Omega-3 脂肪酸
+### Omega-3 fatty acids
 
-**作用：**
-- 心血管健康
-- 抗炎
-- 大脑功能
-- 情绪调节
-- 缓解痛经
+**effect:**
+- Cardiovascular health
+- anti-inflammatory
+- Brain function
+- Emotional regulation
+- Relieve menstrual cramps
 
-**推荐量：**
-- ALA：1.4g/天
-- EPA + DHA：1-2g/天
+**Recommended amount:**
+- ALA: 1.4g/day
+- EPA + DHA: 1-2g/day
 
-**食物来源：**
-| 食物 | EPA+DHA (g/100g) |
+**Food Source:**
+| Food | EPA+DHA (g/100g) |
 |------|-----------------|
-| 三文鱼 | 2.3 |
-| 鲭鱼 | 2.7 |
-| 沙丁鱼 | 1.5 |
-| 亚麻籽 | 2.5（ALA 形式） |
-| 核桃 | 2.5（ALA 形式） |
+| Salmon | 2.3 |
+| Mackerel | 2.7 |
+| Sardines | 1.5 |
+| Flaxseed | 2.5 (ALA form) |
+| Walnut | 2.5 (ALA form) |
 
-**补充建议：**
-- 每周吃 2-3 次深海鱼可不补充
-- 鱼油补充剂：选择 EPA+DHA 含量高的
-- 可帮助缓解痛经和 PMS
-
----
-
-## 七、特殊时期营养
-
-### 备孕期
-
-**营养重点：**
-- 叶酸：600μg DFE/天（孕前 3 个月开始）
-- 铁：18mg/天
-- 碘：120μg/天
-- 维生素 D：1000-2000 IU/天
-- 均衡饮食，达到健康体重
-
-**避免：**
-- 酒精
-- 生食（生鱼片、生鸡蛋）
-- 高汞鱼类（鲨鱼、旗鱼）
-- 过量咖啡因（<200mg/天）
+**Additional suggestions:**
+- Eat deep-sea fish 2-3 times a week without supplementation
+- Fish oil supplements: choose ones with high EPA+DHA content
+- May help relieve menstrual cramps and PMS
 
 ---
 
-### 孕期
+## 7. Nutrition during special periods
 
-**热量需求：**
-- 孕早期：无需额外热量
-- 孕中期：+300kcal/天
-- 孕晚期：+450kcal/天
+### Pregnancy preparation period
 
-**营养重点：**
-- 蛋白质：1.1g/kg（孕前体重）
-- 叶酸：600μg DFE/天
-- 铁：24mg/天
-- 钙：1000mg/天
-- 维生素 D：600IU/天
-- DHA：200-300mg/天
+**Nutritional Highlights:**
+- Folic acid: 600μg DFE/day (starting 3 months before pregnancy)
+- Iron: 18mg/day
+- Iodine: 120μg/day
+- Vitamin D: 1000-2000 IU/day
+- Eat a balanced diet to achieve a healthy weight
 
-**避免：**
-- 酒精
-- 生食
-- 高汞鱼类
-- 过量咖啡因
+**avoid:**
+- Alcohol
+- Raw food (sashimi, raw eggs)
+- Fish high in mercury (shark, swordfish)
+- Excessive caffeine (<200mg/day)
 
 ---
 
-### 哺乳期
+### Pregnancy
 
-**热量需求：**
-- +500kcal/天（前 6 个月）
-- +400kcal/天（6 个月后）
+**Calorie Requirements:**
+- First trimester: no additional calories required
+- Second trimester: +300kcal/day
+- Third trimester: +450kcal/day
 
-**营养重点：**
-- 蛋白质：1.3g/kg（孕前体重）
-- 钙：1000mg/天
-- 维生素 D：600IU/天
-- DHA：300mg/天
-- 充足水分（+1000mL/天）
+**Nutritional Highlights:**
+- Protein: 1.1g/kg (pre-pregnancy weight)
+- Folic acid: 600μg DFE/day
+- Iron: 24mg/day
+- Calcium: 1000mg/day
+- Vitamin D: 600IU/day
+- DHA: 200-300mg/day
 
----
-
-### 围绝经期（45-55 岁）
-
-**营养重点：**
-- 钙：1000mg/天
-- 维生素 D：1000-2000 IU/天
-- 蛋白质：1.2-1.5g/kg（预防肌肉流失）
-- 植物雌激素：大豆异黄酮
-- Omega-3：心血管健康
-
-**缓解更年期症状：**
-- 大豆制品（豆腐、豆浆）
-- 亚麻籽
-- 避免辛辣、咖啡因（潮热）
-- 规律运动
+**avoid:**
+- Alcohol
+- raw food
+- Fish high in mercury
+- Excessive caffeine
 
 ---
 
-### 绝经后（55 岁+）
+### Lactation period
 
-**营养重点：**
-- 钙：1000-1200mg/天
-- 维生素 D：1000-2000 IU/天
-- 蛋白质：1.2-1.5g/kg
-- 维生素 B12：吸收下降，可能需要补充
-- 膳食纤维：预防便秘
+**Calorie Requirements:**
+- +500kcal/day (first 6 months)
+- +400kcal/day (after 6 months)
 
-**预防：**
-- 骨质疏松
-- 心血管疾病
-- 认知功能下降
+**Nutritional Highlights:**
+- Protein: 1.3g/kg (pre-pregnancy weight)
+- Calcium: 1000mg/day
+- Vitamin D: 600IU/day
+- DHA: 300mg/day
+- Adequate moisture (+1000mL/day)
 
 ---
 
-## 八、补剂指南
+### Perimenopause (45-55 years old)
 
-### A 级证据（强烈推荐）
+**Nutritional Highlights:**
+- Calcium: 1000mg/day
+- Vitamin D: 1000-2000 IU/day
+- Protein: 1.2-1.5g/kg (prevent muscle loss)
+- Phytoestrogens: soy isoflavones
+- Omega-3: cardiovascular health
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+**Relieves menopausal symptoms:**
+- Soy products (tofu, soy milk)
+- Flaxseed
+-Avoid spicy food, caffeine (hot flashes)
+- Exercise regularly
+
+---
+
+### Postmenopausal (55+)
+
+**Nutritional Highlights:**
+- Calcium: 1000-1200mg/day
+- Vitamin D: 1000-2000 IU/day
+- Protein: 1.2-1.5g/kg
+- Vitamin B12: reduced absorption, supplementation may be needed
+- Dietary fiber: prevent constipation
+
+**prevention:**
+- Osteoporosis
+- cardiovascular disease
+- Decline in cognitive function
+
+---
+
+## 8. Supplement Guide
+
+### Level A evidence (strongly recommended)
+
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 乳清蛋白 | 20-30g/次 | 便捷蛋白质来源 | 蛋白质摄入不足者 |
-| 肌酸一水合物 | 3-5g/天 | 力量、肌肉量 | 力量训练者 |
-| 铁剂 | 18-27mg/天 | 补血 | 缺铁性贫血者（遵医嘱） |
+| Whey protein | 20-30g/time | Convenient source of protein | People with insufficient protein intake |
+| Creatine monohydrate | 3-5g/day | Strength, muscle mass | Strength trainers |
+| Iron | 18-27mg/day | Blood supplement | People with iron deficiency anemia (follow doctor's advice) |
 
 ---
 
-### B 级证据（推荐）
+### Level B evidence (recommended)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 钙 | 500-600mg/天 | 骨骼健康 | 饮食摄入不足者 |
-| 维生素 D3 | 1000-2000 IU/天 | 骨骼、免疫 | 日照不足者 |
-| Omega-3 鱼油 | 1-2g/天（EPA+DHA） | 心血管、抗炎 | 少吃鱼者 |
-| 叶酸 | 400-800μg/天 | 细胞分裂 | 备孕女性 |
-| 镁 | 200-400mg/天 | 肌肉、睡眠 | 运动量大者、经期 |
+| Calcium | 500-600mg/day | Bone health | People with insufficient dietary intake |
+| Vitamin D3 | 1000-2000 IU/day | Bones, immunity | People with insufficient sunlight |
+| Omega-3 fish oil | 1-2g/day (EPA+DHA) | Cardiovascular, anti-inflammatory | Those who eat less fish |
+| Folic acid | 400-800μg/day | Cell division | Women preparing for pregnancy |
+| Magnesium | 200-400mg/day | Muscle, sleep | People who exercise heavily, menstrual period |
 
 ---
 
-### C 级证据（可选）
+### Level C evidence (optional)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 复合维生素 | 按说明 | 填补营养缺口 | 饮食不均衡者 |
-| 维生素 B6 | 50-100mg/天 | 缓解 PMS | 经前综合征者 |
-| 月见草油 | 1-3g/天 | 缓解 PMS | 经前综合征者 |
-| 大豆异黄酮 | 40-80mg/天 | 缓解更年期症状 | 围绝经期女性 |
+| Multivitamins | As directed | Fill nutritional gaps | Those with unbalanced diet |
+| Vitamin B6 | 50-100mg/day | Relieve PMS | People with premenstrual syndrome |
+| Evening primrose oil | 1-3g/day | Relieve PMS | People with premenstrual syndrome |
+| Soy isoflavones | 40-80mg/day | Relieve menopausal symptoms | Perimenopausal women |
 
 ---
 
-## 九、常见问题
+## 9. Frequently Asked Questions
 
-### Q1：女性健身会变"金刚芭比"吗？
+### Q1: Will female fitness become "King Kong Barbie"?
 
-**答：** 不会。
+**Answer:** No.
 
-- 女性睾酮水平只有男性的 1/10-1/20
-- 自然训练很难练出大块肌肉
-- 女性健身会变得更紧致、有线条
-- "金刚芭比"照片多是职业选手 + 极端饮食 + 可能用药
-
----
-
-### Q2：经期可以运动吗？
-
-**答：** 可以，但需调整。
-
-**经期（第 1-5 天）：**
-- 轻度运动：散步、瑜伽、拉伸
-- 避免高强度、倒立动作
-- 听从身体感受
-
-**经后（第 6 天起）：**
-- 逐渐恢复训练
-- 卵泡期状态最佳
+- Women’s testosterone levels are only 1/10-1/20 of men’s
+- It is difficult to build large muscles through natural training
+- Women's fitness will make them firmer and more toned
+- Most of the photos of "King Kong Barbie" are of professional players + extreme diet + possible medication
 
 ---
 
-### Q3：减脂期月经停了怎么办？
+### Q2: Can I exercise during menstruation?
 
-**答：** 立即增加热量和脂肪！
+**Answer:** Yes, but it needs to be adjusted.
 
-**原因：**
-- 热量过低
-- 脂肪摄入过低
-- 体脂率过低（<17%）
-- 压力过大
+**Menstrual Period (Days 1-5):**
+- Light exercise: walking, yoga, stretching
+- Avoid high-intensity, handstand movements
+- Listen to how your body feels
 
-**解决方案：**
-1. 增加热量 300-500kcal/天
-2. 增加脂肪至 1.0-1.2g/kg
-3. 减少训练量
-4. 如 3 个月未恢复，就医
-
-**警告：** 长期闭经会导致骨质疏松！
+**Postmenstrual period (from day 6 onwards):**
+- Gradual return to training
+- Follicular phase is in the best condition
 
 ---
 
-### Q4：孕期可以运动吗？
+### Q3: What should I do if menstruation stops during the fat loss period?
 
-**答：** 可以，但需调整。
+**A:** Instantly increase calories and fat!
 
-**安全运动：**
-- 散步
-- 游泳
-- 孕妇瑜伽
-- 轻度力量训练
+**reason:**
+- Calorie too low
+- Low fat intake
+- Body fat percentage is too low (<17%)
+- Excessive stress
 
-**避免：**
-- 接触性运动
-- 高冲击运动
-- 仰卧动作（孕中期后）
-- 高温环境运动
+**Solution:**
+1. Increase calories by 300-500kcal/day
+2. Increase fat to 1.0-1.2g/kg
+3. Reduce training volume
+4. If recovery does not occur within 3 months, seek medical attention.
 
-**建议：** 运动前咨询医生
-
----
-
-### Q5：素食女性如何获取足够营养？
-
-**答：** 可以，但需要规划。
-
-**重点关注：**
-- 蛋白质：豆制品、豆类、藜麦、坚果
-- 铁：菠菜、黑木耳、红豆 + 维生素 C
-- 钙：豆腐、绿叶蔬菜、芝麻酱
-- 维生素 B12：必须补充（植物性食物几乎不含）
-- 锌：南瓜子、芝麻、豆类
-
-**建议：**
-- 蛋白质需求略高（吸收率低）
-- 补充维生素 B12
-- 多样化食物
+**WARNING:** Long-term amenorrhea can lead to osteoporosis!
 
 ---
 
-### Q6：如何缓解经前综合征（PMS）？
+### Q4: Can I exercise during pregnancy?
 
-**答：** 营养和生活方式调整有帮助。
+**Answer:** Yes, but it needs to be adjusted.
 
-**营养策略：**
-- 维生素 B6：50-100mg/天
-- 镁：200-400mg/天
-- 钙：1000mg/天
-- Omega-3：1-2g/天
-- 减少盐分（缓解水肿）
-- 减少咖啡因（缓解情绪波动）
+**Safe Movement:**
+- walk
+- swim
+- Yoga for pregnant women
+- Light strength training
 
-**生活方式：**
-- 规律运动
-- 充足睡眠
-- 压力管理
-- 瑜伽、冥想
+**avoid:**
+- Contact sports
+- High impact sports
+- Supine movements (after the second trimester)
+- Exercise in high temperature environment
 
----
-
-### Q7：产后如何恢复身材？
-
-**答：** 耐心 + 科学方法。
-
-**时间线：**
-- 产后 6 周内：恢复为主，轻度活动
-- 产后 6 周 -6 个月：逐渐恢复训练
-- 产后 6 个月 +：正常训练
-
-**营养：**
-- 哺乳期：+500kcal/天
-- 高蛋白：1.3g/kg
-- 充足水分
-
-**运动：**
-- 先恢复核心和盆底肌
-- 逐渐增加强度
-- 不要急于减重
-
-**警告：** 产后抑郁很常见，如有情绪问题及时就医。
+**Recommendation:** Consult a doctor before exercising
 
 ---
 
-## 参考文献
+### Q5: How do vegetarian women get enough nutrition?
 
-1. 中国营养学会。《中国居民膳食营养素参考摄入量》(2023 版). 科学出版社，2023.
+**Answer:** Yes, but it requires planning.
+
+**Focus on:**
+- Protein: soy products, beans, quinoa, nuts
+- Iron: spinach, black fungus, red beans + vitamin C
+- Calcium: Tofu, green leafy vegetables, tahini
+- Vitamin B12: must be supplemented (almost no plant foods contain it)
+- Zinc: pumpkin seeds, sesame seeds, beans
+
+**suggestion:**
+- Slightly higher protein requirements (low absorption)
+- Supplement vitamin B12
+- Diverse food
+
+---
+
+### Q6: How to relieve premenstrual syndrome (PMS)?
+
+**A:** Nutrition and lifestyle modifications can help.
+
+**Nutritional Strategy:**
+- Vitamin B6: 50-100mg/day
+- Magnesium: 200-400mg/day
+- Calcium: 1000mg/day
+- Omega-3: 1-2g/day
+- Reduce salt (relieve edema)
+- Reduce caffeine (relieves mood swings)
+
+**lifestyle:**
+- Exercise regularly
+- Get enough sleep
+- Stress management
+- Yoga, meditation
+
+---
+
+### Q7: How to get back in shape after giving birth?
+
+**Answer:** Patience + scientific method.
+
+**Timeline:**
+- Within 6 weeks after delivery: Mainly recovery, light activities
+- 6 weeks to 6 months postpartum: Gradual return to training
+- 6 months + postpartum: normal training
+
+**Nutrition:**
+- Lactation period: +500kcal/day
+- High protein: 1.3g/kg
+- Adequate hydration
+
+**sports:**
+- Restore core and pelvic floor muscles first
+- Gradually increase intensity
+- Don’t be in a hurry to lose weight
+
+**Warning:** Postpartum depression is very common. If you have any emotional problems, seek medical attention promptly.
+
+---
+
+## References
+
+1. Chinese Nutrition Society. "Reference Intake of Dietary Nutrients for Chinese Residents" (2023 Edition). Science Press, 2023.
 2. American College of Sports Medicine (ACSM). *Nutrition and Athletic Performance* (2016).
 3. Loucks, A.B., et al. (2011). Energy availability in athletes. *Journal of Sports Sciences*, 29(sup1), S7-S15.
 4. De Souza, M.J., et al. (2014). 2014 Female Athlete Triad Coalition Consensus Statement on Treatment and Return to Play of the Female Athlete Triad. *Current Sports Medicine Reports*, 13(4), 219-232.
-5. 中华医学会妇产科学分会。《围绝经期和绝经后妇女健康管理指南》. 2022.
+5. Obstetrics and Gynecology Branch of the Chinese Medical Association. "Guidelines for Health Management of Perimenopausal and Postmenopausal Women". 2022.
 
 ---
 
-*女性专项营养指南完成 | 数据来源：中国营养学会 2023 + ACSM + 权威研究 | 更新时间：2026 年 3 月*
+*Women-specific nutritional guideline completed | Data source: Chinese Nutrition Society 2023 + ACSM + authoritative research | Updated: March 2026*

@@ -1,349 +1,349 @@
-# 男性专项训练方案（M1-M5）
+# Men’s specific training program (M1-M5)
 
-## 设计理念
+## Design concept
 
-男性和女性在生理结构、激素水平、训练目标上存在显著差异。本方案**不提供"中性化通用计划"**，而是根据男性生理特点和用户明确的专项目标提供精准化方案。
+There are significant differences in physiological structure, hormone levels, and training goals between men and women. This plan** does not provide a "neutral general plan"**, but provides a precise plan based on male physiological characteristics and the user's clear special goals.
 
 ---
 
-## 核心训练目标分类
+## Core training target classification
 
-| 目标代码 | 目标名称 | 适用人群 | 核心诉求 |
+| Target code | Target name | Applicable people | Core demands |
 |---------|---------|---------|---------|
-| M1 | 综合增肌 | 希望增加肌肉量的男性 | 肌肉围度、力量增长 |
-| M2 | 男性性功能强化 | 希望改善性功能的男性 | 勃起质量、耐力、睾酮水平 |
-| M3 | 力量运动员 | 希望提升最大力量的男性 | 深蹲/卧推/硬拉 1RM |
-| M4 | 减脂塑形 | 希望减脂保留肌肉的男性 | 体脂率下降、肌肉线条 |
-| M5 | 心肺耐力 | 希望提升心肺功能的男性 | 跑步/游泳表现 |
+| M1 | Comprehensive muscle gain | Men who want to increase muscle mass | Muscle circumference and strength growth |
+| M2 | Male sexual function enhancement | Men who want to improve sexual function | Erection quality, endurance, testosterone levels |
+| M3 | Strength Athletes | Men looking to increase maximum strength | Squat/Bench/Deadlift 1RM |
+| M4 | Fat reduction and body shaping | Men who want to lose fat and retain muscles | Body fat rate reduction, muscle lines |
+| M5 | Cardiorespiratory Endurance | Men looking to improve their cardiorespiratory fitness | Running/Swimming Performance |
 
 ---
 
-## M1：综合增肌方案
+## M1: Comprehensive muscle-building program
 
-### 训练原则
+### Training principles
 
-- **频率**：每周 4-5 次，大肌群分化
-- **次数范围**：6-12RM 为主（肌肥大最佳区间）
-- **组间休息**：60-90 秒
-- **渐进超负荷**：每周增加重量或次数
+- **Frequency**: 4-5 times per week, major muscle group differentiation
+- **Rep range**: 6-12RM mainly (the best range for muscle hypertrophy)
+- **Rest between sets**: 60-90 seconds
+- **Progressive Overload**: Increase weight or reps each week
 
-### 训练分化（4 天版）
+### Training differentiation (4-day version)
 
 ```
-【第 1 天：胸 + 三头】
-1. 杠铃卧推：4 组 × 8-10 次
-2. 上斜哑铃推举：3 组 × 10-12 次
-3. 哑铃飞鸟：3 组 × 12-15 次
-4. 双杠臂屈伸：3 组 × 力竭
-5. 绳索下压：3 组 × 12-15 次
-6. 仰卧臂屈伸：3 组 × 10-12 次
+[Day 1: Chest + Tris]
+1. Barbell bench press: 4 sets × 8-10 times
+2. Incline dumbbell press: 3 sets × 10-12 times
+3. Dumbbell fly: 3 sets × 12-15 times
+4. Parallel bar dips and extensions: 3 sets × failure
+5. Rope push-down: 3 sets × 12-15 times
+6. Supine arm extensions: 3 sets × 10-12 times
 
-【第 2 天：背 + 二头】
-1. 引体向上（或高位下拉）：4 组 × 8-10 次
-2. 杠铃划船：3 组 × 8-10 次
-3. 坐姿划船：3 组 × 10-12 次
-4. 单臂哑铃划船：3 组 × 10-12 次/侧
-5. 杠铃弯举：3 组 × 10-12 次
-6. 锤式弯举：3 组 × 12-15 次
+[Day 2: Back + Biceps]
+1. Pull-ups (or high pull-downs): 4 sets × 8-10 times
+2. Barbell Row: 3 sets × 8-10 reps
+3. Seated rowing: 3 sets × 10-12 times
+4. Single-arm dumbbell row: 3 sets × 10-12 times/side
+5. Barbell Curls: 3 sets × 10-12 times
+6. Hammer curl: 3 sets × 12-15 times
 
-【第 3 天：休息或有氧】
+[Day 3: Rest or aerobic]
 
-【第 4 天：腿 + 肩】
-1. 深蹲：4 组 × 8-10 次
-2. 腿举：3 组 × 10-12 次
-3. 罗马尼亚硬拉：3 组 × 10-12 次
-4. 腿弯举：3 组 × 12-15 次
-5. 肩推举：4 组 × 8-10 次
-6. 侧平举：3 组 × 12-15 次
-7. 面拉：3 组 × 15-20 次
+[Day 4: Legs + Shoulders]
+1. Squat: 4 sets × 8-10 times
+2. Leg press: 3 sets × 10-12 times
+3. Romanian Deadlift: 3 sets × 10-12 reps
+4. Leg curls: 3 sets × 12-15 times
+5. Shoulder press: 4 sets × 8-10 times
+6. Lateral raise: 3 sets × 12-15 times
+7. Noodles: 3 groups × 15-20 times
 
-【第 5 天：手臂 + 核心】
-1. 窄距卧推：3 组 × 10-12 次
-2. 牧师凳弯举：3 组 × 10-12 次
-3. 平板支撑：3 组 × 60 秒
-4. 悬垂举腿：3 组 × 15 次
+[Day 5: Arms + Core]
+1. Close-grip bench press: 3 sets × 10-12 times
+2. Preacher Curls: 3 sets × 10-12 reps
+3. Plank: 3 sets × 60 seconds
+4. Hanging leg raise: 3 sets × 15 times
 ```
 
 ---
 
-## M2：男性性功能强化方案 ⭐
+## M2: Male sexual function enhancement program ⭐
 
-### 生理背景
+### Physiological background
 
-男性性功能与以下因素高度相关：
-- **盆底肌群力量**：控制勃起和射精
-- **睾酮水平**：与抗阻训练相关
-- **心肺耐力**：勃起所需血流量
-- **腰腹核心稳定性**：影响性生活持久度
+Male sexual function is highly related to the following factors:
+- **Pelvic floor muscle strength**: control erection and ejaculation
+- **Testosterone Levels**: Related to Resistance Training
+- **Cardiorespiratory Endurance**: blood flow required for erection
+- **Waist and abdominal core stability**: affects the durability of sexual life
 
-### 核心训练动作
+### Core training movements
 
-#### 1. 盆底肌强化（凯格尔运动，男性版本）
-
-```
-基础版：
-- 收缩盆底肌 5 秒 → 放松 5 秒
-- 每组 10-15 次，每日 3 组
-- 在日常任何时间均可进行，无需器械
-
-进阶版：
-- 快速收缩版：快速收缩/放松，每组 20 次
-- 保持版：收缩 10 秒 → 放松 10 秒，每组 10 次
-```
-
-#### 2. 睾酮促进训练（多关节大肌群复合动作）
+#### 1. Pelvic floor muscle strengthening (Kegel exercises, male version)
 
 ```
-核心动作：
-1. 深蹲（最重要，刺激睾酮分泌最强）
-   - 4 组 × 6-8 次，重量 75-85% 1RM
+Basic version:
+- Contract pelvic floor muscles for 5 seconds → relax for 5 seconds
+- 10-15 reps per set, 3 sets daily
+- Can be performed at any time of the day, no equipment required
+
+Advanced version:
+- Quick tuck version: quick tuck/relax, 20 reps per set
+- Hold version: Contract for 10 seconds → Relax for 10 seconds, 10 reps per set
+```
+
+#### 2. Testosterone promotion training (multi-joint and large muscle group compound movements)
+
+```
+Core actions:
+1. Squats (the most important, the strongest stimulation of testosterone secretion)
+- 4 sets × 6-8 reps, weight 75-85% 1RM
    
-2. 硬拉（激活全身大肌群）
-   - 3 组 × 5-6 次，重量 80-90% 1RM
+2. Deadlift (activates major muscle groups throughout the body)
+- 3 sets × 5-6 reps, weight 80-90% 1RM
    
-3. 卧推
-   - 4 组 × 6-8 次，重量 75-85% 1RM
+3. Bench Press
+- 4 sets × 6-8 reps, weight 75-85% 1RM
    
-4. 负重行走/农夫走（全身张力训练）
-   - 3 组 × 30 秒，重量尽量重
+4. Weight-bearing walking/farmer’s walk (whole body tension training)
+- 3 sets × 30 seconds, as heavy as possible
 ```
 
-#### 3. 腰腹核心强化
+#### 3. Strengthen the core of waist and abdomen
 
 ```
-1. 死虫式（保护腰椎的核心激活）
-   - 3 组 × 10 次/侧
+1. Dead Bug Pose (core activation to protect the lumbar spine)
+- 3 sets × 10 reps/side
    
-2. 俯卧撑至核心旋转
-   - 3 组 × 8 次/侧
+2. Push-ups to core rotation
+- 3 sets × 8 reps/side
    
-3. 侧平板支撑变式
-   - 3 组 × 30-45 秒/侧
+3. Side plank variation
+- 3 sets × 30-45 seconds/side
    
-4. 鸟狗式
-   - 3 组 × 10 次/侧，保持 3 秒
+4. Bird Dog
+- 3 sets × 10 reps/side, hold for 3 seconds
 ```
 
-#### 4. 心肺改善（改善勃起质量的基础）
+#### 4. Cardiopulmonary improvement (the basis for improving erection quality)
 
 ```
-中等强度有氧：
-- 每周 3 次 × 30 分钟
-- 目标心率 60-70% HRmax
-- 运动类型：慢跑、游泳、骑行
+Moderate intensity cardio:
+- 3 times a week × 30 minutes
+- Target heart rate 60-70% HRmax
+- Type of exercise: jogging, swimming, cycling
 
-HIIT 间歇训练：
-- 每周 1-2 次
-- 30 秒冲刺 + 90 秒慢走 × 8 组
-- 促进血流，改善血管弹性
+HIIT interval training:
+- 1-2 times a week
+- 30 seconds sprint + 90 seconds slow walk × 8 sets
+- Promote blood flow and improve blood vessel elasticity
 ```
 
-### M2 完整周计划
+### M2 Complete Weekly Plan
 
 ```
-【周一：下肢 + 盆底肌】
-- 深蹲：4 × 6-8
-- 罗马尼亚硬拉：3 × 8-10
-- 腿举：3 × 10-12
-- 凯格尔运动：3 × 15
-- 慢跑：20 分钟
+[Monday: Lower limbs + pelvic floor muscles]
+- Squat: 4 × 6-8
+- Romanian Deadlift: 3 x 8-10
+- Leg press: 3 × 10-12
+- Kegel exercises: 3 × 15
+- Jogging: 20 minutes
 
-【周二：上肢推拉】
-- 卧推：4 × 6-8
-- 引体向上：3 × 力竭
-- 肩推：3 × 8-10
-- 死虫式：3 × 10/侧
+[Tuesday: Upper body push and pull]
+- Bench Press: 4 × 6-8
+- Pull-ups: 3 × failure
+- Shoulder Press: 3 × 8-10
+- Dead bug: 3 × 10/side
 
-【周三：主动恢复】
-- 散步或瑜伽：30 分钟
-- 凯格尔运动：3 × 15
+[Wednesday: Active recovery]
+- Walking or yoga: 30 minutes
+- Kegel exercises: 3 × 15
 
-【周四：全身力量】
-- 硬拉：3 × 5-6
-- 农夫走：3 × 30 秒
-- 平板支撑：3 × 60 秒
-- 鸟狗式：3 × 10/侧
+[Thursday: Full body strength]
+- Deadlift: 3 x 5-6
+- Farmer's Walk: 3 × 30 seconds
+- Plank: 3 × 60 seconds
+- Bird dog: 3 × 10/side
 
-【周五：有氧 + 核心】
-- HIIT：8 组（30 秒冲刺 + 90 秒慢走）
-- 侧平板支撑：3 × 30 秒/侧
-- 凯格尔运动：3 × 15
+[Friday: Cardio + Core]
+- HIIT: 8 sets (30 seconds sprint + 90 seconds slow walk)
+- Side plank: 3 × 30 seconds/side
+- Kegel exercises: 3 × 15
 
-【周末：休息】
+【Weekend: Closed】
 ```
 
 ---
 
-## M3：力量运动员方案
+## M3: Strength Athlete Program
 
-### 训练原则
+### Training principles
 
-- **频率**：每周 3-4 次（神经恢复需要更长时间）
-- **次数范围**：1-5RM（最大力量区间）
-- **组间休息**：3-5 分钟（ATP-CP 系统完全恢复）
-- **周期化**：累积期→强化期→峰值期→减量期
+- **Frequency**: 3-4 times per week (nerve recovery takes longer)
+- **Rep range**: 1-5RM (maximum strength range)
+- **Rest between sets**: 3-5 minutes (full recovery of ATP-CP system)
+- **Periodization**: accumulation period → strengthening period → peak period → reduction period
 
-### 力量举三项训练
-
-```
-【深蹲日】
-1. 深蹲：5 × 5（80% 1RM）
-2. 前蹲：3 × 5
-3. 腿举：3 × 8-10
-4. 核心训练
-
-【卧推日】
-1. 卧推：5 × 5（80% 1RM）
-2. 上斜卧推：3 × 6-8
-3. 双杠臂屈伸：3 × 力竭
-4. 三头训练
-
-【硬拉日】
-1. 硬拉：3 × 3（85% 1RM）
-2. 罗马尼亚硬拉：3 × 6-8
-3. 引体向上：3 × 力竭
-4. 二头训练
-```
-
----
-
-## M4：减脂塑形方案
-
-### 训练原则
-
-- **保持肌肉量**：力量训练为主，避免纯有氧
-- **热量赤字**：摄入 < 消耗（约 500 kcal/天赤字）
-- **高蛋白**：2.0-2.4g/kg 体重（保护肌肉）
-- **有氧辅助**：力量训练后或有氧单独日
-
-### 训练计划
+### Powerlifting three training
 
 ```
-【周一：上肢力量 + 有氧】
-- 卧推：4 × 8-10
-- 划船：4 × 8-10
-- 肩推：3 × 10-12
-- 有氧：20 分钟（力量训练后）
+【Squat Day】
+1. Squat: 5 × 5 (80% 1RM)
+2. Front squat: 3 × 5
+3. Leg press: 3 × 8-10
+4. Core training
 
-【周二：下肢力量 + 有氧】
-- 深蹲：4 × 8-10
-- 硬拉：3 × 6-8
-- 腿举：3 × 10-12
-- 有氧：20 分钟（力量训练后）
+【Bench Press Day】
+1. Bench Press: 5 × 5 (80% 1RM)
+2. Incline bench press: 3 × 6-8
+3. Parallel bar arm extension: 3 × failure
+4. Three-head training
 
-【周三：主动恢复】
-- 低强度有氧：30-45 分钟
-- 拉伸/泡沫轴放松
-
-【周四：全身循环训练】
-- 深蹲 → 俯卧撑 → 划船 → 平板支撑
-- 每个动作 45 秒，休息 15 秒
-- 循环 4 轮
-
-【周五：HIIT】
-- 30 秒冲刺 + 90 秒慢走 × 8 组
-- 或战绳、划船机 HIIT
-
-【周末：休息或低强度活动】
+【Deadlift Day】
+1. Deadlift: 3 × 3 (85% 1RM)
+2. Romanian Deadlift: 3 x 6-8
+3. Pull-ups: 3 × failure
+4. Biceps training
 ```
 
 ---
 
-## M5：心肺耐力方案
+## M4: Fat reduction and body shaping plan
 
-### 训练原则
+### Training principles
 
-- **有氧基础**：Zone 2 训练（60-70% HRmax）
-- **无氧阈值**：Zone 4 间歇训练
-- **交叉训练**：跑步/游泳/骑行交替（减少冲击）
+- **Maintain muscle mass**: Mainly strength training, avoid pure aerobic training
+- **Caloric Deficit**: Intake < Expenditure (approximately 500 kcal/day deficit)
+- **High protein**: 2.0-2.4g/kg body weight (protect muscles)
+- **Aerobic Assist**: After strength training or on a cardio alone day
 
-### 训练计划（跑步专项）
+### Training Plan
 
 ```
-【周一：轻松跑】
-- 距离：5-8km
-- 配速：Zone 2（可轻松对话）
-- 目的：有氧基础
+[Monday: Upper body strength + aerobic]
+- Bench Press: 4 × 8-10
+- Rowing: 4 × 8-10
+- Shoulder Press: 3 × 10-12
+- Aerobic: 20 minutes (after strength training)
 
-【周二：力量训练】
-- 深蹲：3 × 10
-- 硬拉：3 × 8
-- 核心：3 × 10 分钟
+[Tuesday: Lower body strength + aerobic]
+- Squats: 4 × 8-10
+- Deadlift: 3 x 6-8
+- Leg press: 3 × 10-12
+- Aerobic: 20 minutes (after strength training)
 
-【周三：间歇跑】
-- 热身：10 分钟慢跑
-- 主训练：400 米 × 8 组（Zone 4-5）
-- 组间休息：90 秒慢走
-- 冷身：10 分钟慢跑
+[Wednesday: Active recovery]
+- Low intensity cardio: 30-45 minutes
+- Stretching/foam rolling
 
-【周四：休息或交叉训练】
-- 游泳或骑行：30-45 分钟
+[Thursday: Full body circuit training]
+- Squat → Push-up → Row → Plank
+- 45 seconds each exercise, 15 seconds rest
+- Cycle 4 rounds
 
-【周五：节奏跑】
-- 距离：6-10km
-- 配速：Zone 3（舒适但稍快）
-- 目的：乳酸阈值提升
+【Friday: HIIT】
+- 30 seconds sprint + 90 seconds slow walk × 8 sets
+- Or battle ropes or rowing machine HIIT
 
-【周六：长距离慢跑】
-- 距离：10-15km
-- 配速：Zone 2
-- 目的：耐力基础
-
-【周日：完全休息】
+[Weekends: Rest or low-intensity activities]
 ```
 
 ---
 
-## 营养配合（与 Dr. Mei 协同）
+## M5: Cardiorespiratory Endurance Program
 
-### M1 增肌营养
+### Training principles
 
-- **热量**：TDEE + 250-500 kcal
-- **蛋白质**：1.6-2.2g/kg
-- **碳水**：4-6g/kg（训练前后集中摄入）
-- **补剂**：肌酸 5g/天，乳清蛋白
+- **Aerobic Base**: Zone 2 training (60-70% HRmax)
+- **Anaerobic Threshold**: Zone 4 Interval Training
+- **Cross training**: alternating running/swimming/cycling (reduces impact)
 
-### M2 性功能营养
+### Training plan (running specific)
 
-- **锌**：牡蛎、牛肉、南瓜子（支持睾酮合成）
-- **维生素 D**：日晒 + 补剂 1000-2000 IU/天
-- **Omega-3**：深海鱼、亚麻籽（改善血管弹性）
-- **精氨酸**：坚果、豆类（促进一氧化氮生成）
-- **避免**：长期高酒精摄入（显著抑制睾酮）
+```
+[Monday: Easy run]
+- Distance: 5-8km
+- Pace: Zone 2 (easy conversation possible)
+- Purpose: Aerobic basics
 
-### M3 力量营养
+[Tuesday: Strength training]
+- Squats: 3 × 10
+- Deadlift: 3 x 8
+- Core: 3 × 10 minutes
 
-- **热量**：维持或微盈余
-- **蛋白质**：2.0-2.4g/kg
-- **碳水**：训练前后集中摄入
-- **补剂**：肌酸、咖啡因（训练前）
+[Wednesday: Interval running]
+- Warm-up: 10 minutes of jogging
+- Main training: 400 meters × 8 groups (Zone 4-5)
+- Rest between sets: 90 seconds of slow walking
+- Cool down: 10 minutes of jogging
 
-### M4 减脂营养
+[Thursday: rest or cross training]
+- Swimming or cycling: 30-45 minutes
 
-- **热量**：TDEE - 500 kcal
-- **蛋白质**：2.2-2.6g/kg（保护肌肉）
-- **碳水**：2-3g/kg（训练日高，休息日低）
-- **补剂**：咖啡因、左旋肉碱（可选）
+[Friday: Rhythm Run]
+- Distance: 6-10km
+- Pace: Zone 3 (comfortable but slightly faster)
+- Purpose: Increase lactate threshold
 
-### M5 耐力营养
+[Saturday: long distance jogging]
+- Distance: 10-15km
+- Pace: Zone 2
+- Purpose: Basics of endurance
 
-- **热量**：维持或微赤字
-- **蛋白质**：1.4-1.8g/kg
-- **碳水**：5-7g/kg（耐力运动主要燃料）
-- **补剂**：电解质、BCAA（长距离训练）
+[Sunday: Completely closed]
+```
 
 ---
 
-## 进度追踪指标
+## Nutritional coordination (in collaboration with Dr. Mei)
 
-| 目标 | 关键指标 | 测量频率 |
+### M1 Muscle Building Nutrition
+
+- **Caloric**: TDEE + 250-500 kcal
+- **Protein**: 1.6-2.2g/kg
+- **Carbohydrate**: 4-6g/kg (concentrated intake before and after training)
+- **Supplements**: Creatine 5g/day, whey protein
+
+### M2 Sexual Function Nutrition
+
+- **Zinc**: Oysters, beef, pumpkin seeds (supports testosterone synthesis)
+- **Vitamin D**: Sun exposure + supplements 1000-2000 IU/day
+- **Omega-3**: Deep-sea fish, flaxseed (improves blood vessel elasticity)
+- **Arginine**: nuts, beans (stimulates nitric oxide production)
+- **Avoid**: Chronically high alcohol intake (significantly suppresses testosterone)
+
+### M3 Strength Nutrition
+
+- **Calories**: Maintenance or slight surplus
+- **Protein**: 2.0-2.4g/kg
+- **Carbohydrate**: Concentrated intake before and after training
+- **Supplements**: Creatine, Caffeine (pre-workout)
+
+### M4 Fat Loss Nutrition
+
+- **Calorie**: TDEE - 500 kcal
+- **Protein**: 2.2-2.6g/kg (protect muscles)
+- **Carbohydrate**: 2-3g/kg (high on training days, low on rest days)
+- **Supplements**: Caffeine, L-carnitine (optional)
+
+### M5 Endurance Nutrition
+
+- **Calories**: maintenance or micro-deficit
+- **Protein**: 1.4-1.8g/kg
+- **Carbohydrate**: 5-7g/kg (main fuel for endurance sports)
+- **Supplements**: Electrolytes, BCAA (long distance training)
+
+---
+
+## Progress tracking indicators
+
+| Objectives | Key Indicators | Measurement Frequency |
 |------|---------|---------|
-| M1 增肌 | 围度（胸/臂/腿）、体重、力量 | 每 2 周 |
-| M2 性功能 | 勃起功能评分、晨勃频率、满意度 | 每月 |
-| M3 力量 | 1RM（深蹲/卧推/硬拉） | 每 4-6 周 |
-| M4 减脂 | 体重、体脂率、腰围 | 每周 |
-| M5 耐力 | 配速、心率、距离 | 每次训练 |
+| M1 Muscle Gaining | Size (chest/arms/legs), weight, strength | every 2 weeks |
+| M2 Sexual Function | Erectile function score, morning erection frequency, satisfaction | Monthly |
+| M3 Strength | 1RM (Squat/Bench/Deadlift) | Every 4-6 weeks |
+| M4 fat loss | Weight, body fat percentage, waist circumference | Weekly |
+| M5 Endurance | Pace, Heart Rate, Distance | Every Training |
 
 ---
 
-*男性专项训练方案完成 | 下一步：女性专项训练（female_training.md）*
+*Male-specific training program completed | Next step: Female-specific training (female_training.md)*

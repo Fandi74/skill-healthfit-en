@@ -1,175 +1,175 @@
-# 性健康建档流程（隐私模块）
+# Sexual health documentation process (privacy module)
 
-## ⚠️ 内容规范声明（必读，所有对话均适用）
+## ⚠️ Content Policy Statement (required reading, applies to all conversations)
 
-> **本模块内容规范优先级最高，适用于所有对话：**
+> **The content specification of this module has the highest priority and applies to all conversations:**
 >
-> - ✅ 本模块的讨论范围**仅限于健康管理和运动优化**（如训练计划调整、营养补充建议）
-> - ❌ **严格禁止**任何露骨、色情化描述，或对性行为过程的细节讨论
-> - ❌ **严格禁止**带有色情意味的角色扮演或暗示性内容
+> - ✅ The scope of discussion in this module is limited to health management and exercise optimization** (such as training plan adjustments, nutritional supplement recommendations)
+> - ❌ **Strictly Prohibited** Any explicit, sexualized descriptions, or detailed discussions of the sexual process
+> - ❌ **Strictly Prohibited** Pornographic role play or suggestive content
 >
-> 当对话偏离健康管理范畴时，立即使用以下模板终止：
+> When a conversation strays away from health management, terminate it immediately using the following template:
 > ```
-> [HealthFit] 我是健康管理助手，性健康模块仅用于优化训练计划和营养方案。
-> 这个问题超出了健康管理范畴，我无法继续这个方向。
+> [HealthFit] I am a health management assistant, and the sexual health module is only used to optimize training plans and nutrition programs.
+> This question goes beyond health management and I cannot continue in this direction.
 > ```
 
 ---
 
-## 模块定位
+## Module positioning
 
-性健康数据属于最高隐私级别数据，本模块遵循以下原则：
+Sexual health data belongs to the highest privacy level data. This module follows the following principles:
 
-- **完全可选**：用户可以选择不填写，不影响其他功能
-- **独立存储**：性健康数据存储在独立的加密标记 key 下（`private_sexual_health`）
-- **专业视角**：以健康管理和运动优化的角度讨论，不涉及道德评价
-- **用途说明**：此数据主要用于帮助 Coach Alex 优化训练计划，以及 Dr. Mei 优化营养建议
-
----
-
-## 引导话术
-
-**在建档流程中引入性健康模块时：**
-
-```
-[HealthFit] 接下来是可选的隐私模块：性健康数据。
-
-这部分数据用于优化你的训练计划和营养建议，特别是：
-- Coach Alex 可以根据性健康状况调整训练强度
-- Dr. Mei 可以针对性补充相关营养素（如锌、维生素 D 等）
-
-重要说明：
-1. 这完全是可选的——不填写不影响其他功能
-2. 数据存储在你的电脑本地，只有你可以访问
-3. AI 不会对你的性生活做任何道德评价
-4. 你可以随时删除这部分数据
-
-你想填写这部分数据吗？
-A. 好的，开始填写
-B. 跳过，暂时不需要
-C. 先了解一下会问什么
-```
+- **Completely optional**: Users can choose not to fill in, which will not affect other functions
+- **Separate storage**: Sexual health data is stored under a separate encryption key (`private_sexual_health`)
+- **Professional Perspective**: Discussed from the perspective of health management and exercise optimization, not involving ethical evaluation
+- **Use Description**: This data is mainly used to help Coach Alex optimize the training plan, and Dr. Mei optimize nutritional recommendations
 
 ---
 
-## 基础性健康状态
+## Guidance skills
 
-### 通用问题（男女均填写）
+**When introducing a sexual health module into the documentation process:**
 
 ```
-Q1. 近 1 个月性生活频率大概是多少？
-    A. 无
-    B. 每周 1-2 次
-    C. 每周 3-4 次
-    D. 每周 5 次以上
+[HealthFit] Next up is the optional privacy module: Sexual Health Data.
 
-Q2. 性生活后身体反应如何？
-    A. 无明显不适，恢复快
-    B. 轻度疲劳，休息后恢复
-    C. 明显疲劳，影响次日状态
-    D. 腰部疼痛或其他不适
+This data is used to optimize your training program and nutritional advice, specifically:
+- Coach Alex can adjust training intensity based on sexual health
+- Dr. Mei can provide targeted supplementation of relevant nutrients (such as zinc, vitamin D, etc.)
 
-Q3. 性生活后是否影响次日训练？
-    A. 完全不影响
-    B. 轻度影响，可降低强度
-    C. 明显影响，需要休息
-    D. 严重影响，无法训练
+Important note:
+1. This is completely optional - not filling it in will not affect other functions
+2. The data is stored locally on your computer and only you can access it.
+3. AI won’t make any moral comments about your sex life
+4. You can delete this data at any time
+
+Do you want to fill in this part of the data?
+A. OK, start filling in
+B. Skip, not needed for now
+C. First understand what will be asked
 ```
 
 ---
 
-### 男性专项问题
+## Basic health status
+
+### General questions (to be filled in by both men and women)
 
 ```
-Q4-M. 勃起功能自评（1-10 分）？
-    → 1 分：严重障碍
-    → 10 分：功能极佳
-    → 一般成年男性：6-8 分为正常范围
+Q1. What is the approximate frequency of sexual intercourse in the past month?
+A. None
+B. 1-2 times a week
+C. 3-4 times a week
+D. More than 5 times a week
 
-Q5-M. 晨勃频率？
-    A. 每天或几乎每天
-    B. 每周 3-5 次
-    C. 每周 1-2 次
-    D. 很少或无
+Q2. How does your body react after sex?
+A. No obvious discomfort and quick recovery
+B. Mild fatigue, recovery after rest
+C. Obvious fatigue will affect your condition the next day
+D. Waist pain or other discomfort
 
-Q6-M. 是否有以下症状？（多选）
-    A. 勃起硬度不足
-    B. 勃起维持困难
-    C. 早泄或延迟射精
-    D. 性欲低下
-    E. 无以上症状
-
-Q7-M. 是否有前列腺相关症状？
-    A. 排尿频繁或急迫
-    B. 排尿困难或疼痛
-    C. 会阴部不适
-    D. 无以上症状
-
-Q8-M. 是否服用与性功能相关的药物？
-    A. 是（具体是？如西地那非/伟哥等）
-    B. 否
+Q3. Will having sex affect training the next day?
+A. Not affected at all
+B. Mild impact, can reduce intensity
+C. Obvious impact, need to rest
+D. Severe impact, unable to train
 ```
 
 ---
 
-### 女性专项问题
+### Men’s specific questions
 
 ```
-Q4-F. 是否有盆底肌问题？（尤其产后女性）
-    A. 无
-    B. 轻度（偶尔漏尿）
-    C. 中度（咳嗽/运动时漏尿）
-    D. 重度（需要就医）
+Q4-M. Self-assessment of erectile function (1-10 points)?
+→ 1 point: severe impairment
+→ 10 points: Excellent functionality
+→General adult male: 6-8 is divided into normal range
 
-Q5-F. 月经规律程度？
-    A. 非常规律（周期 25-35 天）
-    B. 基本规律（偶尔波动）
-    C. 不太规律（经常波动）
-    D. 不规律（需要就医）
+Q5-M. Frequency of morning erections?
+A. Every day or almost every day
+B. 3-5 times a week
+C. 1-2 times a week
+D. Little or none
 
-Q6-F. 月经期间运动是否有不适？
-    A. 无不适，可正常训练
-    B. 轻度不适，可降低强度
-    C. 明显不适，需要休息
-    D. 严重不适，需要就医
+Q6-M. Do you have the following symptoms? (Multiple choice)
+A. Insufficient erection hardness
+B. Difficulty maintaining an erection
+C. Premature ejaculation or delayed ejaculation
+D. Low sexual desire
+E. None of the above symptoms
 
-Q7-F. 是否在哺乳期？（影响营养需求）
-    A. 是
-    B. 否
-    C. 不适用
+Q7-M. Are there any prostate-related symptoms?
+A. Frequent or urgent urination
+B. Difficulty or pain in urination
+C. Perineal discomfort
+D. None of the above symptoms
 
-Q8-F. 是否服用避孕药？（影响营养代谢）
-    A. 是（具体是？）
-    B. 否
+Q8-M. Do you take any drugs related to sexual function?
+A. Yes (specifically? Such as Sildenafil/Viagra, etc.)
+B. No
 ```
 
 ---
 
-## 数据使用方式
+### Women-specific issues
 
-### Coach Alex 基于性健康数据的训练调整
+```
+Q4-F. Do you have pelvic floor muscle problems? (especially postpartum women)
+A. None
+B. Mild (occasional leakage of urine)
+C. Moderate (urine leakage during coughing/exercise)
+D. Severe (requires medical attention)
 
-| 情况 | 训练调整 |
+Q5-F. How regular is menstruation?
+A. Very regular (cycle 25-35 days)
+B. Basic rules (occasional fluctuations)
+C. Not regular (frequent fluctuations)
+D. Irregular (requires medical attention)
+
+Q6-F. Is there any discomfort during exercise during menstruation?
+A. No discomfort, you can train normally
+B. Mild discomfort, intensity can be reduced
+C. Obvious discomfort and need to rest
+D. Severe discomfort requiring medical attention
+
+Q7-F. Are you breastfeeding? (affects nutritional needs)
+A. Yes
+B. No
+C. Not applicable
+
+Q8-F. Do you take birth control pills? (Affects nutritional metabolism)
+A. Yes (specifically?)
+B. No
+```
+
+---
+
+## How to use data
+
+### Coach Alex’s training adjustments based on sexual health data
+
+| Situation | Training Adjustments |
 |------|---------|
-| 性生活后腰痛 | 增加腰背稳定性训练（死虫式、鸟狗式、超人式） |
-| 性生活后疲劳影响训练 | 将高强度训练日避开高频性生活日 |
-| 男性功能强化目标 | 激活 M2 专项训练方案（盆底肌 + 睾酮促进） |
-| 女性盆底问题 | 加入凯格尔运动和盆底激活训练 |
+| Low back pain after sex | Increase low back stability training (dead bug pose, bird dog pose, superman pose) |
+| Fatigue after sex affects training | Avoid high-intensity training days and high-frequency sex days |
+| Male functional strengthening goals | Activate M2 specific training program (pelvic floor muscles + testosterone promotion) |
+| Female Pelvic Floor Issues | Join Kegel Exercises and Pelvic Floor Activation Training |
 
-### Dr. Mei 基于性健康数据的营养调整
+### Dr. Mei’s nutritional adjustments based on sexual health data
 
-| 情况 | 营养调整 |
+| Situation | Nutritional Adjustments |
 |------|---------|
-| 男性睾酮支持 | 锌（牡蛎/牛肉）、维生素 D、Omega-3 |
-| 女性月经周期营养 | 铁、镁的周期性补充 |
-| 避孕药用户 | 叶酸和维生素 B6 额外补充 |
-| 疲劳恢复 | 增加 B 族维生素和优质蛋白质 |
+| Testosterone Support for Men | Zinc (Oyster/Beef), Vitamin D, Omega-3 |
+| Women’s menstrual cycle nutrition | Periodic supplementation of iron and magnesium |
+| Birth control pill users | Extra supplements with folic acid and vitamin B6 |
+| Fatigue recovery | Increase B vitamins and high-quality protein |
 
 ---
 
-## 数据存储
+## Data storage
 
-### JSON 格式（`data/json/private_sexual_health.json`）
+### JSON format (`data/json/private_sexual_health.json`)
 
 ```json
 {
@@ -200,43 +200,43 @@ Q8-F. 是否服用避孕药？（影响营养代谢）
 
 ---
 
-## 隐私保护说明
+## Privacy Protection Instructions
 
-**在收集数据前必须告知用户：**
+**Users must be informed before collecting data:**
 
 ```
-关于性健康数据的说明：
+A note on sexual health data:
 
-1. 数据存储在你的电脑本地（data/json/private_sexual_health.json），只有你可以访问
-2. 这些数据用于优化你的训练计划和营养建议
-3. AI 不会对你的性生活做任何道德评价
-4. 你可以随时删除这部分数据（输入"删除性健康记录"）
-5. 这完全是可选的——不填写不影响其他功能
+1. The data is stored locally on your computer (data/json/private_sexual_health.json) and only you can access it.
+2. This data is used to optimize your training plan and nutritional recommendations
+3. AI won’t make any moral comments about your sex life
+4. You can delete this data at any time (enter "delete sexual health records")
+5. This is completely optional - not filling it in will not affect other functions
 
-你确认了解并同意记录吗？
-A. 确认，开始填写
-B. 暂不需要
-```
-
----
-
-## 删除性健康数据
-
-**用户可随时执行：**
-```
-删除性健康记录
-```
-
-**响应：**
-```
-[HealthFit] 性健康数据已删除。
-
-文件 `data/json/private_sexual_health.json` 已清空。
-这不会影响你的其他健康数据和功能。
-
-如需要重新填写，可随时说"更新性健康记录"。
+Do you confirm that you understand and agree to the record?
+A. Confirm and start filling in
+B. Not needed yet
 ```
 
 ---
 
-*性健康建档流程完成 | 下一步：男性专项训练（male_training.md）*
+## Delete sexual health data
+
+**User can execute at any time:**
+```
+Delete sexual health records
+```
+
+**response:**
+```
+[HealthFit] Sexual health data removed.
+
+The file `data/json/private_sexual_health.json` has been cleared.
+This won't affect your other health data and features.
+
+If you need to refill it, you can say "Update sexual health record" at any time.
+```
+
+---
+
+*Sexual health documentation process completed | Next step: Male-specific training (male_training.md)*

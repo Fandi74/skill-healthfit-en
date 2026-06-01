@@ -1,697 +1,697 @@
-# 西医建档流程（Onboarding）
+# Western medicine documentation process (Onboarding)
 
-## 建档方式选择（三选一）
+## Selection of file creation method (choose one from three)
 
-**在开始建档前，请先选择您喜欢的建档方式：**
+**Before you start creating a profile, please choose your preferred profile creation method:**
 
-详见：`references/onboarding_options.md`
+See: `references/onboarding_options.md`
 
-- **A. 问答式**（推荐）— 约 20-25 个问题，20-25 分钟，信息最全面
-- **B. 聊天式**（轻松）— 25-30 分钟，自然交流无压力
-- **C. 文件上传式**（快捷）— 10-15 分钟，需 AI 工具支持文件读取能力
-
----
-
-## 建档深度选择（重要）
-
-**请选择您希望的建档深度：**
-
-### 🚀 极简模式（5 分钟，10 个问题）
-- **收集内容：** 昵称、性别、年龄、身高、体重、主要目标
-- **跳过内容：** 健康史、体测、详细生活习惯、中医体质
-- **适合人群：** 想快速体验功能的用户
-- **后续：** 可随时补充完整档案
-
-### ⚖️ 标准模式（15-20 分钟，25 个问题）⭐ 推荐
-- **收集内容：** 基础数据 + 健康史 + 运动目标 + 生活习惯
-- **跳过内容：** 体测基准测试、详细的中医体质辨识
-- **适合人群：** 大多数用户
-- **后续：** 建议 1-2 周内补充体测数据
-
-### 📋 完整模式（30-40 分钟，45+ 个问题）
-- **收集内容：** 全部数据 + 体测基准 + 中医体质辨识
-- **适合人群：** 追求精准个性化建议的用户
-- **优势：** 立即获得最精准的训练和饮食方案
-
-**回答方式：** 每个问题提供固定选项 + 模糊选项 + 自由叙述，AI 会智能提取关键信息！
-
-**⚠️ 文件上传式前提：** 您使用的 AI 工具需支持以下能力之一：
-- 📄 文件上传功能（可上传 PDF/图片/Excel）
-- 📸 图片读取能力（可识别体检报告照片）
-- 📁 项目文件读取能力（可读取 workspace 中的文件）
+- **A. Q&A** (recommended) - about 20-25 questions, 20-25 minutes, the most comprehensive information
+- **B. Chat** (easy) - 25-30 minutes, natural communication without pressure
+- **C. File upload** (quick) - 10-15 minutes, requires AI tools to support file reading capabilities
 
 ---
 
-## 建档原则
+## Archive depth selection (important)
 
-- **分阶段收集**：不要一次性提问 20 个问题，按逻辑分组，每组 3-5 个，分轮次完成
-- **主动追问**：如果用户回答模糊或不完整，主动追问直到数据足够精确
-- **可跳过选项**：标记为「可选」的数据可以跳过，后续补充
-- **隐私标记**：涉及性健康、用药史等隐私数据，需明确告知存储方式
-- **三种回答方式**：每个问题提供固定选项 + 模糊选项 + 自由叙述
-- **进度提示**：每组问题开始时显示当前进度（如"第 1 组/5 组，已完成 20%"）
+**Please select your desired archiving depth:**
 
----
+### 🚀 Minimalist mode (5 minutes, 10 questions)
+- **Collection content:** Nickname, gender, age, height, weight, main goal
+- **Skip content:** Health history, physical examination, detailed living habits, traditional Chinese medicine constitution
+- **Suitable for the crowd:** Users who want to quickly experience the function
+- **Follow-up:** Complete files can be added at any time
 
-## 问题回答方式说明
+### ⚖️ Standard mode (15-20 minutes, 25 questions) ⭐ Recommended
+- **Collection content:** Basic data + health history + exercise goals + lifestyle habits
+- **Skip content:** Physical benchmark test, detailed TCM constitution identification
+- **Suitable for:** Most users
+- **Follow-up:** It is recommended to supplement the physical test data within 1-2 weeks
 
-**每个问题都提供三种回答方式，用户可自由选择：**
+### 📋 Full Mode (30-40 minutes, 45+ questions)
+- **Collection content:** All data + Physical test benchmark + Traditional Chinese medicine constitution identification
+- **Suitable for:** Users who pursue precise and personalized recommendations
+- **Advantages:** Instant access to the most precise training and diet plans
 
-### 示例：问题 — 您的运动经验如何？
+**Answer method:** Each question provides fixed options + fuzzy options + free narrative, and AI will intelligently extract key information!
 
-**方式 1：固定选项（推荐）**
-- A. 零基础（几乎不运动）
-- B. 新手（偶尔运动，无系统训练）
-- C. 中级（规律运动 3-6 个月）
-- D. 高级（系统训练 1 年以上）
-
-**方式 2：模糊选项**
-- E. 不确定/说不清楚
-
-**方式 3：自由叙述**
-> 您也可以直接用自然语言描述，例如：
-> "我平时偶尔跑跑步，但没去过健身房，也不知道怎么练力量"
-
-**AI 会智能提取您回答中的关键信息！**
+**⚠️ File upload prerequisite:** The AI ​​tool you use needs to support one of the following capabilities:
+- 📄 File upload function (can upload PDF/picture/Excel)
+- 📸 Picture reading ability (can identify photos of physical examination reports)
+- 📁 Project file reading ability (can read files in workspace)
 
 ---
 
-## 🔒 隐私模块选择（建档开始时询问）
+## Archiving principles
 
-**在开始建档前，请先选择是否开启隐私模块：**
-
-HealthFit 包含一个**可选的隐私模块**（性健康记录与指导），用于：
-- 📝 记录性生活频率与质量
-- 🏋️ 提供男性/女性专项训练（盆底肌、臀部塑形等）
-- 🌿 中医房事养生建议
-- 📊 性功能与整体健康的关联分析
-
-**隐私保护：**
-- ✅ 完全可选，不填写不影响其他功能
-- ✅ 数据独立存储（`private_sexual_health.json`）
-- ✅ 默认排除在备份/导出之外
-- ✅ 需二次确认才能查看或导出
-
-**是否开启此模块？**
-- A. 是，开启（进入性健康建档流程）
-- B. 否，跳过（日后随时可以补填）
-- C. 不确定，先了解更多信息
+- **Collect in stages**: Don’t ask 20 questions at once, group them logically, 3-5 in each group, and complete them in rounds
+- **Proactive questioning**: If the user's answer is vague or incomplete, proactively question until the data is accurate enough
+- **Skipable options**: Data marked as "optional" can be skipped and will be added later.
+- **Privacy Mark**: If it involves private data such as sexual health and medication history, the storage method must be clearly informed.
+- **Three answer methods**: Each question provides fixed options + fuzzy options + free narrative
+- **Progress Tip**: Display the current progress at the beginning of each group of questions (such as "Group 1/Group 5, 20% completed")
 
 ---
 
-## 第一组：基础生理数据（必填）
+## Description of how to answer questions
 
-### 问题清单
+**Each question provides three answer methods, and users can choose freely: **
 
-```
-Q1. 怎么称呼你？（昵称即可）
+### Example: Question - How is your experience with sports?
 
-Q2. 你的生理性别是？
-    A. 男
-    B. 女
-    C. 其他/不愿透露
+**Method 1: Fixed option (recommended)**
+- A. Zero basics (almost no exercise)
+- B. Novice (occasional exercise, no systematic training)
+- C. Intermediate (3-6 months of regular exercise)
+- D. Advanced (more than 1 year of system training)
 
-Q3. 年龄？
+**Method 2: Blur option**
+- E. Not sure/can’t tell
 
-Q4. 身高（cm）？
+**Method 3: Free narrative**
+> You can also describe it directly in natural language, for example:
+> "I usually run occasionally, but I have never been to a gym and I don’t know how to train for strength."
 
-Q5. 当前体重（kg）？
-
-Q6. 体脂率（%）？（可选，如没有可跳过）
-    → 如没有，可通过视觉描述或皮褶厚度估算
-
-Q7. 腰围和臀围（cm）？（可选）
-    → 用于追踪体型变化
-```
-
-### AI 计算输出
-
-**建档完成后，自动计算：**
-
-```
-📊 基础数据计算结果
-
-BMI（体质指数）：{bmi}
-→ 计算公式：体重 (kg) ÷ 身高²(m)
-→ 分级解读：
-  - <18.5：体重过轻
-  - 18.5-24.9：正常范围 ✅
-  - 25-29.9：超重
-  - ≥30：肥胖
-
-BMR（基础代谢率）：{bmr} kcal/天
-→ 计算公式：Mifflin-St Jeor 公式
-  男性：(10 × 体重) + (6.25 × 身高) - (5 × 年龄) + 5
-  女性：(10 × 体重) + (6.25 × 身高) - (5 × 年龄) - 161
-→ 解读：你完全静止时维持生命体征所需的最低热量
-
-TDEE（每日总能量消耗）：{tdee} kcal/天
-→ 计算公式：BMR × 活动系数
-→ 活动系数：
-  - 久坐（几乎不运动）：1.2
-  - 轻度活动（每周 1-3 次运动）：1.375
-  - 中度活动（每周 3-5 次运动）：1.55
-  - 高度活动（每周 6-7 次运动）：1.725
-  - 极高活动（体力劳动 + 每天训练）：1.9
-
-理想体重范围：{min_weight} - {max_weight} kg
-→ 基于身高和性别，BMI 18.5-24.9 对应的体重范围
-```
+**AI will intelligently extract key information from your answers! **
 
 ---
 
-## 第二组：近 2-3 年健康史（重要）
+## 🔒 Privacy module selection (asked when profile creation starts)
 
-### 用药记录
+**Before starting to create a profile, please choose whether to turn on the privacy module:**
 
-```
-Q8. 你目前是否长期服用处方药？（连续服用超过 1 个月）
-    A. 是
-    B. 否
+HealthFit includes an **optional privacy module** (Sexual Health Recording and Coaching) for:
+- 📝 Record the frequency and quality of sexual life
+- 🏋️ Provide male/female specific training (pelvic floor muscles, buttock shaping, etc.)
+- 🌿 TCM sexual health advice
+- 📊 Analysis of the correlation between sexual function and overall health
 
-如选 A：
-Q8-1. 药物名称或类别？（如降压药、激素、抗抑郁药等）
+**Privacy Protection:**
+- ✅ Completely optional, leaving it blank will not affect other functions
+- ✅ Data is stored independently (`private_sexual_health.json`)
+- ✅ Excluded from backup/export by default
+- ✅ A second confirmation is required to view or export
 
-Q8-2. 服药开始时间？
+**Do you want to enable this module? **
+- A. Yes, open (enter sexual health filing process)
+- B. No, skip (you can fill it in at any time in the future)
+- C. Not sure, get more information first
 
-Q8-3. 当前状态？
-    A. 仍在服用
-    B. 已停药（何时停的？）
+---
 
-Q8-4. 服药目的？（帮助判断对运动和营养的影响）
-```
+## Group 1: Basic physiological data (required)
 
-### 疾病与手术记录
-
-```
-Q9. 近 2-3 年内，你是否经历过以下情况？（多选）
-    A. 住院治疗的疾病
-    B. 手术（含微创手术）
-    C. 慢性病诊断（高血压、糖尿病、甲状腺问题等）
-    D. 骨折或严重运动损伤
-    E. 无以上情况
-
-如选 A-D：
-Q9-1. 具体情况？（时间、部位、诊断）
-
-Q9-2. 当前恢复状态？
-    A. 完全康复
-    B. 基本康复，偶有不适
-    C. 仍在恢复中
-    D. 需要长期管理
-
-Q10. 你有过敏史吗？
-    A. 食物过敏（具体是什么？）
-    B. 药物过敏（具体是什么？）
-    C. 其他过敏（花粉、尘螨等）
-    D. 无过敏史
-```
-
-### 当前不适与症状
+### Question list
 
 ```
-Q11. 你目前是否有任何长期身体不适？（多选）
-    A. 关节不适（膝盖、髋关节、肩关节等具体部位）
-    B. 腰背部问题（腰椎间盘突出、慢性腰痛等）
-    C. 心肺问题（运动时气短、心悸等）
-    D. 其他长期不适
+Q1. What should I call you? (nickname is enough)
 
-如选 A-C：
-Q11-1. 具体情况？（何时开始、什么情况下加重）
+Q2. What is your biological sex?
+A. Male
+B.Female
+C. Other/unwilling to disclose
 
-Q11-2. 是否影响日常运动？
-    A. 完全不影响
-    B. 轻度影响，可调整动作
-    C. 中度影响，需要避免某些动作
-    D. 严重影响，需要医生评估后才能运动
+Q3. Age?
+
+Q4. Height (cm)?
+
+Q5. Current weight (kg)?
+
+Q6. Body fat rate (%)? (optional, skip if not available)
+→ If not, it can be estimated by visual description or skinfold thickness
+
+Q7. Waist and hip circumference (cm)? (optional)
+→ Used to track changes in body shape
+```
+
+### AI calculation output
+
+**After the file creation is completed, it will be automatically calculated:**
+
+```
+📊Basic data calculation results
+
+BMI (Body Mass Index): {bmi}
+→ Calculation formula: weight (kg) ÷ height² (m)
+→ Graded interpretation:
+- <18.5: underweight
+- 18.5-24.9: Normal range ✅
+- 25-29.9: Overweight
+- ≥30: Obesity
+
+BMR (basal metabolic rate): {bmr} kcal/day
+→ Calculation formula: Mifflin-St Jeor formula
+Male: (10 × weight) + (6.25 × height) - (5 × age) + 5
+Female: (10 × weight) + (6.25 × height) - (5 × age) - 161
+→ Interpretation: The minimum amount of calories required to maintain vital signs when you are completely still
+
+TDEE (Total Daily Energy Expenditure): {tdee} kcal/day
+→ Calculation formula: BMR × activity coefficient
+→ Activity coefficient:
+- Sedentary (little exercise): 1.2
+- Light activity (exercise 1-3 times per week): 1.375
+- Moderate activity (3-5 times of exercise per week): 1.55
+- Highly active (6-7 exercises per week): 1.725
+- Extreme activity (physical work + daily training): 1.9
+
+Ideal weight range: {min_weight} - {max_weight} kg
+→ Based on height and gender, the corresponding weight range for BMI 18.5-24.9
 ```
 
 ---
 
-## 第三组：身体素质基准测试
+## Group 2: Health history in the past 2-3 years (important)
 
-> **说明：** 这是本 Skill 的重要差异化功能——通过体测建立基准线，后续每个月重测一次，用于量化进步。
-
-### 心肺耐力
+### Medication records
 
 ```
-Q12. 请选择你能完成的测试（单选）：
+Q8. Are you currently taking prescription drugs for a long time? (Continuous use for more than 1 month)
+A. Yes
+B. No
 
-A. 1.5km 或 2km 跑步测试
-   → 请记录完成时间（分钟：秒）
+If you choose A:
+Q8-1. Drug name or category? (Such as antihypertensive drugs, hormones, antidepressants, etc.)
 
-B. 6 分钟步行测试（适合运动基础弱的用户）
-   → 在平坦地面快走 6 分钟，记录行走距离（米）
+Q8-2. When does medication start?
 
-C. 原地踏步 3 分钟测试
-   → 原地快速踏步 3 分钟，记录结束后 1 分钟的心率恢复情况
+Q8-3. Current status?
+A. Still taking it
+B. The drug has been stopped (when did it stop?)
+
+Q8-4. What is the purpose of taking the medicine? (Helps determine the impact on exercise and nutrition)
 ```
 
-### 上肢力量
+### Disease and surgical records
 
 ```
-Q13. 俯卧撑测试（选择你能完成的版本）：
+Q9. Have you experienced any of the following situations in the past 2-3 years? (Multiple choice)
+A. Conditions for hospitalization
+B. Surgery (including minimally invasive surgery)
+C. Chronic disease diagnosis (hypertension, diabetes, thyroid problems, etc.)
+D. Fracture or serious sports injury
+E. None of the above conditions
 
-A. 标准俯卧撑（男性推荐）
-   → 连续最多能做几个？
+If you choose A-D:
+Q9-1. What are the specific circumstances? (time, location, diagnosis)
 
-B. 跪姿俯卧撑（女性或初学者推荐）
-   → 连续最多能做几个？
+Q9-2. Current recovery status?
+A. Full recovery
+B. Basically recovered, with occasional discomfort
+C. Still recovering
+D. Requires long-term management
 
-C. 无法完成俯卧撑
-   → 跳过此项
-
-Q14. 引体向上测试（有条件的话）：
-    → 连续最多能做几个？（无法完成可跳过）
-
-Q15. 哑铃弯举测试（如有哑铃）：
-    → 单臂最大重量 × 次数（如：10kg × 8 次）
+Q10. Do you have any history of allergies?
+A. Food allergy (what exactly?)
+B. Drug allergy (what is it specifically?)
+C. Other allergies (pollen, dust mites, etc.)
+D. No history of allergies
 ```
 
-### 核心力量
+### Current discomfort and symptoms
 
 ```
-Q16. 平板支撑测试：
-    → 最长能保持多少秒？（记录到力竭）
+Q11. Do you currently have any long-term physical discomfort? (Multiple choice)
+A. Joint discomfort (specific parts such as knees, hip joints, shoulder joints, etc.)
+B. Low back problems (lumbar disc herniation, chronic low back pain, etc.)
+C. Cardiopulmonary problems (shortness of breath, palpitations during exercise, etc.)
+D. Other long-term discomforts
 
-Q17. 仰卧起坐测试（可选）：
-    → 1 分钟内最多能做几个？
+If you choose A-C:
+Q11-1. What are the specific circumstances? (When did it start and under what circumstances did it get worse)
 
-Q18. 侧平板支撑测试：
-    → 左侧最长保持时间（秒）
-    → 右侧最长保持时间（秒）
-```
-
-### 下肢力量
-
-```
-Q19. 深蹲测试：
-
-A. 徒手深蹲
-   → 连续最多能做几个？（动作标准：大腿平行地面）
-
-B. 负重深蹲（如有杠铃/哑铃）
-   → 最大重量 × 次数（如：40kg × 8 次）
-
-Q20. 弓步蹲测试：
-    → 连续最多能做几个？（单腿计数）
-
-Q21. 单腿深蹲测试（可选，进阶）：
-    → 能否完成？（是/否）
-```
-
-### 柔韧性
-
-```
-Q22. 坐姿体前屈测试：
-    → 坐姿，双腿伸直，身体前屈，手指能到达的位置？
-    A. 超过脚尖 10cm 以上
-    B. 刚好到达脚尖
-    C. 距离脚尖 0-10cm
-    D. 距离脚尖 10cm 以上（柔韧性较差）
-
-Q23. 肩关节活动度测试：
-    → 双手在背后相扣（一手从上，一手从下）
-    A. 轻松相扣，手指重叠
-    B. 刚好相扣，手指接触
-    C. 无法相扣，但有明显进步空间
-    D. 活动受限，建议加强肩部拉伸
+Q11-2. Does it affect daily exercise?
+A. Not affected at all
+B. Mild impact, adjustable action
+C. Moderate impact, certain actions need to be avoided
+D. Severe effects require a doctor’s evaluation before exercising.
 ```
 
 ---
 
-## 第四组：生活习惯调查
+## Group 3: Physical Fitness Benchmark Test
 
-### 作息与睡眠
+> **Description:** This is an important differentiating function of this Skill - establishing a baseline through physical testing and retesting it every month to quantify progress.
 
-```
-Q24. 你的作息习惯？
-    → 通常几点起床？____:____
-    → 通常几点睡觉？____:____
-
-Q25. 每晚平均睡眠时长？
-    A. <6 小时
-    B. 6-7 小时
-    C. 7-8 小时
-    D. >8 小时
-
-Q26. 睡眠质量自评（1-10 分）？
-    → 1 分：极差，难以入睡/易醒
-    → 10 分：极好，倒下就着，一觉到天亮
-
-Q27. 是否有睡眠问题？（多选）
-    A. 入睡困难（>30 分钟）
-    B. 易醒，睡眠浅
-    C. 早醒，无法再入睡
-    D. 多梦，醒来疲惫
-    E. 无明显问题
-```
-
-### 饮食习惯
+### Cardiorespiratory endurance
 
 ```
-Q28. 你的饮食结构？
-    A. 荤素均衡
-    B. 偏素食
-    C. 偏肉食
-    D. 外食为主，难以控制
+Q12. Please select the test you can complete (single choice):
 
-Q29. 是否有饮食禁忌？
-    A. 宗教原因（具体是？）
-    B. 医疗原因（具体是？）
-    C. 个人偏好（具体是？）
-    D. 无禁忌
+A. 1.5km or 2km running test
+→ Please record the completion time (minutes: seconds)
 
-Q30. 烹饪能力？
-    A. 经常自己做饭
-    B. 偶尔做饭，外食为主
-    C. 几乎不做饭，完全外食
+B. 6-minute walking test (suitable for users with weak exercise foundation)
+→ Walk briskly on flat ground for 6 minutes and record the walking distance (meters)
 
-Q31. 每日饮水量估计？
-    A. <500ml（严重不足）
-    B. 500-1000ml（不足）
-    C. 1000-1500ml（基本达标）
-    D. >1500ml（充足）
-
-Q32. 饮酒频率与量？
-    A. 不饮酒
-    B. 偶尔（每周 1-2 次，每次 1-2 杯）
-    C. 经常（每周 3-5 次，每次 2 杯以上）
-    D. 每天饮酒
+C. Stand still for 3 minutes test
+→ Walk quickly on the spot for 3 minutes and record the heart rate recovery 1 minute after the end.
 ```
 
-### 工作与压力
+### Upper body strength
 
 ```
-Q33. 工作性质？
-    A. 久坐办公（>8 小时/天）
-    B. 轻度活动（走动较多）
-    C. 体力劳动
-    D. 混合（部分久坐，部分活动）
+Q13. Push-up test (choose the version you can complete):
 
-Q34. 工作压力等级（1-10 分）？
-    → 1 分：毫无压力
-    → 10 分：压力极大，难以承受
+A. Standard push-ups (recommended for men)
+→ How many can you do in a row?
 
-Q35. 近期是否有高压力周期？
-    A. 是（具体是工作/情感/其他？预计持续多久？）
-    B. 否，压力水平稳定
+B. Kneeling push-ups (recommended for women or beginners)
+→ How many can you do in a row?
+
+C. Unable to complete push-ups
+→ Skip this
+
+Q14. Pull-up test (if conditions permit):
+→ How many can you do in a row? (Cannot be completed and can be skipped)
+
+Q15. Dumbbell curl test (if there are dumbbells):
+→ Maximum weight of one arm × times (eg: 10kg × 8 times)
 ```
 
-### 运动史
+### Core Strength
 
 ```
-Q36. 过去是否有规律运动习惯？
-    A. 是（持续多久？什么运动？）
-    B. 否，从未有规律运动
+Q16. Plank test:
+→How many seconds can it last? (Recorded to exhaustion)
 
-Q37. 最近一次规律运动是什么时候？
-    A. 1 个月内
-    B. 1-6 个月前
-    C. 6-12 个月前
-    D. 1 年以上
+Q17. Sit-up test (optional):
+→ How many can you do at most in 1 minute?
 
-Q38. 尝试过但失败的运动计划原因？（多选）
-    A. 太累，坚持不下来
-    B. 看不到效果，失去动力
-    C. 时间不够，无法坚持
-    D. 受伤或身体不适
-    E. 缺乏指导，不知道怎么做
-    F. 其他原因（具体是？）
+Q18. Side plank test:
+→Maximum holding time on the left side (seconds)
+→Maximum holding time on the right side (seconds)
+```
+
+### Lower body strength
+
+```
+Q19. Squat test:
+
+A. Squat with bare hands
+→ How many can you do in a row? (Action standard: thighs parallel to the ground)
+
+B. Weight-bearing squats (if there are barbells/dumbbells)
+→ Maximum weight × times (eg: 40kg × 8 times)
+
+Q20. Lunge squat test:
+→ How many can you do in a row? (single leg count)
+
+Q21. Single-leg squat test (optional, advanced):
+→ Can it be completed? (whether)
+```
+
+### Flexibility
+
+```
+Q22. Sitting forward bend test:
+→ Sitting, legs straight, body bent forward, as far as the fingers can reach?
+A. More than 10cm beyond the toes
+B. Just reaching the toes
+C. 0-10cm from toes
+D. More than 10cm from the toes (poor flexibility)
+
+Q23. Shoulder joint mobility test:
+→ Hold hands together behind your back (one hand from top, one hand from bottom)
+A. Easily clasp each other, fingers overlapping
+B. Just intertwined, fingers touching
+C. Cannot be linked to each other, but there is obvious room for improvement
+D. Movement is limited, it is recommended to strengthen shoulder stretching
 ```
 
 ---
 
-## 第五组：目标与资源
+## Group 4: Survey on living habits
 
-### 健身目标
-
-```
-Q39. 你的健身目标是什么？（可多选，排优先级）
-
-【主要目标】（单选）
-A. 减脂（体重下降，体脂率下降）
-B. 增肌（体重上升，肌肉量增加）
-C. 维持体重（保持现状，提升健康）
-D. 提升运动表现（跑步速度、力量增长等）
-E. 改善心肺功能
-F. 改善体型（男性：增加肌肉围度；女性：臀腿塑形）
-G. 改善性功能与性健康
-H. 综合健康（精力、睡眠、抗压）
-
-【次要目标】（可选，多选）
-{同上选项}
-```
-
-### 时间资源
+### Work and sleep
 
 ```
-Q40. 每周可运动天数？
-    A. 1-2 天
-    B. 3-4 天
-    C. 5-6 天
-    D. 每天都可以
+Q24. What is your daily routine?
+→ What time do you usually get up? ____:____
+→ What time do you usually go to bed? ____:____
 
-Q41. 每次可用时长？
-    A. <30 分钟
-    B. 30-45 分钟
-    C. 45-60 分钟
-    D. >60 分钟
+Q25. What is the average sleep duration per night?
+A. <6 hours
+B. 6-7 hours
+C. 7-8 hours
+D. >8 hours
 
-Q42. 最适合运动的时间段？
-    A. 早晨（6:00-9:00）
-    B. 上午（9:00-12:00）
-    C. 下午（12:00-18:00）
-    D. 晚上（18:00-22:00）
+Q26. Self-evaluation of sleep quality (1-10 points)?
+→ 1 point: Very poor, difficult to fall asleep/easy to wake up
+→ 10 points: Excellent, just fall down and sleep until dawn
+
+Q27. Do you have any sleeping problems? (Multiple choice)
+A. Difficulty falling asleep (>30 minutes)
+B. Easy to wake up and sleep lightly
+C. Waking up early and unable to fall back asleep
+D. Dreaming a lot and waking up tired
+E. No obvious problems
 ```
 
-### 器械资源
+### Eating habits
 
 ```
-Q43. 健身房会员？
-    A. 是（距离/通勤时间？）
-    B. 否，但考虑办理
-    C. 否，不打算办理
+Q28. What is your diet structure?
+A. Balance of meat and vegetables
+B. Vegetarian
+C. Carnivore
+D. Mainly eating outside, difficult to control
 
-Q44. 家中器械？（多选）
-    A. 哑铃（重量？）
-    B. 弹力带/阻力带
-    C. 瑜伽垫
-    D. 跑步机/椭圆机
-    E. 杠铃 + 杠铃片
-    F. 引体向上杆
-    G. 无器械
+Q29. Are there any dietary restrictions?
+A. Religious reasons (specifically?)
+B. Medical reasons (specifically?)
+C. Personal preference (specifically?)
+D. No taboos
 
-Q45. 户外运动条件？
-    A. 附近有公园/跑道（步行 5 分钟内）
-    B. 有运动场所，但需要通勤
-    C. 附近无合适场所
+Q30. Cooking ability?
+A. Often cook by yourself
+B. Cook occasionally and eat out mainly
+C. Hardly cook and eat out completely
+
+Q31. Estimated daily water intake?
+A. <500ml (seriously insufficient)
+B. 500-1000ml (insufficient)
+C. 1000-1500ml (basically up to standard)
+D. >1500ml (enough)
+
+Q32. How often and how much do you drink?
+A. Not drinking alcohol
+B. Occasionally (1-2 times a week, 1-2 cups each time)
+C. Frequently (3-5 times a week, more than 2 cups each time)
+D. Drink alcohol every day
+```
+
+### Work and stress
+
+```
+Q33. What is the nature of the work?
+A. Sedentary work (>8 hours/day)
+B. Light activity (move around more)
+C. Physical labor
+D. Mixed (part sedentary, part active)
+
+Q34. Work stress level (1-10 points)?
+→ 1 point: no pressure
+→ 10 points: Extremely stressful and unbearable
+
+Q35. Is there a high-stress cycle in the near future?
+A. Yes (specifically, work/emotional/other? How long is it expected to last?)
+B. No, pressure levels are stable
+```
+
+### Sports History
+
+```
+Q36. Did you have regular exercise habits in the past?
+A. Yes (How long does it last? What kind of exercise?)
+B. No, never exercised regularly
+
+Q37. When was the last time you exercised regularly?
+A. Within 1 month
+B. 1-6 months ago
+C. 6-12 months ago
+D. More than 1 year
+
+Q38. Reasons why exercise programs have been tried but failed? (Multiple choice)
+A. Too tired to persevere
+B. Can’t see the effect and lose motivation
+C. Not enough time to persist
+D. Injury or physical discomfort
+E. Lack of guidance and don’t know what to do
+F. Other reasons (specifically?)
 ```
 
 ---
 
-## 建档完成输出
+## Group 5: Goals and Resources
 
-**建档完成后，自动生成以下内容：**
-
-### 1. 用户档案摘要
+### Fitness goals
 
 ```
-📋 健康档案建立完成！
+Q39. What is your fitness goal? (Multiple choices available, prioritize)
+
+[Main goal] (single choice)
+A. Fat loss (weight loss, body fat rate decrease)
+B. Muscle gain (weight gain, muscle mass increase)
+C. Maintain weight (maintain current status and improve health)
+D. Improve sports performance (running speed, strength growth, etc.)
+E. Improve cardiopulmonary function
+F. Improve body shape (men: increase muscle circumference; women: shape buttocks and legs)
+G. Improve sexual function and health
+H. Comprehensive health (energy, sleep, stress resistance)
+
+[Secondary goal] (optional, multiple choice)
+{Same option}
+```
+
+### Time resources
+
+```
+Q40. How many days can I exercise per week?
+A. 1-2 days
+B. 3-4 days
+C. 5-6 days
+D. Every day
+
+Q41. How long is it available each time?
+A. <30 minutes
+B. 30-45 minutes
+C. 45-60 minutes
+D. >60 minutes
+
+Q42. What is the most suitable time period for exercise?
+A. Morning (6:00-9:00)
+B. Morning (9:00-12:00)
+C. Afternoon (12:00-18:00)
+D. Evening (18:00-22:00)
+```
+
+### Equipment resources
+
+```
+Q43. Gym membership?
+A. Yes (distance/commute time?)
+B. No, but consider applying
+C. No, don’t plan to apply
+
+Q44. Equipment at home? (Multiple choice)
+A. Dumbbell (weight?)
+B. Stretch Band/Resistance Band
+C. Yoga mat
+D. Treadmill/Elliptical Machine
+E. Barbell + Barbell Plates
+F. Pull-up Bar
+G. No equipment
+
+Q45. What are the conditions for outdoor sports?
+A. There is a park/runway nearby (within 5 minutes walk)
+B. There are sports venues, but you need to commute
+C. There is no suitable place nearby
+```
+
+---
+
+## File creation completed output
+
+**After the file creation is completed, the following content will be automatically generated:**
+
+### 1. User profile summary
+
+```
+📋 The health file is created!
 
 ═══════════════════════════════════════════════════
 
-👤 基本信息
-昵称：{nickname}
-性别：{gender}
-年龄：{age}
-身高：{height} cm
-体重：{weight} kg
-体脂率：{body_fat}%（如有）
+👤 Basic information
+Nickname: {nickname}
+Gender: {gender}
+Age: {age}
+Height: {height} cm
+Weight: {weight} kg
+Body fat percentage: {body_fat}% (if any)
 
-📊 身体指标
-BMI：{bmi}（{解读}）
-BMR：{bmr} kcal/天
-TDEE：{tdee} kcal/天
-理想体重：{min} - {max} kg
+📊 Body indicators
+BMI: {bmi} ({interpretation})
+BMR: {bmr} kcal/day
+TDEE: {tdee}kcal/day
+Ideal weight: {min} - {max} kg
 
-🎯 健身目标
-主要目标：{primary_goal}
-次要目标：{secondary_goals}
+🎯Fitness goals
+Primary goal: {primary_goal}
+Secondary goals: {secondary_goals}
 
-📅 运动计划
-每周运动：{days} 天
-每次时长：{duration} 分钟
-偏好时段：{time_preference}
+📅 Exercise plan
+Weekly exercise: {days} days
+Duration each time: {duration} minutes
+Preference time: {time_preference}
 
-🏠 器械条件
-健身房：{gym_status}
-家中器械：{equipment_list}
+🏠 Equipment conditions
+Gym: {gym_status}
+Equipment at home: {equipment_list}
 
-⚠️ 健康关注点
-{用药史/疾病史/不适症状摘要}
-
-═══════════════════════════════════════════════════
-
-档案已保存！接下来：
-1. Coach Alex 会为你制定第一周训练计划
-2. Dr. Mei 会为你计算营养目标
-3. 建议完成中医体质辨识（可选，但推荐）
-
-准备好了吗？我们开始第一周的训练！
-```
-
-### 2. 四角色存在感强化
-
-**建档完成后，必须展示四位顾问的就绪状态：**
-
-```
-👥 您的四位健康顾问已就绪
+⚠️Health concerns
+{Medication history/disease history/symptom summary}
 
 ═══════════════════════════════════════════════════
 
-🏋️ Coach Alex（运动教练）— ✅ 已激活
-   已根据您的目标（{primary_goal}）和器械条件（{equipment}），
-   准备好为您制定第一周训练计划。
-   每个动作都会提供详细技术指导（含动作图解）。
+File saved! Next:
+1. Coach Alex will make a training plan for you for the first week
+2. Dr. Mei will calculate your nutritional goals for you
+3. It is recommended to complete the traditional Chinese medicine constitution identification (optional, but recommended)
 
-🥗 Dr. Mei（营养师）— ✅ 已激活
-   已计算您的每日营养目标：
-   - 热量：{tdee} kcal（{goal_adjustment}）
-   - 蛋白质：{protein_target}g
-   - 碳水：{carb_target}g
-   - 脂肪：{fat_target}g
-   并为您准备了个性化购物指南。
+Are you ready? We begin our first week of training!
+```
 
-📊 Analyst Ray（数据分析师）— ⏳ 等待数据积累
-   我注意到您目前还没有历史运动/饮食记录。
-   建议坚持记录 7 天后，我将为您生成首份周报，
-   分析您的训练趋势、身体变化和营养摄入情况。
-   请耐心等待，我会一直在这里守护您的健康！
+### 2. Strengthen the presence of the four characters
 
-🌿 Dr. Chen（中医体质顾问）— ✅ 已激活
-   已完成基础体质初筛，建议您完成完整的
-   中医体质辨识（约 10-15 分钟），
-   我将为您提供个性化的体质调理方案。
+**After the file creation is completed, the readiness status of the four consultants must be displayed:**
+
+```
+👥 Your four health consultants are ready
 
 ═══════════════════════════════════════════════════
-四位顾问将全程陪伴您的健康旅程！
+
+🏋️ Coach Alex (Sports Coach) — ✅ Activated
+Based on your goal ({primary_goal}) and device conditions ({equipment}),
+Get ready to create a training plan for your first week.
+Detailed technical guidance (including action illustrations) will be provided for each action.
+
+🥗 Dr. Mei (Nutritionist) — ✅ Activated
+Your daily nutritional goals calculated:
+- Calories: {tdee} kcal ({goal_adjustment})
+- Protein: {protein_target}g
+- Carbohydrate: {carb_target}g
+- Fat: {fat_target}g
+And prepare a personalized shopping guide for you.
+
+📊 Analyst Ray (Data Analyst) — ⏳ Waiting for data accumulation
+I noticed that you currently have no historical exercise/diet records.
+It is recommended that after 7 days of recording, I will generate the first weekly report for you.
+Analyze your training trends, body changes and nutritional intake.
+Please be patient, I will always be here to protect your health!
+
+🌿 Dr. Chen (TCM Constitution Consultant) — ✅ Activated
+The basic physical fitness screening has been completed. It is recommended that you complete a complete
+TCM constitution identification (about 10-15 minutes),
+I will provide you with a personalized physical conditioning plan.
+
+═══════════════════════════════════════════════════
+Four consultants will accompany you throughout your health journey!
 ```
 
-**注意：** 即使某位顾问暂时用不到（如 Analyst Ray 需要数据积累），也要说明原因并强调"一直在守护"。
+**Note:** Even if a consultant is temporarily unavailable (for example, Analyst Ray needs data accumulation), the reason must be explained and "always guarding" should be emphasized.
 
 ---
 
-### 3. 购物指南（建档完成后立即提供）
+### 3. Shopping guide (provided immediately after profile creation is completed)
 
-**建档完成后，根据用户目标提供个性化购物清单：**
+**After the profile creation is completed, a personalized shopping list will be provided based on the user's goals:**
 
-详见：`references/shopping_guide.md`
-
-```
-🛒 健康饮食购物指南
-
-根据您的目标（{primary_goal}），建议优先采购以下食材：
-
-【蛋白质类】⭐⭐⭐⭐⭐ 每周必买
-- 鸡胸肉：每周 4-5 次，每次 500g（高蛋白低脂，性价比之王）
-- 鸡蛋：每天 1-2 个，买 10-15 个（完整蛋白质，营养全面）
-- 鱼虾：每周 3-4 次，每次 300-500g（低脂高蛋白）
-- 希腊酸奶（无糖）：每周 3-4 次（高蛋白，饱腹感强）
-
-【蔬菜类】⭐⭐⭐⭐⭐ 每周必买
-- 西兰花：每周 4-5 次（十字花科，高纤维）
-- 菠菜/生菜：每周 4-5 次（低卡高纤维）
-- 黄瓜：每周 3-4 次（低卡解馋，可当零食）
-- 番茄：每周 3-4 次（富含番茄红素）
-
-【主食类】⭐⭐⭐⭐ 控制量
-- 燕麦片（原味）：每周 3-4 次（选非即食型）
-- 红薯/紫薯：每周 2-3 次（优质慢碳）
-- 糙米/杂粮米：每周 2-3 次（替代白米饭）
-
-【健康脂肪】⭐⭐⭐ 适量
-- 坚果（杏仁/核桃）：每天一小把（约 30g）
-- 橄榄油：烹饪用油
-- 牛油果：每周 1-2 次
-
-⚠️ 建议避免的食物：
-- ❌ 含糖饮料（可乐/果汁/奶茶）
-- ❌ 油炸食品（炸鸡/薯条）
-- ❌ 精制甜点（蛋糕/饼干）
-- ❌ 加工肉类（香肠/培根）
-
-💡 采购技巧：
-1. 周末批量采购，避免工作日没时间买菜
-2. 鸡胸肉、鱼虾分装冷冻，吃前一晚解冻
-3. 看配料表，选择添加剂少的食品
-
-完整购物清单请查看：references/shopping_guide.md
-```
-
----
-
-### 4. 数据存储
-
-**JSON 文件：**
-- `data/json/profile.json` - 基础生理数据
-- `data/json/profile_health_history.json` - 健康史
-- `data/json/profile_fitness_baseline.json` - 体测基准数据
-
-**TXT 日志：**
-- `data/txt/workout_log.txt` - 写入体测成绩作为基准线
-
----
-
-## 建档引导话术模板
-
-### 开场白
+See: `references/shopping_guide.md`
 
 ```
-👋 你好！我是 HealthFit 的健康档案建立助手。
+🛒 Healthy Eating Shopping Guide
 
-在开始制定训练和饮食计划之前，我需要了解一些关于你的
-基本信息。这会帮助 Coach Alex、Dr. Mei 和 Dr. Chen为你
-提供最个性化的建议。
+Based on your goal ({primary_goal}), it is recommended to prioritize purchasing the following ingredients:
 
-整个过程分为 5 组问题，大约需要 10-15 分钟。你可以随时
-暂停，后续继续。
+【Protein】⭐⭐⭐⭐⭐ Must buy every week
+- Chicken breast: 4-5 times a week, 500g each time (high protein, low fat, the best value for money)
+- Eggs: 1-2 a day, buy 10-15 (complete protein, comprehensive nutrition)
+- Fish and shrimp: 3-4 times a week, 300-500g each time (low-fat and high-protein)
+- Greek yogurt (sugar-free): 3-4 times a week (high in protein, strong satiety)
 
-准备好了吗？我们开始第一组：基础生理数据。
-```
+【Vegetables】⭐⭐⭐⭐⭐ Must buy every week
+- Broccoli: 4-5 times per week (cruciferous, high fiber)
+- Spinach/lettuce: 4-5 times a week (low in calories and high in fiber)
+- Cucumber: 3-4 times a week (low calorie satiates cravings, can be used as a snack)
+- Tomatoes: 3-4 times a week (rich in lycopene)
 
-### 每组过渡
+【Staple food】⭐⭐⭐⭐ Control the amount
+- Oatmeal (original): 3-4 times a week (choose non-ready-to-eat type)
+- Sweet potatoes/purple potatoes: 2-3 times a week (high-quality slow carbs)
+- Brown rice/multigrain rice: 2-3 times a week (replace white rice)
 
-```
-✅ 第一组完成！接下来是第二组：近 2-3 年健康史。
+【Healthy Fat】⭐⭐⭐ Moderate amount
+- Nuts (almonds/walnuts): a small handful (about 30g) per day
+- Olive oil: cooking oil
+- Avocado: 1-2 times a week
 
-这部分涉及用药史、疾病史等隐私信息，所有数据仅存储在你
-本地，仅用于为你提供更安全的训练建议。你可以选择跳过
-任何不想回答的问题。
+⚠️ Foods recommended to avoid:
+- ❌ Sugary drinks (cola/juice/milk tea)
+- ❌ Fried food (fried chicken/french fries)
+- ❌ Refined desserts (cakes/biscuits)
+- ❌ Processed meat (sausage/bacon)
 
-我们开始：
-```
+💡 Purchasing Tips:
+1. Buy in bulk on weekends to avoid running out of time to buy groceries on weekdays
+2. Freeze chicken breasts, fish and shrimp in separate packages and defrost them the night before eating.
+3. Look at the ingredient list and choose foods with fewer additives.
 
-### 建档完成
-
-```
-🎉 建档完成！
-
-你的健康档案已建立并保存。基于你的数据：
-
-→ Coach Alex 会为你制定第一周训练计划
-→ Dr. Mei 会计算你的营养目标
-→ 建议完成中医体质辨识（可选，但推荐）
-
-接下来你想：
-A. 查看第一周训练计划
-B. 查看营养目标
-C. 进行中医体质辨识
-D. 其他问题
-
-输入字母选择，或直接告诉我你想做什么！
+For a complete shopping list, please see: references/shopping_guide.md
 ```
 
 ---
 
-*西医建档流程完成 | 下一步：中医建档流程（onboarding_tcm.md）*
+### 4. Data storage
+
+**JSON file:**
+- `data/json/profile.json` - basic physiological data
+- `data/json/profile_health_history.json` - health history
+- `data/json/profile_fitness_baseline.json` - Physical measurement baseline data
+
+**TXT log:**
+- `data/txt/workout_log.txt` - Write physical test results as baseline
+
+---
+
+## Document creation guide speech template
+
+### Opening remarks
+
+```
+👋 Hello! I'm HealthFit's Profile Building Assistant.
+
+Before I start developing a training and diet plan, I need to know something about you
+Basic information. This will help Coach Alex, Dr. Mei and Dr. Chen provide you with
+Provide the most personalized advice.
+
+The entire process is divided into 5 sets of questions and takes approximately 10-15 minutes. you can anytime
+Pause and continue.
+
+Are you ready? Let’s start with the first set: basic physiological data.
+```
+
+### Each group of transitions
+
+```
+✅The first group is completed! Next is the second group: health history over the past 2-3 years.
+
+This part involves private information such as medication history, disease history, etc. All data is only stored in your
+Local, only used to provide you with safer training suggestions. You can choose to skip
+Any questions you don’t want answered.
+
+Let's start:
+```
+
+### File creation completed
+
+```
+🎉 Profile creation completed!
+
+Your health record has been created and saved. Based on your data:
+
+→ Coach Alex will make a training plan for you for the first week
+→ Dr. Mei will calculate your nutritional goals
+→ It is recommended to complete the traditional Chinese medicine constitution identification (optional, but recommended)
+
+Next you think:
+A. View the first week training plan
+B. Review Nutritional Goals
+C. Carry out TCM constitution identification
+D. Other questions
+
+Enter a letter to choose, or just tell me what you want to do!
+```
+
+---
+
+*Western medicine filing process completed | Next step: Traditional Chinese medicine filing process (onboarding_tcm.md)*

@@ -1,1303 +1,1303 @@
-# 二十四节气完整养生方案
+# Complete health plan for the twenty-four solar terms
 
-> **来源依据：** 《黄帝内经·素问》四气调神大论、《遵生八笺》、《中医养生学》、中国气象局气候数据
+> **Source basis:** "Huangdi Neijing·Suwen" The Four Qi Regulating the Spirit, "Eight Notes on Compliance with Health", "TCM Health", China Meteorological Administration climate data
 
 ---
 
-## 节气概览
+## Solar terms overview
 
-| 季节 | 节气 | 日期范围 | 气候特点 | 养生重点 |
+| Seasons | Solar Terms | Date Range | Climate Characteristics | Health Focus |
 |------|------|---------|---------|---------|
-| 春 | 立春 | 2/3-5 | 阳气始生 | 养肝护阳 |
-| 春 | 雨水 | 2/18-20 | 降雨增多 | 健脾祛湿 |
-| 春 | 惊蛰 | 3/5-7 | 春雷始鸣 | 疏肝利胆 |
-| 春 | 春分 | 3/20-22 | 昼夜平分 | 调和阴阳 |
-| 春 | 清明 | 4/4-6 | 气清景明 | 养肝明目 |
-| 春 | 谷雨 | 4/19-21 | 雨生百谷 | 健脾祛湿 |
-| 夏 | 立夏 | 5/5-7 | 暑气渐生 | 养心安神 |
-| 夏 | 小满 | 5/20-22 | 麦粒渐满 | 清热利湿 |
-| 夏 | 芒种 | 6/5-7 | 麦收时节 | 防暑祛湿 |
-| 夏 | 夏至 | 6/21-22 | 阳气最盛 | 养心护阳 |
-| 夏 | 小暑 | 7/6-8 | 暑气未极 | 清热解暑 |
-| 夏 | 大暑 | 7/22-24 | 一年最热 | 防暑降温 |
-| 秋 | 立秋 | 8/7-9 | 秋气始生 | 养肺润燥 |
-| 秋 | 处暑 | 8/22-24 | 暑气渐消 | 滋阴润肺 |
-| 秋 | 白露 | 9/7-9 | 露水凝结 | 养肺防燥 |
-| 秋 | 秋分 | 9/22-24 | 昼夜平分 | 调和阴阳 |
-| 秋 | 寒露 | 10/8-9 | 露水寒凉 | 养阴防燥 |
-| 秋 | 霜降 | 10/23-24 | 开始降霜 | 健脾养胃 |
-| 冬 | 立冬 | 11/7-8 | 冬季开始 | 补肾藏精 |
-| 冬 | 小雪 | 11/22-23 | 开始降雪 | 温阳散寒 |
-| 冬 | 大雪 | 12/6-8 | 雪量增大 | 补肾御寒 |
-| 冬 | 冬至 | 12/21-23 | 阴气最盛 | 补肾养阳 |
-| 冬 | 小寒 | 1/5-7 | 开始寒冷 | 温阳散寒 |
-| 冬 | 大寒 | 1/20-21 | 一年最冷 | 补肾藏精 |
+| Spring | Beginning of Spring | 2/3-5 | Yang Qi begins to grow | Nourish the liver and protect Yang |
+| Spring | Rain | 2/18-20 | Increased rainfall | Strengthen the spleen and remove dampness |
+| Spring | Awakening of Insects | 3/5-7 | Spring Thunder Begins | Soothes the liver and promotes gallbladder |
+| Spring | Vernal Equinox | 3/20-22 | Day and Night Equinox | Reconciling Yin and Yang |
+| Spring | Qingming | 4/4-6 | Qi Qing and Jingming | Nourish the liver and improve eyesight |
+| Spring | Grain Rain | 4/19-21 | Rain produces hundreds of grains | Strengthens the spleen and removes dampness |
+| Summer | Beginning of Summer | 5/5-7 | The heat is getting stronger | Nourishing the mind and calming the mind |
+| Summer | Xiaoman | 5/20-22 | Wheat grains are getting full | Clear away heat and dampness |
+| Summer | Eargrass | 6/5-7 | Wheat harvest season | Heatstroke prevention and dampness removal |
+| Summer | Summer Solstice | 6/21-22 | Yang Qi is at its strongest | Nourish the heart and protect Yang |
+| Summer | Slight Heat | 7/6-8 | The heat is not over yet | Clear away heat and relieve heat |
+| Summer | Great Heat | 7/22-24 | The hottest year | Heatstroke prevention and cooling |
+| Autumn | Beginning of Autumn | 8/7-9 | Autumn Qi begins to grow | Nourish the lungs and moisturize dryness |
+| Autumn | The end of the summer heat | 8/22-24 | The heat gradually subsides | Nourishing yin and moisturizing the lungs |
+| Autumn | White dew | 9/7-9 | Dew condensation | Nourishes the lungs and prevents dryness |
+| Autumn | Autumnal Equinox | 9/22-24 | Equinox Day and Night | Reconciling Yin and Yang |
+| Autumn | Cold dew | 10/8-9 | Cold dew | Nourishing yin and preventing dryness |
+| Autumn | Frost falls | 10/23-24 | Frost begins to fall | Strengthen the spleen and stomach |
+| Winter | Beginning of Winter | 11/7-8 | Beginning of winter | Tonifying the kidneys and storing essence |
+| Winter | Light snow | 11/22-23 | Snow begins to fall | Warming the sun and dispersing the cold |
+| Winter | Heavy snow | 12/6-8 | Increased snow volume | Tonify the kidneys and keep out the cold |
+| Winter | Winter Solstice | 12/21-23 | Yin Qi is at its strongest | Replenishing kidneys and nourishing yang |
+| Winter | Minor Cold | 1/5-7 | Begins to be cold | Warm Yang and dispel cold |
+| Winter | Big Cold | 1/20-21 | The coldest of the year | Tonify the kidneys and store essence |
 
 ---
 
-## 春季养生（立春→谷雨）
+## Spring health care (beginning of spring → Guyu)
 
-### 一、立春（2 月 3-5 日）
+### 1. Beginning of Spring (February 3-5)
 
-**气候特点：** 阳气始生，万物复苏，但寒气未散
+**Climate characteristics:** Yang Qi begins to emerge and everything revives, but the cold air does not dissipate
 
-**养生原则：** 养肝护阳，春捂防寒
+**Principles of health care:** Nourish the liver and protect yang, cover up in spring to prevent cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起（21:00-22:00 入睡，6:00-6:30 起床）
-- 春捂：不要急于减衣，注意背部、腹部保暖
-- 晨起后开窗通风 15-20 分钟
+**Living:**
+- Go to bed early and get up early (go to bed between 21:00-22:00, wake up between 6:00-6:30)
+- Spring cover: Don’t rush to reduce clothes, pay attention to keeping your back and abdomen warm
+- Open windows and ventilate for 15-20 minutes after getting up in the morning
 
-**运动：**
-- 选择温和运动：散步、太极拳、八段锦
-- 晨练时间不宜过早（等太阳出来后再出门）
-- 运动强度：微微出汗即可
+**sports:**
+- Choose gentle exercise: walking, Tai Chi, Baduanjin
+- Morning exercise should not be too early (wait until the sun comes out before going out)
+- Exercise intensity: Just sweat a little
 
-**情志：**
-- 保持心情舒畅，避免生气发怒
-- 多到户外接触自然，感受春意
+**Emotions:**
+- Stay in a good mood and avoid getting angry
+- Go outdoors more often, get in touch with nature, and feel the spirit of spring
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 气虚质 | 注意保暖，避免受风感冒 |
-| 阳虚质 | 继续保暖，可开始适度户外活动 |
-| 阴虚质 | 避免过度出汗伤阴 |
-| 痰湿质 | 增加运动量，促进代谢 |
-| 湿热质 | 注意皮肤清洁，预防痤疮 |
-| 气郁质 | 多到户外踏青，疏肝解郁 |
+| Qi deficiency | Keep warm and avoid catching colds |
+| Yang deficiency | Continue to keep warm and start moderate outdoor activities |
+| Yin deficiency | Avoid excessive sweating to damage yin |
+| Phlegm-dampness | Increase exercise and promote metabolism |
+| Damp-heat quality | Pay attention to skin cleansing and prevent acne |
+| Qi stagnation | Go outdoors more often to soothe the liver and relieve stagnation |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：韭菜炒鸡蛋**
+**Therapeutic Recipe: Fried Eggs with Chives**
 ```
-材料：韭菜 200g，鸡蛋 3 个，盐适量
-做法：韭菜切段，鸡蛋打散，先炒鸡蛋盛出，再炒韭菜，加入鸡蛋翻炒，加盐调味
-功效：温阳护肝，助阳生发
-频率：每周 2-3 次
-```
-
-**茶饮：玫瑰花茶**
-```
-材料：玫瑰花（干）10g，冰糖适量
-做法：沸水冲泡，焖 5 分钟
-功效：疏肝理气，活血养颜
-频率：每日 1 杯
+Ingredients: 200g leeks, 3 eggs, appropriate amount of salt
+Method: Cut the leeks into sections, beat the eggs, scramble the eggs first and scoop them out, then fry the leeks, add the eggs and stir-fry, add salt to taste
+Efficacy: Warms yang, protects liver, helps yang to grow hair
+Frequency: 2-3 times per week
 ```
 
-**穴位保健：太冲穴**
+**Tea drink: rose tea**
 ```
-位置：足背侧，第 1、2 跖骨结合部之前凹陷处
-方法：拇指按揉，每侧 5 分钟
-频率：每日 2 次
-功效：疏肝理气，平肝熄风
+Ingredients: 10g roses (dried), appropriate amount of rock sugar
+Method: brew in boiling water and simmer for 5 minutes
+Efficacy: soothes the liver and regulates qi, promotes blood circulation and nourishes the skin
+Frequency: 1 cup daily
+```
+
+**Acupoint health care: Taichong point**
+```
+Location: Dorsal side of foot, in the depression before the junction of the 1st and 2nd metatarsals
+Method: Massage with thumbs, 5 minutes on each side
+Frequency: 2 times daily
+Efficacy: soothes the liver and regulates qi, calms the liver and calms the wind
 ```
 
 ---
 
-### 二、雨水（2 月 18-20 日）
+### 2. Rain (February 18-20)
 
-**气候特点：** 降雨增多，空气湿润，湿气渐重
+**Climate characteristics:** Increased rainfall, humid air, and increasingly heavy humidity
 
-**养生原则：** 健脾祛湿，养护脾胃
+**Health care principles:** Strengthen the spleen, remove dampness, and maintain the spleen and stomach
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持室内干燥，必要时使用除湿机
-- 避免淋雨，淋雨后及时更换干爽衣物
-- 睡前泡脚（水温 40-45℃，20 分钟）
+**Living:**
+- Keep the room dry and use a dehumidifier if necessary
+- Avoid getting exposed to rain and change into dry clothes promptly after exposure to rain.
+- Soak your feet before going to bed (water temperature 40-45℃, 20 minutes)
 
-**饮食：**
-- 少吃生冷食物，避免损伤脾胃
-- 多吃健脾祛湿食物：山药、薏米、茯苓
-- 适量吃辛温食物：生姜、葱、蒜（助阳化湿）
+**diet:**
+- Eat less raw and cold food to avoid damage to the spleen and stomach
+- Eat more foods that strengthen the spleen and remove dampness: yam, barley, and poria
+- Eat pungent and warm foods in moderation: ginger, onions, garlic (helps yang and dampness)
 
-**运动：**
-- 增加运动量，促进湿气排出
-- 推荐：慢跑、快走、瑜伽
-- 运动后及时擦干汗水，避免受风
+**sports:**
+- Increase the amount of exercise and promote moisture discharge
+- Recommended: jogging, brisk walking, yoga
+- Wipe off sweat promptly after exercise to avoid exposure to wind
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 痰湿质 | 重点祛湿季节，加强运动，控制饮食 |
-| 湿热质 | 清热利湿，避免辛辣油腻 |
-| 阳虚质 | 注意保暖，避免寒湿侵袭 |
-| 气虚质 | 健脾益气，增强运化功能 |
+| Phlegm-dampness | Focus on removing dampness during the season, strengthen exercise, and control diet |
+| Damp-heat quality | Clear away heat and dampness, avoid spicy and greasy food |
+| Yang deficiency | Keep warm and avoid cold and dampness |
+| Qi deficiency | Strengthen the spleen and replenish qi, enhance transportation and transformation functions |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：山药薏米粥**
+**Therapeutic Recipe: Yam and barley porridge**
 ```
-材料：山药 50g，薏米 50g，大米 50g
-做法：薏米提前浸泡 2 小时，与山药、大米同煮成粥
-功效：健脾祛湿，补肺益肾
-频率：每周 4-5 次
+Ingredients: 50g yam, 50g barley, 50g rice
+Method: Soak barley for 2 hours in advance, and cook it with yam and rice to make porridge.
+Efficacy: Strengthen the spleen and remove dampness, nourish the lungs and kidneys
+Frequency: 4-5 times per week
 ```
 
-**茶饮：陈皮茯苓茶**
+**Tea: Tangerine peel and Poria tea**
 ```
-材料：陈皮 5g，茯苓 15g
-做法：沸水冲泡或煮 10 分钟
-功效：健脾祛湿，理气化痰
-频率：每日 1 剂
+Ingredients: 5g tangerine peel, 15g poria
+Method: Brew or boil in boiling water for 10 minutes
+Efficacy: Strengthen the spleen and remove dampness, regulate qi and resolve phlegm
+Frequency: 1 dose daily
 ```
 
 ---
 
-### 三、惊蛰（3 月 5-7 日）
+### 3. Jingzhe (March 5-7)
 
-**气候特点：** 春雷始鸣，万物苏醒，细菌病毒活跃
+**Climate characteristics:** Spring thunder begins to roar, everything wakes up, and bacteria and viruses are active
 
-**养生原则：** 疏肝利胆，预防传染病
+**Health Principles:** Soothe the liver and promote gallbladder, prevent infectious diseases
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持室内通风，每日至少 2 次，每次 30 分钟
-- 注意个人卫生，勤洗手
-- 避免到人群密集场所（传染病高发期）
+**Living:**
+- Maintain indoor ventilation at least 2 times a day for 30 minutes each time
+- Pay attention to personal hygiene and wash hands frequently
+- Avoid going to crowded places (during high incidence of infectious diseases)
 
-**饮食：**
-- 多吃清淡食物，少吃油腻
-- 适当吃辛凉食物：梨、芹菜、菠菜
-- 避免过量饮酒（伤肝）
+**diet:**
+- Eat more light food and less greasy food
+- Eat spicy and cool foods appropriately: pears, celery, spinach
+- Avoid excessive drinking (liver damage)
 
-**运动：**
-- 增加户外活动，呼吸新鲜空气
-- 推荐：登山、徒步、放风筝
-- 运动强度：中等强度，微微出汗
+**sports:**
+- Increase outdoor activities and breathe fresh air
+- Recommended: mountain climbing, hiking, kite flying
+- Exercise intensity: moderate intensity, slightly sweaty
 
-**防疫：**
-- 注意保暖，预防感冒
-- 过敏体质者注意防护（花粉、尘螨）
+**epidemic prevention:**
+- Keep warm and prevent colds
+- People with allergies should take precautions (pollen, dust mites)
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 特禀质 | 过敏高发期，注意防护，随身携带药物 |
-| 气郁质 | 疏肝解郁最佳时节，多到户外 |
-| 湿热质 | 预防皮肤疾病，保持皮肤清洁 |
+| Special qualities | During the period of high allergy incidence, pay attention to protection and carry medicine with you |
+| Qi stagnation | The best time to soothe the liver and relieve stagnation is to go outdoors more |
+| Damp-heat quality | Prevent skin diseases and keep skin clean |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：芹菜炒百合**
+**Therapeutic Recipe: Stir-fried celery and lily**
 ```
-材料：芹菜 200g，百合 50g，盐适量
-做法：芹菜切段，百合洗净，快炒 3 分钟，加盐调味
-功效：清热平肝，润肺安神
-频率：每周 3-4 次
+Ingredients: 200g celery, 50g lily, appropriate amount of salt
+Method: cut celery into sections, wash lily, stir-fry for 3 minutes, add salt to taste
+Efficacy: clearing away heat and calming the liver, moistening the lungs and calming the nerves
+Frequency: 3-4 times per week
 ```
 
-**茶饮：菊花枸杞茶**
+**Tea: Chrysanthemum and wolfberry tea**
 ```
-材料：菊花 10g，枸杞 15g
-做法：沸水冲泡，焖 5 分钟
-功效：清肝明目，滋阴补肾
-频率：每日 1 剂
+Ingredients: 10g chrysanthemum, 15g wolfberry
+Method: brew in boiling water and simmer for 5 minutes
+Efficacy: clearing the liver and improving eyesight, nourishing yin and nourishing the kidneys
+Frequency: 1 dose daily
 ```
 
 ---
 
-### 四、春分（3 月 20-22 日）
+### 4. Spring Equinox (March 20-22)
 
-**气候特点：** 昼夜平分，阴阳平衡，气候温和
+**Climate characteristics:** Day and night are equally divided, yin and yang are balanced, and the climate is mild
 
-**养生原则：** 调和阴阳，平衡饮食
+**Health Principle:** Reconciling Yin and Yang, balanced diet
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持规律作息，不熬夜
-- 适当午休（30 分钟左右）
-- 保持心情平和，避免情绪波动
+**Living:**
+- Keep a regular schedule and don’t stay up late
+- Take a proper lunch break (about 30 minutes)
+- Keep your mood calm and avoid mood swings
 
-**饮食：**
-- 饮食均衡，不偏食
-- 寒热食物搭配食用
-- 多吃时令蔬菜：菠菜、韭菜、春笋
+**diet:**
+- Eat a balanced diet without any particular eclipse
+- Eat with hot and cold foods
+- Eat more seasonal vegetables: spinach, leeks, spring bamboo shoots
 
-**运动：**
-- 选择温和运动，避免过度
-- 推荐：太极拳、八段锦、瑜伽
-- 运动时间：上午 9-11 点或下午 15-17 点
+**sports:**
+- Choose gentle exercise and avoid excessive exercise
+- Recommended: Tai Chi, Baduanjin, Yoga
+- Exercise time: 9-11 am or 15-17 pm
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 平和质 | 保持现状，继续均衡饮食 |
-| 阴虚质 | 注意滋阴，避免过度出汗 |
-| 阳虚质 | 继续温补，但避免过热 |
+| Peace and quality | Maintain the status quo and continue to eat a balanced diet |
+| Yin deficiency | Pay attention to nourishing yin and avoid excessive sweating |
+| Yang deficiency | Continue to warm and nourish, but avoid overheating |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：菠菜猪肝汤**
+**Therapeutic Recipe: Spinach and Pork Liver Soup**
 ```
-材料：菠菜 200g，猪肝 100g，生姜 3 片，盐适量
-做法：猪肝切片焯水，与生姜同煮 10 分钟，加入菠菜再煮 2 分钟，加盐调味
-功效：养血补肝，滋阴润燥
-频率：每周 2-3 次
+Ingredients: 200g spinach, 100g pork liver, 3 slices of ginger, appropriate amount of salt
+Method: Blanch the pork liver slices, cook with ginger for 10 minutes, add spinach and cook for another 2 minutes, add salt to taste
+Efficacy: nourish blood and liver, nourish yin and moisturize dryness
+Frequency: 2-3 times per week
 ```
 
-**保健：阴阳平衡操**
+**Health care: Yin and Yang balance exercises**
 ```
-动作：
-1. 双手托天理三焦（八段锦第一式）× 6 次
-2. 左右开弓似射雕（八段锦第二式）× 6 次
-3. 调理脾胃须单举（八段锦第三式）× 6 次
-频率：每日 1-2 次
+action:
+1. Hold the Three Burners of Heavenly Li with both hands (Ba Duan Jin Form 1) × 6 times
+2. Open the bow from left to right like shooting a vulture (Ba Duanjin 2nd style) × 6 times
+3. To regulate the spleen and stomach, single lift is required (the third form of Baduanjin) × 6 times
+Frequency: 1-2 times daily
 ```
 
 ---
 
-### 五、清明（4 月 4-6 日）
+### 5. Qingming Festival (April 4-6)
 
-**气候特点：** 气清景明，万物生长，肝气旺盛
+**Climate characteristics:** Qi is clear, the scenery is bright, all things grow, and liver qi is strong
 
-**养生原则：** 养肝明目，踏青祭祖
+**Principles of health preservation:** Nourishing the liver and improving eyesight, going outing to worship ancestors
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起，顺应阳气生发
-- 多到户外踏青，亲近自然
-- 注意眼部休息，避免长时间用眼
+**Living:**
+- Go to bed early and get up early to follow Yang Qi and grow hair.
+- Go outdoors for more outings and get closer to nature
+- Pay attention to eye rest and avoid using your eyes for a long time
 
-**饮食：**
-- 多吃绿色蔬菜（养肝）
-- 适当吃酸味食物（收敛肝气）
-- 避免过量饮酒（伤肝）
+**diet:**
+- Eat more green vegetables (nourishes the liver)
+- Eat sour food appropriately (condensing liver qi)
+- Avoid excessive drinking (liver damage)
 
-**运动：**
-- 户外运动最佳时节
-- 推荐：登山、徒步、骑行
-- 运动强度：中等强度
+**sports:**
+- Best time for outdoor sports
+- Recommended: mountain climbing, hiking, and cycling
+- Exercise intensity: moderate intensity
 
-**情志：**
-- 保持心情舒畅
-- 祭祖时避免过度悲伤
+**Emotions:**
+- Keep your mood comfortable
+- Avoid excessive sadness when worshiping ancestors
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 气郁质 | 踏青郊游最佳时节，疏肝解郁 |
-| 阴虚质 | 注意眼部保养，避免过度用眼 |
-| 高血压患者 | 避免情绪激动，监测血压 |
+| Qi stagnation | The best time for outings and outings to soothe the liver and relieve stagnation |
+| Yin deficiency | Pay attention to eye care and avoid excessive use of eyes |
+| Hypertensive patients | Avoid emotional excitement and monitor blood pressure |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：枸杞菊花粥**
+**Therapeutic Recipe: Wolfberry and Chrysanthemum Porridge**
 ```
-材料：枸杞 20g，菊花 10g，大米 100g
-做法：大米煮粥，快熟时加入枸杞、菊花，再煮 5 分钟
-功效：养肝明目，滋阴补肾
-频率：每周 3-4 次
+Ingredients: 20g wolfberry, 10g chrysanthemum, 100g rice
+Method: Cook rice porridge, add wolfberry and chrysanthemum when it is almost cooked, and cook for another 5 minutes
+Efficacy: Nourish the liver and improve eyesight, nourish yin and nourish the kidneys
+Frequency: 3-4 times per week
 ```
 
-**茶饮：决明子茶**
+**Tea: Cassia seed tea**
 ```
-材料：决明子（炒）15g
-做法：沸水冲泡，焖 10 分钟
-功效：清肝明目，润肠通便
-频率：每日 1 剂
+Ingredients: Cassia seeds (fried) 15g
+Method: brew in boiling water and simmer for 10 minutes
+Efficacy: clearing the liver and improving eyesight, moisturizing the intestines and laxative
+Frequency: 1 dose daily
 ```
 
 ---
 
-### 六、谷雨（4 月 19-21 日）
+### 6. Guyu (April 19-21)
 
-**气候特点：** 雨生百谷，湿气加重，春季最后一个节气
+**Climate characteristics:** Rain produces hundreds of grains, humidity increases, the last solar term of spring
 
-**养生原则：** 健脾祛湿，预防过敏
+**Health Principles:** Strengthen the spleen, remove dampness, and prevent allergies
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持室内干燥通风
-- 避免淋雨，淋雨后及时更换衣物
-- 注意防潮防霉
+**Living:**
+- Keep the room dry and ventilated
+- Avoid getting exposed to rain and change clothes promptly after exposure to rain
+- Pay attention to moisture and mildew
 
-**饮食：**
-- 多吃健脾祛湿食物：薏米、赤小豆、冬瓜
-- 少吃油腻、甜食（助湿）
-- 过敏体质者避免食用易致敏食物
+**diet:**
+- Eat more foods that strengthen the spleen and remove dampness: barley, adzuki beans, winter melon
+- Eat less greasy and sweet food (helps moisturizing)
+- People with allergies should avoid eating allergenic foods
 
-**运动：**
-- 增加运动量，促进湿气排出
-- 推荐：慢跑、游泳、瑜伽
-- 运动后及时洗澡，保持皮肤清洁
+**sports:**
+- Increase the amount of exercise and promote moisture discharge
+- Recommended: jogging, swimming, yoga
+- Take a shower promptly after exercise to keep your skin clean
 
-**防疫：**
-- 过敏高发期，注意防护
-- 花粉过敏者减少户外活动
+**epidemic prevention:**
+- During the period of high incidence of allergies, pay attention to protection
+- People with pollen allergies should reduce outdoor activities
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 痰湿质 | 重点祛湿，控制饮食，加强运动 |
-| 特禀质 | 过敏高发期，注意防护 |
-| 湿热质 | 清热利湿，预防皮肤病 |
+| Phlegm-dampness | Focus on removing dampness, controlling diet, and strengthening exercise |
+| Special Qualities | During the period of high allergy incidence, pay attention to protection |
+| Damp heat | Clear away heat and dampness, prevent skin diseases |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：赤小豆薏米汤**
+**Therapeutic Recipe: Adzuki Bean and Barley Soup**
 ```
-材料：赤小豆 50g，薏米 50g，冰糖适量
-做法：赤小豆、薏米提前浸泡 2 小时，同煮 1 小时，加冰糖调味
-功效：健脾祛湿，清热消肿
-频率：每周 4-5 次
+Ingredients: 50g adzuki beans, 50g barley, appropriate amount of rock sugar
+Method: Soak adzuki beans and barley for 2 hours in advance, cook for 1 hour, and add rock sugar to taste
+Efficacy: Strengthen the spleen, remove dampness, clear away heat and reduce swelling.
+Frequency: 4-5 times per week
 ```
 
-**茶饮：玉米须茶**
+**Tea: Corn Silk Tea**
 ```
-材料：玉米须（干）15g
-做法：沸水冲泡或煮 10 分钟
-功效：利水消肿，清热祛湿
-频率：每日 1 剂
+Ingredients: corn silk (dry) 15g
+Method: Brew or boil in boiling water for 10 minutes
+Efficacy: diuretic, reducing swelling, clearing away heat and removing dampness
+Frequency: 1 dose daily
 ```
 
 ---
 
-## 夏季养生（立夏→大暑）
+## Summer health care (beginning of summer → severe heat)
 
-### 七、立夏（5 月 5-7 日）
+### 7. Beginning of Summer (May 5-7)
 
-**气候特点：** 暑气渐生，阳气旺盛，万物繁茂
+**Climate characteristics:** The heat is gradually rising, the Yang energy is strong, and everything is luxuriant
 
-**养生原则：** 养心安神，防暑降温
+**Health Principles:** Nourish the mind and calm the mind, prevent heatstroke and cool down
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 晚睡早起（22:00-23:00 入睡，5:30-6:00 起床）
-- 适当午休（30-60 分钟）
-- 保持室内通风，避免直吹空调
+**Living:**
+- Go to bed late and get up early (go to bed at 22:00-23:00, get up at 5:30-6:00)
+- Take a proper lunch break (30-60 minutes)
+- Keep the room ventilated and avoid direct air conditioning
 
-**饮食：**
-- 多吃清淡食物，少吃油腻
-- 适当吃酸味食物（收敛汗液）
-- 多喝水，补充水分
-- 推荐食物：苦瓜、黄瓜、西红柿、西瓜
+**diet:**
+- Eat more light food and less greasy food
+- Eat sour food appropriately (contains sweat)
+-Drink more water and stay hydrated
+- Recommended foods: bitter melon, cucumber, tomatoes, watermelon
 
-**运动：**
-- 避免在高温时段运动（10:00-16:00）
-- 选择清晨或傍晚运动
-- 推荐：游泳、晨跑、太极拳
-- 运动强度：中等强度，避免大汗
+**sports:**
+- Avoid exercising during hot hours (10:00-16:00)
+- Choose morning or evening exercise
+- Recommended: swimming, morning jogging, Tai Chi
+- Exercise intensity: moderate intensity, avoid sweating
 
-**情志：**
-- 保持心情平和，避免烦躁
-- 静心养神，避免大喜大悲
+**Emotions:**
+- Keep your mood calm and avoid irritability
+- Keep your mind calm and avoid being overjoyed or sad.
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 气虚质 | 避免大汗伤气，运动适度 |
-| 阳虚质 | 可适当接受阳光，补充阳气 |
-| 阴虚质 | 注意补充水分，避免过度出汗 |
-| 湿热质 | 清热利湿，预防痤疮 |
+| Qi deficiency | Avoid sweating and damaging Qi, exercise moderately |
+| Yang deficiency constitution | Can receive appropriate sunlight to replenish Yang energy |
+| Yin deficiency | Pay attention to replenishing water and avoid excessive sweating |
+| Damp heat | Clear away heat and dampness, prevent acne |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：苦瓜炒鸡蛋**
+**Therapeutic Recipe: Bitter Melon Scrambled Eggs**
 ```
-材料：苦瓜 1 根，鸡蛋 3 个，盐适量
-做法：苦瓜切片焯水（去苦味），鸡蛋打散炒熟，加入苦瓜翻炒，加盐调味
-功效：清热解暑，明目解毒
-频率：每周 3-4 次
+Ingredients: 1 bitter melon, 3 eggs, appropriate amount of salt
+Method: Blanch the bitter melon slices (to remove the bitterness), beat the eggs and stir-fry until cooked, add the bitter melon and stir-fry, add salt to taste
+Efficacy: clearing away heat and relieving summer heat, improving eyesight and detoxifying
+Frequency: 3-4 times per week
 ```
 
-**茶饮：酸梅汤**
+**Tea: Sour plum soup**
 ```
-材料：乌梅 15g，山楂 15g，甘草 5g，冰糖适量
-做法：材料加水煮沸 15 分钟，加冰糖调味，放凉饮用
-功效：生津止渴，收敛汗液
-频率：每日 1-2 杯
+Ingredients: 15g black plum, 15g hawthorn, 5g licorice, appropriate amount of rock sugar
+Method: Boil the ingredients with water for 15 minutes, add rock sugar to taste, let it cool and drink
+Efficacy: Produces body fluids, quenches thirst, and astringes sweat.
+Frequency: 1-2 cups daily
 ```
 
 ---
 
-### 八、小满（5 月 20-22 日）
+### 8. Xiaoman (May 20-22)
 
-**气候特点：** 麦粒渐满，气温升高，雨水增多
+**Climate characteristics:** The wheat grains are getting full, the temperature is rising, and the rain is increasing
 
-**养生原则：** 清热利湿，预防皮肤病
+**Health care principles:** Clear away heat and dampness, prevent skin diseases
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持室内干燥通风
-- 勤换衣物，保持皮肤清洁
-- 避免长时间待在空调房
+**Living:**
+- Keep the room dry and ventilated
+- Change clothes frequently and keep your skin clean
+- Avoid staying in air-conditioned rooms for long periods of time
 
-**饮食：**
-- 多吃清热利湿食物：冬瓜、黄瓜、薏米
-- 少吃辛辣油腻食物
-- 避免过量饮酒
+**diet:**
+- Eat more heat-clearing and damp-removing foods: winter melon, cucumber, barley
+- Eat less spicy and greasy food
+- Avoid excessive drinking
 
-**运动：**
-- 增加运动量，促进排汗
-- 推荐：游泳、慢跑、羽毛球
-- 运动后及时洗澡
+**sports:**
+- Increase the amount of exercise and promote perspiration
+- Recommended: swimming, jogging, badminton
+- Take a shower promptly after exercise
 
-**皮肤护理：**
-- 保持皮肤清洁干燥
-- 预防痱子、湿疹
+**skin care:**
+- Keep skin clean and dry
+- Prevent prickly heat and eczema
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 湿热质 | 重点清热利湿，预防皮肤病 |
-| 痰湿质 | 加强运动，促进代谢 |
-| 特禀质 | 预防皮肤过敏 |
+| Damp-heat quality | Focus on clearing away heat and promoting dampness to prevent skin diseases |
+| Phlegm-dampness | Strengthen exercise and promote metabolism |
+| Special qualities | Prevent skin allergies |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：冬瓜薏米排骨汤**
+**Therapeutic Recipe: Winter Melon, Barley and Pork Ribs Soup**
 ```
-材料：冬瓜 500g（带皮），薏米 50g，排骨 500g，生姜 3 片
-做法：排骨焯水后与薏米、生姜同炖 1 小时，加入冬瓜再炖 30 分钟，加盐调味
-功效：清热利湿，消肿解毒
-频率：每周 2-3 次
+Ingredients: 500g winter melon (with skin), 50g barley, 500g pork ribs, 3 slices of ginger
+Method: Blanch the ribs and simmer with barley and ginger for 1 hour. Add winter melon and simmer for another 30 minutes. Add salt to taste.
+Efficacy: Clear away heat and dampness, reduce swelling and detoxify
+Frequency: 2-3 times per week
 ```
 
 ---
 
-### 九、芒种（6 月 5-7 日）
+### 9. Ear Grain (June 5-7)
 
-**气候特点：** 麦收时节，气温高，湿度大
+**Climate characteristics:** During the wheat harvest season, the temperature is high and the humidity is high
 
-**养生原则：** 防暑祛湿，调理脾胃
+**Health Principles:** Prevent heatstroke, remove dampness, and regulate the spleen and stomach
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持规律作息，避免熬夜
-- 适当午休
-- 避免长时间暴露在烈日下
+**Living:**
+- Maintain a regular schedule and avoid staying up late
+- Take a proper lunch break
+- Avoid prolonged exposure to the sun
 
-**饮食：**
-- 饮食清淡，易消化
-- 多吃瓜果蔬菜
-- 少吃油腻、生冷食物
-- 推荐食物：绿豆、冬瓜、丝瓜
+**diet:**
+- Eat a light diet that is easy to digest
+- Eat more fruits and vegetables
+- Eat less greasy, raw and cold food
+- Recommended foods: mung beans, winter melon, loofah
 
-**运动：**
-- 避免在高温高湿环境下运动
-- 选择清晨或傍晚
-- 推荐：游泳、太极拳
+**sports:**
+- Avoid exercising in high temperature and high humidity environments
+- Choose early morning or evening
+- Recommended: Swimming, Tai Chi
 
-**防暑：**
-- 多喝水，补充盐分
-- 随身携带防暑药物（藿香正气水）
+**Heatstroke prevention:**
+-Drink more water and add salt
+- Carry anti-heat medicine (Huoxiang Zhengqi Water) with you
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 气虚质 | 避免过度出汗，注意补气 |
-| 痰湿质 | 重点祛湿，饮食清淡 |
-| 阳虚质 | 避免过度贪凉 |
+| Qi deficiency | Avoid excessive sweating and pay attention to replenishing Qi |
+| Phlegm-dampness | Focus on removing dampness and eat a light diet |
+| Yang deficiency constitution | Avoid excessive craving for cold |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：绿豆粥**
+**Therapeutic Recipe: Mung Bean Porridge**
 ```
-材料：绿豆 50g，大米 50g，冰糖适量
-做法：绿豆提前浸泡 2 小时，与大米同煮成粥，加冰糖调味
-功效：清热解毒，消暑利水
-频率：每周 4-5 次
+Ingredients: 50g mung beans, 50g rice, appropriate amount of rock sugar
+Method: Soak mung beans for 2 hours in advance, cook them into porridge with rice, and add rock sugar to taste
+Efficacy: clearing away heat and detoxifying, relieving heat and diuresis
+Frequency: 4-5 times per week
 ```
 
-**茶饮：荷叶茶**
+**Tea drink: lotus leaf tea**
 ```
-材料：荷叶（干）10g
-做法：沸水冲泡，焖 5 分钟
-功效：清热解暑，升发清阳
-频率：每日 1 剂
+Ingredients: lotus leaves (dried) 10g
+Method: brew in boiling water and simmer for 5 minutes
+Efficacy: clear away heat and relieve heat, promote clear yang
+Frequency: 1 dose daily
 ```
 
 ---
 
-### 十、夏至（6 月 21-22 日）
+### 10. Summer Solstice (June 21-22)
 
-**气候特点：** 阳气最盛，白昼最长，气温高
+**Climate characteristics:** Yang Qi is the strongest, the days are longest, and the temperature is high
 
-**养生原则：** 养心护阳，防暑降温
+**Principles of health care:** Nourish the heart, protect the yang, prevent heatstroke and cool down
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 晚睡早起，顺应阳气
-- 适当午休（30-60 分钟）
-- 避免正午外出（11:00-15:00）
-- 空调温度不宜过低（26-28℃）
+**Living:**
+- Go to bed late and get up early to follow Yang Qi
+- Take a proper lunch break (30-60 minutes)
+- Avoid going out at noon (11:00-15:00)
+- The air conditioning temperature should not be too low (26-28℃)
 
-**饮食：**
-- 多吃清淡食物
-- 适当吃姜（冬吃萝卜夏吃姜）
-- 多喝水，补充盐分
-- 推荐食物：苦瓜、黄瓜、西瓜、绿豆
+**diet:**
+- Eat more light food
+- Eat ginger appropriately (eat radish in winter and ginger in summer)
+-Drink more water and add salt
+- Recommended foods: bitter melon, cucumber, watermelon, mung bean
 
-**运动：**
-- 避免在高温时段运动
-- 选择清晨或傍晚
-- 推荐：游泳、太极拳、散步
-- 运动强度：低至中等
+**sports:**
+- Avoid exercising during hot weather
+- Choose early morning or evening
+- Recommended: swimming, Tai Chi, walking
+- Exercise intensity: low to moderate
 
-**情志：**
-- 保持心情平和
-- 避免烦躁发怒
+**Emotions:**
+- Keep your mood calm
+- Avoid irritability and anger
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 最佳补阳时节，适度晒太阳 |
-| 阴虚质 | 避免过度出汗伤阴 |
-| 气虚质 | 避免大汗伤气 |
+| Yang deficiency constitution | The best time to replenish yang is moderate sun exposure |
+| Yin deficiency | Avoid excessive sweating to damage yin |
+| Qi deficiency | Avoid sweating and damaging Qi |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：姜枣茶**
+**Therapeutic Recipe: Ginger and Date Tea**
 ```
-材料：生姜 5 片，红枣 5 枚（去核），红糖适量
-做法：生姜、红枣加水煮沸 10 分钟，加红糖调味
-功效：温中散寒，补血益气
-频率：每日 1 剂（晨起饮用）
+Ingredients: 5 slices of ginger, 5 red dates (pitted), appropriate amount of brown sugar
+Method: Boil ginger and red dates with water for 10 minutes, add brown sugar to taste
+Efficacy: Warming and dispersing cold, nourishing blood and replenishing qi
+Frequency: 1 dose daily (drink in the morning)
 ```
 
-**保健：晒背**
+**Health care: Sunbathing**
 ```
-时间：上午 8-9 点或下午 16-17 点
-时长：15-30 分钟
-注意：避免暴晒，及时补充水分
-功效：补充阳气，温通经络
-频率：每周 3-4 次
+Time: 8-9 am or 16-17 pm
+Duration: 15-30 minutes
+Note: avoid exposure to the sun and replenish water in time
+Efficacy: Supplement Yang Qi, warm and clear meridians
+Frequency: 3-4 times per week
 ```
 
 ---
 
-### 十一、小暑（7 月 6-8 日）
+### 11. Slight Heat (July 6-8)
 
-**气候特点：** 暑气未极，气温高，湿度大
+**Climate characteristics:** The summer heat is not over yet, the temperature is high, and the humidity is high
 
-**养生原则：** 清热解暑，健脾祛湿
+**Health Principles:** Clear away heat and relieve summer heat, strengthen the spleen and remove dampness
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持室内通风凉爽
-- 避免长时间待在空调房
-- 保证充足睡眠
+**Living:**
+- Keep indoors ventilated and cool
+- Avoid staying in air-conditioned rooms for long periods of time
+- Get enough sleep
 
-**饮食：**
-- 饮食清淡，易消化
-- 多吃瓜果蔬菜
-- 少吃油腻、辛辣食物
-- 推荐食物：绿豆、冬瓜、西瓜、苦瓜
+**diet:**
+- Eat a light diet that is easy to digest
+- Eat more fruits and vegetables
+- Eat less greasy and spicy food
+- Recommended foods: mung beans, winter melon, watermelon, bitter melon
 
-**运动：**
-- 避免在高温时段运动
-- 选择清晨或傍晚
-- 推荐：游泳、太极拳
+**sports:**
+- Avoid exercising during hot weather
+- Choose early morning or evening
+- Recommended: Swimming, Tai Chi
 
-**防暑：**
-- 多喝水
-- 随身携带防暑药物
+**Heatstroke prevention:**
+-Drink more water
+- Carry anti-heat medication with you
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 湿热质 | 重点清热利湿 |
-| 痰湿质 | 健脾祛湿，饮食清淡 |
-| 气虚质 | 避免过度出汗 |
+| Damp-heat quality | Focus on clearing away heat and promoting dampness |
+| Phlegm-dampness | Strengthen the spleen and remove dampness, eat a light diet |
+| Qi deficiency | Avoid excessive sweating |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：西瓜翠衣汤**
+**Therapeutic Recipe: Watermelon Cuiyi Soup**
 ```
-材料：西瓜皮（去外皮）200g，冰糖适量
-做法：西瓜皮切块，加水煮沸 15 分钟，加冰糖调味
-功效：清热解暑，利尿消肿
-频率：每周 3-4 次
+Ingredients: 200g watermelon rind (peeled), appropriate amount of rock sugar
+Method: Cut the watermelon rind into pieces, add water and boil for 15 minutes, add rock sugar to taste
+Efficacy: clearing away heat and relieving summer heat, diuretic and reducing swelling
+Frequency: 3-4 times per week
 ```
 
 ---
 
-### 十二、大暑（7 月 22-24 日）
+### 12. Great Heat (July 22-24)
 
-**气候特点：** 一年中最热，高温高湿
+**Climate characteristics:** The hottest time of the year, high temperature and humidity
 
-**养生原则：** 防暑降温，益气生津
+**Health Principles:** Prevent heatstroke and cool down, replenish qi and promote fluid production
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 避免正午外出
-- 保持室内凉爽通风
-- 保证充足睡眠
-- 避免贪凉（空调、冷饮）
+**Living:**
+- Avoid going out at noon
+- Keep indoors cool and ventilated
+- Get enough sleep
+- Avoid craving for cold drinks (air conditioning, cold drinks)
 
-**饮食：**
-- 饮食清淡，易消化
-- 多喝水，补充盐分
-- 适当吃酸味食物（收敛汗液）
-- 推荐食物：绿豆汤、西瓜、苦瓜、冬瓜
+**diet:**
+- Eat a light diet that is easy to digest
+-Drink more water and add salt
+- Eat sour food appropriately (contains sweat)
+- Recommended foods: mung bean soup, watermelon, bitter melon, winter melon
 
-**运动：**
-- 减少户外运动
-- 选择室内运动
-- 推荐：太极拳、瑜伽、游泳
-- 运动强度：低至中等
+**sports:**
+- Reduce outdoor exercise
+- Choose indoor sports
+- Recommended: Tai Chi, yoga, swimming
+- Exercise intensity: low to moderate
 
-**防暑：**
-- 避免中暑
-- 随身携带防暑药物
-- 出现中暑症状及时处理
+**Heatstroke prevention:**
+- Avoid heatstroke
+- Carry anti-heat medication with you
+- Treat heat stroke symptoms promptly
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 气虚质 | 避免大汗伤气，注意补气 |
-| 阳虚质 | 避免过度贪凉 |
-| 阴虚质 | 注意补充水分 |
-| 老年人体质 | 重点防暑，避免外出 |
+| Qi deficiency | Avoid sweating and damaging Qi, pay attention to replenishing Qi |
+| Yang deficiency constitution | Avoid excessive craving for cold |
+| Yin deficiency | Pay attention to replenishing water |
+| Physical fitness of the elderly | Focus on preventing heatstroke and avoid going out |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：绿豆百合汤**
+**Therapeutic Recipe: Mung Bean Lily Soup**
 ```
-材料：绿豆 50g，百合 30g，冰糖适量
-做法：绿豆提前浸泡 2 小时，与百合同煮 1 小时，加冰糖调味
-功效：清热解毒，润肺安神
-频率：每周 4-5 次
+Ingredients: 50g mung beans, 30g lily, appropriate amount of rock sugar
+Method: Soak mung beans for 2 hours in advance, cook with lilies for 1 hour, add rock sugar to taste
+Efficacy: Clear away heat and detoxify, moisten the lungs and calm the nerves
+Frequency: 4-5 times per week
 ```
 
-**茶饮：西洋参茶**
+**Tea drink: American ginseng tea**
 ```
-材料：西洋参 5g
-做法：沸水冲泡，焖 10 分钟
-功效：益气养阴，清热生津
-频率：每日 1 剂
+Ingredients: American ginseng 5g
+Method: brew in boiling water and simmer for 10 minutes
+Efficacy: Replenishing qi and nourishing yin, clearing away heat and promoting fluid production
+Frequency: 1 dose daily
 ```
 
 ---
 
-## 秋季养生（立秋→霜降）
+## Autumn health care (beginning of autumn → frost)
 
-### 十三、立秋（8 月 7-9 日）
+### Thirteenth, Beginning of Autumn (August 7-9)
 
-**气候特点：** 秋气始生，暑气未消，早晚凉爽
+**Climate Characteristics:** Autumn air is beginning to emerge, summer air is not gone, and it is cool in the morning and evening
 
-**养生原则：** 养肺润燥，防暑降温
+**Health Principles:** Nourish the lungs, moisten dryness, prevent heatstroke and cool down
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起（21:00-22:00 入睡，6:00-6:30 起床）
-- 适当增减衣物（早晚凉，中午热）
-- 保持室内湿润（使用加湿器）
+**Living:**
+- Go to bed early and get up early (go to bed between 21:00-22:00, wake up between 6:00-6:30)
+- Add or remove clothing appropriately (cool in the morning and evening, hot at noon)
+- Keep the room moist (use a humidifier)
 
-**饮食：**
-- 多吃滋阴润燥食物：梨、百合、银耳
-- 少吃辛辣食物（伤肺）
-- 推荐食物：梨、蜂蜜、芝麻、核桃
+**diet:**
+- Eat more foods that nourish yin and moisturize dryness: pears, lilies, and white fungus
+- Eat less spicy food (damages lungs)
+- Recommended foods: pears, honey, sesame seeds, walnuts
 
-**运动：**
-- 选择温和运动
-- 推荐：太极拳、八段锦、散步
-- 运动强度：中等
+**sports:**
+- Choose gentle exercise
+- Recommended: Tai Chi, Baduanjin, walking
+- Exercise intensity: Moderate
 
-**情志：**
-- 保持心情平和
-- 避免悲伤情绪（悲伤肺）
+**Emotions:**
+- Keep your mood calm
+- Avoid sad emotions (sad lung)
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阴虚质 | 重点滋阴润燥 |
-| 气虚质 | 注意保暖，预防感冒 |
-| 特禀质 | 预防过敏（花粉、尘螨） |
+| Yin deficiency constitution | Focus on nourishing yin and moisturizing dryness |
+| Qi deficiency | Keep warm and prevent colds |
+| Special qualities | Prevention of allergies (pollen, dust mites) |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：冰糖炖雪梨**
+**Therapeutic Recipe: Stewed Sydney Pear with Rock Sugar**
 ```
-材料：雪梨 1 个，冰糖适量，枸杞 10g
-做法：雪梨去核，放入冰糖、枸杞，隔水炖 1 小时
-功效：滋阴润肺，止咳化痰
-频率：每周 3-4 次
+Ingredients: 1 Sydney pear, appropriate amount of rock sugar, 10g wolfberry
+Method: Core the pear, add rock sugar and wolfberry, and simmer in water for 1 hour
+Efficacy: nourishing yin and moistening the lungs, relieving cough and reducing phlegm
+Frequency: 3-4 times per week
 ```
 
-**茶饮：蜂蜜水**
+**Tea: honey water**
 ```
-材料：蜂蜜 1-2 勺
-做法：温水冲服（水温不超过 40℃）
-功效：滋阴润燥，润肠通便
-频率：每日 1 杯（晨起空腹）
+Ingredients: 1-2 spoons of honey
+Method: Take with warm water (the water temperature should not exceed 40℃)
+Efficacy: nourishing yin, moistening dryness, moisturizing intestines and laxative
+Frequency: 1 cup daily (on an empty stomach in the morning)
 ```
 
 ---
 
-### 十四、处暑（8 月 22-24 日）
+### 14. End of Summer (August 22-24)
 
-**气候特点：** 暑气渐消，秋意渐浓，昼夜温差大
+**Climate characteristics:** The summer heat is gradually disappearing, autumn is getting stronger, and the temperature difference between day and night is large.
 
-**养生原则：** 滋阴润肺，保暖防寒
+**Health Principle:** Nourishes yin and moisturizes the lungs, keeps warm and prevents cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起
-- 注意保暖（尤其早晚）
-- 春捂秋冻：适当接受凉爽，增强耐寒能力
+**Living:**
+- Go to bed early and get up early
+- Keep warm (especially in the morning and evening)
+- Spring covers autumn frost: properly accept coolness and enhance cold resistance
 
-**饮食：**
-- 多吃滋阴润燥食物
-- 少吃辛辣食物
-- 推荐食物：梨、百合、银耳、蜂蜜
+**diet:**
+- Eat more nourishing and moisturizing foods
+- Eat less spicy food
+- Recommended foods: pears, lilies, white fungus, honey
 
-**运动：**
-- 增加户外运动
-- 推荐：登山、徒步、骑行
-- 运动强度：中等
+**sports:**
+- Increase outdoor sports
+- Recommended: mountain climbing, hiking, and cycling
+- Exercise intensity: Moderate
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 注意保暖，避免受寒 |
-| 阴虚质 | 重点滋阴润燥 |
-| 气虚质 | 预防感冒，注意保暖 |
+| Yang deficiency | Keep warm and avoid catching cold |
+| Yin deficiency constitution | Focus on nourishing yin and moisturizing dryness |
+| Qi deficiency | Prevent colds and keep warm |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：百合银耳羹**
+**Therapeutic Recipe: Lily and Tremella Soup**
 ```
-材料：百合 30g，银耳 15g，冰糖适量
-做法：银耳泡发，与百合同煮 1 小时，加冰糖调味
-功效：滋阴润肺，养心安神
-频率：每周 4-5 次
+Ingredients: 30g lily, 15g white fungus, appropriate amount of rock sugar
+Method: Soak white fungus, simmer with lilies for 1 hour, add rock sugar to taste
+Efficacy: Nourishes yin and moisturizes the lungs, nourishes the heart and calms the mind
+Frequency: 4-5 times per week
 ```
 
 ---
 
-### 十五、白露（9 月 7-9 日）
+### 15. Bailu (September 7-9)
 
-**气候特点：** 露水凝结，天气转凉，秋燥明显
+**Climate characteristics:** Dew condenses, the weather turns cooler, and autumn dryness is obvious
 
-**养生原则：** 养肺防燥，保暖防寒
+**Health Principles:** Nourish the lungs to prevent dryness, keep warm and prevent cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起
-- 注意保暖（尤其腹部、脚部）
-- 保持室内湿润
+**Living:**
+- Go to bed early and get up early
+- Keep warm (especially the abdomen and feet)
+- Keep indoors moist
 
-**饮食：**
-- 多吃滋阴润燥食物
-- 少吃生冷食物
-- 推荐食物：梨、蜂蜜、芝麻、核桃、糯米
+**diet:**
+- Eat more nourishing and moisturizing foods
+- Eat less raw and cold food
+- Recommended foods: pears, honey, sesame seeds, walnuts, glutinous rice
 
-**运动：**
-- 选择温和运动
-- 推荐：太极拳、八段锦、散步
-- 运动后及时增添衣物
+**sports:**
+- Choose gentle exercise
+- Recommended: Tai Chi, Baduanjin, walking
+- Add clothes promptly after exercise
 
-**防疫：**
-- 预防呼吸道疾病
-- 过敏体质者注意防护
+**epidemic prevention:**
+- Prevent respiratory diseases
+- People with allergies should take precautions
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阴虚质 | 重点滋阴润燥 |
-| 气虚质 | 预防感冒，注意保暖 |
-| 特禀质 | 预防过敏，注意防护 |
-| 阳虚质 | 注意保暖，尤其脚部 |
+| Yin deficiency constitution | Focus on nourishing yin and moisturizing dryness |
+| Qi deficiency | Prevent colds and keep warm |
+| Special qualities | Prevent allergies and pay attention to protection |
+| Yang deficiency | Keep warm, especially your feet |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：芝麻核桃粥**
+**Therapeutic Recipe: Sesame and Walnut Porridge**
 ```
-材料：黑芝麻 30g，核桃仁 30g，大米 100g，冰糖适量
-做法：黑芝麻、核桃仁炒香研碎，与大米同煮成粥，加冰糖调味
-功效：滋阴润燥，补肾益精
-频率：每周 4-5 次
+Ingredients: 30g black sesame seeds, 30g walnut kernels, 100g rice, appropriate amount of rock sugar
+Method: Sauté black sesame seeds and walnut kernels, grind until fragrant, cook with rice to make porridge, add rock sugar to taste
+Efficacy: nourishing yin and moisturizing, nourishing kidney and replenishing essence
+Frequency: 4-5 times per week
 ```
 
-**茶饮：麦冬茶**
+**Tea: Ophiopogon japonicus tea**
 ```
-材料：麦冬 15g
-做法：沸水冲泡，焖 10 分钟
-功效：滋阴润肺，清心除烦
-频率：每日 1 剂
+Material: Ophiopogon japonicus 15g
+Method: brew in boiling water and simmer for 10 minutes
+Efficacy: Nourishes yin and moisturizes the lungs, clears the heart and relieves troubles
+Frequency: 1 dose daily
 ```
 
 ---
 
-### 十六、秋分（9 月 22-24 日）
+### 16. Autumnal Equinox (September 22-24)
 
-**气候特点：** 昼夜平分，阴阳平衡，气候宜人
+**Climate characteristics:** Day and night are equally divided, yin and yang are balanced, and the climate is pleasant
 
-**养生原则：** 调和阴阳，养肺润燥
+**Health care principles:** Reconcile Yin and Yang, nourish the lungs and moisturize dryness
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 保持规律作息
-- 适当午休
-- 保持心情平和
+**Living:**
+- Keep a regular schedule
+- Take a proper lunch break
+- Keep your mood calm
 
-**饮食：**
-- 饮食均衡，寒热搭配
-- 多吃滋阴润燥食物
-- 推荐食物：梨、百合、银耳、蜂蜜
+**diet:**
+- A balanced diet with a mix of hot and cold foods
+- Eat more nourishing and moisturizing foods
+- Recommended foods: pears, lilies, white fungus, honey
 
-**运动：**
-- 选择温和运动
-- 推荐：太极拳、八段锦、瑜伽
-- 运动时间：上午或下午
+**sports:**
+- Choose gentle exercise
+- Recommended: Tai Chi, Baduanjin, Yoga
+- Exercise time: morning or afternoon
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 平和质 | 保持现状，均衡饮食 |
-| 阴虚质 | 继续滋阴润燥 |
-| 阳虚质 | 注意保暖 |
+| Peace and quality | Maintain the status quo and eat a balanced diet |
+| Yin deficiency | Continue to nourish yin and moisturize dryness |
+| Yang deficiency | Keep warm |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：山药百合粥**
+**Therapeutic Recipe: Yam and Lily Porridge**
 ```
-材料：山药 50g，百合 30g，大米 100g
-做法：山药切块，与百合、大米同煮成粥
-功效：健脾润肺，滋阴养颜
-频率：每周 4-5 次
+Ingredients: 50g yam, 30g lily, 100g rice
+Method: Cut the yam into pieces and cook it with lily and rice to make porridge.
+Efficacy: Strengthen the spleen and lungs, nourish yin and nourish the skin.
+Frequency: 4-5 times per week
 ```
 
 ---
 
-### 十七、寒露（10 月 8-9 日）
+### Seventeen, Cold Dew (October 8-9)
 
-**气候特点：** 露水寒凉，气温明显下降
+**Climate characteristics:** The dew is cold and the temperature drops significantly
 
-**养生原则：** 养阴防燥，保暖防寒
+**Health Principles:** Nourish yin to prevent dryness, keep warm and prevent cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起
-- 注意保暖（尤其脚部）
-- 睡前泡脚（水温 40-45℃，20 分钟）
+**Living:**
+- Go to bed early and get up early
+- Keep warm (especially your feet)
+- Soak your feet before going to bed (water temperature 40-45℃, 20 minutes)
 
-**饮食：**
-- 多吃滋阴润燥食物
-- 适当吃温性食物（保暖）
-- 推荐食物：梨、蜂蜜、芝麻、核桃、羊肉
+**diet:**
+- Eat more nourishing and moisturizing foods
+- Eat warm foods appropriately (to keep warm)
+- Recommended foods: pears, honey, sesame seeds, walnuts, mutton
 
-**运动：**
-- 选择温和运动
-- 推荐：太极拳、八段锦、散步
-- 运动时间：上午 9-11 点或下午 15-17 点
+**sports:**
+- Choose gentle exercise
+- Recommended: Tai Chi, Baduanjin, walking
+- Exercise time: 9-11 am or 15-17 pm
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点保暖，开始温补 |
-| 阴虚质 | 继续滋阴润燥 |
-| 气虚质 | 预防感冒，注意保暖 |
+| Yang deficiency constitution | Focus on keeping warm and start warming up |
+| Yin deficiency | Continue to nourish yin and moisturize dryness |
+| Qi deficiency | Prevent colds and keep warm |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：羊肉萝卜汤**
+**Therapeutic Recipe: Mutton and Carrot Soup**
 ```
-材料：羊肉 500g，白萝卜 1 根，生姜 5 片，盐适量
-做法：羊肉焯水后与生姜同炖 1 小时，加入萝卜再炖 30 分钟，加盐调味
-功效：温中散寒，滋阴润燥
-频率：每周 2-3 次
+Ingredients: 500g mutton, 1 white radish, 5 slices of ginger, appropriate amount of salt
+Method: Blanch the mutton and simmer it with ginger for 1 hour. Add radish and simmer for another 30 minutes. Add salt to taste.
+Efficacy: Warming and dispersing cold, nourishing yin and moisturizing
+Frequency: 2-3 times per week
 ```
 
-**保健：泡脚**
+**Health care: Soak your feet**
 ```
-材料：艾叶 30g，生姜 5 片
-做法：材料加水煮沸 10 分钟，兑温水泡脚
-温度：40-45℃
-时间：20-30 分钟
-频率：每日 1 次（睡前）
+Ingredients: 30g mugwort leaves, 5 slices of ginger
+Method: Boil the ingredients with water for 10 minutes, mix with warm water and soak your feet
+Temperature: 40-45℃
+Time: 20-30 minutes
+Frequency: 1 time daily (before bed)
 ```
 
 ---
 
-### 十八、霜降（10 月 23-24 日）
+### 18. Frost Descent (October 23-24)
 
-**气候特点：** 开始降霜，气温进一步下降
+**Climate characteristics:** Frost begins and the temperature drops further
 
-**养生原则：** 健脾养胃，保暖防寒
+**Health Principles:** Strengthen the spleen and stomach, keep warm and prevent cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡早起
-- 注意保暖（尤其腹部、脚部）
-- 保持室内温暖
+**Living:**
+- Go to bed early and get up early
+- Keep warm (especially the abdomen and feet)
+- Keep indoors warm
 
-**饮食：**
-- 多吃健脾养胃食物
-- 适当吃温性食物
-- 推荐食物：山药、莲子、芡实、羊肉、牛肉
+**diet:**
+- Eat more foods that strengthen the spleen and stomach
+- Eat warm foods appropriately
+- Recommended foods: yam, lotus seeds, gorgon seeds, mutton, beef
 
-**运动：**
-- 选择温和运动
-- 推荐：太极拳、八段锦、散步
-- 运动时间：上午 9-11 点
+**sports:**
+- Choose gentle exercise
+- Recommended: Tai Chi, Baduanjin, walking
+- Exercise time: 9-11 a.m.
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点保暖，开始温补 |
-| 气虚质 | 健脾益气，预防感冒 |
-| 痰湿质 | 健脾祛湿，饮食清淡 |
+| Yang deficiency constitution | Focus on keeping warm and start warming up |
+| Qi deficiency | Strengthen the spleen and replenish qi, prevent colds |
+| Phlegm-dampness | Strengthen the spleen and remove dampness, eat a light diet |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：山药莲子粥**
+**Therapeutic Recipe: Yam and Lotus Seed Porridge**
 ```
-材料：山药 50g，莲子 30g，大米 100g
-做法：山药切块，与莲子、大米同煮成粥
-功效：健脾养胃，补肾益精
-频率：每周 4-5 次
+Ingredients: 50g yam, 30g lotus seeds, 100g rice
+Method: Cut the yam into pieces and cook it with lotus seeds and rice to make porridge.
+Efficacy: Strengthen the spleen and stomach, nourish the kidneys and nourish the essence.
+Frequency: 4-5 times per week
 ```
 
 ---
 
-## 冬季养生（立冬→大寒）
+## Winter health care (beginning of winter → severe cold)
 
-### 十九、立冬（11 月 7-8 日）
+### 19. Beginning of Winter (November 7-8)
 
-**气候特点：** 冬季开始，气温明显下降
+**Climate characteristics:** At the beginning of winter, the temperature drops significantly
 
-**养生原则：** 补肾藏精，保暖防寒
+**Health care principles:** Tonify the kidneys, store essence, keep warm and prevent cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡晚起（21:00-22:00 入睡，7:00-7:30 起床）
-- 注意保暖（尤其背部、腹部、脚部）
-- 保持室内温暖
+**Living:**
+- Go to bed early and get up late (go to bed between 21:00-22:00, wake up between 7:00-7:30)
+- Keep warm (especially back, abdomen, feet)
+- Keep indoors warm
 
-**饮食：**
-- 多吃温补食物
-- 推荐食物：羊肉、牛肉、核桃、黑芝麻、黑豆
+**diet:**
+- Eat more warming foods
+- Recommended foods: mutton, beef, walnuts, black sesame seeds, black beans
 
-**运动：**
-- 选择温和运动
-- 避免大汗
-- 推荐：太极拳、八段锦、散步
-- 运动时间：上午 9-11 点
+**sports:**
+- Choose gentle exercise
+- Avoid sweating
+- Recommended: Tai Chi, Baduanjin, walking
+- Exercise time: 9-11 a.m.
 
-**情志：**
-- 保持心情平和
-- 避免过度兴奋
+**Emotions:**
+- Keep your mood calm
+- Avoid over excitement
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点温补，注意保暖 |
-| 气虚质 | 补气固表，预防感冒 |
-| 阴虚质 | 滋阴为主，避免过热 |
+| Yang deficiency constitution | Focus on warming and nourishing, pay attention to keeping warm |
+| Qi deficiency | Replenishing Qi and strengthening the surface to prevent colds |
+| Yin deficiency constitution | Mainly nourish yin and avoid overheating |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：当归生姜羊肉汤**
+**Therapeutic Recipe: Angelica Ginger and Mutton Soup**
 ```
-材料：当归 15g，生姜 30g，羊肉 500g
-做法：羊肉焯水后与当归、生姜同炖 2 小时，加盐调味
-功效：温中补血，祛寒止痛
-频率：每周 1-2 次
+Ingredients: Angelica sinensis 15g, ginger 30g, mutton 500g
+Method: Blanch the mutton and stew it with angelica and ginger for 2 hours. Add salt to taste.
+Efficacy: Warming and nourishing blood, dispelling cold and relieving pain
+Frequency: 1-2 times per week
 ```
 
 ---
 
-### 二十、小雪（11 月 22-23 日）
+### Twenty, Xiaoxue (November 22-23)
 
-**气候特点：** 开始降雪，气温进一步下降
+**Climate characteristics:** Snow begins to fall and the temperature drops further
 
-**养生原则：** 温阳散寒，补肾益气
+**Health principles:** Warm yang and dispel cold, nourish kidney and replenish qi
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡晚起
-- 注意保暖
-- 睡前泡脚
+**Living:**
+- Go to bed early and get up late
+- Keep warm
+- Soak your feet before going to bed
 
-**饮食：**
-- 多吃温补食物
-- 推荐食物：羊肉、牛肉、核桃、黑芝麻
+**diet:**
+- Eat more warming foods
+- Recommended foods: mutton, beef, walnuts, black sesame seeds
 
-**运动：**
-- 选择室内运动
-- 避免大汗
-- 推荐：太极拳、八段锦、瑜伽
+**sports:**
+- Choose indoor sports
+- Avoid sweating
+- Recommended: Tai Chi, Baduanjin, Yoga
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点温补，注意保暖 |
-| 气虚质 | 补气固表 |
-| 血瘀质 | 温经活血 |
+| Yang deficiency constitution | Focus on warming and nourishing, pay attention to keeping warm |
+| Qi deficiency | Replenishing Qi and strengthening the surface |
+| Blood stasis | Warm menstruation and activate blood circulation |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：核桃黑芝麻粥**
+**Therapeutic Recipe: Walnut and Black Sesame Porridge**
 ```
-材料：核桃仁 30g，黑芝麻 30g，大米 100g，冰糖适量
-做法：核桃仁、黑芝麻炒香研碎，与大米同煮成粥，加冰糖调味
-功效：补肾益精，温阳散寒
-频率：每周 4-5 次
+Ingredients: 30g walnut kernels, 30g black sesame seeds, 100g rice, appropriate amount of rock sugar
+Method: Saute walnut kernels and black sesame seeds until fragrant, grind them into pieces, cook with rice to make porridge, add rock sugar to taste
+Efficacy: Tonifying kidney and replenishing essence, warming yang and dispersing cold
+Frequency: 4-5 times per week
 ```
 
 ---
 
-### 二十一、大雪（12 月 6-8 日）
+### Twenty-one, heavy snow (December 6-8)
 
-**气候特点：** 雪量增大，气温低
+**Climate characteristics:** Increased snow volume and low temperature
 
-**养生原则：** 补肾御寒，温阳散寒
+**Health Principles:** Tonify the kidneys to protect against cold, warm yang and dispel cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡晚起
-- 注意保暖
-- 睡前泡脚
+**Living:**
+- Go to bed early and get up late
+- Keep warm
+- Soak your feet before going to bed
 
-**饮食：**
-- 多吃温补食物
-- 推荐食物：羊肉、牛肉、狗肉（适量）、核桃
+**diet:**
+- Eat more warming foods
+- Recommended foods: mutton, beef, dog meat (in moderation), walnuts
 
-**运动：**
-- 选择室内运动
-- 避免大汗
-- 推荐：太极拳、八段锦
+**sports:**
+- Choose indoor sports
+- Avoid sweating
+- Recommended: Tai Chi, Baduanjin
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点温补 |
-| 气虚质 | 补气固表 |
-| 血瘀质 | 温经活血 |
+| Yang deficiency constitution | Focus on warming and tonic |
+| Qi deficiency | Replenishing Qi and strengthening the surface |
+| Blood stasis | Warm menstruation and activate blood circulation |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：杜仲猪腰汤**
+**Therapeutic Recipe: Eucommia Pork Loin Soup**
 ```
-材料：杜仲 15g，猪腰 1 对，生姜 5 片，盐适量
-做法：猪腰处理干净，与杜仲、生姜同炖 1 小时，加盐调味
-功效：补肾强腰，温阳散寒
-频率：每周 1-2 次
+Ingredients: 15g Eucommia ulmoides, 1 pair of pork loin, 5 slices of ginger, appropriate amount of salt
+Method: Clean the pork loin, stew it with Eucommia ulmoides and ginger for 1 hour, add salt to taste
+Efficacy: Tonify the kidneys and strengthen the waist, warm yang and dispel cold
+Frequency: 1-2 times per week
 ```
 
 ---
 
-### 二十二、冬至（12 月 21-23 日）
+### Twenty-two, Winter Solstice (December 21-23)
 
-**气候特点：** 阴气最盛，阳气始生，一年中最冷时期开始
+**Climate characteristics:** Yin Qi is at its strongest, Yang Qi begins to grow, and the coldest period of the year begins.
 
-**养生原则：** 补肾养阳，温补为主
+**Principles of health preservation:** Tonify the kidneys and nourish yang, mainly warming and nourishing
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡晚起
-- 注意保暖
-- 睡前泡脚
+**Living:**
+- Go to bed early and get up late
+- Keep warm
+- Soak your feet before going to bed
 
-**饮食：**
-- 多吃温补食物
-- 推荐食物：羊肉、牛肉、核桃、黑芝麻、枸杞
+**diet:**
+- Eat more warming foods
+- Recommended foods: mutton, beef, walnuts, black sesame seeds, wolfberry
 
-**运动：**
-- 选择温和运动
-- 避免大汗
-- 推荐：太极拳、八段锦
+**sports:**
+- Choose gentle exercise
+- Avoid sweating
+- Recommended: Tai Chi, Baduanjin
 
-**保健：**
-- 艾灸：关元、气海、足三里
-- 泡脚：每日睡前
+**health care:**
+- Moxibustion: Guanyuan, Qihai, Zusanli
+- Foot soak: daily before going to bed
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 最佳补阳时节，重点温补 |
-| 气虚质 | 补气固表 |
-| 阴虚质 | 滋阴为主，避免过热 |
+| Yang deficiency constitution | The best time to replenish yang, focus on warming and replenishing |
+| Qi deficiency | Replenishing Qi and strengthening the surface |
+| Yin deficiency constitution | Mainly nourish yin and avoid overheating |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：枸杞羊肉汤**
+**Therapeutic Recipe: Wolfberry and Mutton Soup**
 ```
-材料：枸杞 30g，羊肉 500g，生姜 5 片，盐适量
-做法：羊肉焯水后与枸杞、生姜同炖 2 小时，加盐调味
-功效：补肾养阳，温中散寒
-频率：每周 2-3 次
+Ingredients: 30g wolfberry, 500g mutton, 5 slices of ginger, appropriate amount of salt
+Method: Blanch the mutton and stew it with wolfberry and ginger for 2 hours. Add salt to taste.
+Efficacy: Nourish the kidneys and nourish yang, warm the body and dispel cold
+Frequency: 2-3 times per week
 ```
 
-**保健：艾灸**
+**Health Care: Moxibustion**
 ```
-穴位：关元、气海、足三里
-方法：温和灸，每穴 15-20 分钟
-频率：每周 3-4 次
+Acupoints: Guanyuan, Qihai, Zusanli
+Method: Mild moxibustion, 15-20 minutes per point
+Frequency: 3-4 times per week
 ```
 
 ---
 
-### 二十三、小寒（1 月 5-7 日）
+### Twenty-three, Xiaohan (January 5-7)
 
-**气候特点：** 开始寒冷，气温低
+**Climate characteristics:** It starts to be cold and the temperature is low
 
-**养生原则：** 温阳散寒，补肾益气
+**Health principles:** Warm yang and dispel cold, nourish kidney and replenish qi
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡晚起
-- 注意保暖
-- 睡前泡脚
+**Living:**
+- Go to bed early and get up late
+- Keep warm
+- Soak your feet before going to bed
 
-**饮食：**
-- 多吃温补食物
-- 推荐食物：羊肉、牛肉、核桃
+**diet:**
+- Eat more warming foods
+- Recommended foods: mutton, beef, walnuts
 
-**运动：**
-- 选择室内运动
-- 避免大汗
+**sports:**
+- Choose indoor sports
+- Avoid sweating
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点温补 |
-| 气虚质 | 补气固表 |
+| Yang deficiency constitution | Focus on warming and tonic |
+| Qi deficiency | Replenishing Qi and strengthening the surface |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：黄芪当归羊肉汤**
+**Therapeutic Recipe: Astragalus and Angelica Mutton Soup**
 ```
-材料：黄芪 30g，当归 15g，羊肉 500g，生姜 5 片，盐适量
-做法：羊肉焯水后与黄芪、当归、生姜同炖 2 小时，加盐调味
-功效：补气养血，温阳散寒
-频率：每周 1-2 次
+Ingredients: 30g astragalus, 15g angelica, 500g mutton, 5 slices of ginger, appropriate amount of salt
+Method: Blanch the mutton and stew it with astragalus, angelica root and ginger for 2 hours, add salt to taste
+Efficacy: nourishing qi and blood, warming yang and dispersing cold
+Frequency: 1-2 times per week
 ```
 
 ---
 
-### 二十四、大寒（1 月 20-21 日）
+### Twenty-four, Great Cold (January 20-21)
 
-**气候特点：** 一年中最冷，寒气极盛
+**Climate characteristics:** The coldest in the year, extremely cold
 
-**养生原则：** 补肾藏精，温阳散寒
+**Principles of health preservation:** Tonify the kidneys and store essence, warm yang and dispel cold
 
-#### 通用建议
+#### General Advice
 
-**起居：**
-- 早睡晚起
-- 注意保暖
-- 睡前泡脚
+**Living:**
+- Go to bed early and get up late
+- Keep warm
+- Soak your feet before going to bed
 
-**饮食：**
-- 多吃温补食物
-- 推荐食物：羊肉、牛肉、核桃、黑芝麻
+**diet:**
+- Eat more warming foods
+- Recommended foods: mutton, beef, walnuts, black sesame seeds
 
-**运动：**
-- 选择室内运动
-- 避免大汗
+**sports:**
+- Choose indoor sports
+- Avoid sweating
 
-**保健：**
-- 艾灸：关元、气海、足三里
-- 泡脚：每日睡前
+**health care:**
+- Moxibustion: Guanyuan, Qihai, Zusanli
+- Foot soak: daily before going to bed
 
-#### 体质专项提醒
+#### Special reminder for physical fitness
 
-| 体质 | 特别提醒 |
+| Physique | Special Reminder |
 |------|---------|
-| 阳虚质 | 重点温补，注意保暖 |
-| 气虚质 | 补气固表，预防感冒 |
-| 老年人体质 | 重点保暖，预防心脑血管疾病 |
+| Yang deficiency constitution | Focus on warming and nourishing, pay attention to keeping warm |
+| Qi deficiency | Replenishing Qi and strengthening the surface to prevent colds |
+| Physical fitness of the elderly | Focus on keeping warm and preventing cardiovascular and cerebrovascular diseases |
 
-#### 代表性方案
+#### Representative scheme
 
-**食疗方：八珍汤**
+**Therapeutic Recipe: Bazhen Decoction**
 ```
-材料：党参 15g，白术 15g，茯苓 15g，甘草 5g，当归 15g，川芎 10g，白芍 15g，熟地 15g，鸡肉 500g
-做法：八味中药洗净，与鸡肉同炖 2 小时，加盐调味
-功效：气血双补，温阳散寒
-频率：每周 1 次
+Ingredients: Codonopsis pilosula 15g, Atractylodes macrocephala 15g, Poria cocos 15g, licorice 5g, Angelica sinensis 15g, Chuanxiong 10g, white peony root 15g, Rehmannia glutinosa 15g, chicken 500g
+Method: Wash the eight Chinese herbs, stew with the chicken for 2 hours, add salt to taste
+Efficacy: Tonify Qi and blood, warm Yang and dispel cold
+Frequency: 1 time per week
 ```
 
 ---
 
-## 四季养生总结
+## Four seasons health summary
 
-### 春养肝
-- **原则：** 疏肝理气，助阳生发
-- **饮食：** 多吃绿色蔬菜，适当吃酸
-- **运动：** 温和运动，多到户外
-- **情志：** 保持心情舒畅
+### Spring nourishes the liver
+- **Principle:** Soothes the liver and regulates qi, helps Yang to grow hair
+- **Diet:** Eat more green vegetables and moderate amounts of sour foods
+- **Exercise:** Mild exercise, go outdoors more
+- **Emotion:** Keep your mood comfortable
 
-### 夏养心
-- **原则：** 养心安神，防暑降温
-- **饮食：** 清淡饮食，多吃瓜果
-- **运动：** 避免高温时段，选择清晨傍晚
-- **情志：** 保持心情平和
+### Xia Yangxin
+- **Principle:** Nourish the mind and calm the mind, prevent heatstroke and cool down
+- **Diet:** Eat a light diet, eat more fruits and vegetables
+- **Exercise:** Avoid hot periods and choose early morning and evening
+- **Emotion:** Keep your mood calm
 
-### 秋养肺
-- **原则：** 养肺润燥，滋阴润肺
-- **饮食：** 多吃滋阴润燥食物
-- **运动：** 温和运动，避免大汗
-- **情志：** 避免悲伤情绪
+### Autumn nourishes the lungs
+- **Principle:** Nourishes the lungs and moisturizes dryness, nourishes yin and moisturizes the lungs
+- **Diet:** Eat more nourishing and moisturizing foods
+- **Exercise:** Gentle exercise to avoid sweating
+- **Emotion:** Avoid sad emotions
 
-### 冬养肾
-- **原则：** 补肾藏精，温阳散寒
-- **饮食：** 温补为主，多吃温性食物
-- **运动：** 室内运动，避免大汗
-- **情志：** 保持心情平和
-
----
-
-## 参考文献
-
-1. 《黄帝内经·素问》四气调神大论.
-2. 高濂。《遵生八笺》. 明代.
-3. 王琦。《中医养生学》. 中国中医药出版社，2012.
-4. 中国气象局。中国气候数据.
-5. 中华中医药学会。《中医体质分类与判定》标准.
+### Nourish the kidneys in winter
+- **Principle:** Tonify the kidneys, store essence, warm yang and dispel cold
+- **Diet:** Mainly warm and tonic, eat more warm foods
+- **Exercise:** Indoor exercise to avoid sweating
+- **Emotion:** Keep your mood calm
 
 ---
 
-*二十四节气养生方案完成 | 数据来源：经典医籍 + 权威教材 | 更新时间：2026 年 3 月*
+## References
+
+1. "The Yellow Emperor's Internal Classic·Su Wen" The Four Qi Regulating the Spirit.
+2. Gao Lian. "Eight Notes of Zunsheng". Ming Dynasty.
+3. Wang Qi. "Health Preservation of Traditional Chinese Medicine". China Traditional Chinese Medicine Press, 2012.
+4. China Meteorological Administration. China climate data.
+5. China Association of Traditional Chinese Medicine. "Classification and Determination of Constitution in Traditional Chinese Medicine" Standard.
+
+---
+
+*Twenty-four solar terms health plan completed | Data source: classic medical books + authoritative textbooks | Update time: March 2026*

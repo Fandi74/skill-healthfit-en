@@ -1,475 +1,475 @@
-# 中医体质辨识建档流程（Onboarding TCM）
+# Traditional Chinese Medicine Constitution Identification and Documentation Process (Onboarding TCM)
 
-## 模块定位与设计理念
+## Module positioning and design concept
 
-中医体质学认为，每个人的体质决定了其对疾病的易感性、对运动的耐受度、对饮食的宜忌，以及最适合的养生方式。2009 年中华中医药学会正式颁布《中医体质分类与判定》标准，确立了**九种体质**的辨识规范，是目前权威的体质分类依据。
+According to traditional Chinese medicine, each person’s constitution determines their susceptibility to disease, tolerance to exercise, dietary taboos, and the most suitable way to maintain health. In 2009, the China Association of Traditional Chinese Medicine officially promulgated the "Classification and Determination of Constitutions in Traditional Chinese Medicine" standard, which established the identification standards for nine types of constitutions and is the current authoritative basis for classifying constitutions.
 
-本模块将中医体质理论**深度融入**健身和营养方案，实现真正的中西医结合：
+This module deeply integrates the theory of TCM constitution into a comprehensive fitness and nutrition plan to achieve a true integration of TCM and Western medicine:
 
 ```
-西医视角（现代运动科学）          中医视角（体质理论）
+Perspective of Western Medicine (Modern Sports Science) Perspective of Traditional Chinese Medicine (Constitutional Theory)
 ────────────────────────────────────────────────────
-BMI、体脂率、心肺功能     +     体质类型、气血阴阳状态
-热量赤字/蛋白质目标       +     食物寒热温凉、药食同源
-训练频率/强度设计         +     体质运动宜忌、功法推荐
-运动后营养补充窗口        +     节气调养、四时起居
+BMI, body fat rate, cardiopulmonary function + physical type, yin and yang status of qi and blood
+Caloric deficit/protein target + food that is hot and cold, food and medicine come from the same source
+Training frequency/intensity design + physical exercise taboos and recommended exercises
+Post-exercise nutritional supplement window + solar terms maintenance, daily life in four seasons
 ```
 
 ---
 
-## 建档时机
+## Time to create archives
 
-**推荐时机：** 西医建档完成后，由 Dr. Chen 主动发起
+**Recommended timing:** After the establishment of Western medicine records, it will be initiated by Dr. Chen
 
-**引导话术：**
+**Guide words:**
 ```
-[Dr. Chen] 你好！我是 Dr. Chen，你的中医体质顾问。
+[Dr. Chen] Hello! I'm Dr. Chen, your TCM constitutional consultant.
 
-恭喜你完成了西医健康档案的建立。接下来，我想邀请你
-进行中医体质辨识。
+Congratulations on completing the establishment of your Western Medicine health record. Next, I want to invite you
+Conduct TCM constitution identification.
 
-中医体质辨识通过一系列问题了解你的身体状况，判断你属于
-九种体质中的哪一种（或哪几种复合）。这能帮助我为你定制
-最适合的运动和饮食方案。
+Traditional Chinese medicine constitution identification uses a series of questions to understand your physical condition and determine whether you belong to
+Which of the nine constitutions (or which combinations) are there? This helps me customize it for you
+The most suitable exercise and diet regimen.
 
-整个过程分为三轮，大约需要 8-12 分钟。所有数据仅存储在
-本地，用于为你提供个性化建议。
+The entire process is divided into three rounds and takes approximately 8-12 minutes. All data is stored only in
+Local, used to provide you with personalized recommendations.
 
-你想现在进行体质辨识吗？
-A. 好的，现在开始
-B. 稍后再说
-C. 先了解一下什么是中医体质
-```
-
----
-
-## 第一轮：整体感受问卷（必填，12 问）
-
-这 12 个问题覆盖体质辨识最核心的维度，用通俗语言描述，不使用生僻术语。
-
-### 问题 1-3
-
-```
-Q1. 你平时怕冷还是怕热，还是两者都不明显？
-
-A. 明显怕冷（手脚尤其凉）
-   → 提示：即使夏天在空调房也觉得冷，喜欢穿长袖
-
-B. 明显怕热（容易上火）
-   → 提示：比别人穿得少，容易出汗，喜欢冷饮
-
-C. 两者都不明显
-   → 提示：对冷热不敏感，适应能力强
-
-─────────────────────────────────────────────────────
-
-Q2. 你的精力和体力怎么样？
-
-A. 容易疲劳，做点事就累
-   → 提示：早上起床就觉得累，说话声音小
-
-B. 精力充沛，很少累
-   → 提示：一天下来也不觉得累，说话声音洪亮
-
-C. 一般，下午/傍晚容易困
-   → 提示：上午还好，下午开始犯困
-
-─────────────────────────────────────────────────────
-
-Q3. 你的皮肤和出汗情况？
-
-A. 皮肤偏干，不怎么出汗
-   → 提示：即使运动也不怎么出汗，皮肤干燥
-
-B. 皮肤偏油，容易出汗且黏腻
-   → 提示：稍微动一下就出汗，汗黏黏的
-
-C. 正常，运动才出汗
-   → 提示：平时不出汗，运动后正常出汗
-```
-
-### 问题 4-6
-
-```
-Q4. 你的大便情况？
-
-A. 偏稀、不成形，或容易拉肚子
-   → 提示：吃凉的或油腻的容易拉肚子
-
-B. 偏干、容易便秘
-   → 提示：2-3 天以上才排便一次，排便费力
-
-C. 正常
-   → 提示：每天 1 次，成形，排便顺畅
-
-─────────────────────────────────────────────────────
-
-Q5. 你的睡眠情况？
-
-A. 难以入睡，或多梦易醒
-   → 提示：躺下 30 分钟以上才能睡着，或夜里醒多次
-
-B. 睡眠很好，倒下就着
-   → 提示：躺下 10 分钟内睡着，一觉到天亮
-
-C. 偶尔失眠，但大体正常
-   → 提示：压力大时失眠，平时睡得还行
-
-─────────────────────────────────────────────────────
-
-Q6. 你的情绪状态（近半年）？
-
-A. 容易焦虑、烦躁
-   → 提示：一点小事就着急，心里静不下来
-
-B. 容易低落、郁闷，叹气多
-   → 提示：经常觉得没意思，不自觉叹气
-
-C. 情绪平稳，比较开朗
-   → 提示：心态平和，不容易被影响
-```
-
-### 问题 7-9
-
-```
-Q7. 你的消化情况？
-
-A. 胃口不好，饭量小，消化慢
-   → 提示：吃一点就饱，饭后腹胀
-
-B. 胃口好，但容易胃胀腹胀
-   → 提示：能吃，但吃完不舒服
-
-C. 正常
-   → 提示：吃饭香，消化好
-
-─────────────────────────────────────────────────────
-
-Q8. 你是否有以下症状？（多选）
-
-A. 经常口干、口渴，尤其想喝冷饮
-   → 提示：总觉得口渴，喜欢喝凉的
-
-B. 嘴巴常有黏腻感，或口苦
-   → 提示：早上起来嘴里发苦或有黏腻感
-
-C. 经常气短，爬楼梯就喘
-   → 提示：稍微活动就气喘吁吁
-
-D. 皮肤容易出现淤青或色斑
-   → 提示：轻轻碰一下就青一块，或脸上有斑
-
-E. 以上均无
-
-─────────────────────────────────────────────────────
-
-Q9. 你的体型特征？
-
-A. 偏瘦，肌肉不明显
-   → 提示：怎么吃都不胖
-
-B. 偏胖，尤其是腹部
-   → 提示：腰腹部肉多，减肥困难
-
-C. 适中匀称
-   → 提示：体重稳定，不胖不瘦
-```
-
-### 问题 10-12
-
-```
-Q10. 你对天气变化的反应？
-
-A. 梅雨/潮湿天气特别难受
-    → 提示：阴雨天觉得身体沉重，不舒服
-
-B. 秋冬干燥天气容易上火
-    → 提示：秋天容易口干、皮肤干、便秘
-
-C. 换季容易过敏（鼻炎、皮疹）
-    → 提示：春秋换季容易打喷嚏、流鼻涕、起疹子
-
-D. 基本没有特别反应
-    → 提示：对天气变化不敏感
-
-─────────────────────────────────────────────────────
-
-Q11. 你是否有以下长期症状？（多选）
-
-A. 头发偏油或容易出油
-    → 提示：需要经常洗头，否则头发油腻
-
-B. 面色偏暗、眼眶发黑
-    → 提示：脸色暗沉，黑眼圈明显
-
-C. 手脚经常有刺痛或麻木感
-    → 提示：手脚偶尔像针扎一样疼，或发麻
-
-D. 以上均无
-
-─────────────────────────────────────────────────────
-
-Q12. 女性专项（男性跳过）：月经情况如何？
-
-A. 月经提前、量多、颜色鲜红
-    → 提示：周期<25 天，量大，颜色鲜红
-
-B. 月经延迟、量少、颜色偏暗或有血块
-    → 提示：周期>35 天，量少，颜色暗或有血块
-
-C. 月经期间腹痛明显
-    → 提示：需要吃止痛药或热敷缓解
-
-D. 基本规律，无明显不适
-    → 提示：周期规律，无明显不适
+Do you want to do physical identification now?
+A. Okay, let’s start now
+B. Talk to you later
+C. First understand what is the constitution of traditional Chinese medicine
 ```
 
 ---
 
-## 第二轮：舌象观察（必填，图文引导）
+## Round 1: Overall Feeling Questionnaire (required, 12 questions)
 
-舌象是中医诊断最直观的指标，AI 通过文字描述引导用户自我观察。
+These 12 questions cover the core dimensions of physique identification and are described in plain language without using unfamiliar terms.
 
-### 引导话术
+### Questions 1-3
 
 ```
-[Dr. Chen] 很好！第一轮问题完成了。
+Q1. Are you usually afraid of cold or heat, or neither is obvious?
 
-现在进入第二轮：舌象观察。舌象是中医诊断最直观的指标，
-能反映体内的气血阴阳状态。
+A. Obviously afraid of cold (hands and feet are especially cold)
+→ Tip: Even in summer, you feel cold in an air-conditioned room, so you like to wear long sleeves
 
-请你在自然光线下（最好是白天靠窗的位置），对着镜子
-伸出舌头，放松不要用力，观察约 10 秒钟，然后告诉我
-以下几点：
+B. Obviously afraid of heat (easy to get angry)
+→ Tips: Wear less than others, sweat easily, like cold drinks
 
-─────────────────────────────────────────────────────
-
-🔴 舌体颜色（整体颜色）：
-
-A. 淡白（比正常偏白）
-   → 提示：像褪色的粉红色，缺乏血色
-
-B. 淡红（正常粉红色）
-   → 提示：健康的粉红色
-
-C. 红（比正常偏红）
-   → 提示：明显的红色，像草莓色
-
-D. 深红/暗红
-   → 提示：深红色，甚至有点发紫
-
-E. 暗紫或有紫色斑点
-   → 提示：舌体发紫，或有紫色瘀点
+C. Neither is obvious
+→ Tips: Insensitive to hot and cold, strong adaptability
 
 ─────────────────────────────────────────────────────
 
-📏 舌体形态：
+Q2. How is your energy and stamina?
 
-A. 偏胖、圆润（比嘴巴宽）
-   → 提示：舌头伸出来感觉嘴巴装不下
+A. I get tired easily and get tired after doing something.
+→ Tip: I feel tired when I wake up in the morning and speak softly
 
-B. 偏瘦、细长
-   → 提示：舌头薄薄的，细细的
+B. Energetic and rarely tired
+→ Tips: You don’t feel tired at the end of the day and your voice is loud and clear
 
-C. 正常
-   → 提示：大小适中
-
-D. 边缘有齿印（像被牙齿咬出的痕迹）
-   → 提示：舌头边缘有波浪状的牙齿印
-
-E. 舌面有裂纹
-   → 提示：舌面上有裂纹，像干裂的土地
+C. Generally, I tend to feel sleepy in the afternoon/evening.
+→ Tip: I was fine in the morning, but started to feel sleepy in the afternoon.
 
 ─────────────────────────────────────────────────────
 
-🌫️ 舌苔（舌面上的"苔藓"状覆盖物）：
+Q3. How is your skin and sweating?
 
-A. 薄白（能透过苔看到舌体颜色）—— 正常
-   → 提示：一层薄薄的白色，舌体颜色隐约可见
+A. My skin is dry and I don’t sweat much.
+→ Tip: Even if you exercise, you don’t sweat much and your skin is dry.
 
-B. 厚白（苔厚实，像铺了一层白色）
-   → 提示：白色苔很厚，看不到舌体颜色
+B. Skin is oily, prone to sweating and sticky
+→ Tip: You will sweat even if you move a little, and the sweat will be sticky.
 
-C. 黄苔（偏黄色）
-   → 提示：苔发黄，可能厚也可能薄
+C. Normal, you only sweat when exercising
+→ Tips: You don’t sweat normally, but you will sweat normally after exercise.
+```
 
-D. 腻苔（油腻感，擦不掉）
-   → 提示：苔看起来油腻腻的，黏黏的
+### Question 4-6
 
-E. 少苔或无苔（舌面很光滑）
-   → 提示：舌面很光滑，没什么苔
+```
+Q4. How is your bowel movement?
 
-F. 舌苔偏一侧（左右不均匀）
-   → 提示：一边苔厚，一边苔薄
+A. Sloppy, shapeless, or prone to diarrhea
+→ Tip: Eating cold or greasy food may cause diarrhea
 
-─────────────────────────────────────────────────────
+B. Dry and prone to constipation
+→ Tip: Only defecate once every 2-3 days or more, it will be laborious to defecate.
 
-💧 舌面湿润度：
-
-A. 偏干（舌面无水光感）
-   → 提示：舌面干燥，没有光泽
-
-B. 正常湿润
-   → 提示：舌面湿润，有光泽
-
-C. 水滑（舌上像有水珠）
-   → 提示：舌面水汪汪的，像有水珠
+C.Normal
+→ Tips: Once a day, take shape and have smooth bowel movements
 
 ─────────────────────────────────────────────────────
 
-有没有其他你注意到的特别之处？
-（比如舌边发红、舌尖有红点等）
+Q5. How is your sleep?
+
+A. Difficulty falling asleep, or having many dreams and waking up easily
+→ Tip: Lie down for more than 30 minutes to fall asleep, or wake up multiple times during the night
+
+B. Sleep well, just fall down
+→ Tip: Lie down and fall asleep within 10 minutes, and sleep until dawn
+
+C. Occasionally insomnia, but generally normal
+→ Tip: Insomnia occurs when you are stressed, but you usually sleep well
+
+─────────────────────────────────────────────────────
+
+Q6. What is your emotional state (in the past six months)?
+
+A. Easily anxious and irritable
+→ Tip: I get anxious about the smallest things and can’t calm down.
+
+B. Easily feel depressed, depressed, and sigh a lot
+→ Tip: I often feel bored and sigh unconsciously
+
+C. Emotionally stable and cheerful
+→ Tip: Be calm and not easily affected
+```
+
+### Questions 7-9
+
+```
+Q7. How is your digestion?
+
+A. Poor appetite, small appetite, slow digestion
+→ Tip: You will feel full after eating a little, and you will experience bloating after meals.
+
+B. Good appetite, but prone to bloating and bloating
+→ Tip: I can eat it, but I feel uncomfortable after eating it.
+
+C.Normal
+→ Tip: Eat well and digest well
+
+─────────────────────────────────────────────────────
+
+Q8. Do you have the following symptoms? (Multiple choice)
+
+A. Often dry mouth and thirsty, especially craving for cold drinks
+→ Tip: I always feel thirsty and like to drink something cold.
+
+B. Mouth often feels sticky or bitter
+→ Tip: Your mouth will feel bitter or sticky when you wake up in the morning
+
+C. I often have shortness of breath and can’t breathe when climbing stairs.
+→ Tip: You will be out of breath after even the slightest activity
+
+D. Skin is prone to bruises or spots
+→ Tip: If you touch it lightly, you will get a bruise, or there will be spots on your face.
+
+E. None of the above
+
+─────────────────────────────────────────────────────
+
+Q9. What are your body characteristics?
+
+A. Thin, no obvious muscles
+→ Tip: No matter how much you eat, you won’t gain weight.
+
+B. Obesity, especially in the abdomen
+→ Tip: There is a lot of fat in the waist and abdomen, making it difficult to lose weight.
+
+C. Moderately symmetrical
+→ Tip: The weight is stable, neither fat nor thin
+```
+
+### Questions 10-12
+
+```
+Q10. How do you react to weather changes?
+
+A. Plum rain/humid weather is particularly uncomfortable
+→ Tip: My body feels heavy and uncomfortable on rainy days
+
+B. Dry weather in autumn and winter makes it easy to get angry.
+→ Tip: Autumn is prone to dry mouth, dry skin and constipation
+
+C. Allergies (rhinitis, rash) are prone to occur during the change of seasons.
+→ Tip: It is easy to sneeze, runny nose, and get rash during the change of seasons from spring to autumn.
+
+D. Basically no special reaction
+→ Tip: Not sensitive to weather changes
+
+─────────────────────────────────────────────────────
+
+Q11. Do you have the following long-term symptoms? (Multiple choice)
+
+A. Hair is oily or prone to oiliness
+→ Tip: You need to wash your hair frequently, otherwise your hair will be greasy
+
+B. Dark complexion and dark eye sockets
+→ Tips: The face is dull and the dark circles under the eyes are obvious
+
+C. Frequent tingling or numbness in hands and feet
+→ Tip: Occasionally, my hands and feet hurt like needles or numbness
+
+D. None of the above
+
+─────────────────────────────────────────────────────
+
+Q12. Special section for women (skip for men): How is your menstruation?
+
+A. Menstruation is early, heavy, and bright red in color.
+→ Tips: cycle <25 days, large quantity, bright red color
+
+B. Delayed menstruation, low amount, dark color or blood clots
+→ Tips: Cycle >35 days, small amount, dark color or blood clots
+
+C. Obvious abdominal pain during menstruation
+→ Tip: You need to take painkillers or hot compress for relief
+
+D. Basic rules, no obvious discomfort
+→ Tips: Regular cycle, no obvious discomfort
 ```
 
 ---
 
-## 第三轮：生活细节补充（可选，6 问）
+## Round 2: Tongue Observation (required, graphic guide)
+
+Tongue appearance is the most intuitive indicator for diagnosis in traditional Chinese medicine, and AI guides users to self-observation through text descriptions.
+
+### Guidance skills
 
 ```
-Q13. 你喜欢喝什么温度的水/饮料？
+[Dr. Chen] Very good! The first round of questions is complete.
 
-A. 喜欢热饮，冷的喝了不舒服
-   → 提示：喝冷的会胃不舒服或拉肚子
+Now enter the second round: tongue observation. Tongue appearance is the most intuitive indicator for diagnosis in traditional Chinese medicine.
+It can reflect the yin and yang status of qi and blood in the body.
 
-B. 喜欢冷饮，热的喝不下去
-   → 提示：喜欢冰水、冰饮料
-
-C. 无所谓
-   → 提示：冷热都可以
+Please look in front of the mirror in natural light (preferably by the window during the day)
+Stick out your tongue, relax without straining, watch for about 10 seconds, then tell me
+The following points:
 
 ─────────────────────────────────────────────────────
 
-Q14. 你的腰腹部是否容易感到寒凉或酸胀？
+🔴 Tongue color (overall color):
 
-A. 经常感到寒凉，尤其冬天
-B. 偶尔感到不适
-C. 基本没有感觉
+A. Pale white (whiter than normal)
+→ Tip: Like a faded pink color, lack of blood color
 
-─────────────────────────────────────────────────────
+B. Light red (normal pink)
+→ Tip: Healthy Pink
 
-Q15. 运动时是否特别容易大量出汗（比同等强度下其他人多）？
+C. Red (redder than normal)
+→ Tip: Obvious red, like strawberry color
 
-A. 是的，稍微动一下就大汗淋漓
-B. 正常，和别人差不多
-C. 不太出汗，即使运动
+D. Deep red/dark red
+→ Tip: Deep red, even a little purple
 
-─────────────────────────────────────────────────────
-
-Q16. 你最近半年压力大吗？主要是工作还是情感？
-
-A. 工作压力大（具体是？）
-B. 情感压力大（具体是？）
-C. 压力不大，生活平稳
+E. Dark purple or purple spots
+→ Tip: The tongue is purple or has purple petechiae
 
 ─────────────────────────────────────────────────────
 
-Q17. 你有没有在中医院或通过其他方式做过体质辨识？
-     结论是什么？
+📏 Tongue body shape:
 
-A. 做过，结论是 XX 体质
-B. 做过，但忘记结论了
-C. 没做过
+A. Fatter and rounder (wider than the mouth)
+→ Tip: When you stick out your tongue, it feels like it can’t fit in your mouth.
+
+B. Thin and slender
+→ Tip: The tongue is thin and thin
+
+C.Normal
+→ Tip: Good size
+
+D. There are tooth marks on the edge (like marks left by teeth)
+→ Tip: There are wavy teeth marks on the edge of the tongue
+
+E. Cracks on the tongue surface
+→ Tip: There are cracks on the tongue, like dry land
 
 ─────────────────────────────────────────────────────
 
-Q18. 你是否有服用中药或中成药的习惯？
-     （如六味地黄丸、补中益气丸等）
+🌫️ Tongue coating (the "moss"-like covering on the tongue):
 
-A. 正在服用（具体是？）
-B. 曾经服用过
-C. 从未服用过
+A. Thin and white (the color of the tongue can be seen through the coating) - normal
+→ Tip: A thin layer of white, the color of the tongue is faintly visible
+
+B. Thick white (the moss is thick, like a layer of white)
+→ Tip: The white coating is very thick and the color of the tongue cannot be seen
+
+C. Yellow fur (yellowish)
+→ Tip: The moss is yellow and may be thick or thin.
+
+D. Greasy coating (greasy feeling, cannot be wiped off)
+→ Tip: The moss looks greasy and sticky
+
+E. Little or no coating (the tongue surface is very smooth)
+→ Tip: The tongue surface is very smooth and there is no coating
+
+F. Tongue coating is on one side (uneven between left and right)
+→ Tip: The moss is thick on one side and thin on the other.
+
+─────────────────────────────────────────────────────
+
+💧 Tongue surface moistness:
+
+A. Dry (no watery feeling on the tongue)
+→ Tip: The tongue is dry and dull
+
+B. Normal moistness
+→ Tip: The tongue is moist and shiny
+
+C. Water slippery (like water droplets on the tongue)
+→ Tip: The surface of the tongue is watery, like water droplets
+
+─────────────────────────────────────────────────────
+
+Is there anything else special that you noticed?
+(For example, redness around the tongue, red spots on the tip of the tongue, etc.)
 ```
 
 ---
 
-## 体质辨识逻辑
-
-### 计分规则
-
-**每种体质基础分：50 分（平和质基准）**
-
-**加分规则：**
-- 每个答案对应特定体质倾向
-- 选择某体质相关答案 +10-20 分
-- 舌象特征匹配 +10-30 分
-
-**判定标准：**
-- **主体质**：分数最高且≥65 分
-- **兼夹体质**：分数≥60 分且非最高
-- **平和质**：所有偏颇体质分数<55 分，且平和质≥60 分
-
-### 体质判断输出模板
+## Round 3: Supplementary life details (optional, 6 questions)
 
 ```
-[Dr. Chen] 🌿 体质辨识结果
+Q13. What temperature of water/beverage do you like to drink?
+
+A. I like hot drinks and feel uncomfortable drinking cold ones.
+→ Tip: Drinking it cold may cause stomach upset or diarrhea.
+
+B. I like cold drinks and can’t drink hot ones.
+→ Tip: Like ice water and ice drinks
+
+C. It doesn’t matter
+→ Tip: Hot or cold can be used
+
+─────────────────────────────────────────────────────
+
+Q14. Does your waist and abdomen easily feel cold or sore?
+
+A. Often feel cold, especially in winter
+B. Occasionally feel uncomfortable
+C. Basically no feeling
+
+─────────────────────────────────────────────────────
+
+Q15. Are you particularly prone to sweating a lot when exercising (more than other people at the same intensity)?
+
+A. Yes, I sweat profusely even if I move a little bit.
+B. Normal, almost like others
+C. Don’t sweat much, even when exercising
+
+─────────────────────────────────────────────────────
+
+Q16. Have you been under a lot of pressure in the past six months? Is it mainly work or emotion?
+
+A. High work pressure (specifically?)
+B. High emotional pressure (specifically?)
+C. Little pressure and stable life
+
+─────────────────────────────────────────────────────
+
+Q17. Have you ever had constitution identification done in a traditional Chinese medicine hospital or through other means?
+What's the conclusion?
+
+A. I have done it, and the conclusion is that I have XX physique.
+B. I did it, but I forgot the conclusion.
+C. Never done it
+
+─────────────────────────────────────────────────────
+
+Q18. Do you have the habit of taking Chinese medicine or Chinese patent medicine?
+(Such as Liuwei Dihuang Pills, Buzhong Yiqi Pills, etc.)
+
+A. Currently taking (specifically?)
+B. Have ever taken it
+C. Never taken it
+```
+
+---
+
+##Physique identification logic
+
+### Scoring rules
+
+**Basic points for each constitution: 50 points (baseline of balanced constitution)**
+
+**Extra Points Rules:**
+-Each answer corresponds to a specific physical tendency
+- Select answers related to a certain physical constitution +10-20 points
+- Tongue feature matching +10-30 points
+
+**Judgment Criteria:**
+- **Main constitution**: highest score and ≥65 points
+- **Physique combined**: Score ≥60 points and not the highest
+- **Peace quality**: All biased constitution scores <55 points, and Peace quality ≥60 points
+
+###Physique judgment output template
+
+```
+[Dr. Chen] 🌿Physique identification results
 
 ═══════════════════════════════════════════════════
 
-📊 体质倾向分
+📊 Physical tendency score
 ─────────────────────────────
-平和质：{score} 分（正常范围 60-80）
-气虚质：{score} 分 {flag}
-阳虚质：{score} 分 {flag}
-阴虚质：{score} 分 {flag}
-痰湿质：{score} 分 {flag}
-湿热质：{score} 分 {flag}
-血瘀质：{score} 分 {flag}
-气郁质：{score} 分 {flag}
-特禀质：{score} 分 {flag}
+Balance: {score} (normal range 60-80)
+Qi deficiency quality: {score} points {flag}
+Yang deficiency quality: {score} points {flag}
+Yin deficiency quality: {score} points {flag}
+Phlegm-dampness: {score} points {flag}
+Moisture and heat quality: {score} points {flag}
+Blood stasis: {score} points {flag}
+Qi depression: {score} points {flag}
+Special qualities: {score} points {flag}
 
-注：⚠️ 60-70 分（轻度偏颇）⚠️⚠️ >70 分（明显偏颇）
+Note: ⚠️ 60-70 points (mildly biased) ⚠️⚠️ >70 points (obviously biased)
 
-🎯 体质判断
+🎯Physique judgment
 ─────────────────────────────
-主体质：{primary_constitution}
-兼夹体质：{secondary_constitutions}
+Main constitution: {primary_constitution}
+Combined constitution: {secondary_constitutions}
 
-你的体质类型：{primary} + {secondary}（复合体质）
+Your constitution type: {primary} + {secondary} (complex constitution)
 
-📋 体质特征解读
+📋 Interpretation of physical characteristics
 ─────────────────────────────
-{primary_constitution}核心特征：
-- {特征 1}
-- {特征 2}
-- {特征 3}
-- 舌象：{舌象描述}（与你观察的一致）
+{primary_constitution}Core features:
+- {Feature 1}
+- {Feature 2}
+- {Feature 3}
+- Tongue Symptoms: {Tongue Phenomenon Description} (consistent with your observation)
 
-{secondary_constitution}核心特征：
-- {特征 1}
-- {特征 2}
+{secondary_constitution}Core features:
+- {Feature 1}
+- {Feature 2}
 
-💡 对你的影响
+💡 Impact on you
 ─────────────────────────────
-运动方面：
-→ Coach Alex 会为你调整：{运动宜忌}
+Sports:
+→ Coach Alex will adjust it for you: {Exercise Dos and Don’ts}
 
-饮食方面：
-→ Dr. Mei 会为你调整：{饮食宜忌}
+Diet:
+→ Dr. Mei will adjust for you: {dietary taboos}
 
-养生方面：
-→ 我推荐：{功法推荐}
-           {食疗建议}
-           {穴位保健}
+In terms of health care:
+→ I recommend: {Recommended exercises}
+{diet therapy suggestions}
+{Acupoint health care}
 
-📅 调理预期
+📅 Adjust expectations
 ─────────────────────────────
-{体质}的调理需要时间，通常 3 个月可见明显改善。
+It takes time to adjust {Physique}, and obvious improvement can usually be seen in 3 months.
 
-改善信号：
-✅ {信号 1}
-✅ {信号 2}
-✅ {信号 3}
+Improve signal:
+✅ {Signal 1}
+✅ {Signal 2}
+✅ {Signal 3}
 
-下个月我会主动找你复查舌象，跟踪调理效果。
+Next month I will take the initiative to review your tongue condition and track the conditioning effects.
 
-有任何问题随时问我！
+Any questions feel free to ask me!
 ```
 
 ---
 
-## 数据存储
+## Data storage
 
-### JSON 格式（`data/json/tcm_profile.json`）
+### JSON format (`data/json/tcm_profile.json`)
 
 ```json
 {
@@ -514,53 +514,53 @@ C. 从未服用过
   "tongue_records": [
     {
       "date": "2026-03-16",
-      "body_color": "淡白",
-      "body_shape": "胖大有齿痕",
-      "coating": "白腻苔",
-      "moisture": "水滑",
-      "notes": "边缘有轻微齿痕",
-      "dr_chen_assessment": "典型阳虚 + 气虚舌象"
+"body_color": "Light white",
+"body_shape": "Fat and tooth-marked",
+"coating": "white greasy moss",
+"moisture": "water slippery",
+"notes": "There are slight tooth marks on the edges",
+"dr_chen_assessment": "Typical Yang deficiency + Qi deficiency tongue symptoms"
     }
   ],
   
   "current_plan": {
-    "exercise_restrictions": ["避免大汗", "冬季减少室外", "运动后即刻保暖"],
-    "recommended_exercises": ["八段锦", "太极拳", "慢跑"],
+"exercise_restrictions": ["Avoid sweating", "Reduce outdoor use in winter", "Keep warm immediately after exercise"],
+"recommended_exercises": ["Ba Duan Jin", "Tai Chi", "Jogging"],
     "food_therapy": {
-      "beneficial": ["山药", "红枣", "羊肉", "生姜", "核桃"],
-      "avoid": ["冷饮", "苦瓜", "白萝卜", "生冷食物"],
-      "daily_tea": "黄芪红枣枸杞茶"
+"beneficial": ["yam", "red dates", "mutton", "ginger", "walnut"],
+"avoid": ["cold drinks", "bitter melon", "white radish", "raw and cold food"],
+"daily_tea": "Astragalus, red dates and wolfberry tea"
     },
-    "acupoints": ["关元穴", "足三里", "肾俞穴"],
-    "seasonal_notes": "冬至前后是调养黄金期，加强艾灸频率"
+"acupoints": ["Guanyuan point", "Zusanli", "Shenshu point"],
+"seasonal_notes": "Before and after the winter solstice is the golden period for recuperation, so increase the frequency of moxibustion."
   }
 }
 ```
 
 ---
 
-## 中医建档完成引导
+## Guidance on completing the establishment of traditional Chinese medicine files
 
 ```
-[Dr. Chen] 🎉 中医体质辨识完成！
+[Dr. Chen] 🎉 Traditional Chinese Medicine constitution identification completed!
 
-你的体质档案已建立并保存。基于你的{体质}体质：
+Your physical profile has been created and saved. Based on your {physical} constitution:
 
-→ Coach Alex 会调整你的训练计划（{关键调整}）
-→ Dr. Mei 会调整你的饮食方案（{关键调整}）
-→ 我会为你提供节气养生建议和穴位保健方案
+→ Coach Alex will adjust your training plan ({Key Adjustments})
+→ Dr. Mei will adjust your diet plan ({Key Adjustments})
+→ I will provide you with solar term health advice and acupuncture point health care plans
 
-📅 下次复查：{date}（月度舌象检查）
+📅Next review: {date} (monthly tongue examination)
 
-接下来你想：
-A. 查看体质专属运动方案
-B. 查看体质专属食疗方案
-C. 查看今日训练计划
-D. 其他问题
+Next you think:
+A. Check out the body-specific exercise program
+B. Check out the body-specific dietary therapy plan
+C. View today’s training plan
+D. Other questions
 
-输入字母选择，或直接告诉我你想做什么！
+Enter a letter to choose, or just tell me what you want to do!
 ```
 
 ---
 
-*中医体质辨识建档流程完成 | 下一步：九种体质详细方案（tcm_constitution.md）*
+*TCM constitution identification and filing process completed | Next step: detailed plan for nine constitutions (tcm_constitution.md)*

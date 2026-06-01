@@ -1,756 +1,756 @@
-# 男性专项营养指南
+# Men’s Special Nutrition Guide
 
-> **来源依据：** 中国营养学会《中国居民膳食营养素参考摄入量》(2023 版)、NSCA 营养指南、《运动营养学》
-
----
-
-## 目录
-
-1. [男性营养特点](#一男性营养特点)
-2. [基础营养参数](#二基础营养参数)
-3. [增肌营养方案](#三增肌营养方案)
-4. [减脂营养方案](#四减脂营养方案)
-5. [男性专项营养素](#五男性专项营养素)
-6. [训练日/休息日营养](#六训练日休息日营养)
-7. [补剂指南](#七补剂指南)
-8. [常见问题](#八常见问题)
+> **Source basis:** Chinese Nutrition Society's "Reference Intake of Dietary Nutrients for Chinese Residents" (2023 Edition), NSCA Nutrition Guidelines, "Sports Nutrition"
 
 ---
 
-## 一、男性营养特点
+## Table of contents
 
-### 生理特点
+1. [Male Nutritional Characteristics](#1Male Nutritional Characteristics)
+2. [Basic Nutritional Parameters](#2 Basic Nutritional Parameters)
+3. [Muscle-Building Nutritional Program](#3 Muscle-Building Nutritional Program)
+4. [Fat-reducing nutrition plan](#4 Fat-reducing nutrition plan)
+5. [Men’s special nutrients](#5Men’s special nutrients)
+6. [Training day/rest day nutrition](#6training day rest day nutrition)
+7. [Supplement Guide](#7supplement guide)
+8. [FAQ](#8FAQ)
 
-| 特点 | 营养影响 |
+---
+
+## 1. Male nutritional characteristics
+
+###Physiological characteristics
+
+| Features | Nutritional Effects |
 |------|---------|
-| 基础代谢率高（比女性高 10-15%） | 热量需求更高 |
-| 肌肉量大（比女性高 30-40%） | 蛋白质需求更高 |
-| 睾酮水平高 | 需要锌、维生素 D 等支持激素合成 |
-| 体脂率低（健康范围 10-20%） | 减脂期热量赤字可更大 |
-| 骨骼密度高 | 钙需求略低于女性 |
-| 无月经周期 | 铁需求低于女性 |
+| High basal metabolic rate (10-15% higher than women) | Higher caloric requirements |
+| Larger muscle mass (30-40% more than women) | Higher protein requirements |
+| High testosterone levels | Need zinc, vitamin D, etc. to support hormone synthesis |
+| Low body fat percentage (healthy range 10-20%) | Caloric deficit can be larger during fat loss period |
+| High bone density | Calcium needs slightly lower than women |
+| No menstrual cycle | Lower iron needs than women |
 
-### 营养目标优先级
+### Nutritional goal priority
 
-| 年龄段 | 主要目标 | 营养重点 |
+| Age Group | Key Goals | Nutritional Focus |
 |--------|---------|---------|
-| 18-25 岁 | 增肌、运动表现 | 充足热量、蛋白质、碳水 |
-| 26-35 岁 | 维持、增肌/减脂 | 均衡营养、控制体脂 |
-| 36-45 岁 | 维持、预防代谢疾病 | 控制热量、增加膳食纤维 |
-| 46-55 岁 | 维持肌肉、预防慢性病 | 优质蛋白、抗氧化营养素 |
-| 55 岁以上 | 预防肌肉流失、骨骼健康 | 蛋白质、钙、维生素 D |
+| 18-25 years old | Muscle gain, sports performance | Sufficient calories, protein, carbohydrates |
+| 26-35 years old | Maintenance, muscle gain/fat loss | Balanced nutrition, body fat control |
+| 36-45 years old | Maintain and prevent metabolic diseases | Control calories and increase dietary fiber |
+| 46-55 years old | Maintain muscles and prevent chronic diseases | High-quality protein, antioxidant nutrients |
+| 55+ | Prevent muscle loss, bone health | Protein, calcium, vitamin D |
 
 ---
 
-## 二、基础营养参数
+## 2. Basic nutritional parameters
 
-### 热量需求计算
+### Calorie requirement calculation
 
-**基础代谢率（BMR）- Mifflin-St Jeor 公式：**
+**Basal Metabolic Rate (BMR) - Mifflin-St Jeor Formula:**
 
 ```
-BMR = (10 × 体重 kg) + (6.25 × 身高 cm) - (5 × 年龄) + 5
+BMR = (10 × weight kg) + (6.25 × height cm) - (5 × age) + 5
 ```
 
-**示例：** 28 岁男性，175cm，70kg
+**Example:** 28-year-old male, 175cm, 70kg
 ```
 BMR = (10 × 70) + (6.25 × 175) - (5 × 28) + 5
     = 700 + 1093.75 - 140 + 5
-    = 1,659 kcal/天
+= 1,659 kcal/day
 ```
 
-**每日总能量消耗（TDEE）：**
+**Total Daily Energy Expenditure (TDEE):**
 
 ```
-TDEE = BMR × 活动系数
+TDEE = BMR × activity coefficient
 
-活动系数：
-- 久坐（几乎不运动）：1.2
-- 轻度活动（每周 1-3 次运动）：1.375
-- 中度活动（每周 3-5 次运动）：1.55
-- 高度活动（每周 6-7 次运动）：1.725
-- 极高活动（体力劳动 + 每天训练）：1.9
+Activity coefficient:
+- Sedentary (little exercise): 1.2
+- Light activity (exercise 1-3 times per week): 1.375
+- Moderate activity (3-5 times of exercise per week): 1.55
+- Highly active (6-7 exercises per week): 1.725
+- Extreme activity (physical work + daily training): 1.9
 ```
 
-**示例：** 中度活动
+**Example:** Moderate activity
 ```
-TDEE = 1,659 × 1.55 = 2,571 kcal/天
+TDEE = 1,659 × 1.55 = 2,571 kcal/day
 ```
 
-### 宏量营养素配比
+### Macronutrient ratio
 
-#### 蛋白质
+#### protein
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 增肌 | 1.6-2.2g/kg | 支持肌肉合成 |
-| 减脂 | 2.0-2.4g/kg | 保护肌肉，增加饱腹感 |
-| 维持 | 1.4-1.8g/kg | 基础需求 |
-| 力量运动 | 1.8-2.2g/kg | 支持肌肉生长 |
-| 耐力运动 | 1.4-1.6g/kg | 支持恢复 |
+| Build muscle | 1.6-2.2g/kg | Support muscle synthesis |
+| Fat loss | 2.0-2.4g/kg | Protect muscles and increase satiety |
+| Maintenance | 1.4-1.8g/kg | Basic needs |
+| Strength exercise | 1.8-2.2g/kg | Support muscle growth |
+| Endurance sports | 1.4-1.6g/kg | Support recovery |
 
-**优质蛋白来源：**
-- 动物蛋白：鸡胸肉、鱼、牛肉、鸡蛋、奶制品
-- 植物蛋白：豆腐、豆类、藜麦、坚果
+**High quality protein source:**
+- Animal protein: chicken breast, fish, beef, eggs, dairy products
+- Plant proteins: tofu, beans, quinoa, nuts
 
-#### 脂肪
+#### Fat
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 增肌 | 0.8-1.2g/kg | 支持睾酮合成 |
-| 减脂 | 0.8-1.0g/kg | 激素合成必需 |
-| 维持 | 0.8-1.0g/kg | 基础需求 |
+| Build muscle | 0.8-1.2g/kg | Support testosterone synthesis |
+| Fat loss | 0.8-1.0g/kg | Necessary for hormone synthesis |
+| Maintenance | 0.8-1.0g/kg | Basic requirements |
 
-**脂肪类型配比：**
-- 饱和脂肪：<10% 总热量（红肉、奶制品）
-- 单不饱和脂肪：10-15% 总热量（橄榄油、牛油果、坚果）
-- 多不饱和脂肪：5-10% 总热量（深海鱼、亚麻籽）
+**Fat type ratio:**
+- Saturated fat: <10% of total calories (red meat, dairy)
+- Monounsaturated fat: 10-15% of total calories (olive oil, avocado, nuts)
+- Polyunsaturated fat: 5-10% of total calories (sea fish, flax seeds)
 
-#### 碳水化合物
+#### carbohydrate
 
 ```
-碳水 = (总热量 - 蛋白质热量 - 脂肪热量) ÷ 4
+Carbohydrate = (total calories - protein calories - fat calories) ÷ 4
 
-1g 碳水 = 4 kcal
-1g 蛋白质 = 4 kcal
-1g 脂肪 = 9 kcal
+1g carbohydrate = 4 kcal
+1g protein = 4 kcal
+1g fat = 9 kcal
 ```
 
-| 目标 | 推荐量 | 说明 |
+| Goal | Recommended amount | Description |
 |------|--------|------|
-| 增肌 | 4-6g/kg | 支持训练和恢复 |
-| 减脂 | 2-3g/kg | 训练日高，休息日低 |
-| 维持 | 3-5g/kg | 根据活动量调整 |
-| 耐力运动 | 5-7g/kg | 主要燃料 |
+| Muscle building | 4-6g/kg | Support training and recovery |
+| Fat loss | 2-3g/kg | High on training days, low on rest days |
+| Maintenance | 3-5g/kg | Adjust according to activity level |
+| Endurance sports | 5-7g/kg | Main fuel |
 
-### 微量营养素推荐量（中国营养学会 2023）
+### Recommended amounts of micronutrients (Chinese Nutrition Society 2023)
 
-| 营养素 | 推荐量 (18-50 岁男性) | 主要作用 | 食物来源 |
+| Nutrients | Recommended dosage (for men aged 18-50) | Main functions | Food sources |
 |--------|---------------------|---------|---------|
-| 维生素 A | 800μg RAE/天 | 视力、免疫 | 肝脏、胡萝卜、菠菜 |
-| 维生素 D | 10μg (400IU)/天 | 骨骼、免疫、睾酮 | 日晒、鱼肝油、蛋黄 |
-| 维生素 E | 14mg α-TE/天 | 抗氧化 | 坚果、植物油 |
-| 维生素 K | 80μg/天 | 凝血、骨骼 | 绿叶蔬菜 |
-| 维生素 B1 | 1.4mg/天 | 能量代谢 | 全谷物、猪肉 |
-| 维生素 B2 | 1.4mg/天 | 能量代谢 | 奶制品、肝脏 |
-| 维生素 B3 | 15mg NE/天 | 能量代谢 | 肉类、鱼类 |
-| 维生素 B6 | 1.4mg/天 | 蛋白质代谢 | 香蕉、坚果、鱼类 |
-| 维生素 B12 | 2.4μg/天 | 红细胞生成 | 肉类、鱼类、奶制品 |
-| 叶酸 | 400μg DFE/天 | 细胞分裂 | 绿叶蔬菜、豆类 |
-| 维生素 C | 100mg/天 | 抗氧化、免疫 | 柑橘类、猕猴桃 |
-| 钙 | 800mg/天 | 骨骼、肌肉 | 奶制品、绿叶蔬菜 |
-| 镁 | 330mg/天 | 肌肉功能、能量 | 坚果、绿叶蔬菜、全谷物 |
-| 锌 | 12.5mg/天 | 睾酮合成、免疫 | 牡蛎、牛肉、南瓜子 |
-| 铁 | 12mg/天 | 氧气运输 | 红肉、菠菜、豆类 |
-| 硒 | 60μg/天 | 抗氧化、甲状腺 | 巴西坚果、海鲜 |
-| 碘 | 120μg/天 | 甲状腺激素 | 海带、碘盐 |
+| Vitamin A | 800μg RAE/day | Vision, immunity | Liver, carrots, spinach |
+| Vitamin D | 10μg (400IU)/day | Bones, immunity, testosterone | Sun exposure, cod liver oil, egg yolk |
+| Vitamin E | 14mg α-TE/day | Antioxidant | Nuts, vegetable oils |
+| Vitamin K | 80μg/day | Blood coagulation, bones | Green leafy vegetables |
+| Vitamin B1 | 1.4mg/day | Energy metabolism | Whole grains, pork |
+| Vitamin B2 | 1.4mg/day | Energy metabolism | Dairy products, liver |
+| Vitamin B3 | 15mg NE/day | Energy metabolism | Meat, fish |
+| Vitamin B6 | 1.4mg/day | Protein metabolism | Bananas, nuts, fish |
+| Vitamin B12 | 2.4μg/day | Erythropoiesis | Meat, fish, dairy products |
+| Folic acid | 400μg DFE/day | Cell division | Green leafy vegetables, beans |
+| Vitamin C | 100mg/day | Antioxidant, immunity | Citrus, kiwi |
+| Calcium | 800mg/day | Bones, muscles | Dairy products, green leafy vegetables |
+| Magnesium | 330mg/day | Muscle function, energy | Nuts, green leafy vegetables, whole grains |
+| Zinc | 12.5mg/day | Testosterone synthesis, immunity | Oysters, beef, pumpkin seeds |
+| Iron | 12mg/day | Oxygen transport | Red meat, spinach, beans |
+| Selenium | 60μg/day | Antioxidant, thyroid | Brazil nuts, seafood |
+| Iodine | 120μg/day | Thyroid hormone | Kelp, iodized salt |
 
 ---
 
-## 三、增肌营养方案
+## 3. Muscle-building nutrition plan
 
-### 热量目标
-
-```
-增肌热量 = TDEE + 250-500 kcal
-
-预期增重速率：0.25-0.5kg/周
-（其中约 50% 为肌肉，50% 为脂肪）
-```
-
-### 宏量营养素配比
+### Calorie Target
 
 ```
-蛋白质：1.6-2.2g/kg
-脂肪：0.8-1.2g/kg
-碳水：剩余热量（通常 4-6g/kg）
+Muscle building calories = TDEE + 250-500 kcal
 
-示例（70kg 男性，TDEE 2500kcal）：
-- 目标热量：2750-3000 kcal
-- 蛋白质：112-154g（448-616 kcal，16-20%）
-- 脂肪：56-84g（504-756 kcal，18-25%）
-- 碳水：344-462g（1376-1848 kcal，50-60%）
+Expected weight gain rate: 0.25-0.5kg/week
+(about 50% of it is muscle and 50% is fat)
 ```
 
-### 餐次分配
-
-**4 餐模式：**
-```
-早餐（25%）：碳水 + 蛋白质 + 健康脂肪
-加餐（15%）：蛋白质 + 碳水
-午餐（30%）：碳水 + 蛋白质 + 蔬菜
-晚餐（30%）：蛋白质 + 碳水 + 蔬菜
-```
-
-**5-6 餐模式（适合胃口小者）：**
-```
-每 2.5-3 小时进食一次
-每餐蛋白质：20-30g
-每餐碳水：40-60g
-```
-
-### 训练前后营养
-
-#### 训练前（1-2 小时）
+### Macronutrient ratio
 
 ```
-- 碳水：30-50g（提供能量）
-- 蛋白质：20-30g（预防肌肉分解）
-- 脂肪：少量（延缓消化）
+Protein: 1.6-2.2g/kg
+Fat: 0.8-1.2g/kg
+Carbohydrate: residual calories (usually 4-6g/kg)
 
-示例：
-- 香蕉 + 希腊酸奶
-- 全麦面包 + 鸡胸肉
-- 燕麦 + 蛋白粉
+Example (70kg male, TDEE 2500kcal):
+- Target calories: 2750-3000 kcal
+- Protein: 112-154g (448-616 kcal, 16-20%)
+- Fat: 56-84g (504-756 kcal, 18-25%)
+- Carbohydrate: 344-462g (1376-1848 kcal, 50-60%)
 ```
 
-#### 训练后（30-60 分钟内）
+### Meal allocation
 
+**4 Meal Mode:**
 ```
-- 碳水：40-60g（补充糖原）
-- 蛋白质：25-40g（肌肉合成）
-- 快速吸收为佳
-
-示例：
-- 乳清蛋白 + 香蕉
-- 鸡胸肉 + 米饭
-- 金枪鱼 + 面包
+Breakfast (25%): carbs + protein + healthy fats
+Snack (15%): protein + carbohydrate
+Lunch (30%): Carbs + Protein + Vegetables
+Dinner (30%): protein + carbs + vegetables
 ```
 
-### 增肌饮食模板（70kg 男性）
+**5-6 meal mode (suitable for those with small appetites):**
+```
+Eat every 2.5-3 hours
+Protein per meal: 20-30g
+Carbohydrates per meal: 40-60g
+```
+
+### Nutrition before and after training
+
+#### Before training (1-2 hours)
 
 ```
-【目标热量：2800 kcal】
-【蛋白质：140g | 脂肪：78g | 碳水：385g】
+-Carbohydrate: 30-50g (provides energy)
+- Protein: 20-30g (prevents muscle breakdown)
+- Fat: small amount (slows digestion)
 
-【早餐】（700 kcal）
-- 燕麦 80g（280 kcal）
-- 蛋白粉 1 勺（120 kcal）
-- 香蕉 1 根（105 kcal）
-- 花生酱 1 勺（90 kcal）
-- 全脂牛奶 250ml（150 kcal）
+Example:
+- Banana + Greek yogurt
+- Whole wheat bread + chicken breast
+- Oats + protein powder
+```
 
-【加餐】（420 kcal）
-- 希腊酸奶 200g（130 kcal）
-- 混合坚果 30g（180 kcal）
-- 苹果 1 个（95 kcal）
+#### After training (within 30-60 minutes)
 
-【午餐】（840 kcal）
-- 鸡胸肉 200g（220 kcal）
-- 糙米饭 200g（240 kcal）
-- 西兰花 200g（70 kcal）
-- 橄榄油 15ml（135 kcal）
-- 混合蔬菜（100 kcal）
-- 牛油果 1/4 个（60 kcal）
+```
+-Carbohydrate: 40-60g (replenish glycogen)
+- Protein: 25-40g (muscle synthesis)
+- Fast absorption is preferred
 
-【训练前加餐】（280 kcal）
-- 全麦面包 2 片（160 kcal）
-- 金枪鱼 80g（80 kcal）
-- 香蕉 1/2 根（40 kcal）
+Example:
+- Whey protein + banana
+- Chicken Breast + Rice
+- Tuna + bread
+```
 
-【训练后】（280 kcal）
-- 乳清蛋白 1 勺（120 kcal）
-- 葡萄糖/右旋糖 40g（160 kcal）
+### Muscle-building diet template (70kg male)
 
-【晚餐】（560 kcal）
-- 三文鱼 150g（310 kcal）
-- 红薯 200g（180 kcal）
-- 芦笋 200g（40 kcal）
-- 橄榄油 5ml（45 kcal）
+```
+[Target calorie: 2800 kcal]
+[Protein: 140g | Fat: 78g | Carbohydrate: 385g]
+
+【Breakfast】（700 kcal）
+- Oats 80g (280 kcal)
+- 1 scoop of protein powder (120 kcal)
+- 1 banana (105 kcal)
+- 1 tablespoon peanut butter (90 kcal)
+- Whole milk 250ml (150 kcal)
+
+【Additional Meal】（420 kcal）
+- Greek yogurt 200g (130 kcal)
+- Mixed nuts 30g (180 kcal)
+- 1 apple (95 kcal)
+
+【Lunch】（840 kcal）
+- Chicken breast 200g (220 kcal)
+- Brown rice 200g (240 kcal)
+- Broccoli 200g (70 kcal)
+- Olive oil 15ml (135 kcal)
+- Mixed vegetables (100 kcal)
+- 1/4 avocado (60 kcal)
+
+[Snack before training] (280 kcal)
+- 2 slices of whole wheat bread (160 kcal)
+- Tuna 80g (80 kcal)
+- 1/2 banana (40 kcal)
+
+[After training] (280 kcal)
+- 1 scoop of whey protein (120 kcal)
+- Glucose/dextrose 40g (160 kcal)
+
+【Dinner】（560 kcal）
+- Salmon 150g (310 kcal)
+- Sweet potato 200g (180 kcal)
+- Asparagus 200g (40 kcal)
+- Olive oil 5ml (45 kcal)
 ```
 
 ---
 
-## 四、减脂营养方案
+## 4. Nutritional plan for fat loss
 
-### 热量目标
-
-```
-减脂热量 = TDEE - 500 kcal
-
-预期减重速率：0.5kg/周
-（其中约 75% 为脂肪，25% 为肌肉）
-
-注意：热量赤字不宜超过 1000 kcal/天，
-否则会导致肌肉流失、代谢下降
-```
-
-### 宏量营养素配比
+### Calorie Target
 
 ```
-蛋白质：2.0-2.4g/kg（保护肌肉）
-脂肪：0.8-1.0g/kg（激素合成）
-碳水：剩余热量（通常 2-3g/kg）
+Fat loss calories = TDEE - 500 kcal
 
-示例（70kg 男性，TDEE 2500kcal）：
-- 目标热量：2000 kcal
-- 蛋白质：140-168g（560-672 kcal，28-34%）
-- 脂肪：56-70g（504-630 kcal，25-31%）
-- 碳水：175-235g（700-940 kcal，35-47%）
+Expected weight loss rate: 0.5kg/week
+(About 75% of it is fat and 25% is muscle)
+
+Note: Caloric deficit should not exceed 1000 kcal/day,
+Otherwise, it will lead to muscle loss and metabolic decline.
 ```
 
-### 碳水循环策略
-
-**训练日（高碳）：**
-```
-碳水：3-4g/kg
-蛋白质：2.0-2.2g/kg
-脂肪：0.8-1.0g/kg
-```
-
-**休息日（低碳）：**
-```
-碳水：1-2g/kg
-蛋白质：2.2-2.4g/kg
-脂肪：1.0-1.2g/kg
-```
-
-### 减脂饮食模板（70kg 男性）
+### Macronutrient ratio
 
 ```
-【目标热量：2000 kcal】
-【蛋白质：140g | 脂肪：67g | 碳水：200g】
+Protein: 2.0-2.4g/kg (protect muscles)
+Fat: 0.8-1.0g/kg (hormone synthesis)
+Carbohydrate: residual calories (usually 2-3g/kg)
 
-【早餐】（400 kcal）
-- 燕麦 50g（180 kcal）
-- 蛋白粉 1 勺（120 kcal）
-- 蓝莓 50g（30 kcal）
-- 杏仁 10g（60 kcal）
-
-【午餐】（600 kcal）
-- 鸡胸肉 150g（165 kcal）
-- 糙米饭 150g（180 kcal）
-- 西兰花 200g（70 kcal）
-- 橄榄油 10ml（90 kcal）
-- 混合蔬菜（100 kcal）
-
-【加餐】（200 kcal）
-- 希腊酸奶 150g（100 kcal）
-- 苹果 1 个（95 kcal）
-
-【训练前】（200 kcal）
-- 香蕉 1 根（105 kcal）
-- 蛋白粉 1/2 勺（60 kcal）
-
-【晚餐】（600 kcal）
-- 三文鱼 150g（310 kcal）
-- 红薯 200g（180 kcal）
-- 芦笋 200g（40 kcal）
-- 橄榄油 5ml（45 kcal）
+Example (70kg male, TDEE 2500kcal):
+- Target calories: 2000 kcal
+- Protein: 140-168g (560-672 kcal, 28-34%)
+- Fat: 56-70g (504-630 kcal, 25-31%)
+- Carbohydrate: 175-235g (700-940 kcal, 35-47%)
 ```
 
-### 减脂技巧
+### Carbohydrate cycling strategy
 
-1. **增加蛋白质摄入**：提高饱腹感，保护肌肉
-2. **增加膳食纤维**：蔬菜、全谷物，增加饱腹感
-3. **控制液体热量**：避免含糖饮料、酒精
-4. **规律进食**：避免过度饥饿导致暴饮暴食
-5. **充足睡眠**：睡眠不足会增加饥饿激素
-6. **力量训练**：保持肌肉量，维持代谢率
+**Training day (high carb):**
+```
+Carbohydrate: 3-4g/kg
+Protein: 2.0-2.2g/kg
+Fat: 0.8-1.0g/kg
+```
+
+**Rest days (low carb):**
+```
+Carbohydrate: 1-2g/kg
+Protein: 2.2-2.4g/kg
+Fat: 1.0-1.2g/kg
+```
+
+### Fat loss diet template (70kg male)
+
+```
+[Target calorie: 2000 kcal]
+[Protein: 140g | Fat: 67g | Carbohydrate: 200g]
+
+【Breakfast】（400 kcal）
+- Oats 50g (180 kcal)
+- 1 scoop of protein powder (120 kcal)
+- Blueberries 50g (30 kcal)
+- Almonds 10g (60 kcal)
+
+【Lunch】（600 kcal）
+- Chicken breast 150g (165 kcal)
+- Brown rice 150g (180 kcal)
+- Broccoli 200g (70 kcal)
+- Olive oil 10ml (90 kcal)
+- Mixed vegetables (100 kcal)
+
+【Additional Meal】（200 kcal）
+- Greek yogurt 150g (100 kcal)
+- 1 apple (95 kcal)
+
+【Before training】(200 kcal)
+- 1 banana (105 kcal)
+- 1/2 scoop of protein powder (60 kcal)
+
+【Dinner】（600 kcal）
+- Salmon 150g (310 kcal)
+- Sweet potato 200g (180 kcal)
+- Asparagus 200g (40 kcal)
+- Olive oil 5ml (45 kcal)
+```
+
+### Fat loss tips
+
+1. **Increase protein intake**: Improve satiety and protect muscles
+2. **Increase dietary fiber**: vegetables, whole grains, increase satiety
+3. **Control liquid calories**: Avoid sugary drinks and alcohol
+4. **Eat regularly**: Avoid excessive hunger leading to overeating
+5. **Get enough sleep**: Lack of sleep increases hunger hormones
+6. **Strength training**: Maintain muscle mass and maintain metabolic rate
 
 ---
 
-## 五、男性专项营养素
+## 5. Men’s specific nutrients
 
-### 锌（Zinc）
+### Zinc
 
-**作用：**
-- 睾酮合成必需
-- 免疫功能
-- 蛋白质合成
-- 伤口愈合
+**effect:**
+- Necessary for testosterone synthesis
+- immune function
+- protein synthesis
+- Wound healing
 
-**推荐量：** 12.5mg/天（中国营养学会 2023）
+**Recommended amount:** 12.5mg/day (Chinese Nutrition Society 2023)
 
-**食物来源：**
-| 食物 | 含量 (mg/100g) |
+**Food Source:**
+| Food | Content (mg/100g) |
 |------|---------------|
-| 牡蛎 | 71.2 |
-| 小麦胚芽 | 12.3 |
-| 牛肉（瘦） | 4.8 |
-| 南瓜子 | 7.6 |
-| 芝麻 | 6.2 |
-| 猪肉（瘦） | 2.9 |
-| 鸡肉 | 1.5 |
+| Oysters | 71.2 |
+| Wheat Germ | 12.3 |
+| Beef (lean) | 4.8 |
+| Pumpkin Seeds | 7.6 |
+| Sesame | 6.2 |
+| Pork (lean) | 2.9 |
+| Chicken | 1.5 |
 
-**补充建议：**
-- 优先从食物获取
-- 素食者可能需要补充（植物性锌吸收率低）
-- 补充剂剂量：15-30mg/天
-- 上限：40mg/天（过量会影响铜吸收）
+**Additional suggestions:**
+- Prioritize getting it from food
+- Vegetarians may need supplementation (plant-based zinc has low absorption)
+- Supplement dosage: 15-30mg/day
+- Upper limit: 40mg/day (excess will affect copper absorption)
 
 ---
 
-### 维生素 D
+### Vitamin D
 
-**作用：**
-- 钙吸收，骨骼健康
-- 睾酮水平调节
-- 免疫功能
-- 肌肉功能
+**effect:**
+- Calcium absorption, bone health
+- Regulation of testosterone levels
+- immune function
+- Muscle function
 
-**推荐量：** 10μg (400IU)/天
+**Recommended dosage:** 10μg (400IU)/day
 
-**实际建议：**
-- 日照不足者：1000-2000 IU/天
-- 肥胖者可能需要更高剂量（维生素 D 储存于脂肪）
-- 冬季或北方地区：建议补充
+**Actual advice:**
+- People with insufficient sunshine: 1000-2000 IU/day
+- Obese people may require higher doses (vitamin D is stored in fat)
+- Winter or northern areas: recommended supplement
 
-**食物来源：**
-| 食物 | 含量 (IU/100g) |
+**Food Source:**
+| Food | Content (IU/100g) |
 |------|---------------|
-| 鱼肝油 | 10,000 |
-| 三文鱼（养殖） | 526 |
-| 金枪鱼（罐头） | 236 |
-| 蛋黄 | 87 |
-| 强化牛奶 | 40-50 |
+| Cod Liver Oil | 10,000 |
+| Salmon (cultured) | 526 |
+| Tuna (canned) | 236 |
+| Egg yolk | 87 |
+| Fortified milk | 40-50 |
 
-**补充建议：**
-- 维生素 D3（胆钙化醇）优于 D2
-- 与脂肪一起服用（脂溶性）
-- 定期检测血清 25(OH)D 水平（理想范围：30-50 ng/mL）
+**Additional suggestions:**
+- Vitamin D3 (cholecalciferol) is better than D2
+- Take with fat (fat soluble)
+- Regularly test serum 25(OH)D levels (ideal range: 30-50 ng/mL)
 
 ---
 
-### 镁（Magnesium）
+### Magnesium
 
-**作用：**
-- 肌肉功能
-- 能量代谢
-- 蛋白质合成
-- 睡眠质量
+**effect:**
+- Muscle function
+- Energy metabolism
+- protein synthesis
+- Sleep quality
 
-**推荐量：** 330mg/天
+**Recommended dosage:** 330mg/day
 
-**食物来源：**
-| 食物 | 含量 (mg/100g) |
+**Food Source:**
+| Food | Content (mg/100g) |
 |------|---------------|
-| 南瓜子 | 535 |
-| 巴西坚果 | 376 |
-| 杏仁 | 270 |
-| 菠菜（熟） | 87 |
-| 黑巧克力（70%+） | 228 |
-| 全谷物 | 100-150 |
+| Pumpkin Seeds | 535 |
+| Brazil Nuts | 376 |
+| Almonds | 270 |
+| Spinach (cooked) | 87 |
+| Dark Chocolate (70%+) | 228 |
+| Whole grains | 100-150 |
 
-**补充建议：**
-- 运动量大者需求增加
-- 补充剂剂量：200-400mg/天
-- 形式：柠檬酸镁、甘氨酸镁（吸收好）
-- 睡前服用可改善睡眠
+**Additional suggestions:**
+- People who exercise a lot have increased needs
+- Supplement dosage: 200-400mg/day
+- Forms: Magnesium Citrate, Magnesium Glycinate (good absorption)
+- Take before bed to improve sleep
 
 ---
 
-### Omega-3 脂肪酸
+### Omega-3 fatty acids
 
-**作用：**
-- 心血管健康
-- 抗炎
-- 大脑功能
-- 肌肉恢复
+**effect:**
+- Cardiovascular health
+- anti-inflammatory
+- Brain function
+- Muscle recovery
 
-**推荐量：**
-- EPA + DHA：1-2g/天
-- 总 Omega-3：1.6g/天（中国营养学会）
+**Recommended amount:**
+- EPA + DHA: 1-2g/day
+- Total Omega-3: 1.6g/day (Chinese Nutrition Society)
 
-**食物来源：**
-| 食物 | EPA+DHA (g/100g) |
+**Food Source:**
+| Food | EPA+DHA (g/100g) |
 |------|-----------------|
-| 三文鱼 | 2.3 |
-| 鲭鱼 | 2.7 |
-| 沙丁鱼 | 1.5 |
-| 金枪鱼 | 1.3 |
-| 亚麻籽 | 2.5（ALA 形式） |
-| 核桃 | 2.5（ALA 形式） |
+| Salmon | 2.3 |
+| Mackerel | 2.7 |
+| Sardines | 1.5 |
+| Tuna | 1.3 |
+| Flaxseed | 2.5 (ALA form) |
+| Walnut | 2.5 (ALA form) |
 
-**补充建议：**
-- 每周吃 2-3 次深海鱼可不补充
-- 鱼油补充剂：选择 EPA+DHA 含量高的
-- 与餐同服（减少鱼腥味反流）
+**Additional suggestions:**
+- Eat deep-sea fish 2-3 times a week without supplementation
+- Fish oil supplements: choose ones with high EPA+DHA content
+- Take with meals (to reduce fishy odor reflux)
 
 ---
 
-### 维生素 B 族
+### Vitamin B complex
 
-**作用：**
-- 能量代谢
-- 神经系统功能
-- 红细胞生成
-- 激素合成
+**effect:**
+- Energy metabolism
+- Nervous system function
+- Erythropoiesis
+- Hormone synthesis
 
-**男性重点：**
-- 维生素 B6：蛋白质代谢，睾酮调节
-- 维生素 B12：红细胞生成，神经系统
-- 叶酸：细胞分裂，同型半胱氨酸代谢
+**Male focus:**
+- Vitamin B6: protein metabolism, testosterone regulation
+- Vitamin B12: red blood cell production, nervous system
+- Folic acid: cell division, homocysteine ​​metabolism
 
-**推荐量：**
-| 维生素 | 推荐量 | 食物来源 |
+**Recommended amount:**
+| Vitamins | Recommended amounts | Food sources |
 |--------|--------|---------|
-| B1 | 1.4mg/天 | 全谷物、猪肉 |
-| B2 | 1.4mg/天 | 奶制品、肝脏 |
-| B3 | 15mg NE/天 | 肉类、鱼类 |
-| B6 | 1.4mg/天 | 香蕉、坚果、鱼类 |
-| B12 | 2.4μg/天 | 肉类、鱼类、奶制品 |
-| 叶酸 | 400μg DFE/天 | 绿叶蔬菜、豆类 |
+| B1 | 1.4mg/day | Whole grains, pork |
+| B2 | 1.4mg/day | Dairy products, liver |
+| B3 | 15mg NE/day | Meat, fish |
+| B6 | 1.4mg/day | Bananas, nuts, fish |
+| B12 | 2.4μg/day | Meat, fish, dairy products |
+| Folic acid | 400μg DFE/day | Green leafy vegetables, beans |
 
-**补充建议：**
-- 均衡饮食通常可满足需求
-- 素食者需补充 B12
-- 复合维生素 B 可作为保险
-
----
-
-## 六、训练日/休息日营养
-
-### 训练日营养策略
-
-**目标：** 支持训练表现，促进恢复
-
-**营养重点：**
-- 训练前：充足碳水，适度蛋白质
-- 训练中：长时间训练需补充碳水和电解质
-- 训练后：快速补充碳水和蛋白质
-
-**示例（70kg 男性，中度活动）：**
-```
-总热量：2800 kcal
-蛋白质：140g（20%）
-脂肪：78g（25%）
-碳水：385g（55%）
-
-训练前 2 小时：
-- 燕麦 60g + 蛋白粉 1 勺 + 香蕉 1 根
-
-训练后 30 分钟内：
-- 乳清蛋白 1 勺 + 葡萄糖 40g
-```
-
-### 休息日营养策略
-
-**目标：** 支持恢复，控制热量
-
-**营养重点：**
-- 降低碳水摄入
-- 保持高蛋白
-- 适度增加健康脂肪
-
-**示例（70kg 男性）：**
-```
-总热量：2300 kcal（比训练日少 500kcal）
-蛋白质：154g（27%）
-脂肪：92g（36%）
-碳水：215g（37%）
-
-早餐：
-- 鸡蛋 3 个 + 全麦面包 2 片 + 牛油果 1/2 个
-
-午餐：
-- 鸡胸肉 200g + 蔬菜沙拉 + 橄榄油 15ml + 糙米饭 100g
-
-晚餐：
-- 三文鱼 200g + 烤蔬菜 + 坚果 30g
-```
-
-### 碳水循环方案（进阶）
-
-**适合人群：** 减脂期、希望最大化肌肉保留者
-
-**方案：**
-```
-【高碳日】（训练日，每周 3-4 天）
-- 碳水：4-5g/kg
-- 蛋白质：2.0g/kg
-- 脂肪：0.8g/kg
-
-【中碳日】（轻度训练日，每周 1-2 天）
-- 碳水：2-3g/kg
-- 蛋白质：2.2g/kg
-- 脂肪：1.0g/kg
-
-【低碳日】（休息日，每周 1-2 天）
-- 碳水：1-2g/kg
-- 蛋白质：2.4g/kg
-- 脂肪：1.2g/kg
-```
+**Additional suggestions:**
+- A balanced diet usually suffices
+- Vegetarians need to supplement B12
+- Vitamin B complex acts as insurance
 
 ---
 
-## 七、补剂指南
+## 6. Nutrition on training days/rest days
 
-### A 级证据（强烈推荐）
+### Training Day Nutrition Strategy
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+**Goal:** Support training performance and promote recovery
+
+**Nutritional Highlights:**
+- Before training: sufficient carbohydrates, moderate protein
+- During training: Long-term training requires supplementation of carbohydrates and electrolytes
+- Post-training: Quickly replenish carbohydrates and protein
+
+**Example (70kg male, moderate activity):**
+```
+Total calories: 2800 kcal
+Protein: 140g (20%)
+Fat: 78g (25%)
+Carbohydrate: 385g (55%)
+
+2 hours before training:
+- 60g oats + 1 scoop of protein powder + 1 banana
+
+Within 30 minutes of training:
+- 1 scoop of whey protein + 40g of glucose
+```
+
+### Nutritional strategies for rest days
+
+**Goals:** Support recovery, control heat
+
+**Nutritional Highlights:**
+- Reduce carbohydrate intake
+- Keep protein high
+- Moderate increase in healthy fats
+
+**Example (70kg male):**
+```
+Total calories: 2300 kcal (500 kcal less than training day)
+Protein: 154g (27%)
+Fat: 92g (36%)
+Carbohydrate: 215g (37%)
+
+breakfast:
+- 3 eggs + 2 slices of whole wheat bread + 1/2 avocado
+
+Lunch:
+- Chicken breast 200g + vegetable salad + olive oil 15ml + brown rice 100g
+
+dinner:
+- Salmon 200g + grilled vegetables + nuts 30g
+```
+
+### Carbohydrate recycling plan (advanced)
+
+**Suitable for people:** Those who are in the fat loss period and want to maximize muscle retention
+
+**plan:**
+```
+[High carb day] (training day, 3-4 days a week)
+-Carbohydrate: 4-5g/kg
+- Protein: 2.0g/kg
+- Fat: 0.8g/kg
+
+[Medium carb day] (light training day, 1-2 days a week)
+-Carbohydrate: 2-3g/kg
+- Protein: 2.2g/kg
+- Fat: 1.0g/kg
+
+【Low Carb Day】(rest day, 1-2 days per week)
+-Carbohydrate: 1-2g/kg
+- Protein: 2.4g/kg
+- Fat: 1.2g/kg
+```
+
+---
+
+## 7. Supplement Guide
+
+### Level A evidence (strongly recommended)
+
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 乳清蛋白 | 20-30g/次 | 便捷蛋白质来源 | 蛋白质摄入不足者 |
-| 肌酸一水合物 | 3-5g/天 | 力量、爆发力、肌肉量 | 力量训练者 |
-| 咖啡因 | 3-6mg/kg | 提神、运动表现 | 训练前 |
+| Whey protein | 20-30g/time | Convenient source of protein | People with insufficient protein intake |
+| Creatine monohydrate | 3-5g/day | Strength, power, muscle mass | Strength trainers |
+| Caffeine | 3-6mg/kg | Energy-boosting, performance | Pre-training |
 
-**使用说明：**
+**Instructions for use:**
 
-**乳清蛋白：**
-- 训练后 30 分钟内服用
-- 或作为加餐补充蛋白质
-- 选择浓缩乳清（WPC）或分离乳清（WPI）
+**Whey Protein:**
+- Take within 30 minutes of training
+- Or as a snack to supplement protein
+- Choose whey concentrate (WPC) or whey isolate (WPI)
 
-**肌酸：**
-- 无需冲击期，直接 3-5g/天
-- 任何时间服用均可（训练后略优）
-- 与碳水一起服用可提高吸收
-- 持续使用，无需循环
+**Creatine:**
+- No impact period, just 3-5g/day
+- Can be taken at any time (slightly better after training)
+- Take it with carbohydrates to improve absorption
+- Continuous use, no need to cycle
 
-**咖啡因：**
-- 训练前 30-60 分钟服用
-- 避免下午/晚上服用（影响睡眠）
-- 耐受后效果降低，可周期性使用
+**caffeine:**
+- Take 30-60 minutes before training
+- Avoid taking in the afternoon/evening (affects sleep)
+- The effect decreases after tolerance and can be used periodically
 
 ---
 
-### B 级证据（推荐）
+### Level B evidence (recommended)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 维生素 D3 | 1000-2000 IU/天 | 骨骼、免疫、睾酮 | 日照不足者 |
-| Omega-3 鱼油 | 1-2g/天（EPA+DHA） | 心血管、抗炎 | 少吃鱼者 |
-| 镁 | 200-400mg/天 | 肌肉、睡眠 | 运动量大者 |
-| 复合维生素 | 按说明 | 填补营养缺口 | 饮食不均衡者 |
+| Vitamin D3 | 1000-2000 IU/day | Bones, immunity, testosterone | People with insufficient sunlight |
+| Omega-3 fish oil | 1-2g/day (EPA+DHA) | Cardiovascular, anti-inflammatory | Those who eat less fish |
+| Magnesium | 200-400mg/day | Muscle, sleep | People who exercise a lot |
+| Multivitamins | As directed | Fill nutritional gaps | Those with unbalanced diet |
 
 ---
 
-### C 级证据（可选）
+### Level C evidence (optional)
 
-| 补剂 | 剂量 | 作用 | 适用人群 |
+| Supplements | Dosage | Function | Suitable people |
 |------|------|------|---------|
-| 左旋肉碱 | 1-2g/天 | 脂肪代谢 | 减脂期（效果有限） |
-| BCAA | 5-10g/天 | 肌肉保护 | 空腹训练者 |
-| β-丙氨酸 | 3-5g/天 | 耐力、缓冲乳酸 | 高强度间歇训练者 |
-| 瓜氨酸苹果酸 | 6-8g/天 | 血流量、泵感 | 力量训练者 |
+| L-carnitine | 1-2g/day | Fat metabolism | Fat loss period (limited effect) |
+| BCAA | 5-10g/day | Muscle protection | Fasting trainers |
+| Beta-alanine | 3-5g/day | Endurance, buffering lactic acid | High-intensity interval trainers |
+| Citrulline Malate | 6-8g/day | Blood flow, pumping | Strength trainers |
 
 ---
 
-### 不推荐/证据不足
+### Not recommended/insufficient evidence
 
-| 补剂 | 原因 |
+| Supplements | Reasons |
 |------|------|
-| 睾酮促进剂（促睾） | 多数无效，部分有副作用 |
-| 谷氨酰胺 | 对健康人效果有限 |
-| HMB | 效果微弱，性价比低 |
-| 大多数"燃脂"补剂 | 效果有限，可能有副作用 |
+| Testosterone boosters (testosterone boosters) | Most are ineffective, and some have side effects |
+| Glutamine | Limited effect on healthy people |
+| HMB | Weak effect, low cost performance |
+| Most "fat burning" supplements | Limited effectiveness and possible side effects |
 
 ---
 
-## 八、常见问题
+## 8. Frequently Asked Questions
 
-### Q1：一天需要吃几餐？
+### Q1: How many meals do you need to eat a day?
 
-**答：** 餐次不影响代谢，关键是总热量和营养素摄入。
+**Answer:** The number of meals does not affect metabolism, the key is total calories and nutrient intake.
 
-- 3 餐：适合胃口大者
-- 4-5 餐：适合大多数人
-- 6 餐以上：适合胃口小或增肌需求高者
+- 3 meals: suitable for those with big appetites
+- 4-5 meals: Suitable for most people
+- More than 6 meals: Suitable for those with small appetite or high muscle gain needs
 
-**建议：** 选择适合自己生活方式的餐次，保持规律。
-
----
-
-### Q2：训练后必须马上喝蛋白粉吗？
-
-**答：** 不需要。"合成窗口期"比想象中长。
-
-- 训练后 2-3 小时内摄入蛋白质即可
-- 关键是全天蛋白质总量达标
-- 蛋白粉只是便捷的蛋白质来源，不是必须
+**Suggestion:** Choose meals that fit your lifestyle and keep them regular.
 
 ---
 
-### Q3：增肌期一定会增脂吗？
+### Q2: Do I need to drink protein powder immediately after training?
 
-**答：** 是的，但可控制比例。
+**Answer:** No. The "synthesis window period" is longer than imagined.
 
-- 理想增重速率：0.25-0.5kg/周
-- 约 50% 肌肉，50% 脂肪
-- 过快增重（>1kg/周）会导致脂肪比例过高
-
----
-
-### Q4：减脂期会掉肌肉吗？
-
-**答：** 不可避免，但可最小化。
-
-- 高蛋白摄入（2.0-2.4g/kg）
-- 保持力量训练
-- 适度热量赤字（-500kcal/天）
-- 预期：减重中约 75% 脂肪，25% 肌肉
+- Just consume protein within 2-3 hours after training
+- The key is to reach the target of total protein throughout the day
+- Protein powder is just a convenient source of protein, not necessary
 
 ---
 
-### Q5：需要避免碳水化合物吗？
+### Q3: Will fat gain definitely occur during the muscle gain period?
 
-**答：** 不需要。碳水是重要能量来源。
+**Answer:** Yes, but the proportion can be controlled.
 
-- 碳水不是敌人，过量热量才是
-- 训练者需要碳水支持训练表现
-- 选择优质碳水：全谷物、薯类、水果
-- 减脂期可适当降低，但不应完全避免
-
----
-
-### Q6：酒精会影响健身效果吗？
-
-**答：** 会，建议限制。
-
-- 酒精热量高（7kcal/g），且优先代谢
-- 抑制蛋白质合成
-- 影响睡眠质量
-- 降低睾酮水平
-
-**建议：**
-- 增肌期：尽量避免
-- 减脂期：严格限制（酒精热量计入总热量）
-- 社交场合：选择低度酒，控制量
+-Ideal weight gain rate: 0.25-0.5kg/week
+- About 50% muscle, 50% fat
+- Gaining weight too quickly (>1kg/week) will lead to an excessively high fat ratio
 
 ---
 
-### Q7：素食者如何获取足够蛋白质？
+### Q4: Will I lose muscle during the fat loss period?
 
-**答：** 可以，但需要规划。
+**Answer:** Unavoidable, but can be minimized.
 
-**优质植物蛋白来源：**
-- 大豆制品：豆腐、豆浆、天贝
-- 豆类：鹰嘴豆、扁豆、黑豆
-- 谷物：藜麦、荞麦
-- 坚果和种子
-
-**建议：**
-- 蛋白质需求略高（1.8-2.4g/kg，因植物蛋白吸收率低）
-- 多样化食物，确保必需氨基酸齐全
-- 考虑补充维生素 B12、铁、锌
+- High protein intake (2.0-2.4g/kg)
+- Maintain strength training
+- Moderate caloric deficit (-500kcal/day)
+- Expectation: Approximately 75% fat, 25% muscle in weight loss
 
 ---
 
-### Q8：需要计算每一克食物吗？
+### Q5: Do carbs need to be avoided?
 
-**答：** 初期建议，长期可灵活。
+**Answer:** No. Carbohydrates are an important source of energy.
 
-**阶段 1（前 4-8 周）：**
-- 精确计算，了解食物热量和营养素
-- 使用食物秤和 APP 记录
-
-**阶段 2（8 周后）：**
-- 掌握份量估算
-- 根据体重变化调整
-- 无需精确计算每一克
-
-**原则：** 工具服务于目标，不要成为负担。
+-Carbohydrates are not the enemy, excess calories are
+- Trainers need carbohydrates to support training performance
+- Choose high-quality carbohydrates: whole grains, potatoes, fruits
+- The fat loss period can be appropriately reduced, but should not be completely avoided
 
 ---
 
-## 参考文献
+### Q6: Will alcohol affect fitness results?
 
-1. 中国营养学会。《中国居民膳食营养素参考摄入量》(2023 版). 科学出版社，2023.
-2. Haff, G.G., & Triplett, N.T. (2015). *Essentials of Strength Training and Conditioning* (4th ed.). Human Kinetics. (NSCA 教材)
+**Answer:** Yes, restrictions are recommended.
+
+- Alcohol has high calories (7kcal/g) and is metabolized first
+- Inhibit protein synthesis
+- Affect sleep quality
+- Reduce testosterone levels
+
+**suggestion:**
+- Muscle-building period: try to avoid it
+- Fat loss period: strict restrictions (alcohol calories are included in the total calories)
+- Social occasions: choose low-alcohol wine and control the amount
+
+---
+
+### Q7: How can vegetarians get enough protein?
+
+**Answer:** Yes, but it requires planning.
+
+**High quality plant protein source:**
+- Soy products: tofu, soy milk, tempeh
+- Legumes: chickpeas, lentils, black beans
+- Grains: quinoa, buckwheat
+- Nuts and seeds
+
+**suggestion:**
+- Protein requirements are slightly higher (1.8-2.4g/kg, due to low absorption rate of plant protein)
+- Diverse foods to ensure a complete range of essential amino acids
+- Consider supplementing with vitamin B12, iron, and zinc
+
+---
+
+### Q8: Do I need to count every gram of food?
+
+**Answer:** Initial suggestions, flexible in the long term.
+
+**Phase 1 (First 4-8 weeks):**
+- Accurately calculate and understand food calories and nutrients
+- Record using food scale and APP
+
+**Phase 2 (after 8 weeks):**
+- Get portion size estimates
+- Adjust according to weight changes
+- No need to count every gram exactly
+
+**Principle:** Tools serve the purpose and do not become a burden.
+
+---
+
+## References
+
+1. Chinese Nutrition Society. "Reference Intake of Dietary Nutrients for Chinese Residents" (2023 Edition). Science Press, 2023.
+2. Haff, G.G., & Triplett, N.T. (2015). *Essentials of Strength Training and Conditioning* (4th ed.). Human Kinetics. (NSCA Textbook)
 3. Kerksick, C.M., et al. (2017). International society of sports nutrition position stand: nutrient timing. *Journal of the International Society of Sports Nutrition*, 14, 33.
 4. Morton, R.W., et al. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. *British Journal of Sports Medicine*, 52(6), 376-384.
 5. Thomas, D.T., Erdman, K.A., & Burke, L.M. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: Nutrition and Athletic Performance. *Journal of the Academy of Nutrition and Dietetics*, 116(3), 501-528.
 
 ---
 
-*男性专项营养指南完成 | 数据来源：中国营养学会 2023 + NSCA + 权威研究 | 更新时间：2026 年 3 月*
+*Men’s specific nutritional guideline completed | Data source: Chinese Nutrition Society 2023 + NSCA + authoritative research | Updated: March 2026*

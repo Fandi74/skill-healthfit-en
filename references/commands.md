@@ -1,160 +1,160 @@
-# HealthFit 快捷命令说明
+# HealthFit shortcut command description
 
-> **版本：** v3.0.1  
-> **最后更新：** 2026-03-17
+> **Version:** v3.0.1
+> **Last update:** 2026-03-17
 
 ---
 
-## 📋 命令列表
+## 📋 Command list
 
-### 记录类命令
+### Recording commands
 
-| 命令 | 别名 | 功能 | 示例 | 响应角色 |
+| Commands | Aliases | Functions | Examples | Response Roles |
 |------|------|------|------|---------|
-| `/log` | `/记录` | 快速记录运动 | `/log 跑步 5 公里 32 分钟` | Coach Alex |
-| `/eat` | `/吃` | 快速记录饮食 | `/eat 午餐鸡胸肉沙拉` | Dr. Mei |
-| `/weight` | `/体重` | 记录今日体重 | `/weight 70.2` | Analyst Ray |
-| `/pr` | `/记录 PR` | 记录个人最佳 | `/pr 深蹲 80kg` | Coach Alex |
+| `/log` | `/log` | Quick log of exercise | `/log Run 5km 32 minutes` | Coach Alex |
+| `/eat` | `/eat` | Quick food record | `/eat Lunch Chicken Breast Salad` | Dr. Mei |
+| `/weight` | `/weight` | Record today’s weight | `/weight 70.2` | Analyst Ray |
+| `/pr` | `/record PR` | record personal best | `/pr squat 80kg` | Coach Alex |
 
-### 查询类命令
+### Query commands
 
-| 命令 | 别名 | 功能 | 示例 | 响应角色 |
+| Commands | Aliases | Functions | Examples | Response Roles |
 |------|------|------|------|---------|
-| `/plan` | `/计划` | 查看今日训练计划 | `/plan` | Coach Alex |
-| `/week` | `/周报` | 查看本周总结 | `/week` | Analyst Ray |
-| `/month` | `/月报` | 查看本月总结 | `/month` | Analyst Ray |
-| `/tcm` | `/体质` | 查看中医体质 | `/tcm` | Dr. Chen |
-| `/solar` | `/节气` | 查看节气养生 | `/solar` | Dr. Chen |
+| `/plan` | `/plan` | View today’s training plan | `/plan` | Coach Alex |
+| `/week` | `/weekly report` | View this week's summary | `/week` | Analyst Ray |
+| `/month` | `/monthly report` | View this month's summary | `/month` | Analyst Ray |
+| `/tcm` | `/ Constitution ` | View TCM constitution | `/tcm` | Dr. Chen |
+| `/solar` | `/solar` | View solar term health care | `/solar` | Dr. Chen |
 
-### 设置类命令
+### Set class command
 
-| 命令 | 别名 | 功能 | 示例 |
+| Command | Alias ​​| Function | Example |
 |------|------|------|------|
-| `/goal` | `/目标` | 修改健身目标 | `/goal 增肌` |
-| `/menu` | `/菜单` | 显示完整菜单 | `/menu` |
-| `/healthfit-help` | `/hf-help` | 显示帮助信息 | `/healthfit-help` |
+| `/goal` | `/goal` | Modify fitness goals | `/goal gain muscle` |
+| `/menu` | `/menu` | Show full menu | `/menu` |
+| `/healthfit-help` | `/hf-help` | Display help information | `/healthfit-help` |
 
 ---
 
-## 🔧 命令实现逻辑
+## 🔧 Command implementation logic
 
-### 命令解析流程
+### Command parsing process
 
 ```
-1. 检测消息是否以 "/" 开头
-2. 提取命令名（空格前的部分）
-3. 提取命令参数（空格后的部分）
-4. 根据命令名路由到对应角色
-5. 角色处理命令并返回结果
+1. Check whether the message starts with "/"
+2. Extract the command name (the part before the space)
+3. Extract command parameters (the part after the space)
+4. Route to the corresponding role based on the command name
+5. The role processes the command and returns the result
 ```
 
-### 命令路由规则
+### Command routing rules
 
-| 命令前缀 | 路由角色 | 处理逻辑 |
+| Command prefix | Routing role | Processing logic |
 |---------|---------|---------|
-| `/log`, `/pr` | Coach Alex | 解析运动类型、时长、强度，记录到 workout_log.txt |
-| `/eat` | Dr. Mei | 解析食物名称、估算热量，记录到 nutrition_log.txt |
-| `/weight` | Analyst Ray | 记录体重到 metrics_daily，更新趋势图 |
-| `/plan`, `/week`, `/month` | Analyst Ray | 查询数据库/日志文件，生成报告 |
-| `/tcm`, `/solar` | Dr. Chen | 读取体质档案/节气数据，提供建议 |
-| `/goal` | 多角色 | 更新 profile.json，通知相关角色调整计划 |
-| `/menu`, `/help` | 系统 | 显示静态菜单/帮助信息 |
+| `/log`, `/pr` | Coach Alex | Analyze exercise type, duration, intensity, and record to workout_log.txt |
+| `/eat` | Dr. Mei | Parse food names, estimate calories, record to nutrition_log.txt |
+| `/weight` | Analyst Ray | Record weight to metrics_daily, update trend chart |
+| `/plan`, `/week`, `/month` | Analyst Ray | Query database/log files and generate reports |
+| `/tcm`, `/solar` | Dr. Chen | Read physical fitness files/solar terms data and provide suggestions |
+| `/goal` | Multiple roles | Update profile.json to notify related role adjustment plans |
+| `/menu`, `/help` | System | Display static menu/help information |
 
 ---
 
-## 📝 命令使用示例
+## 📝 Command usage example
 
-### 1. 记录运动
+### 1. Record exercise
 
-**输入：**
+**enter:**
 ```
-/log 跑步 5 公里 32 分钟
-```
-
-**解析：**
-- 命令：`/log`
-- 运动类型：跑步
-- 距离：5 公里
-- 时长：32 分钟
-
-**响应（Coach Alex）：**
-```
-[Coach Alex] ✅ 已记录今天的运动！
-
-🏃 跑步 5 公里 | 32 分钟
-📊 配速：6'24"/公里
-🔥 预估消耗：约 320 kcal
-💪 强度：中等（RPE 6/10）
-
-这是你本周第 3 次有氧运动，继续保持！
+/log run 5km 32 minutes
 ```
 
-### 2. 记录饮食
+**Analysis:**
+- Command: `/log`
+- Type of exercise: running
+- Distance: 5 km
+- Duration: 32 minutes
 
-**输入：**
+**Response (Coach Alex):**
 ```
-/eat 午餐 鸡胸肉 200g 西兰花 150g 糙米饭 1 碗
-```
+[Coach Alex] ✅ Today’s exercise has been recorded!
 
-**解析：**
-- 命令：`/eat`
-- 餐次：午餐
-- 食物：鸡胸肉 200g、西兰花 150g、糙米饭 1 碗
+🏃 5km run | 32 minutes
+📊 Pace: 6'24"/km
+🔥 Estimated consumption: about 320 kcal
+💪 Strength: Moderate (RPE 6/10)
 
-**响应（Dr. Mei）：**
-```
-[Dr. Mei] ✅ 午餐已记录！
-
-🍗 鸡胸肉 200g → 约 330 kcal, 蛋白质 62g
-🥦 西兰花 150g → 约 50 kcal, 纤维 5g
-🍚 糙米饭 1 碗 → 约 215 kcal, 碳水 45g
-
-总计：约 595 kcal
-蛋白质：62g ✅ | 碳水：45g | 脂肪：5g
-
-营养均衡，继续保持！
+This is your 3rd cardio session of the week, keep it up!
 ```
 
-### 3. 记录体重
+### 2. Record your diet
 
-**输入：**
+**enter:**
+```
+/eat lunch chicken breast 200g broccoli 150g brown rice 1 bowl
+```
+
+**Analysis:**
+- Command: `/eat`
+- Meal: Lunch
+- Food: 200g chicken breast, 150g broccoli, 1 bowl of brown rice
+
+**Response (Dr. Mei):**
+```
+[Dr. Mei] ✅ Lunch has been recorded!
+
+🍗 Chicken breast 200g → about 330 kcal, protein 62g
+🥦 Broccoli 150g → about 50 kcal, fiber 5g
+🍚 1 bowl of brown rice → about 215 kcal, carbohydrate 45g
+
+Total: approx. 595 kcal
+Protein: 62g ✅ | Carbohydrate: 45g | Fat: 5g
+
+Nutritionally balanced, keep it up!
+```
+
+### 3. Record weight
+
+**enter:**
 ```
 /weight 70.2
 ```
 
-**解析：**
-- 命令：`/weight`
-- 体重：70.2 kg
+**Analysis:**
+- Command: `/weight`
+- Weight: 70.2 kg
 
-**响应（Analyst Ray）：**
+**Response (Analyst Ray):**
 ```
-[Analyst Ray] ✅ 体重已记录！
+[Analyst Ray] ✅ Weight has been recorded!
 
-⚖️ 今日体重：70.2 kg
-📈 较昨日：-0.3 kg ⬇️
-📊 本周平均：70.5 kg
-🎯 距离目标：-5.8 kg（还需 12 周）
+⚖️ Today’s weight: 70.2 kg
+📈 Compared with yesterday: -0.3 kg ⬇️
+📊 Average this week: 70.5 kg
+🎯 On target: -5.8 kg (12 weeks to go)
 
-趋势良好，继续保持！
+The trend is good, keep it up!
 ```
 
 ---
 
-## ⚠️ 注意事项
+## ⚠️ Notes
 
-1. **命令格式：** 命令与参数之间用空格分隔
-2. **参数可选：** 部分命令可以不带参数（如 `/plan`）
-3. **自然语言兼容：** 即使不使用命令，自然语言也会被识别（如"记录今天跑步 5 公里"）
-4. **命令冲突：** `/help` 改为 `/healthfit-help` 避免与系统命令冲突
+1. **Command format:** Use spaces to separate commands and parameters.
+2. **Optional parameters:** Some commands can have no parameters (such as `/plan`)
+3. **Natural language compatibility:** Natural language will be recognized even if no command is used (such as "Record a 5km run today")
+4. **Command conflict:** `/help` is changed to `/healthfit-help` to avoid conflicts with system commands
 
 ---
 
-## 🔮 未来计划（v3.1）
+## 🔮 Future Plans (v3.1)
 
-- [ ] `/photo` - 上传身体对比照片
-- [ ] `/period` - 记录月经周期（女性用户）
-- [ ] `/share` - 分享成就到社交媒体
-- [ ] `/compare` - 对比身体数据变化
+- [ ] `/photo` - Upload body comparison photos
+- [ ] `/period` - record menstrual cycle (female users)
+- [ ] `/share` - Share achievements to social media
+- [ ] `/compare` - Compare body data changes
 
 ---
 

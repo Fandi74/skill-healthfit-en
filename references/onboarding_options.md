@@ -1,168 +1,168 @@
-# HealthFit 建档方式选择指南
+# HealthFit Profile Method Selection Guide
 
-> **预计总耗时：** 20-30 分钟（含性健康模块）  
-> **问题数量：** 约 20-25 个核心问题 + 可选问题若干  
-> **完成后：** 四位顾问将为您提供个性化健康方案
+> **Estimated total time:** 20-30 minutes (including sexual health module)
+> **Number of questions:** About 20-25 core questions + several optional questions
+> **Upon completion:** Four consultants will provide you with a personalized health plan
 
 ---
 
-## 📋 建档方式（三选一）
+## 📋 File creation method (choose one from three)
 
-### A. 问答式（推荐 ⭐⭐⭐⭐⭐）
+### A. Question and Answer (recommended ⭐⭐⭐⭐⭐)
 
-**适合人群：** 喜欢结构化、希望全面建档的用户
+**Suitable for:** Users who like structure and want to create comprehensive files
 
-**预计时间：** 20-25 分钟
+**Estimated time:** 20-25 minutes
 
-**问题数量：** 约 20-25 个核心问题，分布如下：
+**Number of Questions:** Approximately 20-25 core questions distributed as follows:
 
-| 类别 | 问题数量 | 说明 |
+| Category | Number of questions | Description |
 |------|---------|------|
-| 1. 基础生理数据 | 5-6 个 | 年龄、身高、体重、体脂等 |
-| 2. 运动习惯与目标 | 4-5 个 | 运动经验、训练频率、主要目标 |
-| 3. 饮食偏好与限制 | 3-4 个 | 饮食类型、过敏食物、烹饪习惯 |
-| 4. 健康状况与用药史 | 3-4 个 | 慢性疾病、正在服用的药物 |
-| 5. 生活方式 | 3-4 个 | 睡眠、压力、工作类型 |
-| 6. 中医体质初筛 | 2-3 个 | 怕冷/怕热、疲劳程度等 |
+| 1. Basic physiological data | 5-6 | Age, height, weight, body fat, etc. |
+| 2. Exercise habits and goals | 4-5 | Exercise experience, training frequency, main goals |
+| 3. Dietary preferences and restrictions | 3-4 | Diet type, food allergies, cooking habits |
+| 4. Health status and medication history | 3-4 | Chronic diseases, medications currently being taken |
+| 5. Lifestyle | 3-4 | Sleep, stress, work type |
+| 6. Initial screening of TCM constitution | 2-3 | Cold/heat intolerance, fatigue level, etc. |
 
-**优点：**
-- ✅ 信息最全面准确
-- ✅ 结构化便于后续分析
-- ✅ AI 可以针对性追问
+**advantage:**
+- ✅ The most comprehensive and accurate information
+- ✅ Structured to facilitate subsequent analysis
+- ✅ AI can ask targeted questions
 
-**回答方式：** 每个问题提供固定选项 + 自由描述
-
----
-
-### B. 聊天式（轻松 ⭐⭐⭐⭐）
-
-**适合人群：** 不喜欢答题、喜欢自然交流的用户
-
-**预计时间：** 25-30 分钟
-
-**流程：**
-1. AI 引导您自由讲述身体状况
-2. 从中提取关键信息
-3. 对模糊信息追加确认
-
-**示例：**
-> "我今年 28 岁，平时坐办公室，最近想减肥，但没什么运动经验..."
-
-**优点：**
-- ✅ 轻松自然，无压力
-- ✅ 可以按自己的节奏叙述
-- ✅ 适合不善选择题的用户
-
-**注意：** 可能比问答式耗时稍长
+**Answer method:** Each question provides fixed options + free description
 
 ---
 
-### C. 文件上传式（快捷 ⭐⭐⭐）
+### B. Chat style (easy ⭐⭐⭐⭐)
 
-**适合人群：** 已有体检报告/健康档案/运动数据的用户
+**Suitable for the crowd:** Users who don’t like answering questions and prefer natural communication
 
-**预计时间：** 10-15 分钟（准备文件）+ 5 分钟（AI 读取）
+**Estimated time:** 25-30 minutes
 
-**⚠️ 前提条件：** 您使用的 AI 工具需支持以下能力之一：
-- 📄 文件上传功能（可上传 PDF/图片/Excel）
-- 📸 图片读取能力（可识别体检报告照片）
-- 📁 项目文件读取能力（可读取 workspace 中的文件）
+**process:**
+1. AI guides you to freely describe your physical condition
+2. Extract key information from it
+3. Additional confirmation of fuzzy information
 
-**支持的文件格式和大小限制：**
-- 📄 **格式：** PDF、JPG、PNG、Excel (.xlsx/.csv)、TXT
-- 📏 **大小：** 单个文件最大 10MB
-- 🔒 **安全：** 文件仅在本地处理，不会上传到任何外部服务器
+**Example:**
+> "I am 28 years old. I usually work in an office. I want to lose weight recently, but I have no experience in exercising..."
 
-**支持的文件类型：**
-| 文件类型 | 示例 | 可提取信息 |
+**advantage:**
+- ✅ Relaxed, natural and stress-free
+- ✅ You can narrate at your own pace
+- ✅ Suitable for users who are not good at multiple choice questions
+
+**Note:** May take slightly longer than Q&A
+
+---
+
+### C. File upload (quick ⭐⭐⭐)
+
+**Suitable for:** Users who already have physical examination reports/health files/exercise data
+
+**Estimated time:** 10-15 minutes (preparing files) + 5 minutes (AI reading)
+
+**⚠️Prerequisites:** The AI ​​tool you use needs to support one of the following capabilities:
+- 📄 File upload function (can upload PDF/picture/Excel)
+- 📸 Picture reading ability (can identify photos of physical examination reports)
+- 📁 Project file reading ability (can read files in workspace)
+
+**Supported file formats and size limits:**
+- 📄 **Format:** PDF, JPG, PNG, Excel (.xlsx/.csv), TXT
+- 📏 **Size:** Maximum single file size 10MB
+- 🔒 **Secure:** Files are only processed locally and will not be uploaded to any external server
+
+**Supported file types:**
+| File Types | Examples | Extractable Information |
 |---------|------|-----------|
-| 体检报告 | PDF/图片 | 身高、体重、血压、血常规等 |
-| 健身 APP 导出 | Excel/CSV | 运动记录、体重变化、PR 成绩 |
-| 既往健康档案 | 任何格式 | 病史、用药史、过敏史 |
-| 饮食记录 | 截图/文档 | 饮食习惯、偏好 |
+| Physical examination report | PDF/picture | Height, weight, blood pressure, blood routine, etc. |
+| Fitness APP export | Excel/CSV | Exercise records, weight changes, PR results |
+| Past health records | Any format | Medical history, medication history, allergy history |
+| Food records | Screenshots/documents | Eating habits and preferences |
 
-**流程：**
-1. 上传文件（或放到 `data/uploads/` 目录）
-2. AI 自动读取并提取信息
-3. 对缺失信息进行补充询问
+**process:**
+1. Upload the file (or put it in the `data/uploads/` directory)
+2. AI automatically reads and extracts information
+3. Make supplementary inquiries about missing information
 
-**优点：**
-- ✅ 最快捷（已有文件的情况下）
-- ✅ 数据最准确（来自体检/仪器）
-- ✅ 避免手动输入错误
+**advantage:**
+- ✅ The fastest (if you already have files)
+- ✅ The most accurate data (from physical examination/instrument)
+- ✅ Avoid manual input errors
 
 ---
 
-## 💡 建议选择
+## 💡 Recommended choice
 
-| 您的情况 | 推荐方式 |
+| Your situation | Recommended methods |
 |---------|---------|
-| 首次建档，无现有资料 | A. 问答式（最全面） |
-| 不喜欢做题，喜欢聊天 | B. 聊天式（最轻松） |
-| 刚做过体检，有报告 | C. 文件上传式（最快捷） |
-| 有健身习惯，APP 有数据 | C. 文件上传式 + A. 问答式补充 |
+| First time filing, no existing data | A. Q&A (the most comprehensive) |
+| I don’t like doing questions, I like chatting | B. Chat style (easiest) |
+| I just had a physical examination and there is a report | C. File upload method (fastest) |
+| If you have fitness habits, the APP has data | C. File upload + A. Q&A supplement |
 
 ---
 
-## 🔒 隐私模块选择（重要）
+## 🔒 Privacy module selection (important)
 
-HealthFit 包含一个**可选的隐私模块**（性健康记录与指导），用于：
+HealthFit includes an **optional privacy module** (Sexual Health Recording and Coaching) for:
 
-**功能：**
-- 📝 记录性生活频率与质量
-- 🏋️ 提供男性/女性专项训练（盆底肌、臀部塑形等）
-- 🌿 中医房事养生建议
-- 📊 性功能与整体健康的关联分析
+**Function:**
+- 📝 Record the frequency and quality of sexual life
+- 🏋️ Provide male/female specific training (pelvic floor muscles, buttock shaping, etc.)
+- 🌿 TCM sexual health advice
+- 📊 Analysis of the correlation between sexual function and overall health
 
-**隐私保护：**
-- ✅ 完全可选，不填写不影响其他功能
-- ✅ 数据独立存储（`private_sexual_health.json`）
-- ✅ 默认排除在备份/导出之外
-- ✅ 需二次确认才能查看或导出
+**Privacy Protection:**
+- ✅ Completely optional, leaving it blank will not affect other functions
+- ✅ Data is stored independently (`private_sexual_health.json`)
+- ✅ Excluded from backup/export by default
+- ✅ A second confirmation is required to view or export
 
-**是否开启此模块？**
-- A. 是，开启（进入性健康建档流程）
-- B. 否，跳过（日后随时可以补填）
-- C. 不确定，先了解更多信息
-
----
-
-## 📝 问题回答方式说明
-
-**每个问题都提供三种回答方式：**
-
-### 示例：问题 3 — 您的运动经验如何？
-
-**方式 1：固定选项（推荐）**
-- A. 零基础（几乎不运动）
-- B. 新手（偶尔运动，无系统训练）
-- C. 中级（规律运动 3-6 个月）
-- D. 高级（系统训练 1 年以上）
-
-**方式 2：模糊选项**
-- E. 不确定/说不清楚
-
-**方式 3：自由叙述**
-> 您也可以直接用自然语言描述，例如：
-> "我平时偶尔跑跑步，但没去过健身房，也不知道怎么练力量"
-
-**AI 会智能提取您回答中的关键信息！**
+**Do you want to enable this module? **
+- A. Yes, open (enter sexual health filing process)
+- B. No, skip (you can fill it in at any time in the future)
+- C. Not sure, get more information first
 
 ---
 
-## 👥 建档完成后
+## 📝 Instructions on how to answer questions
 
-建档结束后，您的四位健康顾问将立即就位：
+**Each question provides three ways to answer:**
 
-| 顾问 | 状态 | 说明 |
+### Example: Question 3 – What is your experience with sports?
+
+**Method 1: Fixed option (recommended)**
+- A. Zero basics (almost no exercise)
+- B. Novice (occasional exercise, no systematic training)
+- C. Intermediate (3-6 months of regular exercise)
+- D. Advanced (more than 1 year of system training)
+
+**Method 2: Blur option**
+- E. Not sure/can’t tell
+
+**Method 3: Free narrative**
+> You can also describe it directly in natural language, for example:
+> "I usually run occasionally, but I have never been to a gym and I don’t know how to train for strength."
+
+**AI will intelligently extract key information from your answers! **
+
+---
+
+## 👥 After the file creation is completed
+
+After the profile creation is completed, your four health consultants will be in place immediately:
+
+| Consultant | Status | Description |
 |------|------|------|
-| 🏋️ Coach Alex（运动教练） | ✅ 立即激活 | 根据您的目标制定训练计划 |
-| 🥗 Dr. Mei（营养师） | ✅ 立即激活 | 计算营养需求，提供饮食建议 |
-| 📊 Analyst Ray（数据分析师） | ⏳ 等待数据 | 需积累 7 天数据后生成首份周报 |
-| 🌿 Dr. Chen（中医体质顾问） | ✅ 立即激活 | 提供体质调理方案 |
+| 🏋️ Coach Alex (Sports Coach) | ✅ Activate now | Create a training plan based on your goals |
+| 🥗 Dr. Mei (nutritionist) | ✅ Activate now | Calculate nutritional needs and provide dietary recommendations |
+| 📊 Analyst Ray (Data Analyst) | ⏳ Waiting for data | The first weekly report needs to be generated after accumulating 7 days of data |
+| 🌿 Dr. Chen (Traditional Chinese Medicine Constitution Consultant) | ✅ Activate now | Provide body conditioning solutions |
 
-**即使暂时用不到某位顾问，他们也在后台守护您的健康！**
+**Even if a consultant is temporarily unavailable, they are still protecting your health in the background! **
 
 ---
 
-*最后更新：2026-03-17 | HealthFit v3.0*
+*Last updated: 2026-03-17 | HealthFit v3.0*

@@ -1,1386 +1,1386 @@
-# 训练动作库（Exercise Library）
+# Exercise Library
 
-> **来源依据：** NSCA《Essentials of Strength Training and Conditioning》(4th ed)、ACE 训练指南、《运动解剖学》
-
----
-
-## 📸 动作图解资源
-
-**当前状态：** ⚠️ 图片资源待补充
-
-**规划结构：** `assets/exercise_images/`
-
-每个动作文件夹包含：
-- `XXX_start.jpg` — 起始姿势
-- `XXX_bottom.jpg` — 最低点/顶峰姿势
-- `XXX_animation.gif` — 完整动作动图
-
-**图片来源方案（按优先级）：**
-1. **用户自拍** — 上传自己的动作照片，AI 对比纠正
-2. **公开资源** — 来自 Unsplash/Pexels 的免版权图片
-3. **AI 生成** — 使用 AI 生成示意图
-
-**临时替代方案：**
-在图片资源完善前，Coach Alex 会提供：
-- ✅ 详细的文字描述（已实现）
-- ✅ 常见错误列表（已实现）
-- ✅ 降阶/进阶动作（已实现）
-- 🔜 参考视频链接（待补充）
-
-**小白用户提示：** 如不确定动作标准，可：
-1. 请健身教练现场指导
-2. 拍摄自己的动作请 AI 帮忙纠正
-3. 搜索"B 站/YouTube [动作名称] 教程"观看视频
+> **Source:** NSCA "Essentials of Strength Training and Conditioning" (4th ed), ACE Training Guide, "Sports Anatomy"
 
 ---
 
-## 目录
+## 📸 Action illustration resources
 
-1. [下肢推类动作](#一下肢推类动作)
-2. [下肢拉类动作](#二下肢拉类动作)
-3. [臀部专项动作](#三臀部专项动作)
-4. [上肢推类动作](#四上肢推类动作)
-5. [上肢拉类动作](#五上肢拉类动作)
-6. [核心训练动作](#六核心训练动作)
-7. [有氧训练方案](#七有氧训练方案)
-8. [传统功法](#八传统功法)
+**Current status:** ⚠️ Picture resources to be added
+
+**Planning structure:** `assets/exercise_images/`
+
+Each action folder contains:
+- `XXX_start.jpg` — starting pose
+- `XXX_bottom.jpg` — bottom/top pose
+- `XXX_animation.gif` — complete action animation
+
+**Image source scheme (by priority):**
+1. **User Selfie** — Upload your own action photos, AI comparison correction
+2. **Public Source** — Copyright-free images from Unsplash/Pexels
+3. **AI Generation** — Use AI to generate diagrams
+
+**Temporary alternative:**
+Before the picture resources are completed, Coach Alex will provide:
+- ✅ Detailed text description (implemented)
+- ✅ Common error list (implemented)
+- ✅ Downgrading/advancing actions (implemented)
+- 🔜 Reference video link (to be added)
+
+**Tips for novice users:** If you are not sure about the action standards, you can:
+1. Ask a fitness instructor to provide on-site guidance
+2. Shoot your own movements and ask AI to help correct them.
+3. Search for "Bilibili/YouTube [action name] tutorial" to watch the video
 
 ---
 
-## 一、下肢推类动作
+## Table of contents
 
-### 1.1 深蹲（Squat）
+1. [Lower limb pushing movement](# Lower limb pushing movement)
+2. [Lower limb pulling movements](#2 Lower limb pulling movements)
+3. [Special hip movements](#3hipSpecialmovements)
+4. [Upper limb pushing movements](#4upperlimb pushing movements)
+5. [Upper limb pulling movements](#5upperlimb pulling movements)
+6. [Core Training Movements](# Six Core Training Movements)
+7. [Aerobic training plan](# Seven Aerobic Training Plan)
+8. [Traditional Kung Fu](#8traditional Kung Fu)
 
-**目标肌群：** 股四头肌、臀大肌、腘绳肌、内收肌
+---
 
-**器械：** 杠铃/哑铃/自重
+## 1. Lower limb pushing movements
 
-#### 技术要点
+### 1.1 Squat
 
-**起始姿势：**
-- 双脚与肩同宽或略宽，脚尖外展 15-30°
-- 杠铃置于斜方肌上（高杠）或肩胛冈下方（低杠）
-- 核心收紧，胸部挺起，脊柱保持中立
+**Target muscle groups:** Quadriceps, gluteus maximus, hamstrings, adductors
 
-**动作过程：**
-1. 吸气，屈髋屈膝，臀部向后向下坐
-2. 膝盖沿脚尖方向移动，避免内扣
-3. 下蹲至大腿平行地面或更低（保持脊柱中立）
-4. 呼气，脚掌蹬地，伸髋伸膝站起
-5. 回到起始位置，重复
+**Equipment:** Barbell/Dumbbell/Bodyweight
 
-**呼吸：** 下蹲吸气，站起呼气
+#### Technical Points
 
-#### 常见错误
+**Starting position:**
+- Feet should be shoulder width or slightly wider, toes should be 15-30° abducted
+- The barbell is placed on the trapezius (high bar) or below the shoulder blades (low bar)
+- Tighten your core, lift your chest, and keep your spine neutral
 
-| 错误 | 危害 | 纠正方法 |
+**Action process:**
+1. Inhale, bend your hips and knees, and sit down with your buttocks back.
+2. Move your knees in the direction of your toes to avoid buckling in
+3. Squat until your thighs are parallel to the ground or lower (keep your spine neutral)
+4. Exhale, push your feet onto the ground, extend your hips and knees to stand up
+5. Return to starting position and repeat
+
+**Breathing:** Inhale when squatting, exhale when standing up
+
+#### Common mistakes
+
+| Error | Hazard | Correction |
 |------|------|---------|
-| 膝盖内扣 | 膝关节损伤 | 强化臀中肌，使用弹力带提醒 |
-| 弓背/圆背 | 腰椎损伤 | 降低重量，强化核心，保持胸部挺起 |
-| 脚跟离地 | 踝关节活动度不足 | 穿举重鞋，垫高脚跟，改善踝关节活动度 |
-| 过度前倾 | 腰椎压力大 | 降低重量，检查踝关节活动度，调整站距 |
-| 半程动作 | 训练效果差 | 降低重量，完成全程动作 |
+| Knee buckle | Knee joint injuries | Strengthen gluteus medius, use elastic band reminder |
+| Arched/rounded back | Lumbar spine injuries | Lower the weight, strengthen the core, and keep the chest lifted |
+| Heel off the ground | Insufficient ankle joint mobility | Wear weightlifting shoes and raise your heels to improve ankle joint mobility |
+| Excessive forward leaning | High lumbar pressure | Reduce weight, check ankle mobility, and adjust stance |
+| Half-range movements | Poor training effect | Lower the weight and complete the full range of movements |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 箱式深蹲：身后放箱子，臀部触箱后站起
-2. 高脚杯深蹲：双手持哑铃于胸前
-3. 自重深蹲：无负重
-4. 辅助深蹲：手扶固定物
+**Downgrade:**
+1. Box squat: Place a box behind you, stand up after your butt touches the box
+2. Goblet Squat: Hold dumbbells in front of your chest with both hands
+3. Body weight squat: no weight
+4. Assisted squats: hand-held fixtures
 
-**进阶：**
-1. 增加重量
-2. 前蹲：杠铃置于三角肌前束
-3. 过顶深蹲：杠铃举过头顶
-4. 单腿深蹲（手枪蹲）
-5. 跳跃深蹲：爆发力训练
+**Advanced:**
+1. Add weight
+2. Front squat: place the barbell on the front deltoid muscles
+3. Overhead Squat: Raise the barbell overhead
+4. One-leg squat (pistol squat)
+5. Jump Squat: Explosive Training
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 6-12 | 67-85% 1RM | 60-90 秒 |
-| 最大力量 | 4-6 | 1-5 | 87-100% 1RM | 2-5 分钟 |
-| 肌耐力 | 2-4 | 15-25 | <67% 1RM | 30-60 秒 |
-| 爆发力 | 3-5 | 3-6 | 75-90% 1RM | 2-3 分钟 |
+| Hypertrophy | 3-5 | 6-12 | 67-85% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-6 | 1-5 | 87-100% 1RM | 2-5 minutes |
+| Muscular Endurance | 2-4 | 15-25 | <67% 1RM | 30-60 seconds |
+| Explosive | 3-5 | 3-6 | 75-90% 1RM | 2-3 minutes |
 
 ---
 
-### 1.2 腿举（Leg Press）
+### 1.2 Leg Press (Leg Press)
 
-**目标肌群：** 股四头肌、臀大肌、腘绳肌
+**Target muscle groups:** Quadriceps, gluteus maximus, hamstrings
 
-**器械：** 腿举机
+**Equipment:** Leg press machine
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 坐于腿举机，背部紧贴靠背
-- 双脚置于踏板上，与肩同宽，脚尖略外展
-- 膝关节屈曲约 90°
-- 双手握住把手
+**Starting position:**
+- Sit on the leg press machine with your back against the backrest
+- Place your feet on the pedals, shoulder width apart, with your toes slightly out
+- Knee flexion approximately 90°
+- Hold the handle with both hands
 
-**动作过程：**
-1. 吸气，缓慢下放踏板至膝关节约 90°
-2. 膝盖沿脚尖方向移动
-3. 呼气，脚掌蹬踏板，伸膝伸髋
-4. 回到起始位置，膝关节微屈（不要锁死）
+**Action process:**
+1. Inhale and slowly lower the pedal to about 90° of the knee joint
+2. Move your knees in the direction of your toes
+3. Exhale, step on the pedals with the soles of your feet, extend your knees and hips
+4. Return to the starting position, slightly bend the knee joint (do not lock it)
 
-**呼吸：** 下放吸气，蹬起呼气
+**Breathing:** Inhale when lowering, exhale when pushing up
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 膝关节锁死 | 膝关节损伤 | 保持膝关节微屈 |
-| 臀部抬起 | 腰椎损伤 | 降低重量，背部紧贴靠背 |
-| 膝盖内扣 | 膝关节损伤 | 调整脚位，强化臀中肌 |
-| 下放过深 | 腰椎压力 | 控制下放深度 |
+| Knee joint lockout | Knee joint injury | Keep the knee joint slightly bent |
+| Hip lift | Lumbar spine injuries | Lower the weight, back against the backrest |
+| Knee buckle | Knee joint injuries | Adjust foot position and strengthen gluteus medius |
+| Lowering too deep | Lumbar pressure | Control the depth of lowering |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 减轻重量
-2. 减小动作幅度
+**Downgrade:**
+1. Reduce weight
+2. Reduce the range of motion
 
-**进阶：**
-1. 增加重量
-2. 单腿腿举
-3. 暂停腿举：底部暂停 2-3 秒
+**Advanced:**
+1. Add weight
+2. Single-leg leg press
+3. Pause leg press: Pause at the bottom for 2-3 seconds
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 8-12 | 70-80% 1RM | 60-90 秒 |
-| 最大力量 | 4-5 | 4-6 | 85-95% 1RM | 2-3 分钟 |
-| 肌耐力 | 2-3 | 15-20 | <65% 1RM | 30-60 秒 |
+| Hypertrophy | 3-4 | 8-12 | 70-80% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-5 | 4-6 | 85-95% of 1RM | 2-3 minutes |
+| Muscular Endurance | 2-3 | 15-20 | <65% 1RM | 30-60 seconds |
 
 ---
 
-### 1.3 箭步蹲（Lunge）
+### 1.3 Lunge
 
-**目标肌群：** 股四头肌、臀大肌、腘绳肌
+**Target muscle groups:** Quadriceps, gluteus maximus, hamstrings
 
-**器械：** 哑铃/杠铃/自重
+**Equipment:** Dumbbell/barbell/body weight
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 站立，双脚与髋同宽
-- 双手持哑铃于身体两侧（或杠铃于肩上）
-- 核心收紧，胸部挺起
+**Starting position:**
+- Stand with feet hip-width apart
+- Hold dumbbells with both hands at your sides (or barbell on your shoulders)
+- Tighten your core and lift your chest
 
-**动作过程：**
-1. 吸气，向前迈一大步
-2. 屈膝下蹲，前后腿膝关节均约 90°
-3. 后腿膝盖接近地面但不触地
-4. 呼气，前脚蹬地，回到起始位置
-5. 换另一条腿
+**Action process:**
+1. Inhale and take a big step forward
+2. Bend your knees and squat with the knee joints of the front and rear legs at about 90°.
+3. The knee of the hind leg is close to the ground but does not touch the ground
+4. Exhale, push off the ground with your front foot, and return to the starting position.
+5. Change to the other leg
 
-**呼吸：** 下蹲吸气，站起呼气
+**Breathing:** Inhale when squatting, exhale when standing up
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 前腿膝盖超过脚尖太多 | 膝关节压力大 | 调整步幅，膝盖对准脚尖 |
-| 后腿膝盖触地 | 膝关节损伤 | 控制下放深度 |
-| 身体过度前倾 | 平衡差，效果差 | 保持躯干直立 |
-| 步幅太小 | 训练效果差 | 增大步幅 |
+| The knee of the front leg is too much beyond the toes | High pressure on the knee joint | Adjust the stride length so that the knees are aligned with the toes |
+| Hind leg knee touches the ground | Knee joint injuries | Control lowering depth |
+| Excessive forward leaning of the body | Poor balance and poor performance | Keep the trunk upright |
+| Stride length is too small | Training effect is poor | Increase stride length |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 自重箭步蹲
-2. 辅助箭步蹲：手扶固定物
-3. 反向箭步蹲：向后迈步（对膝盖更友好）
+**Downgrade:**
+1. Bodyweight lunges
+2. Assisted lunges: hand-holding fixtures
+3. Reverse Lunge: Step backwards (kinder on your knees)
 
-**进阶：**
-1. 增加重量（哑铃/杠铃）
-2. 行走箭步蹲：连续向前迈步
-3. 跳跃箭步蹲：爆发力训练
-4. 保加利亚分腿蹲：后脚抬高
+**Advanced:**
+1. Add weight (dumbbell/barbell)
+2. Walking lunges: step forward continuously
+3. Jumping lunges: explosive training
+4. Bulgarian split squat: rear foot elevated
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 8-12/侧 | 中等重量 | 60-90 秒 |
-| 最大力量 | 4-5 | 4-6/侧 | 大重量 | 2-3 分钟 |
-| 肌耐力 | 2-3 | 15-20/侧 | 轻重量 | 30-60 秒 |
+| Hypertrophy | 3-4 | 8-12/side | Moderate weight | 60-90 seconds |
+| Max Strength | 4-5 | 4-6/side | Heavy | 2-3 minutes |
+| Muscular endurance | 2-3 | 15-20/side | Light weight | 30-60 seconds |
 
 ---
 
-## 二、下肢拉类动作
+## 2. Lower limb pulling movements
 
-### 2.1 硬拉（Deadlift）
+### 2.1 Deadlift
 
-**目标肌群：** 腘绳肌、臀大肌、竖脊肌、背阔肌、斜方肌
+**Target muscle groups:** Hamstrings, gluteus maximus, erector spinae, latissimus dorsi, trapezius
 
-**器械：** 杠铃
+**Equipment:** Barbell
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 双脚与髋同宽，脚尖略外展
-- 杠铃杆置于足中上方
-- 俯身，双手正握或正反握，略宽于肩
-- 背部挺直，胸部挺起，髋部下沉
-- 肩胛骨略前于杠铃杆
+**Starting position:**
+- Feet hip-width apart, toes slightly out
+- The barbell is placed above the midfoot
+- Lean over, hold your hands in front or behind, slightly wider than shoulder width
+- Keep your back straight, your chest up, and your hips down
+- Shoulder blades slightly in front of the bar
 
-**动作过程：**
-1. 吸气，核心收紧
-2. 脚掌蹬地，伸髋伸膝，将杠铃沿小腿向上拉
-3. 杠铃过膝后，快速伸髋
-4. 站直，肩胛骨后缩下沉
-5. 呼气，屈髋屈膝，将杠铃沿原路下放
+**Action process:**
+1. Inhale and tighten your core
+2. Push the ground with the soles of your feet, extend your hips and knees, and pull the barbell up along your calves.
+3. After the barbell passes the knees, quickly extend the hips
+4. Stand up straight, retract and sink your scapulae
+5. Exhale, bend your hips and knees, and lower the barbell along the original path.
 
-**呼吸：** 拉起前吸气并憋气，完成动作后呼气
+**Breathing:** Inhale and hold your breath before pulling up, exhale after completing the movement
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 弓背/圆背 | 腰椎严重损伤 | 降低重量，强化核心，保持背部挺直 |
-| 杠铃远离身体 | 腰椎压力大 | 让杠铃沿小腿、大腿向上移动 |
-| 先伸膝后伸髋 | 变成深蹲 | 想象用臀部向前推 |
-| 耸肩 | 斜方肌代偿 | 保持肩胛骨后缩下沉 |
-| 过度后仰 | 腰椎压力 | 站直即可，不要过度后仰 |
+| Arched/rounded back | Severe lumbar spine injury | Lower the weight, strengthen the core, and keep the back straight |
+| Keep the barbell away from the body | High pressure on the lumbar spine | Let the barbell move up along the calves and thighs |
+| Extend your knees first and then your hips | Turn into a squat | Imagine pushing forward with your hips |
+| Shrug | Trapezius muscle compensation | Keep scapula retracted and depressed |
+| Excessive leaning back | Lumbar pressure | Just stand up straight, don’t lean back excessively |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 罗马尼亚硬拉：从站姿开始，主要训练腘绳肌
-2. 六角杠铃硬拉：对腰椎更友好
-3. 哑铃硬拉：重量轻，易掌握
-4. 壶铃硬拉：适合初学者
+**Downgrade:**
+1. Romanian Deadlift: Start from standing position, mainly train the hamstring muscles
+2. Hexagonal barbell deadlift: more friendly to the lumbar spine
+3. Dumbbell deadlift: light weight and easy to master
+4. Kettlebell Deadlift: For Beginners
 
-**进阶：**
-1. 增加重量
-2. 相扑硬拉：宽站距
-3. 架上硬拉：杠铃从膝盖高度开始
-4. 单腿硬拉：平衡和稳定性训练
+**Advanced:**
+1. Add weight
+2. Sumo Deadlift: Wide Stance
+3. Rack Deadlift: Barbell starts at knee height
+4. Single-Leg Deadlift: Balance and Stability Training
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 5-8 | 75-85% 1RM | 90-120 秒 |
-| 最大力量 | 4-6 | 1-5 | 87-100% 1RM | 3-5 分钟 |
-| 肌耐力 | 2-3 | 10-15 | <70% 1RM | 60-90 秒 |
+| Hypertrophy | 3-5 | 5-8 | 75-85% of 1RM | 90-120 seconds |
+| Maximum Strength | 4-6 | 1-5 | 87-100% 1RM | 3-5 minutes |
+| Muscular Endurance | 2-3 | 10-15 | <70% 1RM | 60-90 seconds |
 
 ---
 
-### 2.2 罗马尼亚硬拉（Romanian Deadlift, RDL）
+### 2.2 Romanian Deadlift (RDL)
 
-**目标肌群：** 腘绳肌、臀大肌、竖脊肌
+**Target muscle groups:** Hamstrings, gluteus maximus, erector spinae
 
-**器械：** 杠铃/哑铃
+**Equipment:** Barbell/Dumbbell
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 站立，双脚与髋同宽
-- 双手正握杠铃，略宽于肩
-- 核心收紧，胸部挺起
+**Starting position:**
+- Stand with feet hip-width apart
+- Hold the barbell with both hands, slightly wider than shoulder width
+- Tighten your core and lift your chest
 
-**动作过程：**
-1. 吸气，屈髋向后推臀部
-2. 杠铃沿大腿向下移动
-3. 保持膝关节微屈（角度不变）
-4. 下放至腘绳肌有拉伸感（通常杠铃过膝）
-5. 呼气，伸髋，臀部向前推，回到起始位置
+**Action process:**
+1. Inhale, bend your hips and push your hips back
+2. Move the barbell down along the thighs
+3. Keep the knee joint slightly bent (the angle remains unchanged)
+4. Lower it until the hamstrings feel stretched (usually the barbell is above the knees)
+5. Exhale, extend your hips, push your hips forward, and return to the starting position
 
-**呼吸：** 下放吸气，拉起呼气
+**Breathing:** Lower down to inhale, pull up to exhale
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 弓背 | 腰椎损伤 | 降低重量，保持背部挺直 |
-| 膝关节过度屈曲 | 变成深蹲 | 保持膝关节微屈且角度不变 |
-| 杠铃远离身体 | 腰椎压力大 | 让杠铃贴着大腿移动 |
-| 过度下放 | 腰椎压力 | 下放至腘绳肌有拉伸感即可 |
+| Arched back | Lumbar spine injuries | Lower the weight and keep your back straight |
+| Hyperflexion of the knee joint | Turn into a deep squat | Keep the knee joint slightly flexed and the angle remains unchanged |
+| Keep the barbell away from the body | High pressure on the lumbar spine | Let the barbell move against the thighs |
+| Excessive lowering | Lumbar pressure | Lower until the hamstrings feel stretched |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 哑铃 RDL
-2. 单臂哑铃 RDL（轻重量）
-3. 徒手 RDL：掌握动作模式
+**Downgrade:**
+1. Dumbbell RDL
+2. One-arm dumbbell RDL (light weight)
+3. Freehand RDL: Mastering movement patterns
 
-**进阶：**
-1. 增加重量
-2. 单腿 RDL
-3. 暂停 RDL：底部暂停 2-3 秒
+**Advanced:**
+1. Add weight
+2. Single leg RDL
+3. Pause RDL: pause for 2-3 seconds at the bottom
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 8-12 | 65-75% 1RM | 60-90 秒 |
-| 最大力量 | 4-5 | 4-6 | 80-90% 1RM | 2-3 分钟 |
-| 肌耐力 | 2-3 | 12-15 | <60% 1RM | 30-60 秒 |
+| Hypertrophy | 3-4 | 8-12 | 65-75% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-5 | 4-6 | 80-90% of 1RM | 2-3 minutes |
+| Muscular Endurance | 2-3 | 12-15 | <60% 1RM | 30-60 seconds |
 
 ---
 
-### 2.3 腿弯举（Leg Curl）
+### 2.3 Leg Curl
 
-**目标肌群：** 腘绳肌
+**Target muscle group:** Hamstrings
 
-**器械：** 腿弯举机（俯卧/坐姿/站姿）
+**Equipment:** Leg curl machine (prone/sitting/standing)
 
-#### 技术要点（俯卧腿弯举）
+#### Technical points (prone leg curl)
 
-**起始姿势：**
-- 俯卧于腿弯举机
-- 脚踝置于滚轮下方
-- 双手握住把手
-- 身体紧贴器械
+**Starting position:**
+- Lie prone on leg curl machine
+- Place your ankles under the rollers
+- Hold the handle with both hands
+- Keep your body close to the machine
 
-**动作过程：**
-1. 吸气，屈膝，将滚轮向臀部方向弯曲
-2. 至膝关节完全屈曲
-3. 呼气，缓慢下放回起始位置
+**Action process:**
+1. Inhale, bend your knees, and bend the roller toward your hips
+2. Until the knee joint is fully flexed
+3. Exhale and slowly lower back to the starting position
 
-**呼吸：** 弯曲吸气，下放呼气
+**Breathing:** Inhale while bending, exhale while lowering
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 臀部抬起 | 代偿，效果差 | 降低重量，臀部紧贴器械 |
-| 动作过快 | 效果差，易受伤 | 控制动作速度 |
-| 不完全下放 | 训练效果差 | 完成全程动作 |
+| Hips raised | Compensation, poor effect | Lower the weight, hips close to the machine |
+| Movement too fast | Poor effect, easy to get injured | Control the speed of movement |
+| Incomplete devolution | Poor training effect | Complete the full range of movements |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 减轻重量
-2. 减小动作幅度
+**Downgrade:**
+1. Reduce weight
+2. Reduce the range of motion
 
-**进阶：**
-1. 增加重量
-2. 单腿腿弯举
-3. 暂停腿弯举：顶部暂停 2-3 秒
-4. 离心强化：3-4 秒下放
+**Advanced:**
+1. Add weight
+2. Single-leg leg curl
+3. Pause leg curl: Pause at the top for 2-3 seconds
+4. Centrifugal strengthening: 3-4 seconds lowering
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 10-15 | 65-75% 1RM | 60-90 秒 |
-| 肌耐力 | 2-3 | 15-20 | <60% 1RM | 30-60 秒 |
+| Hypertrophy | 3-4 | 10-15 | 65-75% of 1RM | 60-90 seconds |
+| Muscular Endurance | 2-3 | 15-20 | <60% 1RM | 30-60 seconds |
 
 ---
 
-## 三、臀部专项动作
+## 3. Special hip movements
 
-### 3.1 臀推（Hip Thrust）
+### 3.1 Hip Thrust
 
-**目标肌群：** 臀大肌、腘绳肌
+**Target muscle groups:** Gluteus maximus, hamstrings
 
-**器械：** 杠铃/哑铃/弹力带
+**Equipment:** Barbell/Dumbbell/Elastic Band
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 坐于地面，上背部靠于长凳边缘
-- 杠铃置于髋部（使用护垫）
-- 双脚平放地面，与肩同宽，脚尖略外展
-- 小腿垂直地面
+**Starting position:**
+- Sit on the floor with your upper back against the edge of the bench
+- Barbell on hips (use pads)
+- Feet flat on the ground, shoulder width apart, toes slightly out
+- Calf vertical to the ground
 
-**动作过程：**
-1. 吸气，核心收紧
-2. 脚掌蹬地，伸髋，将臀部向上推起
-3. 至身体从肩到膝呈一直线
-4. 顶部收缩臀部 1-2 秒
-5. 呼气，缓慢下放回起始位置
+**Action process:**
+1. Inhale and tighten your core
+2. Push on the ground with the soles of your feet, extend your hips, and push your buttocks upwards
+3. Make a straight line to the body from shoulders to knees
+4. Contract your buttocks at the top for 1-2 seconds
+5. Exhale and slowly lower back to starting position
 
-**呼吸：** 推起吸气，下放呼气
+**Breathing:** Push up to inhale, lower down to exhale
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 过度后仰 | 腰椎压力 | 身体呈直线即可，不要过度后仰 |
-| 下巴抬起 | 颈椎压力 | 下巴微收，目视前方 |
-| 脚位太近/太远 | 效果差 | 调整至小腿垂直地面 |
-| 臀部未完全收缩 | 效果差 | 顶部主动收缩臀部 |
+| Excessive leaning back | Lumbar pressure | Keep your body in a straight line, do not lean back excessively |
+| Chin raised | Cervical spine pressure | Slightly retracted chin, looking forward |
+| Foot position too close/too far | Poor effect | Adjust to calf perpendicular to the ground |
+| The buttocks are not fully contracted | Poor effect | Actively contract the buttocks at the top |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 自重臀推
-2. 弹力带臀推
-3. 单腿自重臀推
+**Downgrade:**
+1. Bodyweight hip thrust
+2. Hip thrust with elastic band
+3. Single-leg bodyweight hip thrust
 
-**进阶：**
-1. 增加重量（杠铃/哑铃）
-2. 单腿臀推
-3. 暂停臀推：顶部暂停 3-5 秒
-4. 弹力带 + 杠铃组合
+**Advanced:**
+1. Add weight (barbell/dumbbell)
+2. Single-leg hip thrust
+3. Pause hip thrust: Pause at the top for 3-5 seconds
+4. Elastic band + barbell combination
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 8-15 | 70-80% 1RM | 60-90 秒 |
-| 最大力量 | 4-5 | 4-6 | 85-95% 1RM | 2-3 分钟 |
-| 肌耐力 | 2-3 | 15-20 | <65% 1RM | 30-60 秒 |
+| Hypertrophy | 3-5 | 8-15 | 70-80% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-5 | 4-6 | 85-95% of 1RM | 2-3 minutes |
+| Muscular Endurance | 2-3 | 15-20 | <65% 1RM | 30-60 seconds |
 
 ---
 
-### 3.2 深蹲变式：相扑深蹲（Sumo Squat）
+### 3.2 Squat variation: Sumo Squat
 
-**目标肌群：** 臀大肌、内收肌、股四头肌
+**Target muscle groups:** Gluteus maximus, adductors, quadriceps
 
-**器械：** 杠铃/哑铃/壶铃
+**Equipment:** Barbell/Dumbbell/Kettlebell
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 双脚宽于肩，脚尖外展 45°
-- 杠铃置于肩上（或双手持哑铃/壶铃于胸前）
-- 核心收紧，胸部挺起
+**Starting position:**
+- Feet wider than shoulders, toes pointed out at 45°
+- Place the barbell on your shoulders (or hold dumbbells/kettlebells in both hands in front of your chest)
+- Tighten your core and lift your chest
 
-**动作过程：**
-1. 吸气，屈髋屈膝，臀部向后向下坐
-2. 膝盖沿脚尖方向移动
-3. 下蹲至大腿平行地面或更低
-4. 呼气，脚掌蹬地，站起
-5. 顶部收缩臀部
+**Action process:**
+1. Inhale, bend your hips and knees, and sit down with your buttocks back.
+2. Move your knees in the direction of your toes
+3. Squat until your thighs are parallel to the ground or lower
+4. Exhale, push the soles of your feet on the ground, and stand up
+5. Contract the buttocks from the top
 
-**呼吸：** 下蹲吸气，站起呼气
+**Breathing:** Inhale when squatting, exhale when standing up
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 膝盖内扣 | 膝关节损伤 | 强化臀中肌，膝盖对准脚尖 |
-| 弓背 | 腰椎损伤 | 保持背部挺直 |
-| 脚跟离地 | 踝关节活动度不足 | 穿举重鞋，改善踝关节活动度 |
+| Knee buckle | Knee joint injuries | Strengthen gluteus medius, align knees with toes |
+| Arched Back | Lumbar Spine Injury | Keep Back Straight |
+| Heel off the ground | Insufficient ankle joint mobility | Wear weightlifting shoes to improve ankle joint mobility |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 自重相扑深蹲
-2. 高脚杯相扑深蹲
+**Downgrade:**
+1. Bodyweight sumo squats
+2. Goblet Sumo Squats
 
-**进阶：**
-1. 增加重量
-2. 相扑硬拉
-3. 跳跃相扑深蹲
+**Advanced:**
+1. Add weight
+2. Sumo Deadlift
+3. Jumping Sumo Squats
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 8-12 | 70-80% 1RM | 60-90 秒 |
-| 最大力量 | 4-5 | 4-6 | 85-95% 1RM | 2-3 分钟 |
+| Hypertrophy | 3-4 | 8-12 | 70-80% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-5 | 4-6 | 85-95% of 1RM | 2-3 minutes |
 
 ---
 
-### 3.3 侧卧抬腿（Side-Lying Leg Raise）
+### 3.3 Side-Lying Leg Raise
 
-**目标肌群：** 臀中肌、臀小肌
+**Target muscle groups:** Gluteus medius, gluteus minimus
 
-**器械：** 自重/弹力带/踝沙袋
+**Equipment:** Self-weight/elastic band/ankle sandbag
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 侧卧，身体呈一直线
-- 下方手臂支撑头部，上方手扶地
-- 双腿伸直，脚尖朝前
+**Starting position:**
+- Lie on your side with your body in a straight line
+- The lower arm supports the head, and the upper hand supports the ground
+- Straighten your legs and point your toes forward
 
-**动作过程：**
-1. 吸气，上方腿向上抬起（保持脚尖朝前）
-2. 抬至最高点（约 45°）
-3. 呼气，缓慢下放回起始位置
+**Action process:**
+1. Inhale, lift the upper leg upward (keeping the toes pointed forward)
+2. Raise to the highest point (about 45°)
+3. Exhale and slowly lower back to the starting position
 
-**呼吸：** 抬起吸气，下放呼气
+**Breathing:** Inhale by lifting up, exhale by lowering
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 身体前后晃动 | 代偿 | 核心收紧，保持稳定 |
-| 脚尖朝上 | 阔筋膜张肌代偿 | 保持脚尖朝前 |
-| 动作过快 | 效果差 | 控制动作速度 |
+| Body rocking back and forth | Compensation | Tighten core to maintain stability |
+| Toes pointed up | Tensor fascia lata compensation | Keep toes pointed forward |
+| Action too fast | Poor effect | Control action speed |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 减小动作幅度
-2. 屈膝抬腿
+**Downgrade:**
+1. Reduce the range of motion
+2. Bend your knees and raise your legs
 
-**进阶：**
-1. 弹力带阻力
-2. 踝沙袋
-3. 站姿弹力带侧抬腿
+**Advanced:**
+1. Elastic Band Resistance
+2. Ankle sandbags
+3. Standing elastic band side leg raise
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 15-20/侧 | 自重/轻阻力 | 30-60 秒 |
-| 肌耐力 | 2-3 | 20-30/侧 | 自重 | 30 秒 |
+| Hypertrophy | 3-4 | 15-20/side | Body weight/light resistance | 30-60 seconds |
+| Muscular Endurance | 2-3 | 20-30/side | Bodyweight | 30 seconds |
 
 ---
 
-## 四、上肢推类动作
+## 4. Upper body pushing movements
 
-### 4.1 卧推（Bench Press）
+### 4.1 Bench Press
 
-**目标肌群：** 胸大肌、三角肌前束、肱三头肌
+**Target muscle groups:** Pectoralis major, anterior deltoid, triceps brachii
 
-**器械：** 杠铃/哑铃
+**Equipment:** Barbell/Dumbbell
 
-#### 技术要点（杠铃卧推）
+#### Technical points (barbell bench press)
 
-**起始姿势：**
-- 仰卧于卧推凳，双脚平放地面
-- 双手正握杠铃，略宽于肩
-- 肩胛骨后缩下沉，紧贴凳面
-- 腰部自然拱起（不要过度）
+**Starting position:**
+- Lie on your back on a bench with your feet flat on the ground
+- Hold the barbell with both hands, slightly wider than shoulder width
+- The shoulder blades retract and sink, keeping them close to the bench surface
+- Arch your waist naturally (don’t overdo it)
 
-**动作过程：**
-1. 吸气，将杠铃从架子上取下，置于胸骨中上部
-2. 杠铃下放至胸部（乳头连线附近）
-3. 肘部与身体夹角约 45-75°（不要完全外展）
-4. 呼气，将杠铃向上推起
-5. 回到起始位置，肘部微屈
+**Action process:**
+1. Inhale, remove the barbell from the rack and place it on the middle and upper part of the sternum
+2. Lower the barbell to the chest (near the nipple line)
+3. The angle between the elbow and the body is about 45-75° (do not fully abduct)
+4. Exhale and push the barbell upwards
+5. Return to the starting position, elbows slightly bent
 
-**呼吸：** 下放吸气，推起呼气
+**Breathing:** Inhale when lowering, exhale when pushing up
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 肘部完全外展（90°） | 肩关节损伤 | 肘部与身体夹角 45-75° |
-| 肩胛骨未收紧 | 肩关节不稳定 | 肩胛骨后缩下沉，紧贴凳面 |
-| 腰部过度拱起 | 腰椎压力 | 保持自然拱起，不要过度 |
-| 杠铃弹跳 | 胸骨损伤 | 控制下放速度，轻触胸部 |
-| 手腕弯曲 | 腕关节损伤 | 保持手腕中立，杠铃置于掌根 |
+| Full elbow abduction (90°) | Shoulder joint injuries | Elbow to body angle 45-75° |
+| The scapula is not tightened | The shoulder joint is unstable | The scapula is retracted and sunken, close to the bench |
+| Excessive arching of the waist | Lumbar pressure | Maintain a natural arch and don’t overdo it |
+| Barbell bounce | Sternal injury | Control the lowering speed and touch the chest lightly |
+| Wrist Bent | Wrist Injuries | Keep your wrists neutral and place the barbell on the heel of your hands |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 空杠练习
-2. 哑铃卧推（活动度更大）
-3. 上斜卧推（减轻肩部压力）
-4. 器械卧推
+**Downgrade:**
+1. Empty bar exercise
+2. Dumbbell bench press (greater range of motion)
+3. Incline bench press (reduces shoulder pressure)
+4. Machine bench press
 
-**进阶：**
-1. 增加重量
-2. 下斜卧推
-3. 窄距卧推（侧重肱三头肌）
-4. 暂停卧推：胸部暂停 2-3 秒
-5. 地板卧推：限制动作幅度
+**Advanced:**
+1. Add weight
+2. Decline bench press
+3. Close-grip bench press (focusing on triceps)
+4. Pause bench press: Pause chest for 2-3 seconds
+5. Floor Bench Press: Limit range of motion
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 6-12 | 67-85% 1RM | 60-90 秒 |
-| 最大力量 | 4-6 | 1-5 | 87-100% 1RM | 2-5 分钟 |
-| 肌耐力 | 2-4 | 15-25 | <67% 1RM | 30-60 秒 |
+| Hypertrophy | 3-5 | 6-12 | 67-85% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-6 | 1-5 | 87-100% 1RM | 2-5 minutes |
+| Muscular Endurance | 2-4 | 15-25 | <67% 1RM | 30-60 seconds |
 
 ---
 
-### 4.2 肩推举（Overhead Press）
+### 4.2 Overhead Press
 
-**目标肌群：** 三角肌（前束、中束）、肱三头肌、上胸
+**Target muscle groups:** Deltoid (front, middle), triceps, upper chest
 
-**器械：** 杠铃/哑铃
+**Equipment:** Barbell/Dumbbell
 
-#### 技术要点（站姿杠铃肩推）
+#### Technical points (standing barbell shoulder press)
 
-**起始姿势：**
-- 站立，双脚与肩同宽
-- 双手正握杠铃，略宽于肩
-- 杠铃置于锁骨前方
-- 核心收紧，胸部挺起
+**Starting position:**
+- Stand with feet shoulder-width apart
+- Hold the barbell with both hands, slightly wider than shoulder width
+- The barbell is placed in front of the collarbone
+- Tighten your core and lift your chest
 
-**动作过程：**
-1. 吸气，将杠铃向上推起
-2. 杠铃经过面部时，头部略向后让
-3. 推至手臂伸直（不要锁死肘关节）
-4. 呼气，缓慢下放回起始位置
+**Action process:**
+1. Inhale and push the barbell upwards
+2. When the barbell passes your face, move your head slightly back
+3. Push until the arms are straight (do not lock the elbow joint)
+4. Exhale and slowly lower back to the starting position
 
-**呼吸：** 推起吸气，下放呼气
+**Breathing:** Push up to inhale, lower down to exhale
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 腰部过度后仰 | 腰椎压力 | 核心收紧，臀部收紧 |
-| 杠铃轨迹向前 | 肩关节压力 | 让杠铃沿面部垂直向上 |
-| 耸肩 | 斜方肌代偿 | 保持肩胛骨下沉 |
-| 肘部过度外展 | 肩关节压力 | 肘部略向前 |
+| Excessive back tilt of the waist | Lumbar pressure | Tighten the core and tighten the buttocks |
+| Barbell trajectory forward | Shoulder joint pressure | Let the barbell rise vertically along the face |
+| Shrug | Trapezius muscle compensation | Keep scapulae down |
+| Excessive elbow abduction | Shoulder joint stress | Elbow slightly forward |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 坐姿哑铃肩推（有靠背支撑）
-2. 轻重量练习
-3. 器械肩推
+**Downgrade:**
+1. Seated dumbbell shoulder press (with backrest support)
+2. Light weight exercises
+3. Instrument shoulder press
 
-**进阶：**
-1. 增加重量
-2. 站姿杠铃肩推（无靠背）
-3. 阿诺德推举
-4. 单手哑铃肩推
-5. 借力推举（力量举）
+**Advanced:**
+1. Add weight
+2. Standing barbell shoulder press (without backrest)
+3. Arnold recommendation
+4. One-handed dumbbell shoulder press
+5. Leverage press (powerlifting)
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 6-12 | 67-85% 1RM | 60-90 秒 |
-| 最大力量 | 4-6 | 1-5 | 87-100% 1RM | 2-5 分钟 |
-| 肌耐力 | 2-4 | 15-25 | <67% 1RM | 30-60 秒 |
+| Hypertrophy | 3-5 | 6-12 | 67-85% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-6 | 1-5 | 87-100% 1RM | 2-5 minutes |
+| Muscular Endurance | 2-4 | 15-25 | <67% 1RM | 30-60 seconds |
 
 ---
 
-### 4.3 俯卧撑（Push-Up）
+### 4.3 Push-Up
 
-**目标肌群：** 胸大肌、三角肌前束、肱三头肌、核心
+**Target muscle groups:** Pectoralis major, anterior deltoid, triceps, core
 
-**器械：** 自重
+**Equipment:** Self-weight
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 俯卧，双手置于胸部两侧，略宽于肩
-- 双脚并拢或与肩同宽
-- 身体呈一直线（从头到脚）
-- 核心收紧
+**Starting position:**
+- Lie on your stomach with your hands on either side of your chest, slightly wider than shoulder width
+- Feet together or shoulder width apart
+- Body in a straight line (head to toe)
+- Core tightening
 
-**动作过程：**
-1. 吸气，屈肘，身体向下
-2. 肘部与身体夹角约 45°
-3. 下放至胸部接近地面
-4. 呼气，将身体向上推起
-5. 回到起始位置
+**Action process:**
+1. Inhale, bend your elbows, and lower your body
+2. The angle between the elbow and the body is about 45°
+3. Lower your chest until it is close to the ground
+4. Exhale and push your body upward
+5. Return to starting position
 
-**呼吸：** 下放吸气，推起呼气
+**Breathing:** Inhale when lowering, exhale when pushing up
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 腰部下沉 | 腰椎压力 | 核心收紧，身体呈直线 |
-| 臀部抬起 | 代偿 | 核心收紧，身体呈直线 |
-| 肘部完全外展 | 肩关节压力 | 肘部与身体夹角 45° |
-| 头部抬起 | 颈椎压力 | 头部中立，目视前方地面 |
+| Waist sinking | Lumbar pressure | Tighten the core and keep the body in a straight line |
+| Hip lift | Compensation | Core tight, body straight |
+| Elbow fully abducted | Shoulder joint pressure | Elbow to body angle 45° |
+| Head raised | Cervical spine pressure | Head neutral, looking at the ground in front of you |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 跪姿俯卧撑
-2. 上斜俯卧撑（手扶高处）
-3. 墙壁俯卧撑
+**Downgrade:**
+1. Kneeling push-ups
+2. Incline push-ups (hands on high places)
+3. Wall push-ups
 
-**进阶：**
-1. 下斜俯卧撑（脚抬高）
-2. 钻石俯卧撑（窄距）
-3. 爆发力俯卧撑（击掌）
-4. 单手俯卧撑
-5. 负重俯卧撑
+**Advanced:**
+1. Decline push-ups (feet elevated)
+2. Diamond push-ups (narrow stance)
+3. Explosive push-ups (high fives)
+4. One-arm push-ups
+5. Weighted push-ups
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 8-15 | 自重/负重 | 60-90 秒 |
-| 肌耐力 | 3-5 | 15-30+ | 自重 | 30-60 秒 |
-| 爆发力 | 3-5 | 3-6 | 自重（快速） | 90-120 秒 |
+| Hypertrophy | 3-5 | 8-15 | Bodyweight/weight bearing | 60-90 seconds |
+| Muscular endurance | 3-5 | 15-30+ | Body weight | 30-60 seconds |
+| Explosive Power | 3-5 | 3-6 | Bodyweight (Quick) | 90-120 seconds |
 
 ---
 
-## 五、上肢拉类动作
+## 5. Upper limb pulling movements
 
-### 5.1 引体向上（Pull-Up）
+### 5.1 Pull-Up
 
-**目标肌群：** 背阔肌、肱二头肌、斜方肌下部
+**Target muscle groups:** Latissimus dorsi, biceps, lower trapezius
 
-**器械：** 引体向上杆/自重
+**Equipment:** Pull-up bar/Body weight
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 双手正握（掌心朝前）引体向上杆，略宽于肩
-- 身体悬垂，双脚离地
-- 核心收紧，身体呈一直线
+**Starting position:**
+- Hold the pull-up bar with both hands (palms facing forward), slightly wider than shoulder width
+- The body is hanging with the feet off the ground
+- Tighten your core and keep your body in a straight line
 
-**动作过程：**
-1. 吸气，肩胛骨后缩下沉
-2. 将身体向上拉，至下巴过杆
-3. 呼气，缓慢下放回起始位置
-4. 手臂完全伸直（但不要耸肩）
+**Action process:**
+1. Inhale, retract and sink the scapulae
+2. Pull your body upward until your chin passes the bar
+3. Exhale and slowly lower back to the starting position
+4. Fully straighten your arms (but don’t shrug)
 
-**呼吸：** 拉起吸气，下放呼气
+**Breathing:** Pull up to inhale, lower to exhale
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 摆动身体 | 代偿，效果差 | 核心收紧，避免摆动 |
-| 耸肩 | 斜方肌代偿 | 肩胛骨后缩下沉 |
-| 半程动作 | 效果差 | 完成全程动作 |
-| 头部后仰 | 颈椎压力 | 头部中立，目视前方 |
+| Swing the body | Compensation, poor effect | Tighten the core to avoid swinging |
+| Shrug | Trapezius muscle compensation | Scapula retraction and depression |
+| Half movement | Poor effect | Complete full movement |
+| Head tilted back | Cervical spine pressure | Head neutral, looking forward |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 弹力带辅助引体向上
-2. 器械辅助引体向上
-3. 离心引体向上：跳起至顶部，缓慢下放（3-5 秒）
-4. 高位下拉
+**Downgrade:**
+1. Elastic band-assisted pull-ups
+2. Equipment-assisted pull-ups
+3. Eccentric pull-ups: Jump to the top and lower slowly (3-5 seconds)
+4. High pull-down
 
-**进阶：**
-1. 负重引体向上
-2. 反手引体向上（侧重肱二头肌）
-3. 宽握引体向上
-4. 单臂引体向上
-5. 肌肉向上（Muscle-Up）
+**Advanced:**
+1. Weighted pull-ups
+2. Backhand pull-ups (focusing on biceps)
+3. Wide grip pull-ups
+4. One-arm pull-ups
+5. Muscle-Up
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 6-12 | 自重/负重 | 60-90 秒 |
-| 最大力量 | 4-6 | 1-5 | 负重 | 2-3 分钟 |
-| 肌耐力 | 3-5 | 15-30+ | 自重 | 30-60 秒 |
+| Hypertrophy | 3-5 | 6-12 | Bodyweight/weight bearing | 60-90 seconds |
+| Maximum strength | 4-6 | 1-5 | Weight bearing | 2-3 minutes |
+| Muscular endurance | 3-5 | 15-30+ | Body weight | 30-60 seconds |
 
 ---
 
-### 5.2 杠铃划船（Bent-Over Row）
+### 5.2 Barbell Row (Bent-Over Row)
 
-**目标肌群：** 背阔肌、斜方肌、菱形肌、肱二头肌
+**Target muscle groups:** Latissimus dorsi, trapezius, rhomboids, biceps
 
-**器械：** 杠铃
+**Equipment:** Barbell
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 站立，双脚与肩同宽
-- 双手正握杠铃，略宽于肩
-- 屈髋俯身，躯干与地面约 45°
-- 背部挺直，核心收紧
-- 杠铃悬垂于膝盖下方
+**Starting position:**
+- Stand with feet shoulder-width apart
+- Hold the barbell with both hands, slightly wider than shoulder width
+- Bend at the hips, with the trunk and the ground at about 45°
+- Keep your back straight and your core tight
+- The bar hangs below the knees
 
-**动作过程：**
-1. 吸气，肩胛骨后缩
-2. 将杠铃向上拉至腹部
-3. 肘部贴近身体
-4. 呼气，缓慢下放回起始位置
+**Action process:**
+1. Inhale, retract your scapulae
+2. Pull the barbell up to your abdomen
+3. Keep your elbows close to your body
+4. Exhale and slowly lower back to the starting position
 
-**呼吸：** 拉起吸气，下放呼气
+**Breathing:** Pull up to inhale, lower to exhale
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 弓背 | 腰椎损伤 | 降低重量，保持背部挺直 |
-| 身体摆动 | 代偿 | 降低重量，核心收紧 |
-| 耸肩 | 斜方肌代偿 | 肩胛骨后缩下沉 |
-| 杠铃拉至胸部 | 动作模式错误 | 杠铃应拉至腹部 |
+| Arched back | Lumbar spine injuries | Lower the weight and keep your back straight |
+| Body swing | Compensation | Lower weight, tighten core |
+| Shrug | Trapezius muscle compensation | Scapula retraction and depression |
+| Pull the barbell to the chest | Wrong movement pattern | The barbell should be pulled to the abdomen |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 哑铃划船（单臂，有支撑）
-2. 器械划船
-3. 坐姿划船
+**Downgrade:**
+1. Dumbbell row (one arm, supported)
+2. Machine rowing
+3. Seated Rowing
 
-**进阶：**
-1. 增加重量
-2. 反手杠铃划船
-3. Pendlay 划船：每次从地面开始
-4. 单臂哑铃划船（无支撑）
+**Advanced:**
+1. Add weight
+2. Backhand Barbell Row
+3. Pendlay rowing: start from the ground each time
+4. One-Arm Dumbbell Row (Unsupported)
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-5 | 8-12 | 70-80% 1RM | 60-90 秒 |
-| 最大力量 | 4-5 | 4-6 | 85-95% 1RM | 2-3 分钟 |
-| 肌耐力 | 2-3 | 12-15 | <65% 1RM | 30-60 秒 |
+| Hypertrophy | 3-5 | 8-12 | 70-80% of 1RM | 60-90 seconds |
+| Maximum Strength | 4-5 | 4-6 | 85-95% of 1RM | 2-3 minutes |
+| Muscular Endurance | 2-3 | 12-15 | <65% 1RM | 30-60 seconds |
 
 ---
 
-### 5.3 面拉（Face Pull）
+### 5.3 Face Pull
 
-**目标肌群：** 三角肌后束、斜方肌下部、菱形肌、肩袖肌群
+**Target muscle groups:** Posterior deltoid, lower trapezius, rhomboids, rotator cuff muscles
 
-**器械：** 绳索机
+**Equipment:** Rope Machine
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 站立，面对绳索机
-- 双手握住绳索两端，掌心相对
-- 绳索置于上胸部高度
-- 后退一步，手臂伸直
+**Starting position:**
+- Stand facing the rope machine
+- Hold both ends of the rope with both hands, palms facing each other
+- Rope at upper chest height
+- Take a step back and straighten your arms
 
-**动作过程：**
-1. 吸气，肩胛骨后缩
-2. 将绳索向面部方向拉
-3. 双手拉至耳朵两侧，肘部高于肩
-4. 顶部外旋肩关节（掌心朝前）
-5. 呼气，缓慢放回起始位置
+**Action process:**
+1. Inhale, retract your scapulae
+2. Pull the rope toward the face
+3. Pull your hands to both sides of your ears, with your elbows higher than your shoulders
+4. Externally rotate the shoulder joint at the top (palms facing forward)
+5. Exhale and slowly return to the starting position
 
-**呼吸：** 拉起吸气，放回呼气
+**Breathing:** Pull up to inhale, release to exhale
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 耸肩 | 斜方肌上部代偿 | 肩胛骨下沉 |
-| 肘部过低 | 效果差 | 肘部高于肩 |
-| 身体后仰 | 代偿 | 核心收紧，身体稳定 |
-| 动作过快 | 效果差 | 控制动作速度 |
+| Shrug | Upper trapezius compensation | Scapula depression |
+| Elbow too low | Poor effect | Elbow higher than shoulder |
+| Lean back | Compensation | Tighten the core and stabilize the body |
+| Action too fast | Poor effect | Control action speed |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 减轻重量
-2. 弹力带面拉
+**Downgrade:**
+1. Reduce weight
+2. Elastic band pull
 
-**进阶：**
-1. 增加重量
-2. 单臂面拉
-3. 暂停面拉：顶部暂停 2-3 秒
+**Advanced:**
+1. Add weight
+2. One-arm face pull
+3. Pause the noodles: Pause at the top for 2-3 seconds
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 12-15 | 轻 - 中等重量 | 60 秒 |
-| 肌耐力 | 3-4 | 15-20 | 轻重量 | 30-60 秒 |
-| 康复/预防 | 2-3 | 15-20 | 轻重量 | 30 秒 |
+| Hypertrophy | 3-4 | 12-15 | Light - Moderate Weight | 60 sec |
+| Muscular endurance | 3-4 | 15-20 | Light weight | 30-60 seconds |
+| Rehabilitation/Prevention | 2-3 | 15-20 | Light weight | 30 seconds |
 
 ---
 
-## 六、核心训练动作
+## 6. Core training movements
 
-### 6.1 平板支撑（Plank）
+### 6.1 Plank
 
-**目标肌群：** 腹横肌、腹直肌、腹斜肌、竖脊肌
+**Target muscle groups:** Transversus abdominis, rectus abdominis, obliques, erector spinae
 
-**器械：** 自重
+**Equipment:** Self-weight
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 俯卧，前臂支撑于地面，肘部在肩下方
-- 双脚并拢或与肩同宽
-- 身体呈一直线（从头到脚）
-- 核心收紧，臀部收紧
+**Starting position:**
+- Lie on your stomach with your forearms on the ground and your elbows under your shoulders
+- Feet together or shoulder width apart
+- Body in a straight line (head to toe)
+- Tighten your core and tighten your glutes
 
-**动作过程：**
-1. 保持身体呈一直线
-2. 正常呼吸，不要憋气
-3. 保持至力竭或规定时间
+**Action process:**
+1. Keep your body in a straight line
+2. Breathe normally, don’t hold your breath
+3. Maintain until exhaustion or specified time
 
-**呼吸：** 正常呼吸
+**Breathing:** Normal breathing
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 腰部下沉 | 腰椎压力 | 核心收紧，臀部收紧 |
-| 臀部抬起 | 代偿 | 身体呈直线 |
-| 头部抬起 | 颈椎压力 | 头部中立，目视地面 |
-| 憋气 | 血压升高 | 保持正常呼吸 |
+| Waist sinking | Lumbar pressure | Tighten core, tighten hips |
+| Hip lift | Compensation | Body straight |
+| Head raised | Cervical spine pressure | Head neutral, looking at the ground |
+| Holding your breath | Increased blood pressure | Maintain normal breathing |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 跪姿平板支撑
-2. 上斜平板支撑（手扶高处）
+**Downgrade:**
+1. Kneeling plank
+2. Incline plank support (hands on high places)
 
-**进阶：**
-1. 单腿平板支撑
-2. 单手平板支撑
-3. 动态平板支撑（交替抬手/抬脚）
-4. 负重平板支撑
-5. RKC 平板支撑（最大张力）
+**Advanced:**
+1. Single leg plank
+2. One-handed plank support
+3. Dynamic plank support (alternatively raise hands/legs)
+4. Weight-bearing plank support
+5. RKC plank (maximum tension)
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 时间 | 组间休息 |
+| Goal | Number of sets | Time | Rest between sets |
 |------|------|------|---------|
-| 肌耐力 | 3-4 | 30-60 秒 | 30-60 秒 |
-| 核心稳定 | 3-5 | 60-120 秒 | 30-60 秒 |
+| Muscular endurance | 3-4 | 30-60 seconds | 30-60 seconds |
+| Core Stability | 3-5 | 60-120 seconds | 30-60 seconds |
 
 ---
 
-### 6.2 死虫式（Dead Bug）
+### 6.2 Dead Bug
 
-**目标肌群：** 腹横肌、腹直肌、核心稳定肌群
+**Target muscle groups:** Transverse abdominis, rectus abdominis, core stabilizing muscles
 
-**器械：** 自重
+**Equipment:** Self-weight
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 仰卧，双臂伸直指向天花板
-- 双腿屈膝 90°，大腿垂直地面，小腿平行地面
-- 下背部紧贴地面
+**Starting position:**
+- Lie on your back with your arms straight and pointing toward the ceiling
+- Bend your legs at 90°, with your thighs perpendicular to the ground and your calves parallel to the ground.
+- Keep your lower back close to the floor
 
-**动作过程：**
-1. 吸气，核心收紧，下背部紧贴地面
-2. 缓慢下放右臂和左腿（对侧）
-3. 下放至接近地面（保持下背部贴地）
-4. 呼气，回到起始位置
-5. 换另一侧（左臂右腿）
+**Action process:**
+1. Inhale, tighten your core, and keep your lower back close to the ground
+2. Slowly lower your right arm and left leg (opposite side)
+3. Lower down close to the ground (keep your lower back close to the ground)
+4. Exhale and return to starting position
+5. Switch to the other side (left arm, right leg)
 
-**呼吸：** 下放吸气，收回呼气
+**Breathing:** Inhale while releasing, exhale by withdrawing
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 下背部拱起 | 腰椎压力 | 核心收紧，下背部始终贴地 |
-| 动作过快 | 效果差 | 控制动作速度 |
-| 憋气 | 效果差 | 保持正常呼吸 |
+| Arching of the lower back | Lumbar pressure | Tighten the core and keep the lower back close to the floor |
+| Action too fast | Poor effect | Control action speed |
+| Hold your breath | Poor effect | Maintain normal breathing |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 只动手臂，腿保持不动
-2. 只动腿，手臂保持不动
-3. 减小动作幅度
+**Downgrade:**
+1. Only move your arms and keep your legs still
+2. Move only the legs and keep the arms still
+3. Reduce the range of motion
 
-**进阶：**
-1. 同时动对侧手臂和腿
-2. 增加负重（手持哑铃/脚踝沙袋）
-3. 悬空死虫：起始时腿悬空
+**Advanced:**
+1. Move the opposite arm and leg at the same time
+2. Increase weight-bearing (hand-held dumbbells/ankle sandbags)
+3. Hanging Dead Bug: The legs are hanging in the air at the beginning.
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 组间休息 |
+| Goal | Sets | Reps | Rest between sets |
 |------|------|------|---------|
-| 核心稳定 | 3-4 | 10-15/侧 | 30-60 秒 |
-| 肌耐力 | 3-4 | 15-20/侧 | 30 秒 |
+| Core Stability | 3-4 | 10-15/side | 30-60 seconds |
+| Muscular Endurance | 3-4 | 15-20/side | 30 seconds |
 
 ---
 
-### 6.3 俄罗斯转体（Russian Twist）
+### 6.3 Russian Twist
 
-**目标肌群：** 腹斜肌、腹直肌
+**Target muscle groups:** Obliques, rectus abdominis
 
-**器械：** 自重/药球/哑铃
+**Equipment:** Bodyweight/medicine ball/dumbbells
 
-#### 技术要点
+#### Technical Points
 
-**起始姿势：**
-- 坐于地面，双腿屈膝，脚后跟触地（进阶：脚离地）
-- 上身后倾约 45°，背部挺直
-- 双手握于胸前（持重物或不持）
+**Starting position:**
+- Sit on the ground, bend your legs at the knees, and touch your heels to the ground (advanced: feet off the ground)
+- Lean your upper body back about 45° and keep your back straight
+- Hold hands in front of chest (holding heavy objects or not)
 
-**动作过程：**
-1. 吸气，核心收紧
-2. 转动躯干，将手/重物转向身体一侧
-3. 呼气，转回中间，再转向另一侧
-4. 保持下背部挺直，不要弓背
+**Action process:**
+1. Inhale and tighten your core
+2. Rotate your torso and turn your hands/weights to one side of your body
+3. Exhale, turn back to the center, and then turn to the other side
+4. Keep your lower back straight, don’t arch your back
 
-**呼吸：** 转动时呼气
+**Breathing:** Exhale as you turn
 
-#### 常见错误
+#### Common mistakes
 
-| 错误 | 危害 | 纠正方法 |
+| Error | Hazard | Correction |
 |------|------|---------|
-| 弓背 | 腰椎压力 | 保持背部挺直 |
-| 动作过快 | 效果差，易受伤 | 控制动作速度 |
-| 只用胳膊 | 效果差 | 用核心带动转动 |
+| Arched back | Lumbar pressure | Keep your back straight |
+| Movement too fast | Poor effect, easy to get injured | Control the speed of movement |
+| Only use arms | Poor effect | Use core to drive rotation |
 
-#### 降阶/进阶
+#### Downgrade/Advance
 
-**降阶：**
-1. 脚后跟触地（增加稳定性）
-2. 不持重物
-3. 减小转动幅度
+**Downgrade:**
+1. Heel touches the ground (increases stability)
+2. Not carrying heavy objects
+3. Reduce the rotation range
 
-**进阶：**
-1. 脚离地
-2. 持重物（药球/哑铃）
-3. 增加转动幅度
-4. 脚固定（让他人按住）
+**Advanced:**
+1. Feet off the ground
+2. Hold something heavy (medicine ball/dumbbell)
+3. Increase the rotation range
+4. Fix the feet (let others hold them down)
 
-#### 推荐参数
+#### Recommended parameters
 
-| 目标 | 组数 | 次数 | 重量 | 组间休息 |
+| Goal | Sets | Reps | Weight | Rest between sets |
 |------|------|------|------|---------|
-| 肌肥大 | 3-4 | 15-20/侧 | 中等重量 | 30-60 秒 |
-| 肌耐力 | 3-4 | 20-30/侧 | 轻重量/自重 | 30 秒 |
+| Hypertrophy | 3-4 | 15-20/side | Moderate weight | 30-60 seconds |
+| Muscle endurance | 3-4 | 20-30/side | Light weight/body weight | 30 seconds |
 
 ---
 
-## 七、有氧训练方案
+## 7. Aerobic training program
 
-### 7.1 稳态有氧（LISS）
+### 7.1 Steady State Aerobic (LISS)
 
-**目标：** 心肺耐力、脂肪氧化
+**Goals:** Cardiorespiratory endurance, fat oxidation
 
-**运动类型：** 慢跑、快走、游泳、骑自行车、椭圆机
+**Type of exercise:** Jogging, brisk walking, swimming, cycling, elliptical machine
 
-#### 推荐参数
+#### Recommended parameters
 
-| 参数 | 建议值 |
+| Parameters | Recommended values ​​|
 |------|--------|
-| 强度 | 最大心率的 60-70%（可以正常交谈） |
-| 时间 | 30-60 分钟 |
-| 频率 | 每周 3-5 次 |
-| 适用人群 | 初学者、减脂期、恢复日 |
+| Intensity | 60-70% of maximum heart rate (can hold a normal conversation) |
+| Time | 30-60 minutes |
+| Frequency | 3-5 times per week |
+| Applicable people | Beginners, fat loss period, recovery days |
 
-#### 注意事项
+#### Notes
 
-- 运动前热身 5-10 分钟
-- 运动后拉伸 5-10 分钟
-- 保持水分补充
-- 选择合适的鞋子
+- Warm up for 5-10 minutes before exercise
+- Stretch for 5-10 minutes after exercise
+- Stay hydrated
+- Choose the right shoes
 
 ---
 
-### 7.2 高强度间歇训练（HIIT）
+### 7.2 High Intensity Interval Training (HIIT)
 
-**目标：** 心肺耐力、EPOC 效应、时间效率
+**Goals:** Cardiorespiratory endurance, EPOC effect, time efficiency
 
-**运动类型：** 跑步、自行车、划船机、波比跳
+**Exercise type:** Running, cycling, rowing machine, burpee
 
-#### 经典方案
+#### Classic plan
 
-**Tabata（4 分钟）：**
+**Tabata (4 minutes):**
 ```
-- 运动 20 秒（最大强度）
-- 休息 10 秒
-- 重复 8 轮
-- 总时间：4 分钟
-```
-
-**经典 HIIT（20 分钟）：**
-```
-- 热身：5 分钟（低强度）
-- 运动：30 秒（85-95% 最大心率）
-- 休息：30 秒（低强度）
-- 重复 10 轮
-- 冷身：5 分钟（低强度）
-- 总时间：20 分钟
+- Exercise for 20 seconds (maximum intensity)
+- Rest for 10 seconds
+- Repeat 8 rounds
+- Total time: 4 minutes
 ```
 
-#### 推荐参数
+**Classic HIIT (20 minutes):**
+```
+- Warm up: 5 minutes (low intensity)
+- Exercise: 30 seconds (85-95% of maximum heart rate)
+- Rest: 30 seconds (low intensity)
+- Repeat 10 rounds
+- Cool down: 5 minutes (low intensity)
+- Total time: 20 minutes
+```
 
-| 参数 | 建议值 |
+#### Recommended parameters
+
+| Parameters | Recommended values ​​|
 |------|--------|
-| 强度 | 85-95% 最大心率 |
-| 运动/休息比 | 1:1 或 1:2 |
-| 时间 | 15-30 分钟（不含热身冷身） |
-| 频率 | 每周 2-3 次（间隔至少 48 小时） |
-| 适用人群 | 有训练基础者、时间紧张者 |
+| Intensity | 85-95% of maximum heart rate |
+| Exercise/rest ratio | 1:1 or 1:2 |
+| Time | 15-30 minutes (excluding warm-up and cool-down) |
+| Frequency | 2-3 times per week (at least 48 hours apart) |
+| Applicable people | People with basic training and time constraints |
 
-#### 注意事项
+#### Notes
 
-- 不适合初学者
-- 心血管疾病患者慎用
-- 运动前充分热身
-- 不要每天进行（需要恢复时间）
+- Not suitable for beginners
+- Use with caution in patients with cardiovascular disease
+- Warm up thoroughly before exercise
+- Do not do it every day (recovery time required)
 
 ---
 
-### 7.3 法特莱克跑（Fartlek）
+### 7.3 Fartlek
 
-**目标：** 心肺耐力、速度变化能力
+**Goals:** Cardiorespiratory endurance, speed change ability
 
-**运动类型：** 跑步
+**Sport Type:** Running
 
-#### 方案示例
+#### Solution example
 
 ```
-- 热身：10 分钟慢跑
-- 快跑 1 分钟（75-85% 最大心率）
-- 慢跑 2 分钟（60-70% 最大心率）
-- 快跑 2 分钟
-- 慢跑 2 分钟
-- 快跑 3 分钟
-- 慢跑 2 分钟
-- 快跑 2 分钟
-- 慢跑 2 分钟
-- 快跑 1 分钟
-- 冷身：10 分钟慢跑
-- 总时间：约 35 分钟
+- Warm-up: 10 minutes of jogging
+- 1 minute of brisk running (75-85% of maximum heart rate)
+- Jog for 2 minutes (60-70% of maximum heart rate)
+- Run briskly for 2 minutes
+- Jog for 2 minutes
+- Run briskly for 3 minutes
+- Jog for 2 minutes
+- Run briskly for 2 minutes
+- Jog for 2 minutes
+- Run briskly for 1 minute
+- Cool down: 10 minutes of jogging
+- Total time: approximately 35 minutes
 ```
 
-#### 推荐参数
+#### Recommended parameters
 
-| 参数 | 建议值 |
+| Parameters | Recommended values ​​|
 |------|--------|
-| 强度 | 变化（60-85% 最大心率） |
-| 时间 | 30-45 分钟 |
-| 频率 | 每周 1-2 次 |
-| 适用人群 | 中级训练者、跑步爱好者 |
+| Intensity | Variation (60-85% of maximum heart rate) |
+| Time | 30-45 minutes |
+| Frequency | 1-2 times per week |
+| Applicable people | Intermediate trainers and running enthusiasts |
 
 ---
 
-## 八、传统功法
+## 8. Traditional exercises
 
-### 8.1 八段锦
+### 8.1 Baduanjin
 
-**来源：** 中国传统健身功法，宋代已有记载
+**Source:** Traditional Chinese fitness exercises, recorded in the Song Dynasty
 
-**功效：** 调理脏腑、疏通经络、强身健体
+**Efficacy:** Regulate the internal organs, dredge the meridians, and strengthen the body
 
-#### 八式动作
+#### Eight movements
 
-**1. 两手托天理三焦**
-- 功效：调理三焦，舒展筋骨
-- 次数：6-8 次
+**1. Hold the Three Burners of Heavenly Li with both hands**
+- Efficacy: Regulate triple burner, stretch muscles and bones
+- Times: 6-8 times
 
-**2. 左右开弓似射雕**
-- 功效：扩胸理气，增强肺功能
-- 次数：左右各 6-8 次
+**2. Open the bow left and right like a shooting vulture**
+- Efficacy: Expand chest, regulate qi, enhance lung function
+- Times: 6-8 times on each side
 
-**3. 调理脾胃须单举**
-- 功效：调理脾胃，增强消化
-- 次数：左右各 6-8 次
+**3. Regulating the spleen and stomach must be done individually**
+-Efficacy: Regulate the spleen and stomach, enhance digestion
+- Times: 6-8 times on each side
 
-**4. 五劳七伤向后瞧**
-- 功效：缓解疲劳，调理五脏
-- 次数：左右各 6-8 次
+**4. After five labors and seven injuries, look back**
+-Efficacy: relieve fatigue, regulate the five internal organs
+- Times: 6-8 times on each side
 
-**5. 摇头摆尾去心火**
-- 功效：清心降火，安神定志
-- 次数：左右各 6-8 次
+**5. Shake your head and tail to get rid of the anger**
+- Efficacy: Clear the heart and reduce fire, calm the mind and calm the mind
+- Times: 6-8 times on each side
 
-**6. 两手攀足固肾腰**
-- 功效：补肾固腰，强健筋骨
-- 次数：6-8 次
+**6. Climb the feet with both hands to strengthen the kidneys and waist**
+- Efficacy: Nourishes the kidneys and strengthens the waist, strengthens the muscles and bones
+- Times: 6-8 times
 
-**7. 攒拳怒目增气力**
-- 功效：疏肝理气，增强气力
-- 次数：左右各 6-8 次
+**7. Use fists and angry eyes to increase your strength**
+- Efficacy: soothes the liver, regulates qi, and enhances strength
+- Times: 6-8 times on each side
 
-**8. 背后七颠百病消**
-- 功效：调理全身，消病强身
-- 次数：7 次
+**8. Behind the scenes, all diseases can be eliminated**
+- Efficacy: Regulate the whole body, eliminate diseases and strengthen the body
+- Number of times: 7 times
 
-#### 练习建议
+#### Practice Suggestions
 
-| 参数 | 建议值 |
+| Parameters | Recommended values ​​|
 |------|--------|
-| 时间 | 全套约 15-20 分钟 |
-| 频率 | 每日 1-2 次 |
-| 最佳时间 | 清晨或傍晚 |
-| 注意事项 | 动作缓慢，配合呼吸，意念集中 |
+| Time | The whole set takes about 15-20 minutes |
+| Frequency | 1-2 times daily |
+| Best time | Early morning or evening |
+| Precautions | Move slowly, coordinate your breathing, and concentrate your thoughts |
 
-#### 📹 视频学习资源
+#### 📹 Video learning resources
 
-**国家体育总局版（推荐）：**
-- B 站：[八段锦完整版教学](https://search.bilibili.com/all?keyword=八段锦教学)
+**State Sports General Administration version (recommended):**
+- Station B: [Ba Duan Jin full version teaching] (https://search.bilibili.com/all?keyword=Ba Duan Jin teaching)
 - YouTube：[Baduanjin Qigong Tutorial](https://www.youtube.com/results?search_query=baduanjin+qigong+tutorial)
 
-**学习建议：**
-1. 首次学习建议观看完整教学视频
-2. 跟练时可选择无讲解的配乐版
-3. 每日练习时间：清晨 6:00-8:00 或傍晚 17:00-19:00 最佳
+**Study suggestions:**
+1. It is recommended to watch the complete teaching video if you are learning for the first time.
+2. You can choose the soundtrack version without explanation when following the practice
+3. Daily practice time: 6:00-8:00 in the morning or 17:00-19:00 in the evening is best
 
 ---
 
-### 8.2 太极拳（简化 24 式）
+### 8.2 Tai Chi (simplified 24 forms)
 
-**来源：** 中国传统武术，融合养生理念
+**Source:** Traditional Chinese martial arts, integrating health concept
 
-**功效：** 平衡身心、增强平衡能力、改善心血管功能
+**Efficacy:** Balance body and mind, enhance balance ability, improve cardiovascular function
 
-#### 主要动作
+#### Main actions
 
-1. 起势
-2. 左右野马分鬃
-3. 白鹤亮翅
-4. 左右搂膝拗步
-5. 手挥琵琶
-6. 左右倒卷肱
-7. 左揽雀尾
-8. 右揽雀尾
-9. 单鞭
-10. 云手
-11. 单鞭
-12. 高探马
-13. 右蹬脚
-14. 双峰贯耳
-15. 转身左蹬脚
-16. 左下势独立
-17. 右下势独立
-18. 左右穿梭
-19. 海底针
-20. 闪通臂
-21. 转身搬拦捶
-22. 如封似闭
-23. 十字手
-24. 收势
+1. Get started
+2. Part the mane of the left and right wild horses
+3. White crane spreads its wings
+4. Hold your knees to the left and right and hold your step.
+5. Waving the pipa
+6. Curl the humerus left and right
+7. Hold the sparrow’s tail on the left
+8. Hold the sparrow’s tail on your right hand
+9. Single whip
+10. Cloud Hands
+11. Single whip
+12. Gao Tanma
+13. Kick your foot right
+14. Double peaks piercing the ears
+15. Turn around and kick left
+16. The lower left trend is independent
+17. The lower right trend is independent
+18. Shuttle left and right
+19. Undersea Needle
+20. Flash arm
+21. Turn around, move, block and beat
+22. Like closed
+23. Cross Hands
+24. Closing trend
 
-#### 练习建议
+#### Practice Suggestions
 
-| 参数 | 建议值 |
+| Parameters | Recommended values ​​|
 |------|--------|
-| 时间 | 全套约 15-20 分钟 |
-| 频率 | 每日 1-2 次 |
-| 最佳时间 | 清晨 |
-| 注意事项 | 动作缓慢连贯，呼吸自然，意念集中 |
+| Time | The whole set takes about 15-20 minutes |
+| Frequency | 1-2 times daily |
+| Best time | Early morning |
+| Precautions | Move slowly and coherently, breathe naturally, and concentrate your thoughts |
 
-#### 📹 视频学习资源
+#### 📹 Video learning resources
 
-**国家体育总局版（推荐）：**
-- B 站：[太极拳 24 式教学](https://search.bilibili.com/all?keyword=太极拳 24 式教学)
+**State Sports General Administration version (recommended):**
+- Station B: [Tai Chi 24-style teaching](https://search.bilibili.com/all?keyword=Tai Chi 24-style teaching)
 - YouTube：[Tai Chi 24 Forms Tutorial](https://www.youtube.com/results?search_query=tai+chi+24+forms+tutorial)
 
-**学习建议：**
-1. 首次学习建议观看完整教学视频
-2. 跟练时可选择无讲解的配乐版
-3. 每日练习时间：清晨 6:00-8:00 或傍晚 17:00-19:00 最佳
+**Study suggestions:**
+1. It is recommended to watch the complete teaching video if you are learning for the first time.
+2. You can choose the soundtrack version without explanation when following the practice
+3. Daily practice time: 6:00-8:00 in the morning or 17:00-19:00 in the evening is best
 
 ---
 
-### 8.3 五禽戏
+### 8.3 Wuqinxi
 
-**来源：** 东汉华佗创编，模仿五种动物动作
+**Source:** Created by Hua Tuo of the Eastern Han Dynasty, imitating the movements of five animals
 
-**功效：** 调理五脏、强身健体
+**Efficacy:** Regulate the five internal organs and strengthen the body
 
-#### 📹 视频学习资源
+#### 📹 Video learning resources
 
-**国家体育总局版（推荐）：**
-- B 站：[五禽戏完整版教学](https://search.bilibili.com/all?keyword=五禽戏教学)
+**State Sports General Administration version (recommended):**
+- Station B: [Full version of Wu Qin Xi teaching](https://search.bilibili.com/all?keyword=Wu Qin Xi teaching)
 - YouTube：[Wu Qin Xi Five Animal Qigong](https://www.youtube.com/results?search_query=wu+qin+xi+five+animal+qigong)
 
-**学习建议：**
-1. 首次学习建议观看完整教学视频
-2. 跟练时可选择无讲解的配乐版
-3. 每日练习时间：清晨 6:00-8:00 最佳
+**Study suggestions:**
+1. It is recommended to watch the complete teaching video if you are learning for the first time.
+2. You can choose the soundtrack version without explanation when following the practice
+3. Daily practice time: 6:00-8:00 in the morning is best
 
-#### 五戏动作
+#### Five actions
 
-**1. 虎戏（对应肝）**
-- 动作：虎举、虎扑
-- 功效：疏肝理气，强健筋骨
-- 次数：每式 6 次
+**1. Tiger play (corresponding to liver)**
+- Actions: Tiger lift, Tiger pounce
+- Efficacy: soothes the liver, regulates qi, strengthens muscles and bones
+-Reps: 6 times per pose
 
-**2. 鹿戏（对应肾）**
-- 动作：鹿抵、鹿奔
-- 功效：补肾益精，强腰固肾
-- 次数：每式 6 次
+**2. Deer play (corresponding to kidney)**
+- Actions: Deer Arrive, Deer Run
+- Efficacy: Tonify the kidneys and essence, strengthen the waist and strengthen the kidneys
+-Reps: 6 times per pose
 
-**3. 熊戏（对应脾）**
-- 动作：熊运、熊晃
-- 功效：健脾和胃，增强消化
-- 次数：每式 6 次
+**3. Bear play (corresponding to the spleen)**
+- Actions: Xiong Yun, Xiong Huang
+-Efficacy: Strengthen the spleen and stomach, enhance digestion
+-Reps: 6 times per pose
 
-**4. 猿戏（对应心）**
-- 动作：猿提、猿摘
-- 功效：养心安神，灵活敏捷
-- 次数：每式 6 次
+**4. Ape play (corresponding to the heart)**
+- Actions: Ape Lift, Ape Pick
+- Efficacy: nourishing the mind and calming the mind, flexibility and agility
+-Reps: 6 times per pose
 
-**5. 鸟戏（对应肺）**
-- 动作：鸟伸、鸟飞
-- 功效：润肺理气，增强呼吸
-- 次数：每式 6 次
+**5. Bird Play (Corresponding to Lungs)**
+- Actions: bird stretching, bird flying
+-Efficacy: Moisten the lungs, regulate qi, and enhance breathing
+-Reps: 6 times per pose
 
-#### 练习建议
+#### Practice Suggestions
 
-| 参数 | 建议值 |
+| Parameters | Recommended values ​​|
 |------|--------|
-| 时间 | 全套约 15-20 分钟 |
-| 频率 | 每日 1-2 次 |
-| 最佳时间 | 清晨 |
-| 注意事项 | 模仿动物神态，动作舒展，呼吸自然 |
+| Time | The whole set takes about 15-20 minutes |
+| Frequency | 1-2 times daily |
+| Best time | Early morning |
+| Notes | Imitate animal expressions, stretch your movements, and breathe naturally |
 
 ---
 
-## 训练计划模板
+## Training plan template
 
-### 全身训练（初学者）
-
-```
-【每周 3 次，间隔至少 1 天】
-
-1. 深蹲：3 组 × 10-12 次
-2. 俯卧撑：3 组 × 8-12 次（可跪姿）
-3. 哑铃划船：3 组 × 10-12 次/侧
-4. 臀桥：3 组 × 12-15 次
-5. 平板支撑：3 组 × 30-60 秒
-6. 死虫式：3 组 × 10-12 次/侧
-
-组间休息：60-90 秒
-```
-
-### 上下肢分化（中级）
+### Full Body Training (Beginners)
 
 ```
-【上肢日：周一、周四】
-1. 卧推：4 组 × 8-10 次
-2. 引体向上（或高位下拉）：4 组 × 6-10 次
-3. 肩推举：3 组 × 8-10 次
-4. 杠铃划船：3 组 × 8-10 次
-5. 面拉：3 组 × 12-15 次
-6. 平板支撑：3 组 × 60 秒
+[3 times a week, at least 1 day apart]
 
-【下肢日：周二、周五】
-1. 深蹲：4 组 × 8-10 次
-2. 硬拉：3 组 × 6-8 次
-3. 箭步蹲：3 组 × 10-12 次/侧
-4. 臀推：3 组 × 10-12 次
-5. 腿弯举：3 组 × 12-15 次
-6. 俄罗斯转体：3 组 × 15-20 次/侧
+1. Squat: 3 sets × 10-12 times
+2. Push-ups: 3 groups × 8-12 times (kneeling position possible)
+3. Dumbbell row: 3 sets × 10-12 times/side
+4. Glute bridge: 3 sets × 12-15 times
+5. Plank: 3 sets × 30-60 seconds
+6. Dead Bug Pose: 3 sets × 10-12 times/side
 
-组间休息：60-90 秒
+Rest between sets: 60-90 seconds
 ```
 
-### 推/拉/腿分化（高级）
+### Differentiation of upper and lower limbs (intermediate)
 
 ```
-【推日：周一、周四】
-1. 卧推：4 组 × 6-8 次
-2. 肩推举：4 组 × 6-8 次
-3. 上斜哑铃推举：3 组 × 8-10 次
-4. 双杠臂屈伸：3 组 × 力竭
-5. 侧平举：3 组 × 12-15 次
-6. 肱三头肌下压：3 组 × 12-15 次
+[Upper limb day: Monday, Thursday]
+1. Bench press: 4 sets × 8-10 times
+2. Pull-ups (or high pull-downs): 4 sets × 6-10 times
+3. Shoulder press: 3 sets × 8-10 times
+4. Barbell Row: 3 sets × 8-10 reps
+5. Noodles: 3 groups × 12-15 times
+6. Plank: 3 sets × 60 seconds
 
-【拉日：周二、周五】
-1. 硬拉：4 组 × 4-6 次
-2. 引体向上：4 组 × 6-10 次
-3. 杠铃划船：4 组 × 6-8 次
-4. 坐姿划船：3 组 × 8-10 次
-5. 面拉：3 组 × 15-20 次
-6. 肱二头肌弯举：3 组 × 10-12 次
+[Lower limb days: Tuesday, Friday]
+1. Squat: 4 sets × 8-10 times
+2. Deadlift: 3 sets × 6-8 reps
+3. Lunges: 3 sets × 10-12 times/side
+4. Hip thrust: 3 sets × 10-12 times
+5. Leg curls: 3 sets × 12-15 times
+6. Russian twist: 3 sets × 15-20 times/side
 
-【腿日：周三、周六】
-1. 深蹲：4 组 × 6-8 次
-2. 腿举：3 组 × 8-10 次
-3. 罗马尼亚硬拉：3 组 × 8-10 次
-4. 腿弯举：3 组 × 10-12 次
-5. 臀推：3 组 × 10-12 次
-6. 提踵：4 组 × 15-20 次
+Rest between sets: 60-90 seconds
+```
 
-组间休息：60-120 秒
+### Push/Pull/Leg Differentiation (Advanced)
+
+```
+[Recommendation day: Monday, Thursday]
+1. Bench press: 4 sets × 6-8 times
+2. Shoulder press: 4 sets × 6-8 times
+3. Incline dumbbell press: 3 sets × 8-10 times
+4. Parallel bar dips and extensions: 3 sets × failure
+5. Lateral raise: 3 sets × 12-15 times
+6. Triceps press-down: 3 sets × 12-15 times
+
+[La Day: Tuesday, Friday]
+1. Deadlift: 4 sets × 4-6 reps
+2. Pull-ups: 4 sets × 6-10 times
+3. Barbell Row: 4 sets × 6-8 reps
+4. Seated rowing: 3 sets × 8-10 times
+5. Noodles: 3 groups × 15-20 times
+6. Biceps Curls: 3 sets × 10-12 reps
+
+[Leg days: Wednesday, Saturday]
+1. Squat: 4 sets × 6-8 times
+2. Leg press: 3 sets × 8-10 times
+3. Romanian Deadlift: 3 sets × 8-10 reps
+4. Leg curls: 3 sets × 10-12 times
+5. Hip thrust: 3 sets × 10-12 times
+6. Heel raises: 4 sets × 15-20 times
+
+Rest between sets: 60-120 seconds
 ```
 
 ---
 
-## 参考文献
+## References
 
-1. Haff, G.G., & Triplett, N.T. (2015). *Essentials of Strength Training and Conditioning* (4th ed.). Human Kinetics. (NSCA 教材)
+1. Haff, G.G., & Triplett, N.T. (2015). *Essentials of Strength Training and Conditioning* (4th ed.). Human Kinetics. (NSCA Textbook)
 2. American Council on Exercise (ACE). *ACE Personal Trainer Manual* (5th ed.).
-3. 运动解剖学编写组。《运动解剖学》. 人民体育出版社，2017.
+3. Sports Anatomy Writing Group. "Sports Anatomy". People's Sports Publishing House, 2017.
 4. Schoenfeld, B.J. (2010). The mechanisms of muscle hypertrophy and their application to resistance training. *Journal of Strength and Conditioning Research*, 24(10), 2857-2872.
 5. Garber, C.E., et al. (2011). Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults. *Medicine & Science in Sports & Exercise*, 43(7), 1334-1359.
 
 ---
 
-*训练动作库完成 | 数据来源：NSCA + ACE + 权威教材 | 更新时间：2026 年 3 月*
+*Training action library completed | Data source: NSCA + ACE + authoritative textbook | Update time: March 2026*
