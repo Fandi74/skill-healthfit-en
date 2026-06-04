@@ -55,7 +55,7 @@ There are significant differences in physiological structure, hormone levels, an
 4. Leg curls: 3 sets × 12-15 times
 5. Shoulder press: 4 sets × 8-10 times
 6. Lateral raise: 3 sets × 12-15 times
-7. Noodles: 3 groups × 15-20 times
+7. Face pull: 3 sets × 15-20 reps
 
 [Day 5: Arms + Core]
 1. Close-grip bench press: 3 sets × 10-12 times

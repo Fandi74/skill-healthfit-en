@@ -104,7 +104,7 @@ Snack: Nuts + Red Dates
 - Support training performance
 - Balanced nutrition
 
-**heat adjustment:**
+**Calorie adjustment:**
 - Can reduce 100-200kcal than usual (fat loss period)
 - Or maintain TDEE (muscle building phase)
 
@@ -144,7 +144,7 @@ Snack: Greek yogurt + nuts
 - Stabilize emotions
 
 **Strategy:**
-1. **Increase heat (don’t force it):**
+1. **Increase calories (don’t force restriction):**
 - Basal metabolism increases by 100-300kcal/day in the luteal phase
 - Can appropriately increase healthy carbohydrates and fats
 
@@ -394,7 +394,7 @@ Example (55kg female, TDEE 2000kcal):
 ```
 Minimum calories = BMR × 1.2
 
-Heat below this will result in:
+Calories below this will result in:
 - Menstrual disorders/amenorrhea
 - Decreased metabolism
 - Muscle loss
@@ -809,14 +809,14 @@ Example (55kg female, TDEE 2000kcal):
 
 ## 9. Frequently Asked Questions
 
-### Q1: Will female fitness become "King Kong Barbie"?
+### Q1: Will women who train become "muscle-bound"?
 
 **Answer:** No.
 
 - Women’s testosterone levels are only 1/10-1/20 of men’s
 - It is difficult to build large muscles through natural training
 - Women's fitness will make them firmer and more toned
-- Most of the photos of "King Kong Barbie" are of professional players + extreme diet + possible medication
+- Most photos of extremely muscular women are professional athletes + extreme diet + possible medication
 
 ---
 

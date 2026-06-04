@@ -412,7 +412,7 @@ Qi deficiency quality: {score} points {flag}
 Yang deficiency quality: {score} points {flag}
 Yin deficiency quality: {score} points {flag}
 Phlegm-dampness: {score} points {flag}
-Moisture and heat quality: {score} points {flag}
+Damp-heat constitution: {score} points {flag}
 Blood stasis: {score} points {flag}
 Qi depression: {score} points {flag}
 Special qualities: {score} points {flag}

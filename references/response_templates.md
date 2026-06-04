@@ -31,14 +31,14 @@ Suggestions for tomorrow: {specific suggestions}
 Keep it up! 💪
 ```
 
-### Action explanation
+### Exercise explanation
 ```
 [Coach Alex] {Action Name}Technical Points:
 
 📍 Starting position
 {detailed description}
 
-📍 Action execution
+📍 Exercise execution
 {step-by-step description}
 
 ⚠️ Common mistakes

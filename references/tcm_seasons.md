@@ -16,12 +16,12 @@
 | Spring | Grain Rain | 4/19-21 | Rain produces hundreds of grains | Strengthens the spleen and removes dampness |
 | Summer | Beginning of Summer | 5/5-7 | The heat is getting stronger | Nourishing the mind and calming the mind |
 | Summer | Xiaoman | 5/20-22 | Wheat grains are getting full | Clear away heat and dampness |
-| Summer | Eargrass | 6/5-7 | Wheat harvest season | Heatstroke prevention and dampness removal |
+| Summer | Grain in Ear | 6/5-7 | Wheat harvest season | Heatstroke prevention and dampness removal |
 | Summer | Summer Solstice | 6/21-22 | Yang Qi is at its strongest | Nourish the heart and protect Yang |
 | Summer | Slight Heat | 7/6-8 | The heat is not over yet | Clear away heat and relieve heat |
 | Summer | Great Heat | 7/22-24 | The hottest year | Heatstroke prevention and cooling |
 | Autumn | Beginning of Autumn | 8/7-9 | Autumn Qi begins to grow | Nourish the lungs and moisturize dryness |
-| Autumn | The end of the summer heat | 8/22-24 | The heat gradually subsides | Nourishing yin and moisturizing the lungs |
+| Autumn | End of Heat | 8/22-24 | The heat gradually subsides | Nourishing yin and moistening the lungs |
 | Autumn | White dew | 9/7-9 | Dew condensation | Nourishes the lungs and prevents dryness |
 | Autumn | Autumnal Equinox | 9/22-24 | Equinox Day and Night | Reconciling Yin and Yang |
 | Autumn | Cold dew | 10/8-9 | Cold dew | Nourishing yin and preventing dryness |
@@ -67,7 +67,7 @@
 | Yang deficiency | Continue to keep warm and start moderate outdoor activities |
 | Yin deficiency | Avoid excessive sweating to damage yin |
 | Phlegm-dampness | Increase exercise and promote metabolism |
-| Damp-heat quality | Pay attention to skin cleansing and prevent acne |
+| Damp-heat constitution | Pay attention to skin cleansing and prevent acne |
 | Qi stagnation | Go outdoors more often to soothe the liver and relieve stagnation |
 
 #### Representative scheme
@@ -126,7 +126,7 @@ Efficacy: soothes the liver and regulates qi, calms the liver and calms the wind
 | Physique | Special Reminder |
 |------|---------|
 | Phlegm-dampness | Focus on removing dampness during the season, strengthen exercise, and control diet |
-| Damp-heat quality | Clear away heat and dampness, avoid spicy and greasy food |
+| Damp-heat constitution | Clear heat and dispel dampness, avoid spicy and greasy food |
 | Yang deficiency | Keep warm and avoid cold and dampness |
 | Qi deficiency | Strengthen the spleen and replenish qi, enhance transportation and transformation functions |
 
@@ -183,7 +183,7 @@ Frequency: 1 dose daily
 |------|---------|
 | Special qualities | During the period of high allergy incidence, pay attention to protection and carry medicine with you |
 | Qi stagnation | The best time to soothe the liver and relieve stagnation is to go outdoors more |
-| Damp-heat quality | Prevent skin diseases and keep skin clean |
+| Damp-heat constitution | Prevent skin diseases and keep skin clean |
 
 #### Representative scheme
 
@@ -367,7 +367,7 @@ Frequency: 1 dose daily
 
 ---
 
-## Summer health care (beginning of summer → severe heat)
+## Summer health care (Beginning of Summer → Great Heat)
 
 ### 7. Beginning of Summer (May 5-7)
 
@@ -458,7 +458,7 @@ Frequency: 1-2 cups daily
 
 | Physique | Special Reminder |
 |------|---------|
-| Damp-heat quality | Focus on clearing away heat and promoting dampness to prevent skin diseases |
+| Damp-heat constitution | Focus on clearing heat and promoting dampness drainage to prevent skin diseases |
 | Phlegm-dampness | Strengthen exercise and promote metabolism |
 | Special qualities | Prevent skin allergies |
 
@@ -500,7 +500,7 @@ Frequency: 2-3 times per week
 
 **Heatstroke prevention:**
 -Drink more water and add salt
-- Carry anti-heat medicine (Huoxiang Zhengqi Water) with you
+- Carry heatstroke-prevention medicine (Huoxiang Zhengqi Water) with you
 
 #### Special reminder for physical fitness
 
@@ -615,13 +615,13 @@ Frequency: 3-4 times per week
 
 **Heatstroke prevention:**
 -Drink more water
-- Carry anti-heat medication with you
+- Carry heatstroke-prevention medication with you
 
 #### Special reminder for physical fitness
 
 | Physique | Special Reminder |
 |------|---------|
-| Damp-heat quality | Focus on clearing away heat and promoting dampness |
+| Damp-heat constitution | Focus on clearing heat and promoting dampness drainage |
 | Phlegm-dampness | Strengthen the spleen and remove dampness, eat a light diet |
 | Qi deficiency | Avoid excessive sweating |
 
@@ -665,7 +665,7 @@ Frequency: 3-4 times per week
 
 **Heatstroke prevention:**
 - Avoid heatstroke
-- Carry anti-heat medication with you
+- Carry heatstroke-prevention medication with you
 - Treat heat stroke symptoms promptly
 
 #### Special reminder for physical fitness
@@ -675,7 +675,7 @@ Frequency: 3-4 times per week
 | Qi deficiency | Avoid sweating and damaging Qi, pay attention to replenishing Qi |
 | Yang deficiency constitution | Avoid excessive craving for cold |
 | Yin deficiency | Pay attention to replenishing water |
-| Physical fitness of the elderly | Focus on preventing heatstroke and avoid going out |
+| Elderly constitution | Focus on preventing heatstroke and avoid going out |
 
 #### Representative scheme
 
@@ -1248,7 +1248,7 @@ Frequency: 1-2 times per week
 |------|---------|
 | Yang deficiency constitution | Focus on warming and nourishing, pay attention to keeping warm |
 | Qi deficiency | Replenishing Qi and strengthening the surface to prevent colds |
-| Physical fitness of the elderly | Focus on keeping warm and preventing cardiovascular and cerebrovascular diseases |
+| Elderly constitution | Focus on keeping warm and preventing cardiovascular and cerebrovascular diseases |
 
 #### Representative scheme
 

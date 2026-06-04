@@ -526,7 +526,7 @@ Within 30 minutes of training:
 
 ### Nutritional strategies for rest days
 
-**Goals:** Support recovery, control heat
+**Goals:** Support recovery, control calories
 
 **Nutritional Highlights:**
 - Reduce carbohydrate intake

@@ -32,9 +32,9 @@
 - **Advancing speed:** It is recommended that beginners’ weekly weight gain should not exceed 5-10%
 - **Taper Week:** Arrange 1 week every 4-8 weeks to reduce training volume by 40-60% to promote recovery and overcompensation
 
-### Action technology reference
+### Exercise technique reference
 
-- Action classification system reference: ExRx.net action library (https://exrx.net/Lists/Directory)
+- Exercise classification system reference: ExRx.net exercise library (https://exrx.net/Lists/Directory)
 - This platform has been in operation since 1999 and is recognized by NSCA, ACSM and other institutions
 - Containing 2100+ movements, it is the most authoritative free movement reference database in the field of fitness
 

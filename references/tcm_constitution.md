@@ -13,7 +13,7 @@
 | Yang deficiency constitution | 8% | Afraid of cold, cold hands and feet | Diarrhea, edema, dysmenorrhea |
 | Yin deficiency | 9% | Hot hands, feet, and heart, dry mouth and throat | Insomnia, constipation, high blood pressure |
 | Phlegm-dampness | 14% | Obesity, abdominal fat | Diabetes, hyperlipidemia, stroke |
-| Damp-heat quality | 10% | Oily face, prone to acne | Acne, jaundice, urinary infection |
+| Damp-heat constitution | 10% | Oily face, prone to acne | Acne, jaundice, urinary infection |
 | Blood stasis | 8% | Dark skin color, easy to have ecchymosis | Cardiovascular and cerebrovascular diseases, dysmenorrhea |
 | Qi depression | 5% | Melancholy, fragile, sentimental | Depression, insomnia, breast hyperplasia |
 | Special qualities | 2% | Allergic constitution, susceptible to asthma | Allergic rhinitis, urticaria |
@@ -234,7 +234,7 @@ Frequency: 1-2 times per week
 **Principle:** Movement generates yang, but avoid sweating and damaging yang.
 
 **Recommended exercise:**
-- Jogging: 20-30 minutes a day, based on body heat
+- Jogging: 20-30 minutes a day, based on warmth in the body
 - Brisk walking: 40-60 minutes daily
 - Tai Chi: Warming Yang and replenishing Qi, 20-30 minutes daily
 - Baduanjin: Focus on practicing "climbing the feet with both hands to strengthen the kidneys and waist"
@@ -1273,7 +1273,7 @@ Frequency: 2 times a day (morning, before bed)
 | Yang deficiency | 1-2 weeks | 1-2 months | 3-6 months |
 | Yin deficiency | 1-2 weeks | 1-2 months | 3-6 months |
 | Phlegm-dampness | 1-2 weeks | 1-2 months | 3-6 months |
-| Damp heat quality | 1-2 weeks | 1-2 months | 3-6 months |
+| Damp-heat constitution | 1-2 weeks | 1-2 months | 3-6 months |
 | Blood stasis | 1-2 weeks | 1-2 months | 3-6 months |
 | Qi stagnation | 1-2 weeks | 1-2 months | 3-6 months |
 | Special qualities | 1-2 weeks | 1-2 months | 3-6 months |

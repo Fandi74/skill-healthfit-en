@@ -29,7 +29,7 @@
 | Yang Deficiency | Baduanjin (Warming Yang Festival), Yi Jin Jing | Intention to guard the gate of life, combined with warming Yang food supplements |
 | Yin Deficiency | Liu Zi Jue, Baduan Jin (soft version) | Do not sweat profusely and focus on guarding the Dantian |
 | Phlegm-dampness | Three sections of Wuqinxi (Xiongxi) and Baduanjin | Moderate sweating is required and a spleen-strengthening diet is required |
-| Damp-heat quality | The Six-Character Jue: He Zi Jue and Boo Zi Jue | Should be light and avoid practicing on hot days |
+| Damp-heat constitution | Six-Character Formula: He sound and Hu sound | Practice lightly and avoid practicing on hot days |
 | Blood stasis | Wuqinxi (Tiger Play), Baduanjin Qijie | Moderate sweating, combined with blood-activating food |
 | Qi stagnation | Baduanjin (Soothing Liver Festival), Daoyin | Pay attention to emotional regulation and cooperate with breathing meditation |
 | Special qualities | Baduanjin (slow version) | Pay attention to allergens and avoid high pollen periods outdoors |

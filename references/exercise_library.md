@@ -353,7 +353,7 @@ Before the picture resources are completed, Coach Alex will provide:
 |------|------|---------|
 | Hips raised | Compensation, poor effect | Lower the weight, hips close to the machine |
 | Movement too fast | Poor effect, easy to get injured | Control the speed of movement |
-| Incomplete devolution | Poor training effect | Complete the full range of movements |
+| Incomplete return | Poor training effect | Complete the full range of motion |
 
 #### Downgrade/Advance
 
@@ -1168,7 +1168,7 @@ Before the picture resources are completed, Coach Alex will provide:
 
 **8. Behind the scenes, all diseases can be eliminated**
 - Efficacy: Regulate the whole body, eliminate diseases and strengthen the body
-- Number of times: 7 times
+- Reps: 7 times
 
 #### Practice Suggestions
 
@@ -1182,7 +1182,7 @@ Before the picture resources are completed, Coach Alex will provide:
 #### 📹 Video learning resources
 
 **State Sports General Administration version (recommended):**
-- Station B: [Ba Duan Jin full version teaching] (https://search.bilibili.com/all?keyword=Ba Duan Jin teaching)
+- Bilibili: [Ba Duan Jin full version teaching] (https://search.bilibili.com/all?keyword=Ba Duan Jin teaching)
 - YouTube：[Baduanjin Qigong Tutorial](https://www.youtube.com/results?search_query=baduanjin+qigong+tutorial)
 
 **Study suggestions:**
@@ -1237,7 +1237,7 @@ Before the picture resources are completed, Coach Alex will provide:
 #### 📹 Video learning resources
 
 **State Sports General Administration version (recommended):**
-- Station B: [Tai Chi 24-style teaching](https://search.bilibili.com/all?keyword=Tai Chi 24-style teaching)
+- Bilibili: [Tai Chi 24-style teaching](https://search.bilibili.com/all?keyword=Tai Chi 24-style teaching)
 - YouTube：[Tai Chi 24 Forms Tutorial](https://www.youtube.com/results?search_query=tai+chi+24+forms+tutorial)
 
 **Study suggestions:**
@@ -1256,7 +1256,7 @@ Before the picture resources are completed, Coach Alex will provide:
 #### 📹 Video learning resources
 
 **State Sports General Administration version (recommended):**
-- Station B: [Full version of Wu Qin Xi teaching](https://search.bilibili.com/all?keyword=Wu Qin Xi teaching)
+- Bilibili: [Full version of Wu Qin Xi teaching](https://search.bilibili.com/all?keyword=Wu Qin Xi teaching)
 - YouTube：[Wu Qin Xi Five Animal Qigong](https://www.youtube.com/results?search_query=wu+qin+xi+five+animal+qigong)
 
 **Study suggestions:**
@@ -1310,11 +1310,11 @@ Before the picture resources are completed, Coach Alex will provide:
 [3 times a week, at least 1 day apart]
 
 1. Squat: 3 sets × 10-12 times
-2. Push-ups: 3 groups × 8-12 times (kneeling position possible)
-3. Dumbbell row: 3 sets × 10-12 times/side
+2. Push-ups: 3 sets × 8-12 reps (kneeling position possible)
+3. Dumbbell row: 3 sets × 10-12 reps/side
 4. Glute bridge: 3 sets × 12-15 times
 5. Plank: 3 sets × 30-60 seconds
-6. Dead Bug Pose: 3 sets × 10-12 times/side
+6. Dead Bug Pose: 3 sets × 10-12 reps/side
 
 Rest between sets: 60-90 seconds
 ```
@@ -1327,16 +1327,16 @@ Rest between sets: 60-90 seconds
 2. Pull-ups (or high pull-downs): 4 sets × 6-10 times
 3. Shoulder press: 3 sets × 8-10 times
 4. Barbell Row: 3 sets × 8-10 reps
-5. Noodles: 3 groups × 12-15 times
+5. Face pull: 3 sets × 12-15 reps
 6. Plank: 3 sets × 60 seconds
 
 [Lower limb days: Tuesday, Friday]
 1. Squat: 4 sets × 8-10 times
 2. Deadlift: 3 sets × 6-8 reps
-3. Lunges: 3 sets × 10-12 times/side
+3. Lunges: 3 sets × 10-12 reps/side
 4. Hip thrust: 3 sets × 10-12 times
 5. Leg curls: 3 sets × 12-15 times
-6. Russian twist: 3 sets × 15-20 times/side
+6. Russian twist: 3 sets × 15-20 reps/side
 
 Rest between sets: 60-90 seconds
 ```
@@ -1344,7 +1344,7 @@ Rest between sets: 60-90 seconds
 ### Push/Pull/Leg Differentiation (Advanced)
 
 ```
-[Recommendation day: Monday, Thursday]
+[Push day: Monday, Thursday]
 1. Bench press: 4 sets × 6-8 times
 2. Shoulder press: 4 sets × 6-8 times
 3. Incline dumbbell press: 3 sets × 8-10 times
@@ -1352,12 +1352,12 @@ Rest between sets: 60-90 seconds
 5. Lateral raise: 3 sets × 12-15 times
 6. Triceps press-down: 3 sets × 12-15 times
 
-[La Day: Tuesday, Friday]
+[Pull day: Tuesday, Friday]
 1. Deadlift: 4 sets × 4-6 reps
 2. Pull-ups: 4 sets × 6-10 times
 3. Barbell Row: 4 sets × 6-8 reps
 4. Seated rowing: 3 sets × 8-10 times
-5. Noodles: 3 groups × 15-20 times
+5. Face pull: 3 sets × 15-20 reps
 6. Biceps Curls: 3 sets × 10-12 reps
 
 [Leg days: Wednesday, Saturday]

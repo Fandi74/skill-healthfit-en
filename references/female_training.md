@@ -60,12 +60,12 @@ There are significant differences in physiological structure, hormone levels, an
 - Activate gluteus medius
 - Improve hip depression
 
-4. Deep Squat (Bare Hands)
+4. Bodyweight Squat
 - 3 sets × 15 reps
 - Action standards: thighs parallel to the ground
 - Knees pointed toward toes
 
-5. Lunge Squat (Bare Hands)
+5. Bodyweight Lunge Squat
 - 3 sets × 12 reps/leg
 - The body descends vertically
 - Feel the force in your glutes and hamstrings
@@ -307,7 +307,7 @@ There are significant differences in physiological structure, hormone levels, an
 -Light weight (2-4kg)
 - Feel the strength of the middle deltoid muscle
 
-2. Noodles
+2. Face Pull
 - 3 sets × 15-20 reps
 - Resistance rope or dumbbells
 - Improve rounded shoulders and shape back shoulders
